@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rea Farms Building II — Review Prototype v020 (model v019)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/style.css">
+  <!-- Three.js is loaded from the local "vendor" folder: the viewer needs no internet connection. -->
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three.module.min.js", "three/addons/": "./vendor/addons/" } }
+  </script>
+</head>
+<body>
+  <canvas id="view"></canvas>
+
+  <div id="loading">Loading Building II model&hellip;</div>
+  <div id="crosshair" hidden>+</div>
+
+  <aside id="panel">
+    <h1>Rea Farms Building II &mdash; Review Prototype v020</h1>
+    <p class="sub" id="subtitle">Model v019 &middot; Lobby Concept A (Pass 1)</p>
+
+    <section>
+      <h2>View</h2>
+      <div class="row">
+        <button id="floor-both" class="floor on">Exterior</button>
+        <button id="floor-lobby" class="floor lobby-btn" title="One click: lobby concept on, two-storey lobby shown, camera at the entrance">Lobby</button>
+        <button id="floor-L1" class="floor">Level 1</button>
+        <button id="floor-L2" class="floor">Level 2</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Mode</h2>
+      <div class="row">
+        <button id="mode-orbit" class="mode on">Orbit</button>
+        <button id="mode-walk" class="mode">Walk</button>
+        <button id="mode-plan" class="mode">Plan</button>
+      </div>
+      <div class="row">
+        <button id="reset">Reset view</button>
+        <button id="measure" class="tech">Measure</button>
+        <button id="shot" class="tech">Save View Image</button>
+      </div>
+      <div class="row">
+        <button id="present">Presentation Mode</button>
+        <button id="present-exit" class="present-only">Exit Presentation Mode</button>
+      </div>
+      <p id="help" class="hint tech"></p>
+    </section>
+
+    <section id="measure-section" class="tech" hidden>
+      <h2>Measure</h2>
+      <p id="measure-hint" class="hint">Click a first point, then a second point on the model.</p>
+      <div id="measure-readout"></div>
+      <div class="row">
+        <button id="measure-clear">Clear Measurement</button>
+        <button id="measure-exit">Exit Measure</button>
+      </div>
+      <p class="hint">Spatial review only &mdash; distances come from the model, not from a survey.</p>
+    </section>
+
+    <section>
+      <h2>Interior concepts</h2>
+      <label><input type="checkbox" id="t-lobby" checked> <b>Lobby Concept A</b> <span class="hint-inline">(model v019, Pass 1)</span></label>
+      <div class="row compare">
+        <span class="hint-inline">Compare:</span>
+        <button id="cmp-base" class="cmp">Base</button>
+        <button id="cmp-concept" class="cmp on">Concept</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Lobby views</h2>
+      <div id="lobby-views"></div>
+      <button id="lobby-free" class="lv">Free Walk (start at the entrance)</button>
+      <p class="hint">Walk mode: <b>W A S D</b> or arrows, drag to look. Stair 1 can be walked up and down to Level 2.</p>
+    </section>
+
+    <section>
+      <h2>Tenant concept</h2>
+      <select id="concept"></select>
+      <label><input type="checkbox" id="t-concept" checked> Show concept</label>
+      <label><input type="checkbox" id="t-labels"> Room Labels</label>
+      <label class="tech"><input type="checkbox" id="t-underlay"> Tenant plan underlay (registered PDF)</label>
+    </section>
+
+    <section>
+      <h2>Saved viewpoints (tenant)</h2>
+      <div id="viewpoints"></div>
+      <p class="hint">Review navigation only: a viewpoint button places you inside that room. It is <b>not</b> a documented door connection.</p>
+    </section>
+
+    <section class="tech">
+      <details>
+        <summary>Advanced layers</summary>
+        <label><input type="checkbox" id="t-exterior" checked> Building II exterior</label>
+        <label><input type="checkbox" id="t-base" checked> Base-building interior</label>
+        <label><input type="checkbox" id="t-site" checked> Site / context</label>
+        <label><input type="checkbox" id="t-land" checked> Landscaping</label>
+        <p class="hint">The View buttons already set the layers; these are overrides. The exterior is a solid model and is never drawn while you are inside.</p>
+      </details>
+    </section>
+
+    <section class="tech">
+      <details id="note">
+        <summary>Review note</summary>
+        <p id="warning"></p>
+      </details>
+    </section>
+  </aside>
+
+  <aside id="room-panel">
+    <div class="row space"><h2>Room information</h2><button id="room-clear" hidden title="Remove highlight">Clear highlight &times;</button></div>
+    <div id="room-info" class="hint">Click a tenant room (any mode) to see its data.</div>
+  </aside>
+
+  <div id="status" class="tech"></div>
+  <div id="toast" hidden></div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

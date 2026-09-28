@@ -1,0 +1,1936 @@
+{
+  "version": "v010",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_presentation_v009.blend",
+  "kept_mesh_objects": 720,
+  "geometry_hash_kept": "d5555f9b7b2f31055a90688d9e61a5649ea03910ed511927bde893feda361f83",
+  "unrelated_geometry_unchanged": true,
+  "building_geometry_hash": "54c6f0fb714146a668d657f4c51168488f370532971ae09a2bde4df21b8c332a",
+  "building_unchanged": true,
+  "materials_unchanged": true,
+  "drive_polygon_replaced": {
+    "old_bbox_ft": [
+      -143.44,
+      90.36,
+      -6.42,
+      22.11,
+      309.67,
+      -0.19
+    ],
+    "new_vertices": 248,
+    "new_area_sqft": 27075.2
+  },
+  "objects_built_sqft": {
+    "SITE_asphalt_west_drive_dropoff": 27075.2,
+    "SITE_curb_entrance_drive_CS101": 992.0,
+    "SITE_entry_island_oval_bed_CS101": 739.9,
+    "SITE_entry_island_nose_paved_CS101": 513.2,
+    "SITE_parking_end_island_12ft_CS101": 437.9,
+    "SITE_walk_canopy_plaza_pavers_CS101": 2241.1,
+    "SITE_walk_diagonal_pavers_CS101": 278.8,
+    "SITE_walk_aisle_concrete_CS101": 480.7
+  },
+  "terrain": {
+    "method": "window cells (4 ft, top = T field) as a closed slab, exact boolean difference with the pavement solids, joined to the untouched terrain",
+    "faces_removed": 1379,
+    "cells_added": 860,
+    "faces_after_cut_incl_bottom": 3421,
+    "faces_joined": 1839,
+    "vertices_before": 10728,
+    "vertices_after": 11037,
+    "faces_before": 9452,
+    "faces_after": 9912,
+    "window_boundary_max_dz_ft": 0.323,
+    "window_boundary_mean_dz_ft": 0.1,
+    "cutters": [
+      "drive_face_of_curb",
+      "plaza",
+      "walk_diag",
+      "walk_aisle",
+      "v003_entry_plaza"
+    ]
+  },
+  "spots": {
+    "kept": 376,
+    "dropped_chart_values": 42,
+    "dropped_pipe_inverts": 3
+  },
+  "grade_fields": {
+    "G_gutter": "TOC-0.5 / BOC / pavement spot / ground spot-0.5, IDW 1/d^3",
+    "T_ground": "G + 0.5",
+    "fade_margin_ft": 8.0,
+    "curb_width_ft": 1.5,
+    "curb_height_ft": 0.5
+  },
+  "landscape_objects_rebuilt": [
+    "LS_groundcover_CARE_LP-101_n48",
+    "LS_mulch_CARE_LP-101_n48_INTERPRETED",
+    "LS_groundcover_JUNE_LP-101_n8",
+    "LS_mulch_JUNE_LP-101_n8_INTERPRETED",
+    "LS_groundcover_LAMB_LP-101_n18",
+    "LS_mulch_LAMB_LP-101_n18_INTERPRETED",
+    "LS_groundcover_LAMB_LP-101_n5",
+    "LS_mulch_LAMB_LP-101_n5_INTERPRETED",
+    "LS_groundcover_LAMB_LP-101_n6",
+    "LS_mulch_LAMB_LP-101_n6_INTERPRETED",
+    "LS_groundcover_OSOR_LP-101_n8",
+    "LS_mulch_OSOR_LP-101_n8_INTERPRETED",
+    "LS_groundcover_SNOW_LP-101_n9",
+    "LS_mulch_SNOW_LP-101_n9_INTERPRETED",
+    "LS_groundcover_VANG_LP-101_n20",
+    "LS_mulch_VANG_LP-101_n20_INTERPRETED",
+    "LS_groundcover_VANG_LP-101_n5",
+    "LS_mulch_VANG_LP-101_n5_INTERPRETED",
+    "LS_shrub_ABKA_LP-101_n16",
+    "LS_mulch_ABKA_LP-101_n16_INTERPRETED",
+    "LS_shrub_BLON_LP-101_n20",
+    "LS_mulch_BLON_LP-101_n20_INTERPRETED",
+    "LS_shrub_BLON_LP-101_n8",
+    "LS_mulch_BLON_LP-101_n8_INTERPRETED",
+    "LS_shrub_DAZA_LP-101_n12",
+    "LS_mulch_DAZA_LP-101_n12_INTERPRETED",
+    "LS_shrub_DOUB_LP-101_n5",
+    "LS_mulch_DOUB_LP-101_n5_INTERPRETED",
+    "LS_shrub_EMRA_LP-100_n11",
+    "LS_mulch_EMRA_LP-100_n11_INTERPRETED",
+    "LS_shrub_EMRA_LP-100_n26",
+    "LS_mulch_EMRA_LP-100_n26_INTERPRETED",
+    "LS_shrub_GATE_LP-101_n3",
+    "LS_mulch_GATE_LP-101_n3_INTERPRETED",
+    "LS_shrub_ILST_LP-101_n2",
+    "LS_mulch_ILST_LP-101_n2_INTERPRETED",
+    "LS_shrub_JEWL_LP-101_n13",
+    "LS_mulch_JEWL_LP-101_n13_INTERPRETED",
+    "LS_shrub_LOJA_LP-100_n20",
+    "LS_mulch_LOJA_LP-100_n20_INTERPRETED",
+    "LS_shrub_LOJA_LP-100_n7",
+    "LS_mulch_LOJA_LP-100_n7_INTERPRETED",
+    "LS_gcpatch_CARE_LP-101_n28_leaderdisc_INTERPRETED",
+    "LS_gcpatch_CARE_LP-101_n33_leaderdisc_INTERPRETED",
+    "LS_gcpatch_CARE_LP-101_n42_leaderdisc_INTERPRETED",
+    "LS_gcpatch_LAMB_LP-101_n4_leaderdisc_INTERPRETED",
+    "LS_gcpatch_OSOR_LP-100_n42_leaderdisc_INTERPRETED",
+    "LS_gcpatch_SEAS_LP-100_n170_leaderdisc_INTERPRETED",
+    "LS_gcpatch_SNOW_LP-101_n5_leaderdisc_INTERPRETED",
+    "LS_gcpatch_VANG_LP-101_n13_leaderdisc_INTERPRETED",
+    "LS_tree_BUTT_LP-101_01",
+    "LS_tree_BUTT_LP-101_02",
+    "LS_tree_STAR_LP-101_01",
+    "LS_tree_STAR_LP-101_02",
+    "LS_tree_WILO_LP-100_01",
+    "LS_shrub_UNRESOLVED_species_documented_symbol"
+  ],
+  "plants_reseated": 246,
+  "plants_z_changed_gt_0_05ft": 143,
+  "plants_xy_moved": 0,
+  "plants_without_surface_hit_idw_used": [],
+  "plants_outside_window_v004_idw_fallback": [
+    [
+      26.63,
+      58.87
+    ],
+    [
+      26.63,
+      55.87
+    ],
+    [
+      140.85,
+      197.82
+    ],
+    [
+      196.16,
+      -3.81
+    ],
+    [
+      200.66,
+      -3.81
+    ],
+    [
+      205.15,
+      -3.81
+    ],
+    [
+      209.64,
+      -3.81
+    ],
+    [
+      214.14,
+      -3.81
+    ],
+    [
+      318.7,
+      301.22
+    ],
+    [
+      327.35,
+      461.09
+    ]
+  ],
+  "plant_z_records": [
+    {
+      "object": "LS_groundcover_CARE_LP-101_n48",
+      "x": -11.51,
+      "y": 69.63,
+      "z_old": -0.71,
+      "z_new": -0.71
+    },
+    {
+      "object": "LS_groundcover_CARE_LP-101_n48",
+      "x": -8.5,
+      "y": 69.63,
+      "z_old": -0.74,
+      "z_new": -0.74
+    },
+    {
+      "object": "LS_groundcover_CARE_LP-101_n48",
+      "x": -11.09,
+      "y": 72.62,
+      "z_old": -1.17,
+      "z_new": -1.15
+    },
+    {
+      "object": "LS_groundcover_CARE_LP-101_n48",
+      "x": -11.07,
+      "y": 73.43,
+      "z_old": -1.19,
+      "z_new": -1.16
+    },
+    {
+      "object": "LS_groundcover_CARE_LP-101_n48",
+      "x": -2.5,
+      "y": 69.63,
+      "z_old": -0.83,
+      "z_new": -0.83
+    },
+    {
+      "object": "LS_groundcover_CARE_LP-101_n48",
+      "x": 0.5,
+      "y": 69.63,
+      "z_old": -0.88,
+      "z_new": -0.88
+    },
+    {
+      "object": "LS_groundcover_JUNE_LP-101_n8",
+      "x": 108.22,
+      "y": 200.98,
+      "z_old": -0.75,
+      "z_new": -0.67
+    },
+    {
+      "object": "LS_groundcover_JUNE_LP-101_n8",
+      "x": 105.45,
+      "y": 200.98,
+      "z_old": -0.75,
+      "z_new": -0.59
+    },
+    {
+      "object": "LS_groundcover_JUNE_LP-101_n8",
+      "x": 111.0,
+      "y": 200.98,
+      "z_old": -0.74,
+      "z_new": -0.74
+    },
+    {
+      "object": "LS_groundcover_JUNE_LP-101_n8",
+      "x": 113.77,
+      "y": 200.98,
+      "z_old": -0.73,
+      "z_new": -0.73
+    },
+    {
+      "object": "LS_groundcover_JUNE_LP-101_n8",
+      "x": 116.55,
+      "y": 200.98,
+      "z_old": -0.71,
+      "z_new": -0.71
+    },
+    {
+      "object": "LS_groundcover_JUNE_LP-101_n8",
+      "x": 116.97,
+      "y": 208.12,
+      "z_old": -0.65,
+      "z_new": -0.65
+    },
+    {
+      "object": "LS_groundcover_JUNE_LP-101_n8",
+      "x": 124.97,
+      "y": 208.27,
+      "z_old": -0.62,
+      "z_new": -0.62
+    },
+    {
+      "object": "LS_groundcover_JUNE_LP-101_n8",
+      "x": 100.96,
+      "y": 208.17,
+      "z_old": -0.53,
+      "z_new": -0.47
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 80.0,
+      "y": 177.09,
+      "z_old": -1.84,
+      "z_new": -0.67
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 78.0,
+      "y": 177.09,
+      "z_old": -1.79,
+      "z_new": -0.66
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 76.0,
+      "y": 177.09,
+      "z_old": -1.7,
+      "z_new": -0.63
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 74.0,
+      "y": 177.09,
+      "z_old": -1.6,
+      "z_new": -0.61
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 72.11,
+      "y": 177.09,
+      "z_old": -1.47,
+      "z_new": -0.58
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 72.5,
+      "y": 175.14,
+      "z_old": -1.66,
+      "z_new": -0.6
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 70.53,
+      "y": 175.14,
+      "z_old": -1.53,
+      "z_new": -0.57
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 74.5,
+      "y": 175.14,
+      "z_old": -1.76,
+      "z_new": -0.62
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 76.5,
+      "y": 175.14,
+      "z_old": -1.85,
+      "z_new": -0.65
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 78.5,
+      "y": 175.14,
+      "z_old": -1.92,
+      "z_new": -0.67
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 80.5,
+      "y": 175.14,
+      "z_old": -1.98,
+      "z_new": -0.68
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 74.11,
+      "y": 171.93,
+      "z_old": -2.0,
+      "z_new": -0.64
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 71.11,
+      "y": 171.93,
+      "z_old": -1.86,
+      "z_new": -0.61
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 77.11,
+      "y": 171.93,
+      "z_old": -2.1,
+      "z_new": -0.66
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 80.11,
+      "y": 171.93,
+      "z_old": -2.17,
+      "z_new": -0.68
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 83.11,
+      "y": 171.93,
+      "z_old": -2.22,
+      "z_new": -0.7
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 86.11,
+      "y": 171.93,
+      "z_old": -2.24,
+      "z_new": -0.71
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n18",
+      "x": 89.11,
+      "y": 171.93,
+      "z_old": -2.24,
+      "z_new": -0.72
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n5",
+      "x": 63.97,
+      "y": 150.49,
+      "z_old": -3.28,
+      "z_new": -0.41
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n5",
+      "x": 63.97,
+      "y": 148.12,
+      "z_old": -3.38,
+      "z_new": -0.37
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n5",
+      "x": 63.97,
+      "y": 145.76,
+      "z_old": -3.5,
+      "z_new": -0.33
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n5",
+      "x": 63.97,
+      "y": 143.39,
+      "z_old": -3.5,
+      "z_new": -0.28
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n5",
+      "x": 63.97,
+      "y": 141.02,
+      "z_old": -3.37,
+      "z_new": -0.25
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n6",
+      "x": 61.64,
+      "y": 119.45,
+      "z_old": -3.74,
+      "z_new": -0.21
+    },
+    {
+      "object": "LS_groundcover_LAMB_LP-101_n6",
+      "x": 61.65,
+      "y": 120.17,
+      "z_old": -3.39,
+      "z_new": -0.21
+    },
+    {
+      "object": "LS_groundcover_OSOR_LP-101_n8",
+      "x": 89.11,
+      "y": 195.93,
+      "z_old": -0.98,
+      "z_new": -0.55
+    },
+    {
+      "object": "LS_groundcover_OSOR_LP-101_n8",
+      "x": 89.11,
+      "y": 192.93,
+      "z_old": -1.13,
+      "z_new": -0.6
+    },
+    {
+      "object": "LS_groundcover_OSOR_LP-101_n8",
+      "x": 89.11,
+      "y": 189.93,
+      "z_old": -1.28,
+      "z_new": -0.64
+    },
+    {
+      "object": "LS_groundcover_OSOR_LP-101_n8",
+      "x": 89.11,
+      "y": 186.93,
+      "z_old": -1.43,
+      "z_new": -0.67
+    },
+    {
+      "object": "LS_groundcover_OSOR_LP-101_n8",
+      "x": 89.11,
+      "y": 183.93,
+      "z_old": -1.58,
+      "z_new": -0.69
+    },
+    {
+      "object": "LS_groundcover_OSOR_LP-101_n8",
+      "x": 89.11,
+      "y": 180.93,
+      "z_old": -1.73,
+      "z_new": -0.7
+    },
+    {
+      "object": "LS_groundcover_OSOR_LP-101_n8",
+      "x": 89.11,
+      "y": 177.93,
+      "z_old": -1.9,
+      "z_new": -0.71
+    },
+    {
+      "object": "LS_groundcover_OSOR_LP-101_n8",
+      "x": 89.11,
+      "y": 174.93,
+      "z_old": -2.07,
+      "z_new": -0.72
+    },
+    {
+      "object": "LS_groundcover_SNOW_LP-101_n9",
+      "x": 63.97,
+      "y": 138.66,
+      "z_old": -3.39,
+      "z_new": -0.22
+    },
+    {
+      "object": "LS_groundcover_SNOW_LP-101_n9",
+      "x": 61.65,
+      "y": 134.42,
+      "z_old": -4.67,
+      "z_new": -0.23
+    },
+    {
+      "object": "LS_groundcover_SNOW_LP-101_n9",
+      "x": 61.64,
+      "y": 133.7,
+      "z_old": -4.69,
+      "z_new": -0.23
+    },
+    {
+      "object": "LS_groundcover_SNOW_LP-101_n9",
+      "x": 68.29,
+      "y": 134.99,
+      "z_old": -1.62,
+      "z_new": -0.2
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n20",
+      "x": 51.59,
+      "y": 185.21,
+      "z_old": -0.73,
+      "z_new": -0.47
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n20",
+      "x": 48.59,
+      "y": 185.21,
+      "z_old": -0.88,
+      "z_new": -0.52
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n20",
+      "x": 45.59,
+      "y": 185.21,
+      "z_old": -0.94,
+      "z_new": -0.54
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n20",
+      "x": 42.59,
+      "y": 185.21,
+      "z_old": -0.88,
+      "z_new": -0.49
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n20",
+      "x": 39.59,
+      "y": 185.21,
+      "z_old": -0.74,
+      "z_new": -0.41
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n20",
+      "x": 36.59,
+      "y": 185.21,
+      "z_old": -0.61,
+      "z_new": -0.32
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n20",
+      "x": 33.59,
+      "y": 185.21,
+      "z_old": -0.5,
+      "z_new": -0.22
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n5",
+      "x": 63.97,
+      "y": 157.59,
+      "z_old": -2.8,
+      "z_new": -0.54
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n5",
+      "x": 63.97,
+      "y": 159.95,
+      "z_old": -2.63,
+      "z_new": -0.57
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n5",
+      "x": 63.97,
+      "y": 155.22,
+      "z_old": -2.97,
+      "z_new": -0.5
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n5",
+      "x": 63.97,
+      "y": 152.85,
+      "z_old": -3.13,
+      "z_new": -0.46
+    },
+    {
+      "object": "LS_groundcover_VANG_LP-101_n5",
+      "x": 63.97,
+      "y": 162.32,
+      "z_old": -2.44,
+      "z_new": -0.59
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 86.01,
+      "y": 192.75,
+      "z_old": -1.16,
+      "z_new": -0.62
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 86.01,
+      "y": 190.75,
+      "z_old": -1.26,
+      "z_new": -0.64
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 86.01,
+      "y": 188.75,
+      "z_old": -1.35,
+      "z_new": -0.66
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 86.01,
+      "y": 186.75,
+      "z_old": -1.44,
+      "z_new": -0.67
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 86.01,
+      "y": 184.75,
+      "z_old": -1.54,
+      "z_new": -0.68
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 86.01,
+      "y": 182.75,
+      "z_old": -1.64,
+      "z_new": -0.69
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 86.01,
+      "y": 180.75,
+      "z_old": -1.74,
+      "z_new": -0.7
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 86.01,
+      "y": 178.75,
+      "z_old": -1.85,
+      "z_new": -0.7
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 84.0,
+      "y": 189.05,
+      "z_old": -1.33,
+      "z_new": -0.66
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 84.0,
+      "y": 187.05,
+      "z_old": -1.41,
+      "z_new": -0.66
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 84.0,
+      "y": 185.09,
+      "z_old": -1.5,
+      "z_new": -0.67
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 84.0,
+      "y": 183.09,
+      "z_old": -1.6,
+      "z_new": -0.68
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 84.0,
+      "y": 181.09,
+      "z_old": -1.7,
+      "z_new": -0.69
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 83.2,
+      "y": 178.05,
+      "z_old": -1.86,
+      "z_new": -0.69
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 82.5,
+      "y": 175.14,
+      "z_old": -2.02,
+      "z_new": -0.69
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": 84.5,
+      "y": 175.14,
+      "z_old": -2.04,
+      "z_new": -0.7
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -28.42,
+      "y": 69.63,
+      "z_old": -1.43,
+      "z_new": -1.36
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -25.42,
+      "y": 69.63,
+      "z_old": -1.37,
+      "z_new": -1.36
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -22.42,
+      "y": 69.63,
+      "z_old": -1.32,
+      "z_new": -1.32
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -31.42,
+      "y": 69.63,
+      "z_old": -1.48,
+      "z_new": -1.36
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -31.42,
+      "y": 72.44,
+      "z_old": -1.49,
+      "z_new": -1.37
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -31.42,
+      "y": 75.27,
+      "z_old": -1.52,
+      "z_new": -1.38
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -31.42,
+      "y": 78.08,
+      "z_old": -1.54,
+      "z_new": -1.39
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -31.42,
+      "y": 80.91,
+      "z_old": -1.5,
+      "z_new": -1.39
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -31.42,
+      "y": 83.72,
+      "z_old": -1.42,
+      "z_new": -1.38
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -31.42,
+      "y": 86.54,
+      "z_old": -1.39,
+      "z_new": -1.37
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -19.42,
+      "y": 69.63,
+      "z_old": -1.34,
+      "z_new": -1.28
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -19.57,
+      "y": 72.62,
+      "z_old": -1.31,
+      "z_new": -1.28
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -19.55,
+      "y": 73.43,
+      "z_old": -1.32,
+      "z_new": -1.28
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -25.76,
+      "y": 66.41,
+      "z_old": -1.4,
+      "z_new": -1.34
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -31.8,
+      "y": 90.03,
+      "z_old": -1.54,
+      "z_new": -1.45
+    },
+    {
+      "object": "LS_shrub_ABKA_LP-101_n16",
+      "x": -34.62,
+      "y": 92.85,
+      "z_old": -1.84,
+      "z_new": -1.76
+    },
+    {
+      "object": "LS_shrub_BLON_LP-101_n20",
+      "x": 65.84,
+      "y": 165.77,
+      "z_old": -2.22,
+      "z_new": -0.6
+    },
+    {
+      "object": "LS_shrub_BLON_LP-101_n8",
+      "x": 69.47,
+      "y": 116.12,
+      "z_old": -2.41,
+      "z_new": -0.2
+    },
+    {
+      "object": "LS_shrub_BLON_LP-101_n8",
+      "x": 66.36,
+      "y": 116.23,
+      "z_old": -1.48,
+      "z_new": -0.2
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 26.63,
+      "y": 67.87,
+      "z_old": 0.07,
+      "z_new": 0.07
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 26.63,
+      "y": 64.87,
+      "z_old": -0.14,
+      "z_new": -0.14
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 26.63,
+      "y": 61.87,
+      "z_old": -0.33,
+      "z_new": -0.33
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 26.63,
+      "y": 70.87,
+      "z_old": 0.26,
+      "z_new": 0.26
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 26.63,
+      "y": 58.87,
+      "z_old": null,
+      "z_new": -0.98
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 26.63,
+      "y": 55.87,
+      "z_old": null,
+      "z_new": -1.07
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 23.63,
+      "y": 55.87,
+      "z_old": -0.56,
+      "z_new": -0.56
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 20.63,
+      "y": 55.87,
+      "z_old": -0.59,
+      "z_new": -0.59
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 17.63,
+      "y": 55.87,
+      "z_old": -0.58,
+      "z_new": -0.58
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 14.63,
+      "y": 55.87,
+      "z_old": -0.57,
+      "z_new": -0.57
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 11.63,
+      "y": 55.87,
+      "z_old": -0.55,
+      "z_new": -0.55
+    },
+    {
+      "object": "LS_shrub_DAZA_LP-101_n12",
+      "x": 8.63,
+      "y": 55.87,
+      "z_old": -0.53,
+      "z_new": -0.53
+    },
+    {
+      "object": "LS_shrub_DOUB_LP-101_n5",
+      "x": 63.97,
+      "y": 112.82,
+      "z_old": -4.2,
+      "z_new": -0.21
+    },
+    {
+      "object": "LS_shrub_DOUB_LP-101_n5",
+      "x": 63.97,
+      "y": 110.32,
+      "z_old": -3.92,
+      "z_new": -0.21
+    },
+    {
+      "object": "LS_shrub_DOUB_LP-101_n5",
+      "x": 63.97,
+      "y": 107.82,
+      "z_old": -3.14,
+      "z_new": -0.21
+    },
+    {
+      "object": "LS_shrub_DOUB_LP-101_n5",
+      "x": 63.97,
+      "y": 105.32,
+      "z_old": -1.81,
+      "z_new": -0.2
+    },
+    {
+      "object": "LS_shrub_DOUB_LP-101_n5",
+      "x": 68.29,
+      "y": 101.71,
+      "z_old": -0.53,
+      "z_new": -0.2
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 140.13,
+      "z_old": -2.69,
+      "z_new": -0.92
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 144.13,
+      "z_old": -2.54,
+      "z_new": -0.99
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 136.13,
+      "z_old": -2.8,
+      "z_new": -0.83
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 148.13,
+      "z_old": -2.36,
+      "z_new": -1.03
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 152.13,
+      "z_old": -2.19,
+      "z_new": -1.04
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 156.13,
+      "z_old": -1.98,
+      "z_new": -1.01
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 160.13,
+      "z_old": -1.76,
+      "z_new": -0.96
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 132.13,
+      "z_old": -2.8,
+      "z_new": -0.74
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 128.13,
+      "z_old": -2.73,
+      "z_new": -0.65
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 124.13,
+      "z_old": -2.65,
+      "z_new": -0.59
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n11",
+      "x": 22.6,
+      "y": 120.13,
+      "z_old": -2.64,
+      "z_new": -0.54
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 47.07,
+      "y": 193.96,
+      "z_old": -0.76,
+      "z_new": -0.6
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 43.38,
+      "y": 193.43,
+      "z_old": -0.81,
+      "z_new": -0.61
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 39.75,
+      "y": 193.43,
+      "z_old": -0.87,
+      "z_new": -0.61
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 36.11,
+      "y": 193.43,
+      "z_old": -0.97,
+      "z_new": -0.63
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 32.47,
+      "y": 193.43,
+      "z_old": -1.07,
+      "z_new": -0.67
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 28.83,
+      "y": 193.43,
+      "z_old": -1.19,
+      "z_new": -0.75
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 25.2,
+      "y": 193.96,
+      "z_old": -1.34,
+      "z_new": -0.88
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 25.2,
+      "y": 197.96,
+      "z_old": -1.47,
+      "z_new": -1.01
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 47.07,
+      "y": 197.96,
+      "z_old": -0.63,
+      "z_new": -0.59
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 25.2,
+      "y": 201.96,
+      "z_old": -1.55,
+      "z_new": -1.15
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 25.2,
+      "y": 205.96,
+      "z_old": -1.6,
+      "z_new": -1.31
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 25.2,
+      "y": 209.96,
+      "z_old": -1.65,
+      "z_new": -1.54
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 25.2,
+      "y": 213.96,
+      "z_old": -1.7,
+      "z_new": -1.7
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 25.2,
+      "y": 217.96,
+      "z_old": -1.66,
+      "z_new": -1.66
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 25.2,
+      "y": 221.96,
+      "z_old": -1.73,
+      "z_new": -1.73
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 28.83,
+      "y": 221.96,
+      "z_old": -1.68,
+      "z_new": -1.68
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 32.47,
+      "y": 221.96,
+      "z_old": -1.62,
+      "z_new": -1.62
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 36.11,
+      "y": 221.96,
+      "z_old": -1.55,
+      "z_new": -1.55
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 39.75,
+      "y": 221.96,
+      "z_old": -1.47,
+      "z_new": -1.47
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 43.38,
+      "y": 221.96,
+      "z_old": -1.38,
+      "z_new": -1.38
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 47.07,
+      "y": 221.96,
+      "z_old": -1.28,
+      "z_new": -1.28
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 47.07,
+      "y": 217.96,
+      "z_old": -1.19,
+      "z_new": -1.19
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 47.07,
+      "y": 213.96,
+      "z_old": -1.14,
+      "z_new": -1.14
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 47.07,
+      "y": 209.96,
+      "z_old": -0.91,
+      "z_new": -0.88
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 47.07,
+      "y": 205.96,
+      "z_old": -0.7,
+      "z_new": -0.65
+    },
+    {
+      "object": "LS_shrub_EMRA_LP-100_n26",
+      "x": 47.07,
+      "y": 201.96,
+      "z_old": -0.6,
+      "z_new": -0.59
+    },
+    {
+      "object": "LS_shrub_GATE_LP-101_n3",
+      "x": 97.13,
+      "y": 200.98,
+      "z_old": -0.68,
+      "z_new": -0.45
+    },
+    {
+      "object": "LS_shrub_GATE_LP-101_n3",
+      "x": 99.9,
+      "y": 200.98,
+      "z_old": -0.72,
+      "z_new": -0.5
+    },
+    {
+      "object": "LS_shrub_GATE_LP-101_n3",
+      "x": 102.67,
+      "y": 200.98,
+      "z_old": -0.74,
+      "z_new": -0.54
+    },
+    {
+      "object": "LS_shrub_GATE_LP-101_n3",
+      "x": 262.67,
+      "y": 200.37,
+      "z_old": -1.02,
+      "z_new": -1.02
+    },
+    {
+      "object": "LS_shrub_GATE_LP-101_n3",
+      "x": 259.89,
+      "y": 200.37,
+      "z_old": -0.98,
+      "z_new": -0.98
+    },
+    {
+      "object": "LS_shrub_GATE_LP-101_n3",
+      "x": 257.1,
+      "y": 200.37,
+      "z_old": -0.95,
+      "z_new": -0.95
+    },
+    {
+      "object": "LS_shrub_ILST_LP-101_n2",
+      "x": 68.29,
+      "y": 118.66,
+      "z_old": -1.86,
+      "z_new": -0.2
+    },
+    {
+      "object": "LS_shrub_ILST_LP-101_n2",
+      "x": 63.97,
+      "y": 115.32,
+      "z_old": -3.65,
+      "z_new": -0.21
+    },
+    {
+      "object": "LS_shrub_ILST_LP-101_n2",
+      "x": 68.47,
+      "y": 168.05,
+      "z_old": -2.12,
+      "z_new": -0.61
+    },
+    {
+      "object": "LS_shrub_ILST_LP-101_n2",
+      "x": 68.11,
+      "y": 171.93,
+      "z_old": -1.71,
+      "z_new": -0.58
+    },
+    {
+      "object": "LS_shrub_JEWL_LP-101_n13",
+      "x": 93.6,
+      "y": 202.44,
+      "z_old": -0.56,
+      "z_new": -0.38
+    },
+    {
+      "object": "LS_shrub_JEWL_LP-101_n13",
+      "x": 93.08,
+      "y": 207.11,
+      "z_old": -0.31,
+      "z_new": -0.26
+    },
+    {
+      "object": "LS_shrub_JEWL_LP-101_n13",
+      "x": 93.11,
+      "y": 208.65,
+      "z_old": -0.25,
+      "z_new": -0.23
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -125.07,
+      "y": 405.66,
+      "z_old": -3.42,
+      "z_new": -3.42
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -121.07,
+      "y": 405.66,
+      "z_old": -3.39,
+      "z_new": -3.39
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -117.07,
+      "y": 405.66,
+      "z_old": -3.36,
+      "z_new": -3.36
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -129.07,
+      "y": 405.66,
+      "z_old": -3.45,
+      "z_new": -3.45
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -113.07,
+      "y": 405.66,
+      "z_old": -3.33,
+      "z_new": -3.33
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -109.07,
+      "y": 405.66,
+      "z_old": -3.3,
+      "z_new": -3.3
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -105.07,
+      "y": 405.66,
+      "z_old": -3.27,
+      "z_new": -3.27
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -101.07,
+      "y": 405.66,
+      "z_old": -3.24,
+      "z_new": -3.24
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -97.09,
+      "y": 405.66,
+      "z_old": -3.21,
+      "z_new": -3.21
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -93.09,
+      "y": 405.66,
+      "z_old": -3.19,
+      "z_new": -3.19
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -89.09,
+      "y": 405.66,
+      "z_old": -3.16,
+      "z_new": -3.16
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -85.09,
+      "y": 405.66,
+      "z_old": -3.13,
+      "z_new": -3.13
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -81.09,
+      "y": 405.66,
+      "z_old": -3.11,
+      "z_new": -3.11
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -77.09,
+      "y": 405.66,
+      "z_old": -3.08,
+      "z_new": -3.08
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -73.09,
+      "y": 405.66,
+      "z_old": -3.06,
+      "z_new": -3.06
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -69.09,
+      "y": 405.66,
+      "z_old": -3.03,
+      "z_new": -3.03
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -65.09,
+      "y": 405.66,
+      "z_old": -3.01,
+      "z_new": -3.01
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -61.09,
+      "y": 405.66,
+      "z_old": -2.98,
+      "z_new": -2.98
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -57.09,
+      "y": 405.66,
+      "z_old": -2.96,
+      "z_new": -2.96
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -53.09,
+      "y": 405.66,
+      "z_old": -2.94,
+      "z_new": -2.94
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -153.17,
+      "y": 105.26,
+      "z_old": -1.71,
+      "z_new": -1.71
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -149.22,
+      "y": 105.26,
+      "z_old": -1.62,
+      "z_new": -1.62
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -145.26,
+      "y": 105.26,
+      "z_old": -1.63,
+      "z_new": -1.63
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -157.12,
+      "y": 105.26,
+      "z_old": -1.86,
+      "z_new": -1.86
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -141.29,
+      "y": 105.26,
+      "z_old": -1.72,
+      "z_new": -1.72
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -137.34,
+      "y": 105.26,
+      "z_old": -1.87,
+      "z_new": -1.87
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -133.39,
+      "y": 105.26,
+      "z_old": -1.94,
+      "z_new": -1.94
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -129.42,
+      "y": 105.26,
+      "z_old": -1.94,
+      "z_new": -1.94
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -125.47,
+      "y": 105.26,
+      "z_old": -1.91,
+      "z_new": -1.87
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -121.52,
+      "y": 105.26,
+      "z_old": -1.92,
+      "z_new": -1.83
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -117.56,
+      "y": 105.26,
+      "z_old": -1.93,
+      "z_new": -1.81
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -113.59,
+      "y": 105.26,
+      "z_old": -1.85,
+      "z_new": -1.74
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -109.64,
+      "y": 105.36,
+      "z_old": -1.68,
+      "z_new": -1.64
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -105.79,
+      "y": 106.16,
+      "z_old": -1.63,
+      "z_new": -1.62
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -102.16,
+      "y": 107.73,
+      "z_old": -1.7,
+      "z_new": -1.66
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -98.92,
+      "y": 109.98,
+      "z_old": -1.87,
+      "z_new": -1.8
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -96.2,
+      "y": 112.86,
+      "z_old": -1.92,
+      "z_new": -1.85
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -92.94,
+      "y": 114.26,
+      "z_old": -1.77,
+      "z_new": -1.85
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -88.97,
+      "y": 114.26,
+      "z_old": -1.74,
+      "z_new": -1.84
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n20",
+      "x": -85.02,
+      "y": 114.26,
+      "z_old": -1.82,
+      "z_new": -1.88
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": -267.32,
+      "y": 170.49,
+      "z_old": -4.07,
+      "z_new": -4.07
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": -269.52,
+      "y": 174.91,
+      "z_old": -4.53,
+      "z_new": -4.53
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": -269.52,
+      "y": 178.88,
+      "z_old": -5.26,
+      "z_new": -5.26
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": -269.52,
+      "y": 182.84,
+      "z_old": -5.91,
+      "z_new": -5.91
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": -269.52,
+      "y": 166.96,
+      "z_old": -3.8,
+      "z_new": -3.8
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": -269.52,
+      "y": 162.99,
+      "z_old": -3.84,
+      "z_new": -3.84
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": 279.06,
+      "y": 329.58,
+      "z_old": -1.95,
+      "z_new": -1.95
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": 279.06,
+      "y": 325.59,
+      "z_old": -1.91,
+      "z_new": -1.91
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": 279.06,
+      "y": 321.61,
+      "z_old": -1.86,
+      "z_new": -1.86
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": 279.06,
+      "y": 333.58,
+      "z_old": -1.97,
+      "z_new": -1.97
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": 279.06,
+      "y": 337.58,
+      "z_old": -2.0,
+      "z_new": -2.0
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": 279.06,
+      "y": 341.56,
+      "z_old": -2.01,
+      "z_new": -2.01
+    },
+    {
+      "object": "LS_shrub_LOJA_LP-100_n7",
+      "x": 279.06,
+      "y": 345.56,
+      "z_old": -2.02,
+      "z_new": -2.02
+    },
+    {
+      "object": "LS_gcpatch_CARE_LP-101_n28_leaderdisc_INTERPRETED",
+      "x": 63.27,
+      "y": 119.08,
+      "z_old": -3.16,
+      "z_new": -0.21
+    },
+    {
+      "object": "LS_gcpatch_CARE_LP-101_n33_leaderdisc_INTERPRETED",
+      "x": 61.84,
+      "y": 166.06,
+      "z_old": -2.02,
+      "z_new": -0.58
+    },
+    {
+      "object": "LS_gcpatch_CARE_LP-101_n42_leaderdisc_INTERPRETED",
+      "x": -17.13,
+      "y": 72.97,
+      "z_old": -1.32,
+      "z_new": -1.21
+    },
+    {
+      "object": "LS_gcpatch_LAMB_LP-101_n4_leaderdisc_INTERPRETED",
+      "x": 62.05,
+      "y": 111.99,
+      "z_old": -5.54,
+      "z_new": -0.21
+    },
+    {
+      "object": "LS_gcpatch_OSOR_LP-100_n42_leaderdisc_INTERPRETED",
+      "x": 52.61,
+      "y": 199.89,
+      "z_old": -0.72,
+      "z_new": -0.62
+    },
+    {
+      "object": "LS_gcpatch_SEAS_LP-100_n170_leaderdisc_INTERPRETED",
+      "x": 20.61,
+      "y": 132.44,
+      "z_old": -2.93,
+      "z_new": -0.74
+    },
+    {
+      "object": "LS_gcpatch_SNOW_LP-101_n5_leaderdisc_INTERPRETED",
+      "x": 63.5,
+      "y": 141.55,
+      "z_old": -3.65,
+      "z_new": -0.26
+    },
+    {
+      "object": "LS_gcpatch_VANG_LP-101_n13_leaderdisc_INTERPRETED",
+      "x": 66.01,
+      "y": 173.83,
+      "z_old": -1.38,
+      "z_new": -0.53
+    },
+    {
+      "object": "LS_tree_BUTT_LP-101_01",
+      "x": 86.01,
+      "y": 176.75,
+      "z_old": -1.96,
+      "z_new": -0.71
+    },
+    {
+      "object": "LS_tree_BUTT_LP-101_02",
+      "x": 19.9,
+      "y": 63.1,
+      "z_old": -0.44,
+      "z_new": -0.44
+    },
+    {
+      "object": "LS_tree_STAR_LP-101_01",
+      "x": -5.16,
+      "y": 66.41,
+      "z_old": -0.81,
+      "z_new": -0.81
+    },
+    {
+      "object": "LS_tree_STAR_LP-101_02",
+      "x": -5.5,
+      "y": 69.63,
+      "z_old": -0.81,
+      "z_new": -0.81
+    },
+    {
+      "object": "LS_tree_WILO_LP-100_01",
+      "x": -14.51,
+      "y": 191.36,
+      "z_old": -2.38,
+      "z_new": -1.99
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -61.38,
+      "y": 114.64,
+      "z_old": -2.32,
+      "z_new": -2.36
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -57.44,
+      "y": 114.31,
+      "z_old": -2.3,
+      "z_new": -2.22
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -53.88,
+      "y": 112.64,
+      "z_old": -2.2,
+      "z_new": -2.02
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -50.99,
+      "y": 109.94,
+      "z_old": -1.93,
+      "z_new": -1.81
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -48.19,
+      "y": 107.14,
+      "z_old": -1.7,
+      "z_new": -1.69
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -45.4,
+      "y": 104.35,
+      "z_old": -1.64,
+      "z_new": -1.67
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -43.11,
+      "y": 101.34,
+      "z_old": -1.72,
+      "z_new": -1.74
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -40.28,
+      "y": 98.51,
+      "z_old": -1.81,
+      "z_new": -1.86
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -37.45,
+      "y": 95.68,
+      "z_old": -1.95,
+      "z_new": -1.94
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -82.52,
+      "y": 152.69,
+      "z_old": -2.96,
+      "z_new": -2.7
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -81.07,
+      "y": 114.26,
+      "z_old": -2.05,
+      "z_new": -2.0
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -77.09,
+      "y": 114.26,
+      "z_old": -2.24,
+      "z_new": -2.15
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -74.53,
+      "y": 113.29,
+      "z_old": -2.3,
+      "z_new": -2.24
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -69.19,
+      "y": 114.26,
+      "z_old": -2.32,
+      "z_new": -2.38
+    },
+    {
+      "object": "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "x": -65.24,
+      "y": 114.26,
+      "z_old": -2.3,
+      "z_new": -2.4
+    }
+  ],
+  "cameras_added": [
+    "BI_cam_entrance_plan_top",
+    "BI_cam_entrance_eye_level",
+    "BI_cam_entrance_site_elevated"
+  ],
+  "dims": {
+    "entry_drive_width": "24.00'",
+    "dropoff_lane_width": "14.50'",
+    "return_lane_width": "12.50'",
+    "island_width": "11.08'",
+    "island_end_radius": "R5.50'",
+    "nose_radius": "R7.50'",
+    "nose_concave_radius": "R31.00'",
+    "lane_to_return_curve": "R26.50'",
+    "aisle_to_diagonal_curve": "R9.50'",
+    "diagonal_to_lane_curve": "R4.00'",
+    "diagonal_upper_curve": "R12.50'",
+    "aisle_width": "25.00' / 24.50'",
+    "end_island_width": "12.20'",
+    "walk_along_diagonal": "7.00'",
+    "walk_along_aisle": "8.00' / 8.50'",
+    "curb_to_canopy_walk": "5.63'",
+    "canopy_walk_depth": "14.05'",
+    "east_walk_to_building": "11.00' + 16.50'",
+    "loading_zone": "24.00' x ~12'"
+  },
+  "measured": {
+    "island_inner_width_ft": 11.07,
+    "island_outer_width_ft": 14.07,
+    "island_length_ft": 55.6,
+    "nose_circumradius_ft": 7.51,
+    "lane_face_of_curb_y": 88.37,
+    "lane_back_of_curb_y": 89.87,
+    "entry_drive_width_measured": 24.03,
+    "return_lane_width_measured": 23.5
+  },
+  "gpu": "OPTIX",
+  "render_seconds": {
+    "1_entrance_plan_top": 44.6,
+    "2_entrance_eye_level": 31.8,
+    "3_porte_cochere_oblique": 30.3,
+    "4_entrance_site_elevated": 28.4,
+    "5_v009_entrance_camera": 30.1
+  }
+}

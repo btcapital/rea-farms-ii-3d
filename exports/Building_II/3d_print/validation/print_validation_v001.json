@@ -1,0 +1,462 @@
+{
+ "blend": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_II\\print_derivatives\\building_II_print_v001.blend",
+ "scale": "1:250",
+ "printer_bed_mm": [
+  340.0,
+  320.0,
+  340.0
+ ],
+ "planning_margin_mm": 10.0,
+ "parts": {
+  "PRINT_building_body": {
+   "vertices": 5453,
+   "triangles": 10934,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "inconsistent_normal_edges": 0,
+   "volume_m3_real": 19877.075,
+   "volume_cm3_printed": 1272.13,
+   "outward_normals": true,
+   "disconnected_components": 1,
+   "zero_area_triangles": 55,
+   "bbox_real_m": {
+    "min": [
+     -0.181,
+     -0.232,
+     -2.438
+    ],
+    "max": [
+     63.681,
+     34.242,
+     13.36
+    ],
+    "size": [
+     63.862,
+     34.474,
+     15.799
+    ]
+   },
+   "printed_size_mm": [
+    255.4,
+    137.9,
+    63.2
+   ],
+   "fits_bed_mm": true,
+   "fits_with_margin": true,
+   "thickness_rays": {
+    "triangles_tested": 10879,
+    "rays_without_exit": 0,
+    "rays_without_exit_area_mm2": 0.0,
+    "min_mm": 0.309,
+    "p1_mm": 0.5,
+    "area_fraction_below_0_4mm": 1.421558541918543e-05,
+    "area_fraction_below_0_5mm": 7.834272833725095e-05,
+    "area_fraction_below_0_8mm": 0.03296636014520184,
+    "triangles_below_0_4mm": 1,
+    "triangles_below_0_8mm": 4301,
+    "thin_cells_0_5m": 2230
+   },
+   "print_orientation": "upright",
+   "support_needed_area_mm2": 2728.7,
+   "support_area_upright_mm2": 2728.7,
+   "support_area_inverted_mm2": 33570.9,
+   "watertight": true
+  },
+  "PRINT_site_base": {
+   "vertices": 43310,
+   "triangles": 86616,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "inconsistent_normal_edges": 0,
+   "volume_m3_real": 8890.451,
+   "volume_cm3_printed": 568.99,
+   "outward_normals": true,
+   "disconnected_components": 1,
+   "zero_area_triangles": 100,
+   "bbox_real_m": {
+    "min": [
+     -9.75,
+     -5.25,
+     -3.048
+    ],
+    "max": [
+     72.75,
+     52.25,
+     5.944
+    ],
+    "size": [
+     82.5,
+     57.5,
+     8.992
+    ]
+   },
+   "printed_size_mm": [
+    330.0,
+    230.0,
+    36.0
+   ],
+   "fits_bed_mm": true,
+   "fits_with_margin": true,
+   "thickness_rays": {
+    "triangles_tested": 85851,
+    "rays_without_exit": 665,
+    "rays_without_exit_area_mm2": 0.34,
+    "min_mm": 0.0,
+    "p1_mm": 0.25,
+    "area_fraction_below_0_4mm": 4.448229368993238e-05,
+    "area_fraction_below_0_5mm": 5.503591566772101e-05,
+    "area_fraction_below_0_8mm": 0.00011119638111785579,
+    "triangles_below_0_4mm": 913,
+    "triangles_below_0_8mm": 1184,
+    "thin_cells_0_5m": 317
+   },
+   "print_orientation": "upright",
+   "support_needed_area_mm2": 17.5,
+   "support_area_upright_mm2": 17.5,
+   "support_area_inverted_mm2": 75541.1,
+   "watertight": true
+  },
+  "PRINT_canopy_dropoff": {
+   "vertices": 264,
+   "triangles": 580,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "inconsistent_normal_edges": 0,
+   "volume_m3_real": 36.546,
+   "volume_cm3_printed": 2.34,
+   "outward_normals": true,
+   "disconnected_components": 1,
+   "zero_area_triangles": 0,
+   "bbox_real_m": {
+    "min": [
+     23.615,
+     32.496,
+     -0.5
+    ],
+    "max": [
+     43.613,
+     39.626,
+     5.583
+    ],
+    "size": [
+     19.998,
+     7.13,
+     6.083
+    ]
+   },
+   "printed_size_mm": [
+    80.0,
+    28.5,
+    24.3
+   ],
+   "fits_bed_mm": true,
+   "fits_with_margin": true,
+   "thickness_rays": {
+    "triangles_tested": 580,
+    "rays_without_exit": 0,
+    "rays_without_exit_area_mm2": 0.0,
+    "min_mm": 0.551,
+    "p1_mm": 0.748,
+    "area_fraction_below_0_4mm": 0.0,
+    "area_fraction_below_0_5mm": 0.0,
+    "area_fraction_below_0_8mm": 0.00010024769491175754,
+    "triangles_below_0_4mm": 0,
+    "triangles_below_0_8mm": 6,
+    "thin_cells_0_5m": 6
+   },
+   "print_orientation": "upright",
+   "support_needed_area_mm2": 2288.7,
+   "support_area_upright_mm2": 2288.7,
+   "support_area_inverted_mm2": 2294.2,
+   "watertight": true
+  },
+  "PRINT_sunshade": {
+   "vertices": 3155,
+   "triangles": 7410,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "inconsistent_normal_edges": 0,
+   "volume_m3_real": 49.174,
+   "volume_cm3_printed": 3.15,
+   "outward_normals": true,
+   "disconnected_components": 1,
+   "zero_area_triangles": 0,
+   "bbox_real_m": {
+    "min": [
+     10.211,
+     3.267,
+     9.449
+    ],
+    "max": [
+     56.762,
+     27.796,
+     9.754
+    ],
+    "size": [
+     46.551,
+     24.529,
+     0.305
+    ]
+   },
+   "printed_size_mm": [
+    186.2,
+    98.1,
+    1.2
+   ],
+   "fits_bed_mm": true,
+   "fits_with_margin": true,
+   "thickness_rays": {
+    "triangles_tested": 7410,
+    "rays_without_exit": 0,
+    "rays_without_exit_area_mm2": 0.0,
+    "min_mm": 0.08,
+    "p1_mm": 0.8,
+    "area_fraction_below_0_4mm": 0.0001467565868313165,
+    "area_fraction_below_0_5mm": 0.0002079316241783266,
+    "area_fraction_below_0_8mm": 0.0002079316241783266,
+    "triangles_below_0_4mm": 8,
+    "triangles_below_0_8mm": 12,
+    "thin_cells_0_5m": 2
+   },
+   "print_orientation": "inverted (top face on bed)",
+   "support_needed_area_mm2": 0.0,
+   "support_area_upright_mm2": 2508.5,
+   "support_area_inverted_mm2": 0.0,
+   "watertight": true
+  }
+ },
+ "assembly": {
+  "PRINT_building_body x PRINT_site_base": {
+   "overlap_volume_m3": 0.000121
+  },
+  "PRINT_canopy_dropoff x PRINT_site_base": {
+   "overlap_volume_m3": -9e-06
+  },
+  "PRINT_canopy_dropoff x PRINT_building_body": {
+   "overlap_volume_m3": 0.0
+  },
+  "PRINT_sunshade x PRINT_building_body": {
+   "overlap_volume_m3": -0.000239
+  },
+  "PRINT_sunshade x PRINT_canopy_dropoff": {
+   "overlap_volume_m3": 0.0
+  },
+  "body_to_base_pocket_wall_gap": {
+   "m": 0.075,
+   "mm": 0.3
+  },
+  "canopy_column_to_socket_wall_gap": {
+   "m": 0.05,
+   "mm": 0.2
+  },
+  "canopy_to_body_min_gap": {
+   "m": 0.0792,
+   "mm": 0.317
+  },
+  "sunshade_to_body_contact_gap": {
+   "m": 0.0,
+   "mm": 0.0
+  },
+  "body_bottom_z": -2.438,
+  "pocket_floor_z": -2.438,
+  "assembled_size_real_m": [
+   82.5,
+   57.5,
+   16.408
+  ],
+  "assembled_size_mm": [
+   330.0,
+   230.0,
+   65.6
+  ]
+ },
+ "glazing_recess": {
+  "openings": 35,
+  "measured": 35,
+  "min_depth_mm": 0.61,
+  "max_depth_mm": 8.43,
+  "per_opening": {
+   "CUT_00_N": {
+    "recess_depth_m": 0.2318,
+    "recess_depth_mm": 0.93,
+    "rib_or_back_hits": 63
+   },
+   "CUT_01_N": {
+    "recess_depth_m": 0.2318,
+    "recess_depth_mm": 0.93,
+    "rib_or_back_hits": 63
+   },
+   "CUT_02_N": {
+    "recess_depth_m": 2.1079,
+    "recess_depth_mm": 8.43,
+    "rib_or_back_hits": 63
+   },
+   "CUT_03_N": {
+    "recess_depth_m": 0.584,
+    "recess_depth_mm": 2.34,
+    "rib_or_back_hits": 63
+   },
+   "CUT_04_N": {
+    "recess_depth_m": 2.1079,
+    "recess_depth_mm": 8.43,
+    "rib_or_back_hits": 63
+   },
+   "CUT_05_N": {
+    "recess_depth_m": 0.9144,
+    "recess_depth_mm": 3.66,
+    "rib_or_back_hits": 63
+   },
+   "CUT_06_N": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_07_N": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_08_N": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_09_N": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_10_E": {
+    "recess_depth_m": 0.9508,
+    "recess_depth_mm": 3.8,
+    "rib_or_back_hits": 63
+   },
+   "CUT_11_E": {
+    "recess_depth_m": 0.9508,
+    "recess_depth_mm": 3.8,
+    "rib_or_back_hits": 63
+   },
+   "CUT_12_E": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_13_E": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_14_E": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_15_E": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_16_E": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_17_E": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_18_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_19_W": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_20_W": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_21_W": {
+    "recess_depth_m": 0.2318,
+    "recess_depth_mm": 0.93,
+    "rib_or_back_hits": 63
+   },
+   "CUT_22_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_23_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_24_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_25_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_26_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_27_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_28_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.13,
+    "rib_or_back_hits": 63
+   },
+   "CUT_29_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_30_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_31_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_32_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_33_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.61,
+    "rib_or_back_hits": 63
+   },
+   "CUT_lobby_recess": {
+    "recess_depth_m": 0.9144,
+    "recess_depth_mm": 3.66,
+    "rib_or_back_hits": 63
+   }
+  }
+ },
+ "runtime_s": 2.9,
+ "file_is_dirty_after_checks": false
+}

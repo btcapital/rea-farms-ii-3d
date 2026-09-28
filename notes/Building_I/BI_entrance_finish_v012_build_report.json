@@ -1,0 +1,813 @@
+{
+  "version": "v012",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_entrance_facade_v011.blend",
+  "touched_objects": [
+    "FR_NORTH_BRK1_N1",
+    "FR_NORTH_PNL1_N3"
+  ],
+  "new_objects": [
+    "FR_NORTH_PNL1_N3b",
+    "FR_NORTH_GLZ_N2b"
+  ],
+  "kept_mesh_objects": 783,
+  "geometry_hash_kept": "467de66928ad6155269e938a433b970e0fbc55cbc07e3ca890fe1185086de63c",
+  "before": {
+    "FR_NORTH_BRK1_N1": {
+      "faces": 50,
+      "sqft": 1006.3,
+      "faces_on_band_face_x28_5_40_7": [
+        {
+          "index": 36,
+          "x": [
+            28.5,
+            40.0
+          ],
+          "z": [
+            0.0,
+            0.69
+          ],
+          "sqft": 7.9,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 37,
+          "x": [
+            28.5,
+            40.0
+          ],
+          "z": [
+            6.97,
+            7.36
+          ],
+          "sqft": 4.5,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 38,
+          "x": [
+            28.5,
+            31.62
+          ],
+          "z": [
+            0.69,
+            6.97
+          ],
+          "sqft": 19.6,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 39,
+          "x": [
+            35.56,
+            40.0
+          ],
+          "z": [
+            0.69,
+            6.97
+          ],
+          "sqft": 27.9,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 40,
+          "x": [
+            28.5,
+            40.0
+          ],
+          "z": [
+            14.02,
+            17.13
+          ],
+          "sqft": 35.8,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 41,
+          "x": [
+            28.5,
+            40.0
+          ],
+          "z": [
+            24.08,
+            40.0
+          ],
+          "sqft": 176.9,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 42,
+          "x": [
+            28.5,
+            31.62
+          ],
+          "z": [
+            17.13,
+            24.08
+          ],
+          "sqft": 21.7,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 43,
+          "x": [
+            35.5,
+            36.67
+          ],
+          "z": [
+            17.13,
+            24.08
+          ],
+          "sqft": 8.1,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 44,
+          "x": [
+            39.28,
+            40.0
+          ],
+          "z": [
+            17.13,
+            24.08
+          ],
+          "sqft": 5.0,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 45,
+          "x": [
+            28.5,
+            29.39
+          ],
+          "z": [
+            7.36,
+            14.02
+          ],
+          "sqft": 5.9,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 46,
+          "x": [
+            33.23,
+            33.56
+          ],
+          "z": [
+            7.36,
+            14.02
+          ],
+          "sqft": 2.2,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        },
+        {
+          "index": 47,
+          "x": [
+            35.67,
+            40.0
+          ],
+          "z": [
+            7.36,
+            14.02
+          ],
+          "sqft": 28.8,
+          "material": "BRK1_Endicott_Manganese_Ironspot_utility"
+        }
+      ]
+    },
+    "FR_NORTH_PNL1_N3": {
+      "faces": 13,
+      "sqft": 700.8,
+      "faces_on_band_face_x28_5_40_7": [
+        {
+          "index": 1,
+          "x": [
+            40.0,
+            40.7
+          ],
+          "z": [
+            0.0,
+            17.13
+          ],
+          "sqft": 12.0,
+          "material": "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+        },
+        {
+          "index": 2,
+          "x": [
+            40.0,
+            40.7
+          ],
+          "z": [
+            24.52,
+            24.6
+          ],
+          "sqft": 0.1,
+          "material": "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+        },
+        {
+          "index": 3,
+          "x": [
+            40.0,
+            40.67
+          ],
+          "z": [
+            17.13,
+            24.52
+          ],
+          "sqft": 5.0,
+          "material": "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+        }
+      ]
+    }
+  },
+  "gpu": "OPTIX",
+  "faces_moved": [
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_PNL1_N3b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "PNL1_Alucobond_PLUS_PVDF_Bone_White",
+      "x": [
+        28.5,
+        40.0
+      ],
+      "z": [
+        24.08,
+        40.0
+      ],
+      "sqft": 176.9
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        28.5,
+        40.0
+      ],
+      "z": [
+        0.0,
+        0.69
+      ],
+      "sqft": 7.9
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        28.5,
+        40.0
+      ],
+      "z": [
+        6.97,
+        7.36
+      ],
+      "sqft": 4.5
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        28.5,
+        31.62
+      ],
+      "z": [
+        0.69,
+        6.97
+      ],
+      "sqft": 19.6
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        35.56,
+        40.0
+      ],
+      "z": [
+        0.69,
+        6.97
+      ],
+      "sqft": 27.9
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        28.5,
+        40.0
+      ],
+      "z": [
+        14.02,
+        17.13
+      ],
+      "sqft": 35.8
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        28.5,
+        31.62
+      ],
+      "z": [
+        17.13,
+        24.08
+      ],
+      "sqft": 21.7
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        35.5,
+        36.67
+      ],
+      "z": [
+        17.13,
+        24.08
+      ],
+      "sqft": 8.1
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        39.28,
+        40.0
+      ],
+      "z": [
+        17.13,
+        24.08
+      ],
+      "sqft": 5.0
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        28.5,
+        29.39
+      ],
+      "z": [
+        7.36,
+        14.02
+      ],
+      "sqft": 5.9
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        33.23,
+        33.56
+      ],
+      "z": [
+        7.36,
+        14.02
+      ],
+      "sqft": 2.2
+    },
+    {
+      "from": "FR_NORTH_BRK1_N1",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "BRK1_Endicott_Manganese_Ironspot_utility",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        35.67,
+        40.0
+      ],
+      "z": [
+        7.36,
+        14.02
+      ],
+      "sqft": 28.8
+    },
+    {
+      "from": "FR_NORTH_PNL1_N3",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "PNL1_Alucobond_PLUS_PVDF_Bone_White",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        40.0,
+        40.7
+      ],
+      "z": [
+        0.0,
+        17.13
+      ],
+      "sqft": 12.0
+    },
+    {
+      "from": "FR_NORTH_PNL1_N3",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "PNL1_Alucobond_PLUS_PVDF_Bone_White",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        40.0,
+        40.7
+      ],
+      "z": [
+        24.52,
+        24.6
+      ],
+      "sqft": 0.1
+    },
+    {
+      "from": "FR_NORTH_PNL1_N3",
+      "to": "FR_NORTH_GLZ_N2b",
+      "old_material": "PNL1_Alucobond_PLUS_PVDF_Bone_White",
+      "new_material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+      "x": [
+        40.0,
+        40.67
+      ],
+      "z": [
+        17.13,
+        24.52
+      ],
+      "sqft": 5.0
+    }
+  ],
+  "vertex_multiset_identical": true,
+  "band_north_face_coverage": {
+    "regions_plus_openings_sqft": 1666.3,
+    "face_sqft": 1700.0,
+    "openings_on_plane": 22
+  },
+  "coplanar_overlaps_on_band_face": [],
+  "after": {
+    "FR_NORTH_BRK1_N1": {
+      "faces": 38,
+      "sqft": 662.0,
+      "materials": [
+        "BRK1_Endicott_Manganese_Ironspot_utility"
+      ]
+    },
+    "FR_NORTH_PNL1_N3": {
+      "faces": 10,
+      "sqft": 683.8,
+      "materials": [
+        "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+      ]
+    },
+    "FR_NORTH_PNL1_N3b": {
+      "faces": 1,
+      "sqft": 176.9,
+      "materials": [
+        "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+      ]
+    },
+    "FR_NORTH_GLZ_N2b": {
+      "faces": 14,
+      "sqft": 184.4,
+      "materials": [
+        "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder"
+      ]
+    }
+  },
+  "materials_by_face_on_band_face": {
+    "FR_NORTH_GLZ_N2": [
+      {
+        "x": [
+          40.7,
+          70.3
+        ],
+        "z": [
+          0.0,
+          0.63
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 18.6
+      },
+      {
+        "x": [
+          40.7,
+          70.3
+        ],
+        "z": [
+          6.97,
+          7.3
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 9.8
+      },
+      {
+        "x": [
+          40.7,
+          64.0
+        ],
+        "z": [
+          7.3,
+          11.69
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 102.3
+      },
+      {
+        "x": [
+          40.7,
+          64.0
+        ],
+        "z": [
+          0.63,
+          6.97
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 147.7
+      },
+      {
+        "x": [
+          40.7,
+          70.3
+        ],
+        "z": [
+          16.8,
+          17.13
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 9.8
+      },
+      {
+        "x": [
+          40.7,
+          64.0
+        ],
+        "z": [
+          14.02,
+          16.8
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 64.8
+      },
+      {
+        "x": [
+          40.7,
+          43.17
+        ],
+        "z": [
+          11.69,
+          14.02
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 5.8
+      },
+      {
+        "x": [
+          40.7,
+          70.3
+        ],
+        "z": [
+          24.58,
+          24.6
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 0.6
+      },
+      {
+        "x": [
+          40.7,
+          43.0
+        ],
+        "z": [
+          24.52,
+          24.58
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 0.1
+      }
+    ],
+    "FR_NORTH_GLZ_N2b": [
+      {
+        "x": [
+          28.5,
+          40.0
+        ],
+        "z": [
+          0.0,
+          0.69
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 7.9
+      },
+      {
+        "x": [
+          28.5,
+          40.0
+        ],
+        "z": [
+          6.97,
+          7.36
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 4.5
+      },
+      {
+        "x": [
+          28.5,
+          31.62
+        ],
+        "z": [
+          0.69,
+          6.97
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 19.6
+      },
+      {
+        "x": [
+          35.56,
+          40.0
+        ],
+        "z": [
+          0.69,
+          6.97
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 27.9
+      },
+      {
+        "x": [
+          28.5,
+          40.0
+        ],
+        "z": [
+          14.02,
+          17.13
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 35.8
+      },
+      {
+        "x": [
+          28.5,
+          31.62
+        ],
+        "z": [
+          17.13,
+          24.08
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 21.7
+      },
+      {
+        "x": [
+          35.5,
+          36.67
+        ],
+        "z": [
+          17.13,
+          24.08
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 8.1
+      },
+      {
+        "x": [
+          39.28,
+          40.0
+        ],
+        "z": [
+          17.13,
+          24.08
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 5.0
+      },
+      {
+        "x": [
+          28.5,
+          29.39
+        ],
+        "z": [
+          7.36,
+          14.02
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 5.9
+      },
+      {
+        "x": [
+          33.23,
+          33.56
+        ],
+        "z": [
+          7.36,
+          14.02
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 2.2
+      },
+      {
+        "x": [
+          35.67,
+          40.0
+        ],
+        "z": [
+          7.36,
+          14.02
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 28.8
+      },
+      {
+        "x": [
+          40.0,
+          40.7
+        ],
+        "z": [
+          0.0,
+          17.13
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 12.0
+      },
+      {
+        "x": [
+          40.0,
+          40.7
+        ],
+        "z": [
+          24.52,
+          24.6
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 0.1
+      },
+      {
+        "x": [
+          40.0,
+          40.67
+        ],
+        "z": [
+          17.13,
+          24.52
+        ],
+        "material": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+        "sqft": 5.0
+      }
+    ],
+    "FR_NORTH_PNL1_N3": [
+      {
+        "x": [
+          40.0,
+          71.0
+        ],
+        "z": [
+          24.6,
+          38.92
+        ],
+        "material": "PNL1_Alucobond_PLUS_PVDF_Bone_White",
+        "sqft": 398.6
+      }
+    ],
+    "FR_NORTH_PNL1_N3b": [
+      {
+        "x": [
+          28.5,
+          40.0
+        ],
+        "z": [
+          24.08,
+          40.0
+        ],
+        "material": "PNL1_Alucobond_PLUS_PVDF_Bone_White",
+        "sqft": 176.9
+      }
+    ]
+  },
+  "unrelated_geometry_unchanged": true,
+  "material_node_trees_unchanged": true,
+  "cameras_added": [
+    "BI_cam_photo_match_drone_2026-07-28a"
+  ],
+  "render_seconds": {
+    "before_1_photo_match_drone": 16.0,
+    "before_2_entrance_oblique": 32.7,
+    "before_3_tower_closeup": 28.6,
+    "before_4_tower_corner_side": 29.5,
+    "1_photo_match_drone": 15.7,
+    "2_entrance_oblique": 32.5,
+    "3_tower_closeup": 28.4,
+    "4_tower_corner_side": 30.3
+  }
+}

@@ -1,0 +1,152 @@
+{
+ "root": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D",
+ "created_utc": "2026-09-22T18:09:38.725930+00:00",
+ "note": "Owner approved BI_shell_v001 as the Building I dimensional/geometry baseline on 2026-09-22. These files are frozen.",
+ "files": [
+  {
+   "path": "notes/Building_I/BI_file_inventory_v001.tsv",
+   "size": 117121,
+   "sha256": "9e8343dba7c040b07d0a72c690b0bc64341149418012e3177e1958bf7b527433"
+  },
+  {
+   "path": "notes/Building_I/BI_geometry_control_v001.md",
+   "size": 19800,
+   "sha256": "454efc954dddfa7dae18d1dc5616a0fcc1311aa6aff26ba8582b434d9dc4ab27"
+  },
+  {
+   "path": "notes/Building_I/BI_geometry_data_v001.json",
+   "size": 27693,
+   "sha256": "a7ac483b2781e3f9ceed38bcbbafd541a80a90cd974225892a674628e21ea2c9"
+  },
+  {
+   "path": "notes/Building_I/BI_geometry_validation_v001.md",
+   "size": 9221,
+   "sha256": "7ecab3b6f152671df9f8da5f3a6be4da54e3cff3f198593267c16c052c4d48d0"
+  },
+  {
+   "path": "notes/Building_I/BI_revision_review_v001.md",
+   "size": 9282,
+   "sha256": "aab971aec51d2c5f6dd904011256f34f5f443177d4dbfb3d671826fd69ab4d80"
+  },
+  {
+   "path": "notes/Building_I/BI_revision_review_v002.md",
+   "size": 12377,
+   "sha256": "d7eeade3d4967e936cf74b1414cf4c824c31caba413b9f032d6d29080099dcef"
+  },
+  {
+   "path": "notes/Building_I/BI_sheet_index_rev14_v001.tsv",
+   "size": 9694,
+   "sha256": "e43bc09c544b12396dc766f3119c7897648a67066d361b542cdc47ad6a7200ac"
+  },
+  {
+   "path": "notes/Building_I/BI_sheet_index_rev6_v001.tsv",
+   "size": 8416,
+   "sha256": "a32198f5375683d5c3f41baf6447b62ca33c8bad06e04badc9747e72adf814ae"
+  },
+  {
+   "path": "notes/Building_I/BI_sheet_revision_comparison_v001.tsv",
+   "size": 12505,
+   "sha256": "35a783d9fd5331d0c9919862957060f94475d23e062b40b7b77c1b00f2249f57"
+  },
+  {
+   "path": "notes/Building_I/BI_shell_v001_build_report.json",
+   "size": 2699,
+   "sha256": "f4faef3d01f56f42fff231cd1807318be18afe116ebdd9d8879f766ec44c22d6"
+  },
+  {
+   "path": "notes/Building_I/BI_source_inventory_v001.md",
+   "size": 14639,
+   "sha256": "6f247ee2737106366a04f0343df3454a7a40222a86942a8dcb52dbca4cd7a515"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_shell_v001.py",
+   "size": 19540,
+   "sha256": "f0fa746e1b21785f5fb6e8002e37705fbb945b63d15e7a5862151e3880e48256"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/glass.py",
+   "size": 2174,
+   "sha256": "80da9916eafa9bbca846fb879083fd1e058bfdf2d3b4aa96e0b64a01c44cac95"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/gridlines2.py",
+   "size": 1712,
+   "sha256": "4f71f00f124b43e4aa8923d02eedb44326cc12fe36f3dfaee0270bcfce668bad"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/rskyline.py",
+   "size": 1590,
+   "sha256": "b2f764c2287dbf91a8d0bdf2ba8759f7ee31703452869553e9d20545d5833e1a"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/slabpoly.py",
+   "size": 3450,
+   "sha256": "87e0acd825e0c8fb6c7d8e1adf8d94d3204e89be3ef5b48d4f02315a1a7b6d87"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/slabunion.py",
+   "size": 3656,
+   "sha256": "053c6707a5e46a442d2ab99c198007d1f5eeeee9cd42bb1b0be2a39f954a5d40"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/svgseg.py",
+   "size": 3636,
+   "sha256": "2f90532229f1f880c641b3c8447d9b4d21e46d9a454e50403f59b2d9c45f5272"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/words.py",
+   "size": 757,
+   "sha256": "502173c0a22796b8bec4c0ed547b3298f03ba6c68e22be2eb7eb106da481357d"
+  },
+  {
+   "path": "scripts/Building_I/BI_freeze_manifest_longpath_v001.py",
+   "size": 2560,
+   "sha256": "d9057b56aabcec3d4a4420501868556da8bcd2bf08438306c9c97590d514439f"
+  },
+  {
+   "path": "scripts/Building_I/BI_freeze_manifest_v001.py",
+   "size": 1334,
+   "sha256": "661bdd717989b49bf935c2f9f66bae33abab59b6b98a1fc8b9e6512908963110"
+  },
+  {
+   "path": "scripts/Building_I/BI_inventory_v001.py",
+   "size": 6126,
+   "sha256": "d366dbf9c6b0afd8ec16dd4b45f72d12896a673573b5343e9495f4b85eb7f4ff"
+  },
+  {
+   "path": "scripts/Building_I/BI_validate_manifest_v001.py",
+   "size": 1199,
+   "sha256": "ec8728c558b4550d45bcfc5e5043f736fc331430fb57ed8f13db8ebea7814403"
+  },
+  {
+   "path": "models/Building_I/BI_shell_v001.blend",
+   "size": 221150,
+   "sha256": "e078c914d8586a93d9d9a3ce1b762d63848600a0dfe9c98b93572273d19d2189"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_front_north.png",
+   "size": 1938252,
+   "sha256": "10ce81df6f7b8ebfbb51957e5178dd33ffa1043fb949a9e79290016c681856c5"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_left_west.png",
+   "size": 2016606,
+   "sha256": "523af5c9b2119b0434f069d37a744425bd05f919e5c784d44c2df184085eca7f"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_oblique_northwest.png",
+   "size": 2488119,
+   "sha256": "27888cab79ae9efa2f6bc7557bc0fe9e55a67ce6fbf1af294e9c1098e51457d7"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_rear_south.png",
+   "size": 1792513,
+   "sha256": "3ba71e9ff5eee4923d70c7742e1cb610f3b50762488d000f3e0bd166486d67cf"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_right_east.png",
+   "size": 1871956,
+   "sha256": "1c113da61683251229e8a5a843495263212cdbd047deef5861b1bbf1bfa4981e"
+  }
+ ]
+}

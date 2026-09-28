@@ -1,0 +1,64 @@
+{
+  "version": "v002",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_shell_v001.blend",
+  "v001_mesh_objects": 443,
+  "geometry_hash_v001_loaded": "3a8230d656e4032790fca220bf16da404cb782db853ca4c4485b6661a49346cc",
+  "geometry_hash_after_material_pass": "3a8230d656e4032790fca220bf16da404cb782db853ca4c4485b6661a49346cc",
+  "geometry_unchanged": true,
+  "overlay_panels": {
+    "BRK1": 477,
+    "PNL1": 445,
+    "PNL2": 101,
+    "PNL3": 163,
+    "TWS1": 394
+  },
+  "overlay_area_sqft": {
+    "BRK1": 8320.0,
+    "PNL1": 8562.0,
+    "PNL2": 2837.0,
+    "PNL3": 1431.0,
+    "TWS1": 6162.0
+  },
+  "overlay_skipped": 555,
+  "materials": {
+    "BRK1": "BRK1_Endicott_Manganese_Ironspot_utility",
+    "PNL1": "PNL1_Alucobond_PLUS_PVDF_Bone_White",
+    "PNL2": "PNL2_Alucobond_PLUS_SMP_Tricorn_Black",
+    "PNL3": "UNRES_PNL3_flush_reveal_medium_gray",
+    "TWS1": "TWS1_Kingspan_Unigrid_Verti-Lite_white",
+    "GLASS": "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+    "TPO": "ROOF_JM_TPO_60mil_white",
+    "SCREEN": "SCREEN_Alucopanel_FR_Enoc_White",
+    "STEEL": "UNRES_exposed_steel_canopy_framing",
+    "CANOPY_GLASS": "CANOPY_1in_laminated_clear_glass",
+    "UNRES_BASE": "UNRES_unclassified_wall_area",
+    "UNRES_VESTIBULE": "UNRES_vestibule_100_enclosure",
+    "GRID": "BI_grid",
+    "GROUND": "BI_ground",
+    "SLAB": "BI_slab"
+  },
+  "objects_per_collection": {
+    "01_Shell": 7,
+    "02_Parapet_screens": 9,
+    "03_Canopy": 10,
+    "04_Openings": 376,
+    "05_Grid_control": 39,
+    "06_Reference": 2,
+    "90_Cameras": 7,
+    "07_Facade_overlay_v002": 1580
+  },
+  "gpu": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA RTX A1000"
+    ]
+  },
+  "render_seconds": {
+    "front_north": 7.7,
+    "rear_south": 6.7,
+    "left_west": 8.6,
+    "right_east": 7.6,
+    "oblique_northwest": 7.5,
+    "closeup_entry": 12.3
+  }
+}

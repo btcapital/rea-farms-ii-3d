@@ -1,0 +1,51 @@
+{
+  "version": "v001",
+  "blender": "5.2.2 LTS",
+  "building_bbox_ft": {
+    "min": [
+      0.0,
+      0.0,
+      -1.813
+    ],
+    "max": [
+      205.0,
+      105.833,
+      43.833
+    ]
+  },
+  "expected_ft": {
+    "x": 205.0,
+    "y": 105.833,
+    "top": 43.833333333333336
+  },
+  "boolean_cuts_applied": 36,
+  "openings": 32,
+  "objects": {
+    "01_Masses": 4,
+    "02_Parapets": 25,
+    "03_Opening_panels": 32,
+    "04_DropOff_Canopy": 5,
+    "05_Site_context": 5,
+    "06_Cameras_Lights": 6,
+    "zz_Cutters": 33
+  },
+  "mass_faces": {
+    "L1_Podium": 134,
+    "L2_HighBlock": 21,
+    "L2_LobbyBlock": 23,
+    "L2_LowRoof": 70
+  },
+  "gpu": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA RTX A1000"
+    ]
+  },
+  "render_seconds": {
+    "front_north": 5.8,
+    "rear_south": 5.5,
+    "left_east": 5.1,
+    "right_west": 5.4,
+    "oblique_northeast": 10.1
+  }
+}

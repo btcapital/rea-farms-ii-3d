@@ -1,0 +1,7665 @@
+{
+ "meta": {
+  "version": "v004",
+  "date": "2026-09-22",
+  "sources": {
+   "LP-101": "PCO 24 (RFI 78 bulletin 07.29.25) p.13 - LP-101 Landscape Plan - Building, V3 230959, 1in=20ft, rev 13 07.22.25 Site Furnishings RFI",
+   "LP-100": "PCO 24 p.12 - LP-100 Overall Landscape Plan, 1in=30ft, rev 13 07.22.25"
+  },
+  "registration": {
+   "LP-101": "x = -87.6 + X/3.6 ; y = 504.8 - Y/3.6 (curb-line correlation to CS-101, 137/235 lines within 0.4 ft)",
+   "LP-100": "x = -395.2 + X/2.4 ; y = 699.3 - Y/2.4 (156/306 lines)"
+  },
+  "counts": {
+   "plants_placed": 567,
+   "by_code": {
+    "ABFR": 77,
+    "ABKA": 46,
+    "BLON": 3,
+    "BUNN": 3,
+    "BUTT": 2,
+    "CARE": 6,
+    "CARZ": 18,
+    "CASL": 4,
+    "CATM": 13,
+    "COFA": 5,
+    "CORA": 27,
+    "DAZA": 12,
+    "DOUB": 5,
+    "FOAR": 8,
+    "GATE": 19,
+    "ILST": 4,
+    "JADE": 18,
+    "JEWL": 40,
+    "JUNE": 17,
+    "LACE": 9,
+    "LAMB": 25,
+    "LOJA": 93,
+    "LOPE": 13,
+    "OSOR": 8,
+    "RHCO": 7,
+    "RUSS": 9,
+    "SNOW": 4,
+    "STAR": 2,
+    "VANG": 12,
+    "VIBL": 36,
+    "WILO": 22
+   },
+   "by_conf": {
+    "V": 383,
+    "V/I": 143,
+    "I": 41
+   },
+   "unassigned_symbols": 121,
+   "groundcover_patches": 18,
+   "parking_islands": 17,
+   "existing_street_trees": 22
+  }
+ },
+ "schedule": {
+  "BUTT": {
+   "type": "tree",
+   "botanical": "Ginkgo biloba 'Jade Butterfly'",
+   "common": "Jade Butterfly Maidenhair Tree",
+   "qty": 2,
+   "size": "B&B",
+   "cal_in": 1.5,
+   "height_ft_min": 8,
+   "spacing": "A.I.",
+   "sheet": "LP-101"
+  },
+  "STAR": {
+   "type": "tree",
+   "botanical": "Magnolia kobus stellata",
+   "common": "Star Magnolia",
+   "qty": 2,
+   "size": "B&B",
+   "cal_in": 1.5,
+   "height_ft_min": 8,
+   "spacing": "A.I.",
+   "sheet": "LP-101"
+  },
+  "ABKA": {
+   "type": "shrub",
+   "botanical": "Abelia x grandiflora 'Kaleidoscope'",
+   "common": "Glossy Abelia",
+   "qty": 46,
+   "size": "3 gal",
+   "height_in_min": 15,
+   "spacing_ft": 4,
+   "sheet": "LP-101 (+7 on LP-100)"
+  },
+  "DAZA": {
+   "type": "shrub",
+   "botanical": "Azalea x 'Roblen'",
+   "common": "Autumn Sunset Encore Azalea",
+   "qty": 12,
+   "size": "3 gal",
+   "height_in_min": 15,
+   "spacing_ft": 3,
+   "sheet": "LP-101"
+  },
+  "BLON": {
+   "type": "shrub",
+   "botanical": "Bouteloua gracilis 'Blonde Ambition'",
+   "common": "Blonde Ambition Blue Grama",
+   "qty": 28,
+   "size": "1 gal",
+   "height_in_min": 12,
+   "spacing_ft": 3,
+   "sheet": "LP-101 (+22 on LP-100)"
+  },
+  "GATE": {
+   "type": "shrub",
+   "botanical": "Camellia japonica 'White by the Gate'",
+   "common": "White By the Gate Camellia",
+   "qty": 19,
+   "size": "3 gal",
+   "height_in_min": 36,
+   "spacing_ft": 6,
+   "sheet": "LP-101"
+  },
+  "CASL": {
+   "type": "shrub",
+   "botanical": "Camellia sasanqua 'Slim 'n Trim'",
+   "common": "Slim 'n Trim Camellia",
+   "qty": 4,
+   "size": "15 gal",
+   "height_in_min": 36,
+   "spacing_ft": 4,
+   "sheet": "LP-101"
+  },
+  "COFA": {
+   "type": "shrub",
+   "botanical": "Cornus sericea 'Farrow'",
+   "common": "Arctic Fire Red Twig Dogwood",
+   "qty": 10,
+   "size": "3 gal",
+   "height_in_min": 18,
+   "spacing_ft": 5,
+   "sheet": "LP-101"
+  },
+  "JEWL": {
+   "type": "shrub",
+   "botanical": "Distylium x 'BLDY01'",
+   "common": "Jewel Box Distylium",
+   "qty": 88,
+   "size": "3 gal",
+   "height_in_min": 15,
+   "spacing_ft": 3,
+   "sheet": "LP-101"
+  },
+  "JADE": {
+   "type": "shrub",
+   "botanical": "Distylium x 'Vintage Jade'",
+   "common": "First Editions Vintage Jade Distylium",
+   "qty": 18,
+   "size": "3 gal",
+   "height_in_min": 18,
+   "spacing_ft": 4,
+   "sheet": "LP-101"
+  },
+  "FOAR": {
+   "type": "shrub",
+   "botanical": "Forsythia x 'Arnold's Dwarf'",
+   "common": "Arnold's Dwarf Forsythia",
+   "qty": 8,
+   "size": "3 gal",
+   "height_in_min": 12,
+   "spacing_ft": 7,
+   "sheet": "LP-101"
+  },
+  "DOUB": {
+   "type": "shrub",
+   "botanical": "Gardenia jasminoides 'Double Mint'",
+   "common": "Double Mint Gardenia",
+   "qty": 16,
+   "size": "7 gal",
+   "height_in_min": 24,
+   "spacing_ft": 2.5,
+   "sheet": "LP-101"
+  },
+  "ILST": {
+   "type": "shrub",
+   "botanical": "Ilex crenata 'Steeds'",
+   "common": "Steeds Japanese Holly",
+   "qty": 4,
+   "size": "7 gal",
+   "height_in_min": 36,
+   "spacing_ft": 5,
+   "sheet": "LP-101"
+  },
+  "LOPE": {
+   "type": "shrub",
+   "botanical": "Loropetalum chinense 'Peack'",
+   "common": "Purple Pixie Dwarf Weeping Loropetalum",
+   "qty": 13,
+   "size": "3 gal",
+   "height_in_min": 12,
+   "spacing_ft": 3,
+   "sheet": "LP-101"
+  },
+  "BUNN": {
+   "type": "shrub",
+   "botanical": "Pennisetum alopecuroides 'Little Bunny'",
+   "common": "Little Bunny Fountain Grass",
+   "qty": 42,
+   "size": "1 gal",
+   "height_in_min": 12,
+   "spacing_ft": 2,
+   "sheet": "LP-101"
+  },
+  "RHCO": {
+   "type": "shrub",
+   "botanical": "Rhododendron x 'Conlea'",
+   "common": "Autumn Rouge Encore Azalea",
+   "qty": 7,
+   "size": "3 gal",
+   "height_in_min": 15,
+   "spacing_ft": 5,
+   "sheet": "LP-101"
+  },
+  "CARZ": {
+   "type": "groundcover",
+   "botanical": "Carex flacca 'Blue Zinger'",
+   "common": "Blue Sedge",
+   "qty": 108,
+   "size": "1 gal",
+   "spacing_in": 18,
+   "sheet": "LP-101"
+  },
+  "CARE": {
+   "type": "groundcover",
+   "botanical": "Carex oshimensis 'Evergold'",
+   "common": "Evergold Sedge",
+   "qty": 109,
+   "size": "1 gal",
+   "spacing_in": 18,
+   "sheet": "LP-101"
+  },
+  "COZA": {
+   "type": "groundcover",
+   "botanical": "Coreopsis verticillata 'Zagreb'",
+   "common": "Zagreb Tickseed",
+   "qty": 28,
+   "size": "1 gal",
+   "spacing_in": 18,
+   "sheet": "LP-101"
+  },
+  "SNOW": {
+   "type": "groundcover",
+   "botanical": "Echinacea x 'Snow Cone'",
+   "common": "White Coneflower",
+   "qty": 9,
+   "size": "1 gal",
+   "spacing_in": 18,
+   "sheet": "LP-101"
+  },
+  "CORA": {
+   "type": "groundcover",
+   "botanical": "Heuchera x 'Electric Plum'",
+   "common": "Electric Plum Coral Bells",
+   "qty": 47,
+   "size": "6in pot",
+   "spacing_in": 24,
+   "sheet": "LP-101"
+  },
+  "JUNE": {
+   "type": "groundcover",
+   "botanical": "Hosta x 'June'",
+   "common": "June Hosta",
+   "qty": 17,
+   "size": "6in pot",
+   "spacing_in": 24,
+   "sheet": "LP-101"
+  },
+  "MUHL": {
+   "type": "groundcover",
+   "botanical": "Muhlenbergia capillaris",
+   "common": "Pink Muhly Grass",
+   "qty": 37,
+   "size": "1 gal",
+   "spacing_in": 30,
+   "sheet": "LP-101"
+  },
+  "CATM": {
+   "type": "groundcover",
+   "botanical": "Nepeta x faassenii 'Walker's Low'",
+   "common": "Walker's Low Catmint",
+   "qty": 61,
+   "size": "1 gal",
+   "spacing_in": 24,
+   "sheet": "LP-101"
+  },
+  "OSOR": {
+   "type": "groundcover",
+   "botanical": "Rosa 'Chewnicebell'",
+   "common": "Oso Easy Italian Ice Rose",
+   "qty": 61,
+   "size": "3 gal",
+   "spacing_in": 24,
+   "sheet": "LP-101 (+42 on LP-100)"
+  },
+  "RUSS": {
+   "type": "groundcover",
+   "botanical": "Salvia yangii 'Blue Jean Baby'",
+   "common": "Blue Jean Baby Russian Sage",
+   "qty": 9,
+   "size": "1 gal",
+   "spacing_in": 24,
+   "sheet": "LP-101"
+  },
+  "LAMB": {
+   "type": "groundcover",
+   "botanical": "Stachys byzantina 'Baldstadtii'",
+   "common": "Little Lamb Lamb's Ears",
+   "qty": 29,
+   "size": "1 gal",
+   "spacing_in": 24,
+   "sheet": "LP-101"
+  },
+  "VANG": {
+   "type": "groundcover",
+   "botanical": "Veronica x 'Very Van Gogh'",
+   "common": "Very Van Gogh Speedwell",
+   "qty": 25,
+   "size": "1 gal",
+   "spacing_in": 24,
+   "sheet": "LP-101"
+  },
+  "WILO": {
+   "type": "tree",
+   "botanical": "Quercus phellos 'QPSTA'",
+   "common": "Hightower Willow Oak",
+   "qty": 22,
+   "size": "B&B",
+   "cal_in": 2.5,
+   "height_ft_min": 8,
+   "spacing": "A.I.",
+   "canopy_ft": 30,
+   "sheet": "LP-100"
+  },
+  "LACE": {
+   "type": "tree",
+   "botanical": "Ulmus parvifolia 'Allee'",
+   "common": "Allee Lacebark Elm",
+   "qty": 10,
+   "size": "B&B",
+   "cal_in": 2.5,
+   "height_ft_min": 8,
+   "spacing": "A.I.",
+   "canopy_ft": 35,
+   "sheet": "LP-100"
+  },
+  "ABFR": {
+   "type": "shrub",
+   "botanical": "Abelia x grandiflora 'Frances Mason'",
+   "common": "Frances Mason Glossy Abelia",
+   "qty": 114,
+   "size": "7 gal",
+   "height_in_min": 24,
+   "spacing_ft": 4,
+   "sheet": "LP-100"
+  },
+  "EMRA": {
+   "type": "shrub",
+   "botanical": "Distylium 'Emerald Heights' 'PIIDIST-I' PPAF",
+   "common": "Emerald Heights Distylium",
+   "qty": 37,
+   "size": "5 gal",
+   "height_in_min": 48,
+   "spacing_ft": 4,
+   "sheet": "LP-100"
+  },
+  "LOJA": {
+   "type": "shrub",
+   "botanical": "Loropetalum chinense 'Jazz Hands'",
+   "common": "Jazz Hands Chinese Loropetalum",
+   "qty": 95,
+   "size": "7 gal",
+   "height_in_min": 24,
+   "spacing_ft": 4,
+   "sheet": "LP-100"
+  },
+  "VIBL": {
+   "type": "shrub",
+   "botanical": "Viburnum dentatum 'Blue Muffin'",
+   "common": "Blue Muffin Arrowwood Viburnum",
+   "qty": 96,
+   "size": "7 gal",
+   "height_in_min": 24,
+   "spacing_ft": 4,
+   "sheet": "LP-100"
+  },
+  "SEAS": {
+   "type": "annual",
+   "botanical": "Annuals",
+   "common": "seasonal annuals",
+   "qty": 170,
+   "size": "6in pot",
+   "spacing_in": 12,
+   "sheet": "LP-100"
+  }
+ },
+ "plants": [
+  {
+   "code": "BUTT",
+   "x": 86.01,
+   "y": 176.75,
+   "kind": "dot",
+   "callout_n": 1,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "BUTT",
+   "x": 19.9,
+   "y": 63.1,
+   "kind": "dot",
+   "callout_n": 1,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ILST",
+   "x": 68.29,
+   "y": 118.66,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ILST",
+   "x": 63.97,
+   "y": 115.32,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ILST",
+   "x": 68.47,
+   "y": 168.05,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ILST",
+   "x": 68.11,
+   "y": 171.93,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "STAR",
+   "x": -5.16,
+   "y": 66.41,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "STAR",
+   "x": -5.5,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 97.13,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 99.9,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 102.67,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 262.67,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 259.89,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 257.1,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "FOAR",
+   "x": 95.16,
+   "y": -0.2,
+   "kind": "circ7",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "FOAR",
+   "x": 102.16,
+   "y": -0.2,
+   "kind": "circ7",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "FOAR",
+   "x": 109.16,
+   "y": -0.2,
+   "kind": "circ7",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "FOAR",
+   "x": 116.16,
+   "y": -0.2,
+   "kind": "circ7",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "FOAR",
+   "x": 266.36,
+   "y": -1.37,
+   "kind": "circ7",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "FOAR",
+   "x": 259.36,
+   "y": -1.37,
+   "kind": "circ7",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "FOAR",
+   "x": 252.36,
+   "y": -1.37,
+   "kind": "circ7",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "FOAR",
+   "x": 245.36,
+   "y": -1.37,
+   "kind": "circ7",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CASL",
+   "x": 4.94,
+   "y": 40.54,
+   "kind": "dot",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CASL",
+   "x": 1.53,
+   "y": 40.28,
+   "kind": "dot",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CASL",
+   "x": 1.53,
+   "y": 37.28,
+   "kind": "dot",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CASL",
+   "x": 1.53,
+   "y": 34.28,
+   "kind": "dot",
+   "callout_n": 4,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DOUB",
+   "x": 63.97,
+   "y": 112.82,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DOUB",
+   "x": 63.97,
+   "y": 110.32,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DOUB",
+   "x": 63.97,
+   "y": 107.82,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DOUB",
+   "x": 63.97,
+   "y": 105.32,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DOUB",
+   "x": 68.29,
+   "y": 101.71,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 63.97,
+   "y": 150.49,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 63.97,
+   "y": 148.12,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 63.97,
+   "y": 145.76,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 63.97,
+   "y": 143.39,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 63.97,
+   "y": 141.02,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 63.97,
+   "y": 157.59,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 63.97,
+   "y": 159.95,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 63.97,
+   "y": 155.22,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 63.97,
+   "y": 152.85,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 63.97,
+   "y": 162.32,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 272.32,
+   "y": 196.99,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 272.32,
+   "y": 193.99,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 272.32,
+   "y": 190.99,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 272.32,
+   "y": 187.99,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 272.32,
+   "y": 184.99,
+   "kind": "dot",
+   "callout_n": 5,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 61.64,
+   "y": 119.45,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 61.65,
+   "y": 120.17,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 284.32,
+   "y": 169.99,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 284.32,
+   "y": 172.99,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 281.32,
+   "y": 172.99,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 278.32,
+   "y": 172.99,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 275.32,
+   "y": 172.99,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 272.32,
+   "y": 172.99,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 125.41,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 128.26,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 122.54,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 131.12,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 133.97,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 120.05,
+   "y": 202.48,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RHCO",
+   "x": 176.7,
+   "y": 204.44,
+   "kind": "ring",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RHCO",
+   "x": 172.69,
+   "y": 205.09,
+   "kind": "ring",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RHCO",
+   "x": 168.63,
+   "y": 205.77,
+   "kind": "ring",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RHCO",
+   "x": 165.19,
+   "y": 205.38,
+   "kind": "ring",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RHCO",
+   "x": 158.47,
+   "y": 206.05,
+   "kind": "ring",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RHCO",
+   "x": 154.04,
+   "y": 205.72,
+   "kind": "ring",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RHCO",
+   "x": 150.38,
+   "y": 205.19,
+   "kind": "ring",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 168.05,
+   "y": -3.86,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 172.05,
+   "y": -3.86,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 176.05,
+   "y": -3.86,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 180.05,
+   "y": -3.86,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 184.05,
+   "y": -3.86,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 188.05,
+   "y": -3.86,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 192.05,
+   "y": -3.86,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "BLON",
+   "x": 69.47,
+   "y": 116.12,
+   "kind": "tuft",
+   "callout_n": 8,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "BLON",
+   "x": 66.36,
+   "y": 116.23,
+   "kind": "tuft",
+   "callout_n": 8,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "OSOR",
+   "x": 89.11,
+   "y": 195.93,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "OSOR",
+   "x": 89.11,
+   "y": 192.93,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "OSOR",
+   "x": 89.11,
+   "y": 189.93,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "OSOR",
+   "x": 89.11,
+   "y": 186.93,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "OSOR",
+   "x": 89.11,
+   "y": 183.93,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "OSOR",
+   "x": 89.11,
+   "y": 180.93,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "OSOR",
+   "x": 89.11,
+   "y": 177.93,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "OSOR",
+   "x": 89.11,
+   "y": 174.93,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 108.22,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 105.45,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 111.0,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 113.77,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 116.55,
+   "y": 200.98,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 116.97,
+   "y": 208.12,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 124.97,
+   "y": 208.27,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 100.96,
+   "y": 208.17,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "SNOW",
+   "x": 63.97,
+   "y": 138.66,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "SNOW",
+   "x": 61.65,
+   "y": 134.42,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "SNOW",
+   "x": 61.64,
+   "y": 133.7,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "SNOW",
+   "x": 68.29,
+   "y": 134.99,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 254.31,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 251.53,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 248.74,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 245.96,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 243.17,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 240.06,
+   "y": 202.48,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 236.94,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 234.22,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JUNE",
+   "x": 231.49,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 7.77,
+   "y": 10.45,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 7.21,
+   "y": 6.49,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 6.66,
+   "y": 2.53,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 6.24,
+   "y": -1.45,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 8.32,
+   "y": 14.42,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 8.87,
+   "y": 18.38,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 5.3,
+   "y": 18.16,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 5.32,
+   "y": 18.88,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "RUSS",
+   "x": 1.53,
+   "y": 19.02,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "COFA",
+   "x": 145.96,
+   "y": -3.81,
+   "kind": "dot",
+   "callout_n": 10,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "COFA",
+   "x": 150.46,
+   "y": -3.81,
+   "kind": "dot",
+   "callout_n": 10,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "COFA",
+   "x": 154.96,
+   "y": -3.81,
+   "kind": "dot",
+   "callout_n": 10,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "COFA",
+   "x": 159.46,
+   "y": -3.81,
+   "kind": "dot",
+   "callout_n": 10,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "COFA",
+   "x": 163.94,
+   "y": -3.81,
+   "kind": "dot",
+   "callout_n": 10,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 228.77,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 226.04,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 223.32,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 220.6,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 217.87,
+   "y": 200.37,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 213.62,
+   "y": 202.61,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 211.11,
+   "y": 207.8,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 211.12,
+   "y": 208.6,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 221.11,
+   "y": 207.11,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CORA",
+   "x": 221.14,
+   "y": 208.65,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 85.94,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 82.04,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 89.84,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 78.13,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 74.22,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 70.32,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 66.42,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 62.52,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 58.61,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 54.71,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JADE",
+   "x": 50.8,
+   "y": -3.49,
+   "kind": "dot",
+   "callout_n": 11,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 26.63,
+   "y": 67.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 26.63,
+   "y": 64.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 26.63,
+   "y": 61.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 26.63,
+   "y": 70.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 26.63,
+   "y": 58.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 26.63,
+   "y": 55.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 23.63,
+   "y": 55.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 20.63,
+   "y": 55.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 17.63,
+   "y": 55.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 14.63,
+   "y": 55.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 11.63,
+   "y": 55.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "DAZA",
+   "x": 8.63,
+   "y": 55.87,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 93.6,
+   "y": 202.44,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 93.08,
+   "y": 207.11,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 93.11,
+   "y": 208.65,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 292.24,
+   "y": 118.48,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 292.24,
+   "y": 112.48,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 291.24,
+   "y": 106.48,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 288.54,
+   "y": 101.92,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 286.2,
+   "y": 97.09,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 285.24,
+   "y": 91.25,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": -8.12,
+   "y": 43.19,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": -11.12,
+   "y": 43.19,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": -5.12,
+   "y": 43.19,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": -2.12,
+   "y": 43.19,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": 1.59,
+   "y": 43.76,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": -11.09,
+   "y": 47.02,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": -11.07,
+   "y": 47.83,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": 8.94,
+   "y": 44.54,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": 8.94,
+   "y": 48.54,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": 8.94,
+   "y": 52.54,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": 8.94,
+   "y": 40.54,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": 4.94,
+   "y": 36.54,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CATM",
+   "x": 4.94,
+   "y": 32.54,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": 1.53,
+   "y": 16.02,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": 1.53,
+   "y": 13.02,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": 1.53,
+   "y": 10.02,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": 1.53,
+   "y": 7.02,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": 1.39,
+   "y": 3.54,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": -2.26,
+   "y": 3.96,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": -5.26,
+   "y": 3.96,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": -8.26,
+   "y": 3.96,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": -11.26,
+   "y": 3.96,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": -11.07,
+   "y": 0.68,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": -11.08,
+   "y": -0.03,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": -19.69,
+   "y": 3.96,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LOPE",
+   "x": -22.69,
+   "y": 3.96,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 194.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 192.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 190.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 188.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 186.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 184.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 182.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 180.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 178.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 276.18,
+   "y": 176.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 278.18,
+   "y": 176.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 280.18,
+   "y": 176.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 282.18,
+   "y": 176.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 284.18,
+   "y": 176.25,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "BUNN",
+   "x": 272.32,
+   "y": 175.99,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "BUNN",
+   "x": 272.32,
+   "y": 178.99,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "BUNN",
+   "x": 272.32,
+   "y": 181.99,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 266.06,
+   "y": 202.48,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 266.86,
+   "y": 207.11,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 266.89,
+   "y": 208.65,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 86.01,
+   "y": 192.75,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 86.01,
+   "y": 190.75,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 86.01,
+   "y": 188.75,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 86.01,
+   "y": 186.75,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 86.01,
+   "y": 184.75,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 86.01,
+   "y": 182.75,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 86.01,
+   "y": 180.75,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 86.01,
+   "y": 178.75,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 84.0,
+   "y": 189.05,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 84.0,
+   "y": 187.05,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 84.0,
+   "y": 185.09,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 84.0,
+   "y": 183.09,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 84.0,
+   "y": 181.09,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 83.2,
+   "y": 178.05,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 82.5,
+   "y": 175.14,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": 84.5,
+   "y": 175.14,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -28.42,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -25.42,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -22.42,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -31.42,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -31.42,
+   "y": 72.44,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -31.42,
+   "y": 75.27,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -31.42,
+   "y": 78.08,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -31.42,
+   "y": 80.91,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -31.42,
+   "y": 83.72,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -31.42,
+   "y": 86.54,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -19.42,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -19.57,
+   "y": 72.62,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -19.55,
+   "y": 73.43,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -25.76,
+   "y": 66.41,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -31.8,
+   "y": 90.03,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "ABKA",
+   "x": -34.62,
+   "y": 92.85,
+   "kind": "dot",
+   "callout_n": 16,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 80.0,
+   "y": 177.09,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 78.0,
+   "y": 177.09,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 76.0,
+   "y": 177.09,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 74.0,
+   "y": 177.09,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 72.11,
+   "y": 177.09,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 72.5,
+   "y": 175.14,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 70.53,
+   "y": 175.14,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 74.5,
+   "y": 175.14,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 76.5,
+   "y": 175.14,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 78.5,
+   "y": 175.14,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 80.5,
+   "y": 175.14,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 74.11,
+   "y": 171.93,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 71.11,
+   "y": 171.93,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 77.11,
+   "y": 171.93,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 80.11,
+   "y": 171.93,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 83.11,
+   "y": 171.93,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 86.11,
+   "y": 171.93,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "LAMB",
+   "x": 89.11,
+   "y": 171.93,
+   "kind": "dot",
+   "callout_n": 18,
+   "conf": "V",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "BLON",
+   "x": 65.84,
+   "y": 165.77,
+   "kind": "tuft",
+   "callout_n": 20,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.11,
+   "y": 73.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.11,
+   "y": 70.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.11,
+   "y": 76.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.11,
+   "y": 79.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.11,
+   "y": 81.61,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.11,
+   "y": 67.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.09,
+   "y": 64.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.07,
+   "y": 61.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.04,
+   "y": 58.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.02,
+   "y": 55.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.01,
+   "y": 52.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 283.01,
+   "y": 49.11,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 285.12,
+   "y": 46.99,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 287.24,
+   "y": 44.87,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 289.37,
+   "y": 42.74,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 289.97,
+   "y": 32.21,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 288.19,
+   "y": 30.43,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 286.42,
+   "y": 28.66,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 284.65,
+   "y": 26.88,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 282.89,
+   "y": 24.66,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 282.89,
+   "y": 21.66,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 282.89,
+   "y": 18.66,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 282.89,
+   "y": 15.66,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 282.89,
+   "y": 12.66,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 282.89,
+   "y": 9.66,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 282.89,
+   "y": 6.66,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 286.18,
+   "y": 176.25,
+   "kind": "dot",
+   "callout_n": 26,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 1.53,
+   "y": 31.28,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 1.53,
+   "y": 28.27,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 5.3,
+   "y": 28.66,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": 5.32,
+   "y": 29.38,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARE",
+   "x": -11.51,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 48,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARE",
+   "x": -8.5,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 48,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARE",
+   "x": -11.09,
+   "y": 72.62,
+   "kind": "dot",
+   "callout_n": 48,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARE",
+   "x": -11.07,
+   "y": 73.43,
+   "kind": "dot",
+   "callout_n": 48,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARE",
+   "x": -2.5,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 48,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARE",
+   "x": 0.5,
+   "y": 69.63,
+   "kind": "dot",
+   "callout_n": 48,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 179.1,
+   "y": 207.91,
+   "kind": "dot",
+   "callout_n": 61,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "CARZ",
+   "x": 179.12,
+   "y": 208.62,
+   "kind": "dot",
+   "callout_n": 61,
+   "conf": "V/I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 291.79,
+   "y": 131.89,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 286.94,
+   "y": 135.24,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 284.72,
+   "y": 140.56,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 284.72,
+   "y": 146.56,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 285.57,
+   "y": 152.42,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 287.96,
+   "y": 157.91,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "GATE",
+   "x": 288.66,
+   "y": 163.84,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 51.59,
+   "y": 185.21,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 48.59,
+   "y": 185.21,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 45.59,
+   "y": 185.21,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 42.59,
+   "y": 185.21,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 39.59,
+   "y": 185.21,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 36.59,
+   "y": 185.21,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "VANG",
+   "x": 33.59,
+   "y": 185.21,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -19.61,
+   "y": 43.19,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -22.61,
+   "y": 43.19,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -25.61,
+   "y": 43.19,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -28.61,
+   "y": 43.19,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.31,
+   "y": 43.76,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -20.39,
+   "y": 47.02,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -20.37,
+   "y": 47.83,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.39,
+   "y": 39.77,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.39,
+   "y": 30.77,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.39,
+   "y": 27.77,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.39,
+   "y": 24.77,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.39,
+   "y": 21.77,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.39,
+   "y": 18.77,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.39,
+   "y": 6.77,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -32.51,
+   "y": 3.54,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -28.69,
+   "y": 3.96,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -25.69,
+   "y": 3.96,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -20.37,
+   "y": 0.67,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "JEWL",
+   "x": -20.39,
+   "y": -0.14,
+   "kind": "dot",
+   "callout_n": 33,
+   "conf": "I",
+   "sheet": "LP-101"
+  },
+  {
+   "code": "WILO",
+   "x": -14.51,
+   "y": 191.36,
+   "kind": "dot",
+   "callout_n": 1,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -14.37,
+   "y": 308.7,
+   "kind": "dot",
+   "callout_n": 1,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": -25.11,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": -29.11,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": 37.54,
+   "y": 264.7,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": 34.38,
+   "y": 261.23,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": -247.44,
+   "y": 387.33,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": -243.44,
+   "y": 387.33,
+   "kind": "dot",
+   "callout_n": 2,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": 279.06,
+   "y": 317.61,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": 279.06,
+   "y": 313.61,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": 279.06,
+   "y": 309.63,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": -269.52,
+   "y": 159.01,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LACE",
+   "x": -269.52,
+   "y": 155.06,
+   "kind": "dot",
+   "callout_n": 3,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": 92.04,
+   "y": 354.2,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": 91.36,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": 87.38,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": 83.38,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": 95.36,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": 99.36,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -143.52,
+   "y": 230.45,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -143.52,
+   "y": 264.7,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -82.52,
+   "y": 264.7,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -82.52,
+   "y": 230.45,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -24.59,
+   "y": 233.04,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -204.52,
+   "y": 264.7,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -143.52,
+   "y": 354.2,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -145.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -141.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -137.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -133.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "WILO",
+   "x": -149.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 6,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 262.98,
+   "y": 231.46,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 266.73,
+   "y": 231.46,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 270.46,
+   "y": 231.46,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 274.21,
+   "y": 231.46,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 277.96,
+   "y": 231.46,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 281.69,
+   "y": 231.46,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 285.43,
+   "y": 231.46,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -267.32,
+   "y": 170.49,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.52,
+   "y": 174.91,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.52,
+   "y": 178.88,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.52,
+   "y": 182.84,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.52,
+   "y": 166.96,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.52,
+   "y": 162.99,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 279.06,
+   "y": 329.58,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 279.06,
+   "y": 325.59,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 279.06,
+   "y": 321.61,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 279.06,
+   "y": 333.58,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 279.06,
+   "y": 337.58,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 279.06,
+   "y": 341.56,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 279.06,
+   "y": 345.56,
+   "kind": "dot",
+   "callout_n": 7,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 275.11,
+   "y": 226.46,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 278.81,
+   "y": 226.46,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 282.48,
+   "y": 226.46,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 286.16,
+   "y": 226.46,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 289.83,
+   "y": 226.46,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 290.55,
+   "y": 229.27,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 293.51,
+   "y": 226.46,
+   "kind": "dot",
+   "callout_n": 8,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -267.32,
+   "y": 144.99,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.52,
+   "y": 151.08,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.52,
+   "y": 139.16,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.52,
+   "y": 135.2,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.52,
+   "y": 131.23,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -267.32,
+   "y": 127.99,
+   "kind": "dot",
+   "callout_n": 9,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -184.46,
+   "y": 107.51,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -180.79,
+   "y": 106.03,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -176.91,
+   "y": 105.33,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -172.94,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -168.99,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 12,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 356.83,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 352.83,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 360.83,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 364.83,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 368.83,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 372.81,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 376.81,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 380.81,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 384.81,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -267.54,
+   "y": 387.33,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -263.54,
+   "y": 387.33,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 348.83,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -269.02,
+   "y": 344.83,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 336.83,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 332.83,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 328.83,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 324.83,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 320.84,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 316.84,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 312.84,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 308.84,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 304.85,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 300.85,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 296.86,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 292.86,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 288.86,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -269.02,
+   "y": 340.83,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 195.76,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 199.73,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 203.7,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 207.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 211.63,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 215.61,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 219.41,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 223.21,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 227.01,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 230.79,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 191.78,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.52,
+   "y": 187.81,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 297.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 301.64,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 305.63,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 293.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 289.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 285.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 281.68,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 277.68,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 273.69,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": 279.06,
+   "y": 269.71,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -165.06,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -169.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -173.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -177.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -181.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -185.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -189.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -193.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -197.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -161.06,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -201.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -205.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -209.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -213.04,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 175.21,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 171.21,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 167.23,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 163.23,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 159.24,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 155.26,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 151.26,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 147.26,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 143.28,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 139.28,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 179.21,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 183.21,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 187.19,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 191.18,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 195.18,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 199.16,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 203.16,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 207.16,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": 211.16,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 19,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -125.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -121.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -117.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -129.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -113.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -109.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -105.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -101.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -97.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -93.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -89.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -85.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -81.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -77.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -73.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -69.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -65.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -61.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -57.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -53.09,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -153.17,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -149.22,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -145.26,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -157.12,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -141.29,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -137.34,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -133.39,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -129.42,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -125.47,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -121.52,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -117.56,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -113.59,
+   "y": 105.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -109.64,
+   "y": 105.36,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -105.79,
+   "y": 106.16,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -102.16,
+   "y": 107.73,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -98.92,
+   "y": 109.98,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -96.2,
+   "y": 112.86,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -92.94,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -88.97,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "LOJA",
+   "x": -85.02,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 20,
+   "conf": "V",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 135.28,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 131.29,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 127.31,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 123.31,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 119.31,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 115.33,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 111.33,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 107.33,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 103.36,
+   "y": 405.71,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -153.07,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -157.06,
+   "y": 405.66,
+   "kind": "dot",
+   "callout_n": 21,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -193.62,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -197.59,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -201.54,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -205.49,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -209.44,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -213.41,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -217.37,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -221.32,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -225.27,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -229.24,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -233.19,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -237.14,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -241.09,
+   "y": 114.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -245.04,
+   "y": 114.01,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -248.49,
+   "y": 112.14,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -250.62,
+   "y": 108.86,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 104.96,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 101.01,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 97.26,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 93.49,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 89.74,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 85.98,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 82.23,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 78.46,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 74.71,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 70.96,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "ABFR",
+   "x": -251.07,
+   "y": 67.21,
+   "kind": "dot",
+   "callout_n": 36,
+   "conf": "V/I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": 214.08,
+   "y": 264.85,
+   "kind": "dot",
+   "callout_n": 13,
+   "conf": "I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -251.87,
+   "y": 169.83,
+   "kind": "dot",
+   "callout_n": 14,
+   "conf": "I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.02,
+   "y": 284.86,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.02,
+   "y": 280.86,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.02,
+   "y": 276.86,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.02,
+   "y": 272.86,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.02,
+   "y": 268.86,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "I",
+   "sheet": "LP-100"
+  },
+  {
+   "code": "VIBL",
+   "x": -269.02,
+   "y": 264.99,
+   "kind": "dot",
+   "callout_n": 15,
+   "conf": "I",
+   "sheet": "LP-100"
+  }
+ ],
+ "unassigned_symbols": [
+  {
+   "x": -61.38,
+   "y": 114.64,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -57.44,
+   "y": 114.31,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -53.88,
+   "y": 112.64,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -50.99,
+   "y": 109.94,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -48.19,
+   "y": 107.14,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -45.4,
+   "y": 104.35,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -43.11,
+   "y": 101.34,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -40.28,
+   "y": 98.51,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -37.45,
+   "y": 95.68,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 100.78,
+   "y": 232.31,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 116.78,
+   "y": 232.31,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 124.06,
+   "y": 232.04,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 135.08,
+   "y": 207.11,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 138.06,
+   "y": 232.04,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 138.05,
+   "y": 202.48,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 138.47,
+   "y": 208.17,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 140.85,
+   "y": 197.82,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 148.8,
+   "y": 197.73,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 150.1,
+   "y": 207.91,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 196.16,
+   "y": -3.81,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 200.66,
+   "y": -3.81,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 205.15,
+   "y": -3.81,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 209.64,
+   "y": -3.81,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 214.14,
+   "y": -3.81,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 289.09,
+   "y": 231.82,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 295.81,
+   "y": 232.42,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 297.09,
+   "y": 226.82,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 318.7,
+   "y": 301.22,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": 327.35,
+   "y": 461.09,
+   "kind": "dot",
+   "sheet": "LP-101"
+  },
+  {
+   "x": -282.84,
+   "y": 262.23,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -269.52,
+   "y": 123.28,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -269.52,
+   "y": 119.31,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -269.52,
+   "y": 115.34,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -264.34,
+   "y": 367.21,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -264.34,
+   "y": 363.63,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -259.47,
+   "y": 387.33,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -255.44,
+   "y": 387.33,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -251.87,
+   "y": 152.83,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -251.87,
+   "y": 144.33,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -251.87,
+   "y": 127.33,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -251.44,
+   "y": 387.33,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -242.09,
+   "y": 402.31,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -242.09,
+   "y": 398.31,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -242.09,
+   "y": 394.31,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -242.09,
+   "y": 390.31,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -241.02,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -237.04,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -233.04,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -229.04,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -225.04,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -221.04,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -217.04,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -204.52,
+   "y": 354.2,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -204.52,
+   "y": 230.45,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -204.52,
+   "y": 152.69,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -143.52,
+   "y": 152.69,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -82.52,
+   "y": 354.2,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -82.52,
+   "y": 152.69,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -81.07,
+   "y": 114.26,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -77.09,
+   "y": 114.26,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -74.53,
+   "y": 113.29,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -69.19,
+   "y": 114.26,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -65.24,
+   "y": 114.26,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -49.09,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -45.09,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -41.09,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -37.09,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -33.09,
+   "y": 405.66,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": -18.09,
+   "y": 356.61,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 23.36,
+   "y": 405.48,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 25.49,
+   "y": 385.84,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 31.48,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 35.48,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 37.54,
+   "y": 354.2,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 39.46,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 43.46,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 47.46,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 51.44,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 55.43,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 59.43,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 63.41,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 67.41,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 71.41,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 75.41,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 79.38,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 92.04,
+   "y": 264.7,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 153.05,
+   "y": 354.2,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 153.05,
+   "y": 264.85,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 214.05,
+   "y": 354.2,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 215.14,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 219.13,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 223.13,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 227.11,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 231.11,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 235.11,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 239.09,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 243.08,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 247.08,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 251.08,
+   "y": 405.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 259.06,
+   "y": 403.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 259.06,
+   "y": 399.71,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 259.06,
+   "y": 395.73,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 259.06,
+   "y": 391.73,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 259.16,
+   "y": 387.76,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 264.98,
+   "y": 387.38,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 268.96,
+   "y": 387.38,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 272.96,
+   "y": 387.38,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 274.29,
+   "y": 379.07,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 274.29,
+   "y": 375.49,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 274.29,
+   "y": 367.22,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 274.29,
+   "y": 363.63,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 276.96,
+   "y": 387.38,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 381.49,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 377.51,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 373.51,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 369.51,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 365.51,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 361.53,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 357.53,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 353.54,
+   "kind": "dot",
+   "sheet": "LP-100"
+  },
+  {
+   "x": 279.06,
+   "y": 349.56,
+   "kind": "dot",
+   "sheet": "LP-100"
+  }
+ ],
+ "groundcover_patches": [
+  {
+   "code": "CARZ",
+   "n": 59,
+   "status": "leaderdisc",
+   "area_sqft": 133,
+   "expected_area_sqft": 133,
+   "polygon": [
+    [
+     186.78,
+     207.99
+    ],
+    [
+     185.91,
+     211.24
+    ],
+    [
+     183.53,
+     213.62
+    ],
+    [
+     180.28,
+     214.49
+    ],
+    [
+     177.03,
+     213.62
+    ],
+    [
+     174.65,
+     211.24
+    ],
+    [
+     173.78,
+     207.99
+    ],
+    [
+     174.65,
+     204.74
+    ],
+    [
+     177.03,
+     202.36
+    ],
+    [
+     180.28,
+     201.49
+    ],
+    [
+     183.53,
+     202.36
+    ],
+    [
+     185.91,
+     204.74
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    177.7,
+    205.1
+   ]
+  },
+  {
+   "code": "LAMB",
+   "n": 4,
+   "status": "leaderdisc",
+   "area_sqft": 16,
+   "expected_area_sqft": 16,
+   "polygon": [
+    [
+     64.3,
+     111.99
+    ],
+    [
+     64.0,
+     113.12
+    ],
+    [
+     63.17,
+     113.94
+    ],
+    [
+     62.05,
+     114.24
+    ],
+    [
+     60.92,
+     113.94
+    ],
+    [
+     60.09,
+     113.12
+    ],
+    [
+     59.79,
+     111.99
+    ],
+    [
+     60.09,
+     110.86
+    ],
+    [
+     60.92,
+     110.03
+    ],
+    [
+     62.05,
+     109.73
+    ],
+    [
+     63.17,
+     110.03
+    ],
+    [
+     64.0,
+     110.86
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    63.1,
+    111.1
+   ]
+  },
+  {
+   "code": "CORA",
+   "n": 19,
+   "status": "leaderdisc",
+   "area_sqft": 76,
+   "expected_area_sqft": 76,
+   "polygon": [
+    [
+     23.24,
+     70.14
+    ],
+    [
+     22.58,
+     72.6
+    ],
+    [
+     20.78,
+     74.4
+    ],
+    [
+     18.33,
+     75.06
+    ],
+    [
+     15.87,
+     74.4
+    ],
+    [
+     14.07,
+     72.6
+    ],
+    [
+     13.41,
+     70.14
+    ],
+    [
+     14.07,
+     67.68
+    ],
+    [
+     15.87,
+     65.88
+    ],
+    [
+     18.33,
+     65.22
+    ],
+    [
+     20.78,
+     65.88
+    ],
+    [
+     22.58,
+     67.68
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    20.9,
+    68.7
+   ]
+  },
+  {
+   "code": "CATM",
+   "n": 48,
+   "status": "leaderdisc",
+   "area_sqft": 192,
+   "expected_area_sqft": 192,
+   "polygon": [
+    [
+     302.15,
+     49.27
+    ],
+    [
+     301.1,
+     53.18
+    ],
+    [
+     298.24,
+     56.04
+    ],
+    [
+     294.33,
+     57.09
+    ],
+    [
+     290.42,
+     56.04
+    ],
+    [
+     287.56,
+     53.18
+    ],
+    [
+     286.51,
+     49.27
+    ],
+    [
+     287.56,
+     45.36
+    ],
+    [
+     290.42,
+     42.5
+    ],
+    [
+     294.33,
+     41.45
+    ],
+    [
+     298.24,
+     42.5
+    ],
+    [
+     301.1,
+     45.36
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    289.7,
+    50.2
+   ]
+  },
+  {
+   "code": "CARE",
+   "n": 42,
+   "status": "leaderdisc",
+   "area_sqft": 94,
+   "expected_area_sqft": 94,
+   "polygon": [
+    [
+     -11.65,
+     72.97
+    ],
+    [
+     -12.38,
+     75.71
+    ],
+    [
+     -14.39,
+     77.72
+    ],
+    [
+     -17.13,
+     78.46
+    ],
+    [
+     -19.88,
+     77.72
+    ],
+    [
+     -21.88,
+     75.71
+    ],
+    [
+     -22.62,
+     72.97
+    ],
+    [
+     -21.88,
+     70.23
+    ],
+    [
+     -19.88,
+     68.22
+    ],
+    [
+     -17.13,
+     67.49
+    ],
+    [
+     -14.39,
+     68.22
+    ],
+    [
+     -12.38,
+     70.23
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    -19.9,
+    71.2
+   ]
+  },
+  {
+   "code": "OSOR",
+   "n": 22,
+   "status": "leaderdisc",
+   "area_sqft": 88,
+   "expected_area_sqft": 88,
+   "polygon": [
+    [
+     28.54,
+     67.52
+    ],
+    [
+     27.83,
+     70.17
+    ],
+    [
+     25.89,
+     72.11
+    ],
+    [
+     23.25,
+     72.81
+    ],
+    [
+     20.6,
+     72.11
+    ],
+    [
+     18.66,
+     70.17
+    ],
+    [
+     17.95,
+     67.52
+    ],
+    [
+     18.66,
+     64.88
+    ],
+    [
+     20.6,
+     62.94
+    ],
+    [
+     23.25,
+     62.23
+    ],
+    [
+     25.89,
+     62.94
+    ],
+    [
+     27.83,
+     64.88
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    26.3,
+    66.5
+   ]
+  },
+  {
+   "code": "OSOR",
+   "n": 31,
+   "status": "leaderdisc",
+   "area_sqft": 124,
+   "expected_area_sqft": 124,
+   "polygon": [
+    [
+     295.67,
+     63.32
+    ],
+    [
+     294.83,
+     66.46
+    ],
+    [
+     292.53,
+     68.76
+    ],
+    [
+     289.39,
+     69.6
+    ],
+    [
+     286.25,
+     68.76
+    ],
+    [
+     283.95,
+     66.46
+    ],
+    [
+     283.11,
+     63.32
+    ],
+    [
+     283.95,
+     60.18
+    ],
+    [
+     286.25,
+     57.88
+    ],
+    [
+     289.39,
+     57.04
+    ],
+    [
+     292.53,
+     57.88
+    ],
+    [
+     294.83,
+     60.18
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    285.6,
+    63.3
+   ]
+  },
+  {
+   "code": "CARZ",
+   "n": 6,
+   "status": "leaderdisc",
+   "area_sqft": 14,
+   "expected_area_sqft": 14,
+   "polygon": [
+    [
+     287.59,
+     74.01
+    ],
+    [
+     287.31,
+     75.05
+    ],
+    [
+     286.55,
+     75.81
+    ],
+    [
+     285.52,
+     76.08
+    ],
+    [
+     284.48,
+     75.81
+    ],
+    [
+     283.72,
+     75.05
+    ],
+    [
+     283.45,
+     74.01
+    ],
+    [
+     283.72,
+     72.97
+    ],
+    [
+     284.48,
+     72.22
+    ],
+    [
+     285.52,
+     71.94
+    ],
+    [
+     286.55,
+     72.22
+    ],
+    [
+     287.31,
+     72.97
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    284.3,
+    73.8
+   ]
+  },
+  {
+   "code": "CARE",
+   "n": 28,
+   "status": "leaderdisc",
+   "area_sqft": 63,
+   "expected_area_sqft": 63,
+   "polygon": [
+    [
+     67.74,
+     119.08
+    ],
+    [
+     67.14,
+     121.32
+    ],
+    [
+     65.51,
+     122.96
+    ],
+    [
+     63.27,
+     123.56
+    ],
+    [
+     61.03,
+     122.96
+    ],
+    [
+     59.39,
+     121.32
+    ],
+    [
+     58.79,
+     119.08
+    ],
+    [
+     59.39,
+     116.84
+    ],
+    [
+     61.03,
+     115.2
+    ],
+    [
+     63.27,
+     114.6
+    ],
+    [
+     65.51,
+     115.2
+    ],
+    [
+     67.14,
+     116.84
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    65.4,
+    117.5
+   ]
+  },
+  {
+   "code": "SNOW",
+   "n": 5,
+   "status": "leaderdisc",
+   "area_sqft": 11,
+   "expected_area_sqft": 11,
+   "polygon": [
+    [
+     65.39,
+     141.55
+    ],
+    [
+     65.14,
+     142.5
+    ],
+    [
+     64.45,
+     143.19
+    ],
+    [
+     63.5,
+     143.44
+    ],
+    [
+     62.56,
+     143.19
+    ],
+    [
+     61.86,
+     142.5
+    ],
+    [
+     61.61,
+     141.55
+    ],
+    [
+     61.86,
+     140.6
+    ],
+    [
+     62.56,
+     139.91
+    ],
+    [
+     63.5,
+     139.66
+    ],
+    [
+     64.45,
+     139.91
+    ],
+    [
+     65.14,
+     140.6
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    64.5,
+    141.0
+   ]
+  },
+  {
+   "code": "CARE",
+   "n": 33,
+   "status": "leaderdisc",
+   "area_sqft": 74,
+   "expected_area_sqft": 74,
+   "polygon": [
+    [
+     66.71,
+     166.06
+    ],
+    [
+     66.05,
+     168.49
+    ],
+    [
+     64.28,
+     170.27
+    ],
+    [
+     61.84,
+     170.93
+    ],
+    [
+     59.41,
+     170.27
+    ],
+    [
+     57.63,
+     168.49
+    ],
+    [
+     56.98,
+     166.06
+    ],
+    [
+     57.63,
+     163.63
+    ],
+    [
+     59.41,
+     161.85
+    ],
+    [
+     61.84,
+     161.2
+    ],
+    [
+     64.28,
+     161.85
+    ],
+    [
+     66.05,
+     163.63
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    64.3,
+    164.4
+   ]
+  },
+  {
+   "code": "CARZ",
+   "n": 25,
+   "status": "leaderdisc",
+   "area_sqft": 56,
+   "expected_area_sqft": 56,
+   "polygon": [
+    [
+     286.08,
+     178.7
+    ],
+    [
+     285.52,
+     180.81
+    ],
+    [
+     283.97,
+     182.36
+    ],
+    [
+     281.85,
+     182.93
+    ],
+    [
+     279.73,
+     182.36
+    ],
+    [
+     278.19,
+     180.81
+    ],
+    [
+     277.62,
+     178.7
+    ],
+    [
+     278.19,
+     176.58
+    ],
+    [
+     279.73,
+     175.03
+    ],
+    [
+     281.85,
+     174.47
+    ],
+    [
+     283.97,
+     175.03
+    ],
+    [
+     285.52,
+     176.58
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    279.7,
+    177.3
+   ]
+  },
+  {
+   "code": "VANG",
+   "n": 13,
+   "status": "leaderdisc",
+   "area_sqft": 52,
+   "expected_area_sqft": 52,
+   "polygon": [
+    [
+     70.08,
+     173.83
+    ],
+    [
+     69.54,
+     175.86
+    ],
+    [
+     68.05,
+     177.35
+    ],
+    [
+     66.01,
+     177.9
+    ],
+    [
+     63.98,
+     177.35
+    ],
+    [
+     62.49,
+     175.86
+    ],
+    [
+     61.95,
+     173.83
+    ],
+    [
+     62.49,
+     171.8
+    ],
+    [
+     63.98,
+     170.31
+    ],
+    [
+     66.01,
+     169.76
+    ],
+    [
+     68.05,
+     170.31
+    ],
+    [
+     69.54,
+     171.8
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    68.2,
+    172.7
+   ]
+  },
+  {
+   "code": "CORA",
+   "n": 1,
+   "status": "leaderdisc",
+   "area_sqft": 4,
+   "expected_area_sqft": 4,
+   "polygon": [
+    [
+     237.89,
+     200.09
+    ],
+    [
+     237.74,
+     200.66
+    ],
+    [
+     237.33,
+     201.07
+    ],
+    [
+     236.77,
+     201.22
+    ],
+    [
+     236.2,
+     201.07
+    ],
+    [
+     235.79,
+     200.66
+    ],
+    [
+     235.64,
+     200.09
+    ],
+    [
+     235.79,
+     199.53
+    ],
+    [
+     236.2,
+     199.12
+    ],
+    [
+     236.77,
+     198.97
+    ],
+    [
+     237.33,
+     199.12
+    ],
+    [
+     237.74,
+     199.53
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    236.2,
+    199.7
+   ]
+  },
+  {
+   "code": "COZA",
+   "n": 28,
+   "status": "leaderdisc",
+   "area_sqft": 63,
+   "expected_area_sqft": 63,
+   "polygon": [
+    [
+     104.42,
+     -2.68
+    ],
+    [
+     103.82,
+     -0.44
+    ],
+    [
+     102.18,
+     1.2
+    ],
+    [
+     99.94,
+     1.8
+    ],
+    [
+     97.7,
+     1.2
+    ],
+    [
+     96.06,
+     -0.44
+    ],
+    [
+     95.46,
+     -2.68
+    ],
+    [
+     96.06,
+     -4.92
+    ],
+    [
+     97.7,
+     -6.56
+    ],
+    [
+     99.94,
+     -7.16
+    ],
+    [
+     102.18,
+     -6.56
+    ],
+    [
+     103.82,
+     -4.92
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    102.3,
+    -1.4
+   ]
+  },
+  {
+   "code": "MUHL",
+   "n": 37,
+   "status": "leaderdisc",
+   "area_sqft": 231,
+   "expected_area_sqft": 231,
+   "polygon": [
+    [
+     136.69,
+     -3.62
+    ],
+    [
+     135.54,
+     0.67
+    ],
+    [
+     132.4,
+     3.81
+    ],
+    [
+     128.11,
+     4.96
+    ],
+    [
+     123.82,
+     3.81
+    ],
+    [
+     120.68,
+     0.67
+    ],
+    [
+     119.53,
+     -3.62
+    ],
+    [
+     120.68,
+     -7.91
+    ],
+    [
+     123.82,
+     -11.05
+    ],
+    [
+     128.11,
+     -12.2
+    ],
+    [
+     132.4,
+     -11.05
+    ],
+    [
+     135.54,
+     -7.91
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-101",
+   "target_ft": [
+    133.0,
+    -1.9
+   ]
+  },
+  {
+   "code": "SEAS",
+   "n": 170,
+   "status": "leaderdisc",
+   "area_sqft": 170,
+   "expected_area_sqft": 170,
+   "polygon": [
+    [
+     27.97,
+     132.44
+    ],
+    [
+     26.98,
+     136.12
+    ],
+    [
+     24.29,
+     138.81
+    ],
+    [
+     20.61,
+     139.8
+    ],
+    [
+     16.94,
+     138.81
+    ],
+    [
+     14.24,
+     136.12
+    ],
+    [
+     13.26,
+     132.44
+    ],
+    [
+     14.24,
+     128.76
+    ],
+    [
+     16.94,
+     126.07
+    ],
+    [
+     20.61,
+     125.09
+    ],
+    [
+     24.29,
+     126.07
+    ],
+    [
+     26.98,
+     128.76
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-100",
+   "target_ft": [
+    16.2,
+    133.0
+   ]
+  },
+  {
+   "code": "OSOR",
+   "n": 42,
+   "status": "leaderdisc",
+   "area_sqft": 168,
+   "expected_area_sqft": 168,
+   "polygon": [
+    [
+     59.93,
+     199.89
+    ],
+    [
+     58.95,
+     203.54
+    ],
+    [
+     56.27,
+     206.22
+    ],
+    [
+     52.61,
+     207.2
+    ],
+    [
+     48.96,
+     206.22
+    ],
+    [
+     46.28,
+     203.54
+    ],
+    [
+     45.3,
+     199.89
+    ],
+    [
+     46.28,
+     196.23
+    ],
+    [
+     48.96,
+     193.55
+    ],
+    [
+     52.61,
+     192.57
+    ],
+    [
+     56.27,
+     193.55
+    ],
+    [
+     58.95,
+     196.23
+    ]
+   ],
+   "conf": "I",
+   "sheet": "LP-100",
+   "target_ft": [
+    56.4,
+    197.7
+   ]
+  }
+ ],
+ "parking_islands": {
+  "source": "LP-100 island curb ovals (17, 37 x 10 ft, one WILO each)",
+  "items": [
+   {
+    "x": -204.5,
+    "y": 152.7,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -204.5,
+    "y": 230.5,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -204.5,
+    "y": 263.7,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -204.5,
+    "y": 354.2,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -143.5,
+    "y": 152.7,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -143.5,
+    "y": 230.5,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -143.5,
+    "y": 263.7,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -143.5,
+    "y": 354.2,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -82.5,
+    "y": 152.7,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -82.5,
+    "y": 230.5,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -82.5,
+    "y": 263.7,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": -82.5,
+    "y": 354.2,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": 92.0,
+    "y": 263.7,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": 92.0,
+    "y": 354.2,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": 153.1,
+    "y": 263.7,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": 153.1,
+    "y": 354.2,
+    "w": 37.0,
+    "h": 10.0
+   },
+   {
+    "x": 214.0,
+    "y": 354.2,
+    "w": 37.0,
+    "h": 10.0
+   }
+  ]
+ },
+ "existing_street_trees": {
+  "source": "LP-100 grey tree symbols: 14 along Golf Links Dr ('13 existing trees to remain' label) and 8 along Midway Park Dr ('7 existing trees to remain')",
+  "items": [
+   {
+    "x": -332.6,
+    "y": 442.7,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": -292.5,
+    "y": 436.6,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": -255.5,
+    "y": 432.0,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": -216.4,
+    "y": 427.8,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": -173.8,
+    "y": 424.6,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": -135.6,
+    "y": 422.7,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": -96.6,
+    "y": 421.0,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": -51.0,
+    "y": 420.7,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": 68.0,
+    "y": 423.2,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": 107.0,
+    "y": 424.5,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": 147.9,
+    "y": 425.6,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": 187.5,
+    "y": 426.6,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": 226.5,
+    "y": 428.0,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": 266.5,
+    "y": 429.4,
+    "street": "Golf_Links_Dr"
+   },
+   {
+    "x": 310.4,
+    "y": -100.5,
+    "street": "Midway_Park_Dr"
+   },
+   {
+    "x": 310.6,
+    "y": 54.0,
+    "street": "Midway_Park_Dr"
+   },
+   {
+    "x": 310.7,
+    "y": 4.5,
+    "street": "Midway_Park_Dr"
+   },
+   {
+    "x": 310.8,
+    "y": 94.8,
+    "street": "Midway_Park_Dr"
+   },
+   {
+    "x": 310.8,
+    "y": 184.7,
+    "street": "Midway_Park_Dr"
+   },
+   {
+    "x": 311.5,
+    "y": 377.9,
+    "street": "Midway_Park_Dr"
+   },
+   {
+    "x": 311.6,
+    "y": 336.0,
+    "street": "Midway_Park_Dr"
+   },
+   {
+    "x": 311.7,
+    "y": 135.6,
+    "street": "Midway_Park_Dr"
+   }
+  ]
+ },
+ "lighting": {
+  "path_lights": 20,
+  "source": "LP-101 lighting schedule (Unique Lighting Van Gogh, 20) + PCO 34 allowance 10/28/2025 (20 bronze path lights)",
+  "modeled": false
+ },
+ "sizes_for_model": {
+  "tree_new": {
+   "height_ft": 12,
+   "canopy_ft": 7,
+   "trunk_in": 3,
+   "basis": "schedule 8 ft min / 2.5 in cal at planting (2025); drone photos 2026 show ~12 ft young trees (I)"
+  },
+  "tree_existing": {
+   "height_ft": 22,
+   "canopy_ft": 14,
+   "trunk_in": 6,
+   "basis": "photos 2026 (I)"
+  },
+  "shrub": "height = schedule minimum height; width = min(spacing, 1.3 x height) (I)",
+  "groundcover_patch_height_ft": 0.6,
+  "annual_patch_height_ft": 0.4,
+  "mulch_disc_radius_ft": 1.6
+ },
+ "materials": {
+  "foliage_tree": [
+   0.16,
+   0.3,
+   0.1
+  ],
+  "foliage_existing": [
+   0.14,
+   0.27,
+   0.1
+  ],
+  "shrub_green": [
+   0.2,
+   0.34,
+   0.14
+  ],
+  "shrub_purple": [
+   0.28,
+   0.16,
+   0.24
+  ],
+  "shrub_grass": [
+   0.55,
+   0.52,
+   0.3
+  ],
+  "groundcover": [
+   0.4,
+   0.48,
+   0.2
+  ],
+  "annual": [
+   0.6,
+   0.35,
+   0.4
+  ],
+  "mulch": [
+   0.2,
+   0.12,
+   0.07
+  ],
+  "trunk": [
+   0.25,
+   0.18,
+   0.12
+  ]
+ }
+}

@@ -1,0 +1,92 @@
+{
+  "v010_objects": 810,
+  "v011_objects": 813,
+  "building_facade_openings_canopy_objects_excluding_the_two_rebuilt_regions": 509,
+  "rebuilt_regions_changed": [
+    "FR_WEST_GLZ_W2",
+    "FR_WEST_PNL1_W2b"
+  ],
+  "building_objects_changed": [],
+  "building_objects_missing": [],
+  "building_identical": true,
+  "objects_changed": {
+    "site": [],
+    "landscape": [],
+    "other": [
+      "FR_WEST_GLZ_W2",
+      "FR_WEST_PNL1_W2b"
+    ]
+  },
+  "objects_added": [
+    "BI_cam_tower_closeup",
+    "BI_cam_tower_side_depth",
+    "BI_cam_tower_west_elevation_ortho"
+  ],
+  "objects_removed": [],
+  "objects_changed_count": 2,
+  "objects_identical_count": 808,
+  "materials_changed_node_trees": [],
+  "materials_added": [],
+  "materials_removed": [],
+  "world_nodes_identical": true,
+  "view_identical": true,
+  "samples": {
+    "v010": 256,
+    "v011": 256
+  },
+  "cameras_added": [
+    "BI_cam_tower_closeup",
+    "BI_cam_tower_side_depth",
+    "BI_cam_tower_west_elevation_ortho"
+  ],
+  "bbox_ft_changed_and_added": {
+    "FR_WEST_GLZ_W2": {
+      "v010": [
+        28.47,
+        54.2,
+        0.0,
+        70.97,
+        74.38,
+        24.6,
+        142,
+        59,
+        "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder"
+      ],
+      "v011": [
+        28.47,
+        54.2,
+        0.0,
+        28.47,
+        74.38,
+        24.6,
+        112,
+        38,
+        "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder"
+      ]
+    },
+    "FR_WEST_PNL1_W2b": {
+      "v010": [
+        28.47,
+        54.2,
+        24.6,
+        70.97,
+        74.38,
+        40.0,
+        11,
+        3,
+        "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+      ],
+      "v011": [
+        28.47,
+        54.2,
+        24.6,
+        28.47,
+        74.38,
+        40.0,
+        4,
+        1,
+        "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+      ]
+    }
+  }
+}

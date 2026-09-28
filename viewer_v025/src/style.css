@@ -1,0 +1,49 @@
+html, body { margin: 0; height: 100%; overflow: hidden; font: 13px/1.4 "Segoe UI", Arial, sans-serif; color: #1c2430; background: #cfd8e3; }
+#view { position: fixed; inset: 0; width: 100%; height: 100%; display: block; outline: none; }
+#panel { position: fixed; top: 10px; left: 10px; width: 300px; max-height: calc(100% - 20px); overflow-y: auto; box-sizing: border-box;
+         background: rgba(255, 255, 255, 0.93); border: 1px solid #b8c2cf; border-radius: 8px; padding: 10px 12px; }
+#room-panel { position: fixed; top: 10px; right: 10px; width: 280px; box-sizing: border-box; background: rgba(255, 255, 255, 0.93); border: 1px solid #b8c2cf;
+              border-radius: 8px; padding: 8px 12px 10px; }
+#room-panel h2 { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #55606e; margin: 0; }
+#room-panel button { font-size: 11.5px; padding: 2px 7px; }
+#panel h1 { font-size: 14.5px; margin: 0; line-height: 1.3; }
+#panel .sub { margin: 2px 0 8px; color: #55606e; font-size: 12px; }
+#panel h2 { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #55606e; margin: 10px 0 5px; border-top: 1px solid #dde3ea; padding-top: 8px; }
+#panel label { display: block; margin: 3px 0; cursor: pointer; }
+#panel select { width: 100%; font: inherit; padding: 4px 6px; margin-bottom: 4px; border: 1px solid #9aa7b7; border-radius: 5px; background: #fff; }
+.row { display: flex; gap: 5px; margin-bottom: 5px; flex-wrap: wrap; align-items: center; }
+.row.space { justify-content: space-between; margin-bottom: 4px; }
+button { font: inherit; padding: 5px 9px; border: 1px solid #9aa7b7; border-radius: 5px; background: #f3f6f9; cursor: pointer; }
+button:hover { background: #e4ebf3; }
+button.mode.on, button.floor.on, #viewpoints button.on, #measure.on, #present.on { background: #24446e; border-color: #24446e; color: #fff; }
+#viewpoints button { display: block; width: 100%; text-align: left; margin: 3px 0; }
+.hint { color: #5d6875; font-size: 11.5px; margin: 5px 0 0; }
+#room-info table { border-collapse: collapse; width: 100%; font-size: 12.5px; color: #1c2430; }
+#room-info td { padding: 2px 4px 2px 0; vertical-align: top; }
+#room-info td:first-child { color: #5d6875; white-space: nowrap; }
+#room-info .name { font-size: 15px; font-weight: 600; color: #1c2430; margin: 4px 0 3px; }
+#measure-readout { font-size: 13px; margin: 4px 0; }
+#measure-readout .big { font-size: 20px; font-weight: 600; color: #1c2430; }
+#measure-readout table { border-collapse: collapse; font-size: 12px; }
+#measure-readout td { padding: 1px 8px 1px 0; color: #5d6875; }
+#measure-readout td:last-child { color: #1c2430; }
+details summary { cursor: pointer; color: #7a5a12; font-size: 12px; }
+#warning { font-size: 12px; color: #5a4410; background: #fbf3dc; border: 1px solid #e6d59a; border-radius: 5px; padding: 6px 8px; margin: 6px 0 0; }
+#status { position: fixed; right: 10px; bottom: 8px; background: rgba(255, 255, 255, 0.85); border-radius: 5px; padding: 3px 8px; font-size: 11.5px; color: #34404e; }
+#toast { position: fixed; left: 50%; bottom: 40px; transform: translateX(-50%); background: rgba(28, 36, 48, 0.9); color: #fff; padding: 7px 14px;
+         border-radius: 6px; font-size: 12.5px; max-width: 60%; text-align: center; }
+#loading { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 17px; background: #cfd8e3; z-index: 5; }
+#crosshair { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); color: rgba(255, 255, 255, 0.85); font-size: 20px;
+             text-shadow: 0 0 3px #000; pointer-events: none; }
+.present-only { display: none; }
+body.presentation .tech, body.presentation #present { display: none !important; }
+body.presentation .present-only { display: inline-block; }
+body.measuring #view { cursor: crosshair; }
+/* v020 additions */
+button.floor.lobby-btn { background: #8a5a1e; border-color: #8a5a1e; color: #fff; font-weight: 600; }
+button.floor.lobby-btn:hover { background: #a06a24; }
+button.floor.lobby-btn.on { background: #5e3c10; border-color: #5e3c10; }
+#lobby-views button, #lobby-free { display: block; width: 100%; text-align: left; margin: 3px 0; }
+#lobby-views button.on, #lobby-free.on, button.cmp.on { background: #24446e; border-color: #24446e; color: #fff; }
+.hint-inline { color: #5d6875; font-size: 11.5px; }
+.row.compare { margin-top: 4px; }

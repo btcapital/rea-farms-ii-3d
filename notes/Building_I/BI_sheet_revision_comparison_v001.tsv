@@ -1,0 +1,214 @@
+sheet	sheet_name_rev14	revs_rev6_set	revs_rev14_set	max_rev_rev14	changed_after_rev6	in_rev6	in_rev14
+A0.01	Architectural Site Plan	5,6	2,5,6,9	9	yes	yes	yes
+A0.02	Building Axonometric	5,6	5,6,7,9,12	12	yes	yes	yes
+A0.03	Building Axonometric	5,6	5,6,7,12	12	yes	yes	yes
+A0.04	Dumpster Enclosure Details	6	6,7	7	yes	yes	yes
+A0.12	Level 1 Life Safety Plan	4,5,6	2,4,5,6,9,10	10	yes	yes	yes
+A0.13	Level 2 Life Safety Plan	4,5	2,4,5,7	7	yes	yes	yes
+A0.14	Level 1 Fire Rating Plan	4,6	4,6	6	no	yes	yes
+A0.21	Wall Types - Exterior		9	9	yes	yes	yes
+A0.22	Wall Types - Interior	5,6	2,5,6,9,12	12	yes	yes	yes
+A0.31	UL Assemblies - U465			0	no	yes	yes
+A0.32	UL Assemblies - U469			0	no	yes	yes
+A0.33	UL Assemblies - N823, X827, X829			0	no	yes	yes
+A0.34	UL Assemblies - HW-D-0034, HW-D-0548			0	no	yes	yes
+A0.35	UL Assemblies - BW-S-0020, BW-S-0030			0	no	yes	yes
+A0.36	UL Assemblies - HW-D-0099	4,5	4,5	5	no	yes	yes
+A1.00a	Level 1 Edge of Slab Plan	4,6	4,6,7	7	yes	yes	yes
+A1.00b	Level 2 Edge of Slab Plan	6	6	6	no	yes	yes
+A1.00c	Roof Edge of Slab Plan	6	6,7	7	yes	yes	yes
+A1.01	Level 1 Building Plan	4,5,6	4,5,6,7,9,12,13,14	14	yes	yes	yes
+A1.02	Level 2 Building Plan	6	6,7,9,11,12,13	13	yes	yes	yes
+A1.03	Roof Plan	6	6,7,11,12	12	yes	yes	yes
+A1.13	Entry Canopy Plans & Details	6	6,13	13	yes	yes	yes
+A2.01	Enlarged Plans		7,9,12	12	yes	yes	yes
+A2.02	ans	4,5,6	4,5,6,7,9,10,12	12	yes	yes	yes
+A2.03	Enlarged Plans	5,6	5,6,7,9,11,12,13	13	yes	yes	yes
+A2.04	Enlarged Restroom Plans	4,6	2,4,6,7,9,13,14	14	yes	yes	yes
+A2.05	Enlarged Restroom Plans	4,6	2,4,6,7,13	13	yes	yes	yes
+A2.06	Enlarged Restroom Plans	4,6	2,4,6,7,9,12,13	13	yes	yes	yes
+A2.11	Level 1 Plan Detail Callout Plan	4,6	4,6	6	no	yes	yes
+A2.12	Level 2 Plan Detail Callout Plan	6	6,11,13	13	yes	yes	yes
+A2.13	Enlarged Plan Details	6	6,9,12	12	yes	yes	yes
+A2.14	Enlarged Plan Details	6	6,7,9,12	12	yes	yes	yes
+A2.15	Enlarged Plan Details	6	6,7,12,13	13	yes	yes	yes
+A2.16	Enlarged Plan Details	4,5,6	4,5,6,7	7	yes	yes	yes
+A2.17	Enlarged Plan Details	6	6	6	no	yes	yes
+A2.18	Enlarged Plan Details	6	6,7	7	yes	yes	yes
+A2.20	Enlarged Plan Details	6	6,12	12	yes	yes	yes
+A2.21	Enlarged Plan Details	6	6,7	7	yes	yes	yes
+A2.22	Enlarged Plan Details	6	6,7,13	13	yes	yes	yes
+A2.23	Enlarged Plan Details		9,12	12	yes	yes	yes
+A2.31	Level 1 Equipment Plan	5,6	5,6,7,13	13	yes	yes	yes
+A2.32	Level 2 Equipment Plan	6	6,7,9,11,12,13	13	yes	yes	yes
+A3.01	Reflected Ceiling Plan - First Floor	4,5,6	4,5,6,7,9,12,13,14	14	yes	yes	yes
+A3.02	Reflected Ceiling Plan - Second Floor	4,5,6	4,5,6,7,9,11,12,13,14	14	yes	yes	yes
+A3.03	Enlarged Reflected Ceiling Plan & Details	4,5,6	4,5,6,7,9,12,13,14	14	yes	yes	yes
+A3.04	Enlarged Reflected Ceiling Details	4,5,6	4,5,6,7,9,11,12,13,14	14	yes	yes	yes
+A3.05	Ceiling Details	4,5	4,5,7,11	11	yes	yes	yes
+A3.06	Ceiling Details	4,5	4,5,7,9,11,13	13	yes	yes	yes
+A3.11	Interior Elevations - Lobby	4,5,6	4,5,6,7,9,12	12	yes	yes	yes
+A3.12	Interior Elevations - Corridor	4,6	4,6,7,12	12	yes	yes	yes
+A3.13	Interior Elevations - Courts 1	4,6	2,4,6,7,9,11,12	12	yes	yes	yes
+A3.14	Interior Elevations - Courts 2	4,6	2,4,6,7,9,11,12	12	yes	yes	yes
+A3.15	Interior Elevations - Courts 3	4,6	2,4,6,7,9,11,12	12	yes	yes	yes
+A3.16	Interior Elevations - Millwork	4,5,6	4,5,6,7,9,11,13	13	yes	yes	yes
+A3.20	Casework Sections	4,6	2,4,6,7,9,13	13	yes	yes	yes
+A3.21	anelCasework Sections door e		7,9,11,13	13	yes	yes	yes
+A4.01	Building Elevations	3,6	3,6,9,11,12	12	yes	yes	yes
+A4.02	Building Elevations	3,5,6	3,5,6,7,9,11,12	12	yes	yes	yes
+A4.03	Enlarged Exterior Elevations	6	6,9,11,12	12	yes	yes	yes
+A4.04	Enlarged Exterior Elevations	4,6	4,6,7,9,11	11	yes	yes	yes
+A4.05	Enlarged Exterior Elevations	6	6,9,11,12	12	yes	yes	yes
+A4.06	Enlarged Exterior Elevations	5,6	5,6,9,11	11	yes	yes	yes
+A5.01	Building Sections		7	7	yes	yes	yes
+A5.11	Exterior Wall Sections			0	no	yes	yes
+A5.12	Exterior Wall Sections		12	12	yes	yes	yes
+A5.13	Exterior Wall Sections	6	6,7,12	12	yes	yes	yes
+A5.14	Exterior Wall Sections		12	12	yes	yes	yes
+A5.15	Exterior Wall Sections		9,12,13	13	yes	yes	yes
+A5.16	Exterior Wall Sections		12	12	yes	yes	yes
+A5.17	Exterior Wall Sections		7,12	12	yes	yes	yes
+A5.18	Exterior Wall Sections	6	6,9,12,13	13	yes	yes	yes
+A5.19	Exterior Wall Sections 6	6	6	6	no	yes	yes
+A5.21	Exterior Wall Section Details	6	6,9	9	yes	yes	yes
+A5.22	Exterior Wall Section Details	6	6,9,12	12	yes	yes	yes
+A5.23	Exterior Wall Section Details	6	2,6,9,12,13	13	yes	yes	yes
+A5.24	Exterior Wall Section Details	6	6,7,9	9	yes	yes	yes
+A5.25	Exterior Wall Section Details	6	6,9,12,13	13	yes	yes	yes
+A5.26	Exterior Wall Section Details	6	6,7,9,12	12	yes	yes	yes
+A5.27	Exterior Wall Section Details	6	6,7,9	9	yes	yes	yes
+A5.31	Interior Wall Sections	4,5,6	4,5,6,7	7	yes	yes	yes
+A5.32	Interior Wall Sections	4,6	4,6	6	no	yes	yes
+A6.01	Elevator Plans, Sections, & Details	4	4	4	no	yes	yes
+A6.02	Elevator Lift Plans, Sections, & Details			0	no	yes	yes
+A6.11	Enlarged Stair Plans & Sections - Lobby Stair	4,5	2,4,5,7,11,13	13	yes	yes	yes
+A6.12	Enlarged Stair Plans & Sections - South Stair	4,5	2,4,5,7	7	yes	yes	yes
+A6.13	Enlarged Stair Plans & Sections - Mezzanine Stairs	4,5	2,4,5,7,11,12	12	yes	yes	yes
+A6.14	Enlarged Stair Plans & Sections - Gallery Stair	4,5	2,4,5,7,11,12	12	yes	yes	yes
+A6.21	Stair, Guard and Hand Rail Details	4	4,7,11,12	12	yes	yes	yes
+A7.01	Door Schedules & Elevations	4,5,6	4,5,6,9,11,12,13	13	yes	yes	yes
+A7.02	Door Hardware Sets	5,6	2,5,6,7,10,11,12	12	yes	yes	yes
+A7.11	Door Details - Exterior	6	6,9	9	yes	yes	yes
+A7.12	Door Details - Interior		9	9	yes	yes	yes
+A7.13	Interior Office Door Glazing Details		12	12	yes	yes	yes
+A7.21	Exterior Storefront Elevations	4,6	4,6	6	no	yes	yes
+A7.22	Exterior Storefront Elevations	4	4	4	no	yes	yes
+A7.23	Exterior Storefront Elevations	4,6	4,6	6	no	yes	yes
+A7.24	Interior Storefront Elevations	4,6	4,6	6	no	yes	yes
+A7.25	Curtain Wall Elevations	4	4	4	no	yes	yes
+A7.26	Curtain Wall Elevations	4,6	4,6	6	no	yes	yes
+A7.27	Translucent Wall Elevations		9	9	yes	yes	yes
+A7.28	Storefront/Curtain Wall Elevations 12		9,12	12	yes	yes	yes
+A7.31	Storefront Details	6	6,9,12	12	yes	yes	yes
+A7.32	Storefront Details	6	6,9	9	yes	yes	yes
+A7.33	Storefront Details Interior	6	6,9	9	yes	yes	yes
+A7.34	Curtain Wall Details	6	6,9	9	yes	yes	yes
+A7.35	SF, CW, Translucent Wall Details	6	6,9,12	12	yes	yes	yes
+E0.01	ELECTRICAL - GENERAL NOTES AND LEGENDS	6	6,13	13	yes	yes	yes
+E0.02	ELECTRICAL - SITE PLAN		13	13	yes	no	yes
+E1.01	ELECTRICAL - LEVEL 01 - LIGHTING PLAN	4,5,6	4,5,6,11,13	13	yes	yes	yes
+E1.02	ELECTRICAL - LEVEL 02 - LIGHTING PLAN	6	6,11,12,13	13	yes	yes	yes
+E2.01	ELECTRICAL - LEVEL 01 - POWER PLAN	5,6	5,6,8,13	13	yes	yes	yes
+E2.02	ELECTRICAL - LEVEL 02 - POWER PLAN	6	6,8,11,12,13,14	14	yes	yes	yes
+E2.03	ELECTRICAL - ROOF - POWER PLAN	6	6	6	no	yes	yes
+E3.01	ELECTRICAL - LEVEL 01 - SYSTEMS PLAN	5,6	5,6	6	no	yes	yes
+E3.02	ELECTRICAL - LEVEL 02 - SYSTEMS PLAN	6	6,11	11	yes	yes	yes
+E5.01	ELECTRICAL - ENLARGED PLANS	6	6,8,13	13	yes	yes	yes
+E5.02	ELECTRICAL - RISER DIAGRAMS	6	6,13	13	yes	yes	yes
+E6.01	ELECTRICAL - LIGHTING FIXTURE SCHEDULE	6	6,11,13	13	yes	yes	yes
+E6.02	ELECTRICAL - EQUIPMENT SCHEDULE	6	6,12,13	13	yes	yes	yes
+E6.03	ELECTRICAL - PANEL SCHEDULES	6	6,8,12,13	13	yes	yes	yes
+E6.04	ELECTRICAL - PANEL SCHEDULES	6	6,11,12,13	13	yes	yes	yes
+E6.05	ELECTRICAL - PANEL SCHEDULES	6	6,11	11	yes	yes	yes
+E7.01	ELECTRICAL - DETAILS			0	no	yes	yes
+E7.02	ELECTRICAL - DETAILS			0	no	yes	yes
+FP0.01	FIRE PROTECTION - GENERAL NOTES AND LEGEND		8	8	yes	yes	yes
+FP1.01	FIRE PROTECTION - LEVEL 01	6	6	6	no	yes	yes
+FP1.02	FIRE PROTECTION - LEVEL 02	6	6	6	no	yes	yes
+G0.00		1,2,3,4,5,6	1,2,3,4,5,6,7,8,9,10,11,12,13,14	14	yes	yes	yes
+G0.01	Code Summary	4,5,6	2,4,5,6,7	7	yes	yes	yes
+G0.02	Level 1 Appendix B Exhibit	4,5,6	4,5,6	6	no	yes	yes
+G0.03	Level 2 Appendix B Exhibit	4,6	4,6	6	no	yes	yes
+G1.01	COMcheck		9	9	yes	yes	yes
+G1.02	Special Inspections			0	no	yes	yes
+G1.03	Declaration of Emergency Egress Easement 10		10	10	yes	no	yes
+ID1.0	1st Floor Finish Plan		9	9	yes	no	yes
+ID1.1	2nd Floor Finish Plan		9	9	yes	no	yes
+ID2.0	1st Floor Specialty Wall Finish Plan		13	13	yes	no	yes
+ID2.1	2nd Floor Specialty Wall Finish Plan		9,11,13	13	yes	no	yes
+ID3.0	1st Floor Reflected Ceiling Plan		9,13	13	yes	no	yes
+ID3.1	2nd Floor Reflected Ceiling Plan		9,13	13	yes	no	yes
+ID4.0	Enlarged Reflected Ceiling Plan & Details		9	9	yes	no	yes
+ID4.1	Enlarged Reflected Ceiling Details		9,13	13	yes	no	yes
+ID5.0	Enlarged Restroom Plans		9,13	13	yes	no	yes
+ID5.1	Enlarged Restroom Plans		13	13	yes	no	yes
+ID5.2	Enlarged Restroom Plans		9,13	13	yes	no	yes
+ID6.0	Interior Elevations - Millwork		9,11,13	13	yes	no	yes
+ID7.0	Floor Transition Details 7			0	yes	no	yes
+ID8.0	Finish Schedule		13	13	yes	no	yes
+M0.01	MECHANICAL - GENERAL NOTES AND LEGENDS			0	no	yes	yes
+M2.01	MECHANICAL - LEVEL 1 - HVAC PLAN	6	6,8,13,14	14	yes	yes	yes
+M2.02	MECHANICAL - LEVEL 2 - HVAC PLAN	1,6	1,6,8,11,12,13,14	14	yes	yes	yes
+M2.03	MECHANICAL - ROOF - HVAC PLAN	6	6	6	no	yes	yes
+M4.01	MECHANICAL - SECTION VIEWS	6	6	6	no	yes	yes
+M5.01	MECHANICAL - CONTROLS	6	6	6	no	yes	yes
+M5.02	MECHANICAL - CONTROLS			0	no	yes	yes
+M6.01	MECHANICAL - SCHEDULES	6	6,8,12	12	yes	yes	yes
+M6.02	MECHANICAL - SCHEDULES	6	6,13,14	14	yes	yes	yes
+M6.03	MECHANICAL - OUTDOOR AIR TABLES			0	no	yes	yes
+M7.01	MECHANICAL - DETAILS			0	no	yes	yes
+M7.02	MECHANICAL - DETAILS			0	no	yes	yes
+P0.01	PLUMBING - GENERAL NOTES, SCHEDULES AND LEGENDS		13,14	14	yes	yes	yes
+P1.01	PLUMBING - LEVEL 01 - WASTE AND VENT PLAN			0	no	yes	yes
+P1.02	PLUMBING - LEVEL 02 - WASTE AND VENT PLAN		13	13	yes	yes	yes
+P2.01	PLUMBING - LEVEL 01 - WATER AND GAS PLAN	1,6	1,6,13,14	14	yes	yes	yes
+P2.02	PLUMBING - LEVEL 02 - WATER AND GAS PLAN	6	6,13	13	yes	yes	yes
+P3.00	PLUMBING - BELOW GRADE - STORM PLAN	6	6	6	no	yes	yes
+P3.01	PLUMBING - LEVEL 01 - STORM PLAN	6	6	6	no	yes	yes
+P3.02	PLUMBING - LEVEL 02 - STORM PLAN	6	6	6	no	yes	yes
+P3.03	PLUMBING - ROOF - STORM PLAN	6	6	6	no	yes	yes
+P4.01	ING - GED VENT LANS		13	13	yes	yes	yes
+P4.02	PLUMBING - ENLARGED WATER AND GAS PLANS	1,6	1,6,13,14	14	yes	yes	yes
+P5.01	PLUMBING - WASTE AND VENT RISER DIAGRAM EAST			0	no	yes	yes
+P5.02	PLUMBING - WASTE AND VENT RISER DIAGRAM WEST			0	no	yes	yes
+P5.03	PLUMBING - WATER RISER DIAGRAM EAST	6	6,14	14	yes	yes	yes
+P5.04	PLUMBING - WATER RISER DIAGRAM WEST	6	6	6	no	yes	yes
+P5.05	PLUMBING - GAS RISER DIAGRAM	1,6	1,6,14	14	yes	yes	yes
+P5.06	PLUMBING - STORM RISER DIAGRAM	6	6	6	no	yes	yes
+P7.01	PLUMBING - DETAILS			0	no	yes	yes
+P7.02	PLUMBING - DETAILS	6	6,13,14	14	yes	yes	yes
+S001	DATE               12                                  6/16/2025 6                                 11/15/2024 09/03/2024 6                                 11/15/2024 09/03/2024             12                                  6/16/2025 11                                 05/22/2025 09/03/2024              7                                  1/20/2025	6	6,11,12	12	yes	yes	yes
+S002	GENERAL NOTES - CONCRETE	6	6	6	no	yes	yes
+S003	GENERAL NOTES - MASONRY			0	no	yes	yes
+S004	GENERAL NOTES - STEEL			0	no	yes	yes
+S101	FOUNDATION PLAN	6	6	6	no	yes	yes
+S102	2ND FLOOR FRAMING PLAN	6	6,12	12	yes	yes	yes
+S103	ROOF FRAMING PLAN	6	6,11	11	yes	yes	yes
+S104	HIGH ROOF FRAMING PLAN HSS10X6X3/8 (TOS <varies>)	6	6	6	no	yes	yes
+S120	ENLARGED PLANS		12	12	yes	yes	yes
+S201	TYPICAL FOUNDATION DETAILS	6	6	6	no	yes	yes
+S202	SECONDARY POURS			0	no	yes	yes
+S203	TYPICAL STEEL DETAILS	6	6	6	no	yes	yes
+S204	TYPICAL JOIST DETAILS	6	6	6	no	yes	yes
+S301	SECTIONS AND DETAILS			0	no	yes	yes
+S302	SECTIONS AND DETAILS			0	no	yes	yes
+S303	SECTIONS AND DETAILS		12	12	yes	yes	yes
+S304	SECTIONS AND DETAILS			0	no	yes	yes
+S305	SECTIONS AND DETAILS		12	12	yes	yes	yes
+S306	SECTIONS AND DETAILS			0	no	yes	yes
+S307	SECTIONS AND DETAILS			0	no	yes	yes
+S308	SECTIONS AND DETAILS			0	no	yes	yes
+S309	SECTIONS AND DETAILS			0	no	yes	yes
+S310	SECTIONS AND DETAILS			0	no	yes	yes
+S311	SECTIONS AND DETAILS	6	6	6	no	yes	yes
+S312	SECTIONS AND DETAILS			0	no	yes	yes
+S313	SECTIONS AND DETAILS			0	no	yes	yes
+S401	BRACED FRAME ELEVATIONS			0	no	yes	yes
+S402	BRACED FRAME ELEVATIONS	6	6	6	no	yes	yes
+S403	BRACED FRAME ELEVATIONS			0	no	yes	yes
+S501	STRUCTURAL ELEVATIONS			0	no	yes	yes
+S502	STRUCTURAL ELEVATIONS			0	no	yes	yes
+S503	STRUCTURAL ELEVATIONS	6	6	6	no	yes	yes
+S504	STRUCTURAL ELEVATIONS	6	6	6	no	yes	yes
+S601	GRAPHICAL COLUMN SCHEDULE	6	6	6	no	yes	yes

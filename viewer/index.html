@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rea Farms II - Building II review viewer (v016)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/style.css">
+  <!-- Three.js is loaded from the local "vendor" folder: the viewer needs no internet connection. -->
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three.module.min.js", "three/addons/": "./vendor/addons/" } }
+  </script>
+</head>
+<body>
+  <canvas id="view"></canvas>
+
+  <div id="loading">Loading Building II model&hellip;</div>
+  <div id="crosshair" hidden>+</div>
+
+  <aside id="panel">
+    <h1>Rea Farms II &middot; Building II</h1>
+    <p class="sub">Review prototype v016 &middot; Concept A &ndash; CNSA ASC (Level 1)</p>
+
+    <section>
+      <h2>Mode</h2>
+      <div class="row">
+        <button id="mode-orbit" class="mode on">Orbit</button>
+        <button id="mode-walk" class="mode">Walk</button>
+        <button id="mode-plan" class="mode">Plan (Level 1)</button>
+      </div>
+      <div class="row"><button id="reset">Reset view</button></div>
+      <p id="help" class="hint"></p>
+    </section>
+
+    <section>
+      <h2>Show / hide</h2>
+      <label><input type="checkbox" id="t-exterior" checked> Building II exterior (solid shell)</label>
+      <label><input type="checkbox" id="t-upper" checked> Roof / Level 2 (upper obstruction)</label>
+      <label><input type="checkbox" id="t-base" checked> Base-building interior</label>
+      <label><input type="checkbox" id="t-concept" checked> Concept A &ndash; CNSA ASC</label>
+      <label><input type="checkbox" id="t-site" checked> Site / context</label>
+      <label><input type="checkbox" id="t-land" checked> Landscaping</label>
+      <label><input type="checkbox" id="t-underlay"> Tenant plan underlay (registered PDF)</label>
+      <label><input type="checkbox" id="t-labels"> Room labels</label>
+      <p class="hint">The exterior is a solid model. It is switched off automatically in Walk and Plan mode so the inside can be seen.</p>
+    </section>
+
+    <section>
+      <h2>Saved viewpoints</h2>
+      <div id="viewpoints"></div>
+      <p class="hint">Review navigation only: a viewpoint button places you inside that room. It is <b>not</b> a documented door connection.</p>
+    </section>
+
+    <section>
+      <details id="note">
+        <summary>Review note</summary>
+        <p id="warning"></p>
+      </details>
+    </section>
+  </aside>
+
+  <aside id="room-panel">
+    <h2>Room information</h2>
+    <div id="room-info" class="hint">Click a tenant room (any mode) to see its data.</div>
+  </aside>
+
+  <div id="status"></div>
+  <div id="toast" hidden></div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

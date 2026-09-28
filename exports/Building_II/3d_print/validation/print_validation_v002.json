@@ -1,0 +1,580 @@
+{
+ "blend": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_II\\print_derivatives\\building_II_print_v002.blend",
+ "scale": "1:240",
+ "printer_bed_mm": [
+  340.0,
+  320.0,
+  340.0
+ ],
+ "planning_margin_mm": 10.0,
+ "parts": {
+  "PRINT_building_body": {
+   "vertices": 5280,
+   "triangles": 10556,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "inconsistent_normal_edges": 0,
+   "volume_m3_real": 19883.71,
+   "volume_cm3_printed": 1438.35,
+   "outward_normals": true,
+   "disconnected_components": 1,
+   "zero_area_triangles": 10,
+   "bbox_real_m": {
+    "min": [
+     -0.181,
+     -0.232,
+     -2.438
+    ],
+    "max": [
+     63.681,
+     34.242,
+     13.36
+    ],
+    "size": [
+     63.862,
+     34.474,
+     15.799
+    ]
+   },
+   "printed_size_mm": [
+    266.1,
+    143.6,
+    65.8
+   ],
+   "fits_bed_mm": true,
+   "fits_with_margin": true,
+   "bed_margin_each_side_mm": [
+    37.0,
+    88.2
+   ],
+   "thickness_rays": {
+    "triangles_tested": 10546,
+    "rays_without_exit": 0,
+    "rays_without_exit_area_mm2": 0.0,
+    "min_mm": 0.322,
+    "p1_mm": 0.7,
+    "area_fraction_below_0_4mm": 1.4251597567773958e-05,
+    "area_fraction_below_0_5mm": 1.4251597567773958e-05,
+    "area_fraction_below_0_8mm": 0.031216087434347933,
+    "triangles_below_0_4mm": 1,
+    "triangles_below_0_8mm": 3957,
+    "thin_cells_0_5m": 2235
+   },
+   "print_orientation": "upright",
+   "support_needed_area_mm2": 3341.6,
+   "support_area_upright_mm2": 3341.6,
+   "support_area_inverted_mm2": 36391.2,
+   "area_fraction_below_0_7mm": 0.00023805866931334084,
+   "area_fraction_below_1_0mm": 0.031529073600147055,
+   "watertight": true
+  },
+  "PRINT_site_base": {
+   "vertices": 42433,
+   "triangles": 84862,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "inconsistent_normal_edges": 0,
+   "volume_m3_real": 5370.085,
+   "volume_cm3_printed": 388.46,
+   "outward_normals": true,
+   "disconnected_components": 1,
+   "zero_area_triangles": 126,
+   "bbox_real_m": {
+    "min": [
+     -9.0,
+     -5.0,
+     -3.048
+    ],
+    "max": [
+     67.25,
+     40.5,
+     5.944
+    ],
+    "size": [
+     76.25,
+     45.5,
+     8.992
+    ]
+   },
+   "printed_size_mm": [
+    317.7,
+    189.6,
+    37.5
+   ],
+   "fits_bed_mm": true,
+   "fits_with_margin": true,
+   "bed_margin_each_side_mm": [
+    11.1,
+    65.2
+   ],
+   "thickness_rays": {
+    "triangles_tested": 84042,
+    "rays_without_exit": 694,
+    "rays_without_exit_area_mm2": 2.672,
+    "min_mm": 0.0,
+    "p1_mm": 0.182,
+    "area_fraction_below_0_4mm": 6.163577065324928e-05,
+    "area_fraction_below_0_5mm": 7.697356008305865e-05,
+    "area_fraction_below_0_8mm": 0.00013909173480689858,
+    "triangles_below_0_4mm": 978,
+    "triangles_below_0_8mm": 1164,
+    "thin_cells_0_5m": 328
+   },
+   "print_orientation": "upright",
+   "support_needed_area_mm2": 16.6,
+   "support_area_upright_mm2": 16.6,
+   "support_area_inverted_mm2": 59808.6,
+   "area_fraction_below_0_7mm": 8.998007080916702e-05,
+   "area_fraction_below_1_0mm": 0.00018578754395157392,
+   "watertight": true
+  },
+  "PRINT_canopy_dropoff": {
+   "vertices": 284,
+   "triangles": 636,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "inconsistent_normal_edges": 0,
+   "volume_m3_real": 44.729,
+   "volume_cm3_printed": 3.24,
+   "outward_normals": true,
+   "disconnected_components": 1,
+   "zero_area_triangles": 3,
+   "bbox_real_m": {
+    "min": [
+     23.615,
+     32.491,
+     -0.5
+    ],
+    "max": [
+     43.613,
+     39.631,
+     5.583
+    ],
+    "size": [
+     19.998,
+     7.14,
+     6.083
+    ]
+   },
+   "printed_size_mm": [
+    83.3,
+    29.7,
+    25.3
+   ],
+   "fits_bed_mm": true,
+   "fits_with_margin": true,
+   "bed_margin_each_side_mm": [
+    128.3,
+    145.1
+   ],
+   "thickness_rays": {
+    "triangles_tested": 633,
+    "rays_without_exit": 0,
+    "rays_without_exit_area_mm2": 0.0,
+    "min_mm": 0.35,
+    "p1_mm": 0.699,
+    "area_fraction_below_0_4mm": 7.067710311341634e-05,
+    "area_fraction_below_0_5mm": 7.067710311341634e-05,
+    "area_fraction_below_0_8mm": 0.00014135420622683268,
+    "triangles_below_0_4mm": 6,
+    "triangles_below_0_8mm": 12,
+    "thin_cells_0_5m": 10
+   },
+   "print_orientation": "on its south edge (rotated +90 deg about X: real +Y points up)",
+   "support_needed_area_mm2": 387.2,
+   "support_area_upright_mm2": 2577.8,
+   "support_area_inverted_mm2": 2570.9,
+   "area_fraction_below_0_7mm": 7.067710311341634e-05,
+   "area_fraction_below_1_0mm": 0.00014135420622683268,
+   "watertight": true
+  },
+  "PRINT_sunshade": {
+   "vertices": 2401,
+   "triangles": 5534,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "inconsistent_normal_edges": 0,
+   "volume_m3_real": 47.222,
+   "volume_cm3_printed": 3.42,
+   "outward_normals": true,
+   "disconnected_components": 1,
+   "zero_area_triangles": 0,
+   "bbox_real_m": {
+    "min": [
+     10.211,
+     3.253,
+     9.449
+    ],
+    "max": [
+     56.776,
+     27.81,
+     9.754
+    ],
+    "size": [
+     46.565,
+     24.557,
+     0.305
+    ]
+   },
+   "printed_size_mm": [
+    194.0,
+    102.3,
+    1.3
+   ],
+   "fits_bed_mm": true,
+   "fits_with_margin": true,
+   "bed_margin_each_side_mm": [
+    73.0,
+    108.8
+   ],
+   "thickness_rays": {
+    "triangles_tested": 5534,
+    "rays_without_exit": 0,
+    "rays_without_exit_area_mm2": 0.0,
+    "min_mm": 0.233,
+    "p1_mm": 1.0,
+    "area_fraction_below_0_4mm": 0.0002272469699065429,
+    "area_fraction_below_0_5mm": 0.0002272469699065429,
+    "area_fraction_below_0_8mm": 0.00030105547560924496,
+    "triangles_below_0_4mm": 8,
+    "triangles_below_0_8mm": 12,
+    "thin_cells_0_5m": 3
+   },
+   "print_orientation": "inverted (top face on bed)",
+   "support_needed_area_mm2": 0.0,
+   "support_area_upright_mm2": 2432.9,
+   "support_area_inverted_mm2": 0.0,
+   "area_fraction_below_0_7mm": 0.00030105547560924496,
+   "area_fraction_below_1_0mm": 0.00030105547560924496,
+   "watertight": true
+  }
+ },
+ "assembly": {
+  "PRINT_building_body x PRINT_site_base": {
+   "overlap_volume_m3": -1.5e-05
+  },
+  "PRINT_canopy_dropoff x PRINT_site_base": {
+   "overlap_volume_m3": -2e-06
+  },
+  "PRINT_canopy_dropoff x PRINT_building_body": {
+   "overlap_volume_m3": 0.0
+  },
+  "PRINT_sunshade x PRINT_building_body": {
+   "overlap_volume_m3": 0.000208
+  },
+  "PRINT_sunshade x PRINT_canopy_dropoff": {
+   "overlap_volume_m3": 0.0
+  },
+  "body_to_base_pocket_wall_gap": {
+   "m": 0.12,
+   "mm": 0.5
+  },
+  "canopy_column_to_socket_wall_gap": {
+   "m": 0.096,
+   "mm": 0.4
+  },
+  "canopy_to_body_min_gap": {
+   "m": 0.0792,
+   "mm": 0.33
+  },
+  "sunshade_to_body_contact_gap": {
+   "m": 0.0,
+   "mm": 0.0
+  },
+  "body_bottom_z": -2.438,
+  "pocket_floor_z": -2.438,
+  "assembled_size_real_m": [
+   76.25,
+   45.5,
+   16.408
+  ],
+  "assembled_size_mm": [
+   317.7,
+   189.6,
+   68.4
+  ]
+ },
+ "glazing_recess": {
+  "openings": 35,
+  "measured": 35,
+  "min_depth_mm": 0.63,
+  "max_depth_mm": 8.78,
+  "per_opening": {
+   "CUT_00_N": {
+    "recess_depth_m": 0.2318,
+    "recess_depth_mm": 0.97,
+    "rib_or_back_hits": 63
+   },
+   "CUT_01_N": {
+    "recess_depth_m": 0.2318,
+    "recess_depth_mm": 0.97,
+    "rib_or_back_hits": 63
+   },
+   "CUT_02_N": {
+    "recess_depth_m": 2.1079,
+    "recess_depth_mm": 8.78,
+    "rib_or_back_hits": 63
+   },
+   "CUT_03_N": {
+    "recess_depth_m": 0.584,
+    "recess_depth_mm": 2.43,
+    "rib_or_back_hits": 63
+   },
+   "CUT_04_N": {
+    "recess_depth_m": 2.1079,
+    "recess_depth_mm": 8.78,
+    "rib_or_back_hits": 63
+   },
+   "CUT_05_N": {
+    "recess_depth_m": 0.9144,
+    "recess_depth_mm": 3.81,
+    "rib_or_back_hits": 63
+   },
+   "CUT_06_N": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_07_N": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_08_N": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_09_N": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_10_E": {
+    "recess_depth_m": 0.9508,
+    "recess_depth_mm": 3.96,
+    "rib_or_back_hits": 63
+   },
+   "CUT_11_E": {
+    "recess_depth_m": 0.9508,
+    "recess_depth_mm": 3.96,
+    "rib_or_back_hits": 63
+   },
+   "CUT_12_E": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_13_E": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_14_E": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_15_E": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.63,
+    "rib_or_back_hits": 63
+   },
+   "CUT_16_E": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.63,
+    "rib_or_back_hits": 63
+   },
+   "CUT_17_E": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.63,
+    "rib_or_back_hits": 63
+   },
+   "CUT_18_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_19_W": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_20_W": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_21_W": {
+    "recess_depth_m": 0.2318,
+    "recess_depth_mm": 0.97,
+    "rib_or_back_hits": 63
+   },
+   "CUT_22_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_23_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_24_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_25_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_26_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_27_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_28_S": {
+    "recess_depth_m": 0.2826,
+    "recess_depth_mm": 1.18,
+    "rib_or_back_hits": 63
+   },
+   "CUT_29_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_30_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_31_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_32_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_33_S": {
+    "recess_depth_m": 0.1524,
+    "recess_depth_mm": 0.64,
+    "rib_or_back_hits": 63
+   },
+   "CUT_lobby_recess": {
+    "recess_depth_m": 0.9144,
+    "recess_depth_mm": 3.81,
+    "rib_or_back_hits": 63
+   }
+  }
+ },
+ "porte_cochere": {
+  "joint_section": {
+   "v001": {
+    "section_m2_at_valley_above_column_tops": 0.0,
+    "section_m2_at_valley_incl_columns": 4.5991
+   },
+   "v002": {
+    "section_m2_at_valley_above_column_tops": 5.694,
+    "section_m2_at_valley_incl_columns": 11.583
+   }
+  },
+  "note": "above the column tops (z > 4.62 m) the v001 wings were not joined at all; the rear wing hung on the three column tops",
+  "valley_rays_hit_tie_at_z": [
+   4.905
+  ],
+  "valley_rays": 25
+ },
+ "sunshade_scan": {
+  "lines": {
+   "south (x=12.0)": {
+    "bars_m": [
+     0.47,
+     0.26,
+     0.258,
+     0.258,
+     0.258,
+     0.258,
+     0.258,
+     0.258,
+     0.258
+    ],
+    "gaps_m": [
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12
+    ]
+   },
+   "east (y=12.2)": {
+    "bars_m": [
+     0.258,
+     0.26,
+     0.258,
+     0.258,
+     0.258,
+     0.258,
+     0.258,
+     0.258,
+     0.47
+    ],
+    "gaps_m": [
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12
+    ]
+   },
+   "north (x=45.6)": {
+    "bars_m": [
+     0.258,
+     0.258,
+     0.258,
+     0.258,
+     0.258,
+     0.26,
+     0.258,
+     0.258,
+     0.47
+    ],
+    "gaps_m": [
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12,
+     0.12
+    ]
+   }
+  },
+  "min_gap_mm": 0.5,
+  "max_gap_mm": 0.5,
+  "min_bar_mm": 1.075,
+  "step_mm": 0.0083
+ },
+ "runtime_s": 2.8,
+ "file_is_dirty_after_checks": false
+}

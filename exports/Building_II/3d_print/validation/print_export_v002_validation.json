@@ -1,0 +1,347 @@
+{
+ "checked": "2026-09-25 09:36",
+ "scale": "1:240",
+ "unit_rule": "3MF declares unit=\"millimeter\"; vertices = model metres x 4.1667",
+ "production": {
+  "building_body": {
+   "triangles": 10556,
+   "vertices": 5280,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 1438347.115,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 12,
+   "size_mm": [
+    266.091,
+    143.643,
+    65.828
+   ],
+   "min_mm": [
+    -0.754,
+    -0.966,
+    -10.16
+   ],
+   "max_mm": [
+    265.337,
+    142.677,
+    55.668
+   ],
+   "watertight": true,
+   "unit": "millimeter",
+   "objects": 1,
+   "build_items": 1,
+   "transform_is_rigid": true,
+   "transform_rotation": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "placed_min_z_mm": 0.0,
+   "placed_size_mm": [
+    266.091,
+    143.643,
+    65.828
+   ],
+   "placed_bed_margin_mm": {
+    "x_min": 37.0,
+    "x_max": 37.0,
+    "y_min": 88.2,
+    "y_max": 88.2
+   },
+   "placed_within_bed_with_10mm": true,
+   "vertices_match_approved_x_scale": true,
+   "triangulation": {
+    "triangles_equal_to_default_outside_resplit": true,
+    "resplit_polygons": 0,
+    "resplit_triangle_counts_ok": true,
+    "triangles_changed": 0,
+    "default_triangles_replaced": 0,
+    "triangles_in_resplit_polygons": 0,
+    "total_triangles": 10556,
+    "max_nonplanarity_of_resplit_polygons_mm": 0.0
+   },
+   "size_matches_approved": true,
+   "approved_size_mm": [
+    266.1,
+    143.6,
+    65.8
+   ]
+  },
+  "site_base": {
+   "triangles": 84862,
+   "vertices": 42433,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 388462.463,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 39,
+   "size_mm": [
+    317.708,
+    189.583,
+    37.465
+   ],
+   "min_mm": [
+    -37.5,
+    -20.833,
+    -12.7
+   ],
+   "max_mm": [
+    280.208,
+    168.75,
+    24.765
+   ],
+   "watertight": true,
+   "unit": "millimeter",
+   "objects": 1,
+   "build_items": 1,
+   "transform_is_rigid": true,
+   "transform_rotation": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "placed_min_z_mm": 0.0,
+   "placed_size_mm": [
+    317.708,
+    189.583,
+    37.465
+   ],
+   "placed_bed_margin_mm": {
+    "x_min": 11.1,
+    "x_max": 11.1,
+    "y_min": 65.2,
+    "y_max": 65.2
+   },
+   "placed_within_bed_with_10mm": true,
+   "vertices_match_approved_x_scale": true,
+   "triangulation": {
+    "triangles_equal_to_default_outside_resplit": true,
+    "resplit_polygons": 14,
+    "resplit_triangle_counts_ok": true,
+    "triangles_changed": 139,
+    "default_triangles_replaced": 139,
+    "triangles_in_resplit_polygons": 212,
+    "total_triangles": 84862,
+    "max_nonplanarity_of_resplit_polygons_mm": 2.4157
+   },
+   "size_matches_approved": true,
+   "approved_size_mm": [
+    317.7,
+    189.6,
+    37.5
+   ]
+  },
+  "dropoff_canopy": {
+   "triangles": 636,
+   "vertices": 284,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 3235.594,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 2,
+   "size_mm": [
+    83.326,
+    29.75,
+    25.346
+   ],
+   "min_mm": [
+    98.396,
+    135.38,
+    -2.083
+   ],
+   "max_mm": [
+    181.723,
+    165.13,
+    23.262
+   ],
+   "watertight": true,
+   "unit": "millimeter",
+   "objects": 1,
+   "build_items": 1,
+   "transform_is_rigid": true,
+   "transform_rotation": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   ],
+   "placed_min_z_mm": 0.0,
+   "placed_size_mm": [
+    83.326,
+    25.346,
+    29.75
+   ],
+   "placed_bed_margin_mm": {
+    "x_min": 128.3,
+    "x_max": 128.3,
+    "y_min": 147.3,
+    "y_max": 147.3
+   },
+   "placed_within_bed_with_10mm": true,
+   "vertices_match_approved_x_scale": true,
+   "triangulation": {
+    "triangles_equal_to_default_outside_resplit": true,
+    "resplit_polygons": 0,
+    "resplit_triangle_counts_ok": true,
+    "triangles_changed": 0,
+    "default_triangles_replaced": 0,
+    "triangles_in_resplit_polygons": 0,
+    "total_triangles": 636,
+    "max_nonplanarity_of_resplit_polygons_mm": 0.0
+   },
+   "size_matches_approved": true,
+   "approved_size_mm": [
+    83.3,
+    29.7,
+    25.3
+   ]
+  },
+  "sunshade": {
+   "triangles": 5534,
+   "vertices": 2401,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 3415.943,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 0,
+   "size_mm": [
+    194.021,
+    102.322,
+    1.27
+   ],
+   "min_mm": [
+    42.545,
+    13.553,
+    39.37
+   ],
+   "max_mm": [
+    236.566,
+    115.874,
+    40.64
+   ],
+   "watertight": true,
+   "unit": "millimeter",
+   "objects": 1,
+   "build_items": 1,
+   "transform_is_rigid": true,
+   "transform_rotation": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     -1.0
+    ]
+   ],
+   "placed_min_z_mm": 0.0,
+   "placed_size_mm": [
+    194.021,
+    102.322,
+    1.27
+   ],
+   "placed_bed_margin_mm": {
+    "x_min": 73.0,
+    "x_max": 73.0,
+    "y_min": 108.8,
+    "y_max": 108.8
+   },
+   "placed_within_bed_with_10mm": true,
+   "vertices_match_approved_x_scale": true,
+   "triangulation": {
+    "triangles_equal_to_default_outside_resplit": true,
+    "resplit_polygons": 0,
+    "resplit_triangle_counts_ok": true,
+    "triangles_changed": 0,
+    "default_triangles_replaced": 0,
+    "triangles_in_resplit_polygons": 0,
+    "total_triangles": 5534,
+    "max_nonplanarity_of_resplit_polygons_mm": 0.0
+   },
+   "size_matches_approved": true,
+   "approved_size_mm": [
+    194.0,
+    102.3,
+    1.3
+   ]
+  }
+ },
+ "files": {
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_building_body.3mf": {
+   "sha256": "5b3d85eae4ea6d98d452241eafe75bf136aa6f7bb5cd303bb4293d8b340a82dd",
+   "bytes": 94002
+  },
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_site_base.3mf": {
+   "sha256": "9d99a9b5d7dbd6b7f92a8fb0cad541cc458a457f46aa5c74c8e3901b37131f64",
+   "bytes": 1048719
+  },
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_dropoff_canopy.3mf": {
+   "sha256": "43466f1cf3616954abd80f6234b36b0ca12a30ac079e2448c6cefc5add4e29ba",
+   "bytes": 6786
+  },
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_sunshade.3mf": {
+   "sha256": "c4b36b22fd82cd4eaa15cd3bc2129ebf7d1ecb9f3842451233587c0f26bd739e",
+   "bytes": 52338
+  },
+  "models/Building_II/building_shell_v023.blend": {
+   "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91"
+  },
+  "models/Building_II/print_derivatives/building_II_print_v001.blend": {
+   "sha256": "c4684e8d8345ff3105599b4ed2dbc67dbb47bc04bef0822bbae2eb8e36242875"
+  },
+  "models/Building_II/print_derivatives/building_II_print_v002.blend": {
+   "sha256": "9aa5e3a4574e758f7fc914d9e6df887482791585a673d8b542420e7f4369a27c"
+  }
+ },
+ "runtime_s": 1.0
+}

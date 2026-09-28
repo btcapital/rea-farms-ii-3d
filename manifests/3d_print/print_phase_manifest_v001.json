@@ -1,0 +1,113 @@
+{
+ "manifest": "Building II 3D-print phase manifest v001",
+ "date": "2026-09-23",
+ "project_root": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D",
+ "phase_status": "AUDIT COMPLETE - STOPPED AT APPROVAL GATE. No simplification, thickening, merging, cutting or STL/3MF export has been done.",
+ "baseline": {
+  "model": "v023",
+  "path": "models\\Building_II\\building_shell_v023.blend",
+  "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+  "approval_evidence": [
+   "notes/building_II_status_2026-09-23.md (CURRENT APPROVED BUILDING II MODEL: v023, same SHA-256)",
+   "notes/lobby_refinement_control_v023.md (APPROVED)",
+   "notes/freeze_manifest_2026-09-23_model_v023_viewer_v026.sha256 (443 entries: 423 OK in place; the 20 .blend entries were moved from models/ to models/Building_II/ and are all byte-identical there)"
+  ]
+ },
+ "derivative": {
+  "version": "print_v001",
+  "path": "models\\Building_II\\print_derivatives\\building_II_print_v001.blend",
+  "geometry_modified": false,
+  "saved_by_blender": false,
+  "sha256_equals_baseline": true
+ },
+ "units": "Blender units = metres (scene displays feet, scale_length 1.0); Z 0 = FFE 660.30",
+ "printer": {
+  "model": "Bambu Lab H2S",
+  "build_volume_mm": [
+   340,
+   320,
+   340
+  ],
+  "planning_margin_mm_assumed": 10,
+  "source": "https://bambulab.com/nl-nl/h2s/tech-specs"
+ },
+ "workspace_folders": [
+  "models\\Building_II\\print_derivatives\\",
+  "exports\\Building_II\\3d_print\\stl\\ (empty)",
+  "exports\\Building_II\\3d_print\\3mf\\ (empty)",
+  "exports\\Building_II\\3d_print\\validation\\",
+  "scripts\\3d_print\\",
+  "notes\\3d_print\\",
+  "manifests\\3d_print\\"
+ ],
+ "files": [
+  {
+   "path": "models\\Building_II\\building_shell_v023.blend",
+   "role": "approved frozen source model (v023)",
+   "status": "READ-ONLY - never modify",
+   "bytes": 6509440,
+   "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91"
+  },
+  {
+   "path": "models\\Building_II\\print_derivatives\\building_II_print_v001.blend",
+   "role": "print derivative v001 (exact copy of v023, not yet modified)",
+   "status": "working copy - geometry UNCHANGED (hash equals v023)",
+   "bytes": 6509440,
+   "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91"
+  },
+  {
+   "path": "scripts\\3d_print\\audit_print_v001.py",
+   "role": "read-only audit script (never saves the .blend)",
+   "status": "delivered",
+   "bytes": 25257,
+   "sha256": "69a9745405f58eb52281e145b1d1935587cd32a2225f264d2c164bde28524879"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_audit_v001.json",
+   "role": "audit summary, extents, scale fit, probes",
+   "status": "delivered",
+   "bytes": 81700,
+   "sha256": "b7ed41542cc22820116cc207e301be118dc845eb4de24509b62fa0fdd67d2359"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_audit_v001_objects.csv",
+   "role": "per-object audit (2,778 rows)",
+   "status": "delivered",
+   "bytes": 976094,
+   "sha256": "17356f628f4e8ab4aa1a2c8caef6a0a400236917da36b16d20b88916bbc5b484"
+  },
+  {
+   "path": "notes\\3d_print\\PRINT_CONTROL.md",
+   "role": "print-phase control note",
+   "status": "delivered - awaiting approval",
+   "bytes": 22067,
+   "sha256": "5d55fb65b726e26818226342092728e66c3706161d73014b074b53407edefe4e"
+  }
+ ],
+ "recommendation_summary": {
+  "scale": "1:250 (building 287 x 165 x 56 mm one piece; site window 80 x 55 m = 320 x 220 mm)",
+  "structure": "modular: site base / building body / delicate add-ons (drop-off canopy, sun-shade, optional railings, poles, bollards)",
+  "removable_roof_or_level2": "not recommended for this derivative (solid masses; interior below printable size); possible separate interior derivative later",
+  "exclude": [
+   "14_Context_v011",
+   "13_Presentation_v010",
+   "zz_Cutters",
+   "cameras/lights",
+   "text labels",
+   "all interior collections (Building_II tree)",
+   "parking striping, control joints, area drains, door hardware, north arrow"
+  ]
+ },
+ "owner_decisions_pending": [
+  "scale",
+  "site extent",
+  "modular split",
+  "approved exaggerations (mullion ribs, thickened parapets/canopy/sun-shade, canopy glass plate)",
+  "glazing representation",
+  "vegetation representation",
+  "bollards/poles/railings",
+  "colour",
+  "removable level (recommended: no)"
+ ],
+ "next_version_if_approved": "models\\Building_II\\print_derivatives\\building_II_print_v002.blend built by scripts\\3d_print\\build_print_v002.py; v001 stays as the untouched audit copy"
+}

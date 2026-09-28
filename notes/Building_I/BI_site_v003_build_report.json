@@ -1,0 +1,42 @@
+{
+  "version": "v003",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_facade_v002.blend",
+  "v002_mesh_objects": 2023,
+  "geometry_hash_v002": "72c7a831b0753bf37e6d40ef774d8a9e09efd618e17b63ed473b0ac3db6ea777",
+  "geometry_unchanged": true,
+  "terrain_faces": 9452,
+  "spots_used": 421,
+  "hardscape": [
+    "asphalt_west_drive_dropoff",
+    "asphalt_parking_north_APPROX",
+    "walk_south_concrete",
+    "walk_west_of_wing_concrete",
+    "entry_plaza_pavers_Westmount_Onyx",
+    "walk_east_concrete",
+    "walk_east_end_block_concrete",
+    "walk_ne_courts_concrete",
+    "walk_north_courts_concrete",
+    "plaza_between_buildings_APPROX"
+  ],
+  "objects_per_collection": {
+    "08_Site_v003_terrain": 1,
+    "08_Site_v003_hardscape": 10,
+    "08_Site_v003_walls_structures": 5,
+    "08_Site_v003_context": 5,
+    "08_Site_v003_reference": 0
+  },
+  "gpu": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA RTX A1000"
+    ]
+  },
+  "render_seconds": {
+    "front_north": 7.7,
+    "rear_south": 6.1,
+    "left_west": 8.7,
+    "right_east": 7.4,
+    "oblique_northwest": 8.6,
+    "site_elevated": 7.0
+  }
+}

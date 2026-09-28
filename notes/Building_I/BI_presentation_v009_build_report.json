@@ -1,0 +1,414 @@
+{
+  "version": "v009",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_footprint_v008.blend",
+  "scene_hash_geometry_and_assignments": "248c0b669fa1d3c1c86676bd9d1faf147c8aba19f9edd57907d5cd1c9e0085a2",
+  "geometry_unchanged": true,
+  "objects_before": 798,
+  "objects_after": 800,
+  "objects_added": [
+    "BI_cam_hero_front",
+    "BI_cam_material_closeup"
+  ],
+  "materials_refined": {
+    "BRK1_Endicott_Manganese_Ironspot_utility": {
+      "kind": "brick",
+      "conf": "W product / I shading",
+      "module_m": [
+        0.3048,
+        0.1016,
+        0.0095
+      ],
+      "brick1": [
+        0.17,
+        0.145,
+        0.13
+      ],
+      "brick2": [
+        0.1,
+        0.09,
+        0.09
+      ],
+      "mortar": [
+        0.52,
+        0.5,
+        0.47
+      ]
+    },
+    "SITE_brick_veneer_wall": {
+      "kind": "brick",
+      "conf": "I",
+      "module_m": [
+        0.3048,
+        0.1016,
+        0.0095
+      ],
+      "brick1": [
+        0.17,
+        0.145,
+        0.13
+      ],
+      "brick2": [
+        0.1,
+        0.09,
+        0.09
+      ],
+      "mortar": [
+        0.52,
+        0.5,
+        0.47
+      ]
+    },
+    "PNL1_Alucobond_PLUS_PVDF_Bone_White": {
+      "kind": "painted",
+      "conf": "C colour / I shading",
+      "base": [
+        0.8,
+        0.76,
+        0.66
+      ],
+      "rough": 0.32,
+      "metallic": 0.0
+    },
+    "PNL2_Alucobond_PLUS_SMP_Tricorn_Black": {
+      "kind": "painted",
+      "conf": "C / I",
+      "base": [
+        0.028,
+        0.028,
+        0.03
+      ],
+      "rough": 0.4,
+      "metallic": 0.0
+    },
+    "UNRES_PNL3_flush_reveal_medium_gray": {
+      "kind": "painted",
+      "conf": "U",
+      "base": [
+        0.6200000047683716,
+        0.6200000047683716,
+        0.6200000047683716
+      ],
+      "rough": 0.45,
+      "metallic": 0.0
+    },
+    "SCREEN_Alucopanel_FR_Enoc_White": {
+      "kind": "painted",
+      "conf": "C",
+      "base": [
+        0.86,
+        0.87,
+        0.86
+      ],
+      "rough": 0.4,
+      "metallic": 0.0
+    },
+    "UNRES_exposed_steel_canopy_framing": {
+      "kind": "painted",
+      "conf": "U",
+      "base": [
+        0.3499999940395355,
+        0.3499999940395355,
+        0.36000001430511475
+      ],
+      "rough": 0.45,
+      "metallic": 0.3
+    },
+    "UNRES_vestibule_100_enclosure": {
+      "kind": "painted",
+      "conf": "U",
+      "base": [
+        0.75,
+        0.7599999904632568,
+        0.7400000095367432
+      ],
+      "rough": 0.5,
+      "metallic": 0.0
+    },
+    "UNRES_unclassified_wall_area": {
+      "kind": "painted",
+      "conf": "U",
+      "base": [
+        0.800000011920929,
+        0.7799999713897705,
+        0.7400000095367432
+      ],
+      "rough": 0.6,
+      "metallic": 0.0
+    },
+    "CTX_Building_II_plain_mass": {
+      "kind": "painted",
+      "conf": "context",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.7799999713897705
+      ],
+      "rough": 0.9,
+      "metallic": 0.0
+    },
+    "ROOF_JM_TPO_60mil_white": {
+      "kind": "ground",
+      "conf": "C",
+      "base": [
+        0.8,
+        0.8,
+        0.78
+      ],
+      "rough": 0.75
+    },
+    "TWS1_Kingspan_Unigrid_Verti-Lite_white": {
+      "kind": "translucent",
+      "conf": "W / I",
+      "base": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "transmission": 0.35,
+      "rough": 0.5
+    },
+    "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder": {
+      "kind": "glass_reflective",
+      "conf": "W glass / U frames",
+      "base": [
+        0.05,
+        0.07,
+        0.085
+      ],
+      "rough": 0.04
+    },
+    "CANOPY_1in_laminated_clear_glass": {
+      "kind": "clear_glass",
+      "conf": "W",
+      "base": [
+        0.88,
+        0.95,
+        0.92
+      ],
+      "ior": 1.52
+    },
+    "SITE_asphalt": {
+      "kind": "ground",
+      "conf": "I",
+      "base": [
+        0.07,
+        0.07,
+        0.072
+      ],
+      "rough": 0.85
+    },
+    "SITE_concrete_walk": {
+      "kind": "ground",
+      "conf": "I",
+      "base": [
+        0.5,
+        0.49,
+        0.46
+      ],
+      "rough": 0.8
+    },
+    "SITE_pavers_Techo-Bloc_Westmount_Onyx_placeholder": {
+      "kind": "ground",
+      "conf": "placeholder",
+      "base": [
+        0.3499999940395355,
+        0.3400000035762787,
+        0.33000001311302185
+      ],
+      "rough": 0.7
+    },
+    "SITE_lawn_INTERPOLATED_terrain": {
+      "kind": "ground",
+      "conf": "I",
+      "base": [
+        0.2,
+        0.29,
+        0.11
+      ],
+      "rough": 0.95
+    },
+    "SITE_foundation_skirt_A": {
+      "kind": "ground",
+      "conf": "A",
+      "base": [
+        0.3,
+        0.25,
+        0.2
+      ],
+      "rough": 1.0
+    },
+    "LS_mulch": {
+      "kind": "ground",
+      "conf": "I",
+      "base": [
+        0.14,
+        0.09,
+        0.05
+      ],
+      "rough": 0.95
+    },
+    "LS_foliage_tree": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.15,
+        0.3,
+        0.09
+      ],
+      "hue_var": 0.06,
+      "val_var": 0.5,
+      "sss": 0.15
+    },
+    "LS_foliage_existing": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.13,
+        0.27,
+        0.09
+      ],
+      "hue_var": 0.06,
+      "val_var": 0.5,
+      "sss": 0.15
+    },
+    "LS_shrub_green": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.18,
+        0.33,
+        0.12
+      ],
+      "hue_var": 0.08,
+      "val_var": 0.5,
+      "sss": 0.15
+    },
+    "LS_shrub_purple": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.25,
+        0.13,
+        0.2
+      ],
+      "hue_var": 0.06,
+      "val_var": 0.4,
+      "sss": 0.1
+    },
+    "LS_shrub_grass": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.52,
+        0.5,
+        0.28
+      ],
+      "hue_var": 0.06,
+      "val_var": 0.4,
+      "sss": 0.2
+    },
+    "LS_groundcover": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.38,
+        0.46,
+        0.18
+      ],
+      "hue_var": 0.08,
+      "val_var": 0.4,
+      "sss": 0.15
+    },
+    "LS_annual": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.4,
+        0.36,
+        0.3
+      ],
+      "hue_var": 0.1,
+      "val_var": 0.4,
+      "sss": 0.2
+    },
+    "LS_unresolved_grey_green": {
+      "kind": "foliage",
+      "conf": "U",
+      "base": [
+        0.3499999940395355,
+        0.4000000059604645,
+        0.30000001192092896
+      ],
+      "hue_var": 0.0,
+      "val_var": 0.3,
+      "sss": 0.1
+    },
+    "LS_trunk": {
+      "kind": "bark",
+      "conf": "I",
+      "base": [
+        0.17,
+        0.12,
+        0.08
+      ],
+      "rough": 0.9
+    }
+  },
+  "materials_untouched": [
+    "BI_grid",
+    "BI_ground",
+    "BI_slab"
+  ],
+  "sky": {
+    "type": "MULTIPLE_SCATTERING",
+    "sun_disc": true,
+    "sun_intensity": 1.0,
+    "sun_elevation_deg": 42.0,
+    "sun_rotation_deg": 75.0,
+    "rotation_convention": "test scene 2026-09-23: 0 deg = sun from north (+Y), 90 deg = from east (+X); 75 deg = from the east-north-east, elevation 42 deg = a clear summer morning in Charlotte, chosen so the north entrance face receives grazing sun and the east face full sun (the v001 validation sun came from the south-west and left the front in shade)",
+    "altitude_m": 220,
+    "air_density": 1.0,
+    "aerosol_density": 1.0,
+    "ozone_density": 1.0,
+    "strength": 1.0,
+    "v001_sun_lamp": "BI_sun hidden for render (not deleted)",
+    "ground_below_horizon": {
+      "color": [
+        0.3,
+        0.3,
+        0.28
+      ],
+      "strength": 20.0,
+      "note": "world shader only: below the horizon the physical sky is dark; a neutral matte ground tone is shown there so views that look past the modeled terrain do not fall into black. Not geometry, not context. Strength 20 chosen from trials (10/25/60): reads as a neutral mid-light grey close to the sunlit lawn/walk tones."
+    }
+  },
+  "view": {
+    "transform": "AgX",
+    "look": "None",
+    "exposure": -4.3,
+    "exposure_basis": "test scene: 18 % grey ground under this sky reads 0.47 at exposure -5.0; -4.3 chosen after trial renders so the shaded north face reads mid-tone (no clipping in the trial views)",
+    "gamma": 1.0
+  },
+  "render": {
+    "engine": "CYCLES",
+    "samples": 256,
+    "denoise": true,
+    "filter_px": 1.5,
+    "caustics": false,
+    "clamp_indirect": 10.0,
+    "persistent_data": true,
+    "depth_of_field": false,
+    "motion_blur": false
+  },
+  "sun_lamp_hidden_for_render": true,
+  "objects_shade_smooth": 255,
+  "gpu": "OPTIX",
+  "render_seconds": {
+    "1_front_hero": 29.5,
+    "2_entrance_oblique": 31.2,
+    "3_southeast_oblique": 15.9,
+    "4_northwest_oblique": 21.5,
+    "5_site_elevated": 15.4,
+    "6_facade_material_closeup": 36.7
+  }
+}

@@ -1,0 +1,916 @@
+{
+ "checked": "2026-09-23 17:33",
+ "unit_rule": "STL carries no unit field: values are millimetres (x4.0 of real metres); 3MF declares unit=\"millimeter\"",
+ "production": {
+  "building_body": {
+   "stl": {
+    "triangles": 10934,
+    "vertices": 5434,
+    "open_edges": 0,
+    "nonmanifold_edges": 25,
+    "duplicate_directed_edges": 52,
+    "volume_mm3": 1272132.806,
+    "outward_normals": true,
+    "components": 1,
+    "degenerate_triangles": 55,
+    "size_mm": [
+     255.448,
+     137.897,
+     63.195
+    ],
+    "min_mm": [
+     -0.724,
+     -0.927,
+     -9.754
+    ],
+    "max_mm": [
+     254.724,
+     136.97,
+     53.442
+    ],
+    "watertight": false,
+    "stored_normals_agree": true,
+    "identical_to_approved_mesh_x4": true,
+    "size_matches_approved": true,
+    "approved_size_mm": [
+     255.4,
+     137.9,
+     63.2
+    ],
+    "header": "building_II_v001_1-250_building_body | Building II print v001 | 1:250 | units mm"
+   },
+   "threemf": {
+    "triangles": 10934,
+    "vertices": 5453,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "duplicate_directed_edges": 0,
+    "volume_mm3": 1272132.785,
+    "outward_normals": true,
+    "components": 1,
+    "degenerate_triangles": 55,
+    "size_mm": [
+     255.448,
+     137.897,
+     63.195
+    ],
+    "min_mm": [
+     -0.724,
+     -0.927,
+     -9.754
+    ],
+    "max_mm": [
+     254.724,
+     136.97,
+     53.442
+    ],
+    "watertight": true,
+    "unit": "millimeter",
+    "objects": 1,
+    "build_items": 1,
+    "item_transform_is_pure_translation": true,
+    "placed_min_z_mm": 0.0,
+    "placed_within_bed": true,
+    "vertices_match_approved_x4": true,
+    "triangulation": {
+     "triangles_equal_to_default_outside_resplit": true,
+     "resplit_polygons": 0,
+     "resplit_triangle_counts_ok": true,
+     "triangles_changed": 0,
+     "default_triangles_replaced": 0,
+     "triangles_in_resplit_polygons": 0,
+     "total_triangles": 10934,
+     "max_nonplanarity_of_resplit_polygons_mm": 0.0
+    },
+    "size_matches_approved": true
+   }
+  },
+  "site_base": {
+   "stl": {
+    "triangles": 86616,
+    "vertices": 43310,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "duplicate_directed_edges": 0,
+    "volume_mm3": 568986.673,
+    "outward_normals": true,
+    "components": 1,
+    "degenerate_triangles": 75,
+    "size_mm": [
+     330.0,
+     230.0,
+     35.966
+    ],
+    "min_mm": [
+     -39.0,
+     -21.0,
+     -12.192
+    ],
+    "max_mm": [
+     291.0,
+     209.0,
+     23.774
+    ],
+    "watertight": true,
+    "stored_normals_agree": true,
+    "identical_to_approved_mesh_x4": true,
+    "size_matches_approved": true,
+    "approved_size_mm": [
+     330.0,
+     230.0,
+     36.0
+    ],
+    "header": "building_II_v001_1-250_site_base | Building II print v001 | 1:250 | units mm"
+   },
+   "threemf": {
+    "triangles": 86616,
+    "vertices": 43310,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "duplicate_directed_edges": 0,
+    "volume_mm3": 568986.649,
+    "outward_normals": true,
+    "components": 1,
+    "degenerate_triangles": 45,
+    "size_mm": [
+     330.0,
+     230.0,
+     35.966
+    ],
+    "min_mm": [
+     -39.0,
+     -21.0,
+     -12.192
+    ],
+    "max_mm": [
+     291.0,
+     209.0,
+     23.774
+    ],
+    "watertight": true,
+    "unit": "millimeter",
+    "objects": 1,
+    "build_items": 1,
+    "item_transform_is_pure_translation": true,
+    "placed_min_z_mm": 0.0,
+    "placed_within_bed": true,
+    "vertices_match_approved_x4": true,
+    "triangulation": {
+     "triangles_equal_to_default_outside_resplit": true,
+     "resplit_polygons": 14,
+     "resplit_triangle_counts_ok": true,
+     "triangles_changed": 122,
+     "default_triangles_replaced": 122,
+     "triangles_in_resplit_polygons": 182,
+     "total_triangles": 86616,
+     "max_nonplanarity_of_resplit_polygons_mm": 0.221
+    },
+    "size_matches_approved": true
+   }
+  },
+  "dropoff_canopy": {
+   "stl": {
+    "triangles": 580,
+    "vertices": 264,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "duplicate_directed_edges": 0,
+    "volume_mm3": 2338.925,
+    "outward_normals": true,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "size_mm": [
+     79.993,
+     28.52,
+     24.332
+    ],
+    "min_mm": [
+     94.46,
+     129.985,
+     -2.0
+    ],
+    "max_mm": [
+     174.454,
+     158.505,
+     22.332
+    ],
+    "watertight": true,
+    "stored_normals_agree": true,
+    "identical_to_approved_mesh_x4": true,
+    "size_matches_approved": true,
+    "approved_size_mm": [
+     80.0,
+     28.5,
+     24.3
+    ],
+    "header": "building_II_v001_1-250_dropoff_canopy | Building II print v001 | 1:250 | units m"
+   },
+   "threemf": {
+    "triangles": 580,
+    "vertices": 264,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "duplicate_directed_edges": 0,
+    "volume_mm3": 2338.925,
+    "outward_normals": true,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "size_mm": [
+     79.993,
+     28.52,
+     24.332
+    ],
+    "min_mm": [
+     94.46,
+     129.985,
+     -2.0
+    ],
+    "max_mm": [
+     174.454,
+     158.505,
+     22.332
+    ],
+    "watertight": true,
+    "unit": "millimeter",
+    "objects": 1,
+    "build_items": 1,
+    "item_transform_is_pure_translation": true,
+    "placed_min_z_mm": 0.0,
+    "placed_within_bed": true,
+    "vertices_match_approved_x4": true,
+    "triangulation": {
+     "triangles_equal_to_default_outside_resplit": true,
+     "resplit_polygons": 0,
+     "resplit_triangle_counts_ok": true,
+     "triangles_changed": 0,
+     "default_triangles_replaced": 0,
+     "triangles_in_resplit_polygons": 0,
+     "total_triangles": 580,
+     "max_nonplanarity_of_resplit_polygons_mm": 0.0
+    },
+    "size_matches_approved": true
+   }
+  },
+  "sunshade": {
+   "stl": {
+    "triangles": 7410,
+    "vertices": 3155,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "duplicate_directed_edges": 0,
+    "volume_mm3": 3147.166,
+    "outward_normals": true,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "size_mm": [
+     186.204,
+     98.116,
+     1.219
+    ],
+    "min_mm": [
+     40.843,
+     13.067,
+     37.795
+    ],
+    "max_mm": [
+     227.047,
+     111.183,
+     39.014
+    ],
+    "watertight": true,
+    "stored_normals_agree": true,
+    "identical_to_approved_mesh_x4": true,
+    "size_matches_approved": true,
+    "approved_size_mm": [
+     186.2,
+     98.1,
+     1.2
+    ],
+    "header": "building_II_v001_1-250_sunshade | Building II print v001 | 1:250 | units mm"
+   },
+   "threemf": {
+    "triangles": 7410,
+    "vertices": 3155,
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "duplicate_directed_edges": 0,
+    "volume_mm3": 3147.164,
+    "outward_normals": true,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "size_mm": [
+     186.204,
+     98.116,
+     1.219
+    ],
+    "min_mm": [
+     40.843,
+     13.067,
+     37.795
+    ],
+    "max_mm": [
+     227.047,
+     111.183,
+     39.014
+    ],
+    "watertight": true,
+    "unit": "millimeter",
+    "objects": 1,
+    "build_items": 1,
+    "item_transform_is_pure_translation": true,
+    "placed_min_z_mm": 0.0,
+    "placed_within_bed": true,
+    "vertices_match_approved_x4": true,
+    "triangulation": {
+     "triangles_equal_to_default_outside_resplit": true,
+     "resplit_polygons": 0,
+     "resplit_triangle_counts_ok": true,
+     "triangles_changed": 0,
+     "default_triangles_replaced": 0,
+     "triangles_in_resplit_polygons": 0,
+     "total_triangles": 7410,
+     "max_nonplanarity_of_resplit_polygons_mm": 0.0
+    },
+    "size_matches_approved": true
+   }
+  }
+ },
+ "coupons": {
+  "01": {
+   "triangles": 318,
+   "vertices": 161,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 4692.162,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 0,
+   "size_mm": [
+    28.0,
+    8.232,
+    26.174
+   ],
+   "min_mm": [
+    184.0,
+    1.768,
+    -2.4
+   ],
+   "max_mm": [
+    212.0,
+    10.0,
+    23.774
+   ],
+   "watertight": true,
+   "thin_thickness_histogram_mm": {
+    "0.50": 110,
+    "0.80": 4
+   },
+   "name": "facade_storefront_railing",
+   "purpose": "south facade bay: storefront recess (0.61 mm) with 0.5 mm mullion ribs, parapet, 0.8 mm railing fin",
+   "print_top_face_down": false
+  },
+  "02": {
+   "triangles": 452,
+   "vertices": 228,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 3901.97,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 0,
+   "size_mm": [
+    10.724,
+    16.0,
+    24.4
+   ],
+   "min_mm": [
+    -0.724,
+    108.0,
+    -2.4
+   ],
+   "max_mm": [
+    10.0,
+    124.0,
+    22.0
+   ],
+   "watertight": true,
+   "thin_thickness_histogram_mm": {
+    "0.50": 194
+   },
+   "name": "facade_curtainwall_west",
+   "purpose": "west CW4 curtain wall: 0.93 mm recess, 0.5 mm curtain-wall ribs (the most exaggerated class)",
+   "print_top_face_down": false
+  },
+  "03": {
+   "triangles": 284,
+   "vertices": 136,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 438.336,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 0,
+   "size_mm": [
+    13.54,
+    28.52,
+    24.332
+   ],
+   "min_mm": [
+    94.46,
+    129.985,
+    -2.0
+   ],
+   "max_mm": [
+    108.0,
+    158.505,
+    22.332
+   ],
+   "watertight": true,
+   "thin_thickness_histogram_mm": {
+    "0.55": 2,
+    "0.80": 67,
+    "1.02": 44,
+    "1.20": 4,
+    "1.59": 3
+   },
+   "name": "canopy_bay_column_X1",
+   "purpose": "drop-off canopy bay: 1.2 mm column, 0.8 mm purlins, 0.8 mm glass plate, beams; column foot fits coupon 04",
+   "print_top_face_down": false
+  },
+  "04": {
+   "triangles": 242,
+   "vertices": 123,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 584.134,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 0,
+   "size_mm": [
+    14.0,
+    7.2,
+    9.823
+   ],
+   "min_mm": [
+    94.0,
+    135.2,
+    -6.0
+   ],
+   "max_mm": [
+    108.0,
+    142.4,
+    3.823
+   ],
+   "watertight": true,
+   "thin_thickness_histogram_mm": {
+    "1.17": 98
+   },
+   "name": "socket_bollards",
+   "purpose": "site base at canopy column X1: 0.2 mm-clearance socket (receives coupon 03) + two 1.2 mm bollards",
+   "print_top_face_down": false
+  },
+  "05": {
+   "triangles": 884,
+   "vertices": 444,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 222.994,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 0,
+   "size_mm": [
+    8.0,
+    8.8,
+    26.629
+   ],
+   "min_mm": [
+    0.8,
+    136.0,
+    -4.0
+   ],
+   "max_mm": [
+    8.8,
+    144.8,
+    22.629
+   ],
+   "watertight": true,
+   "thin_thickness_histogram_mm": {
+    "0.00": 2,
+    "0.01": 7,
+    "0.02": 3,
+    "0.03": 4,
+    "0.05": 2,
+    "0.06": 2,
+    "0.07": 2,
+    "0.08": 4,
+    "0.10": 2,
+    "0.11": 2,
+    "0.14": 2,
+    "0.17": 2,
+    "0.18": 2,
+    "0.27": 2,
+    "0.28": 2,
+    "0.29": 5,
+    "0.32": 4,
+    "0.33": 2,
+    "0.36": 2,
+    "0.37": 2,
+    "0.39": 2,
+    "0.41": 2,
+    "0.43": 2,
+    "0.44": 3,
+    "0.46": 4,
+    "0.52": 6,
+    "0.54": 6,
+    "0.55": 2,
+    "0.56": 2,
+    "0.58": 3,
+    "0.60": 3,
+    "0.62": 3,
+    "0.64": 5,
+    "0.65": 2,
+    "0.66": 2,
+    "0.69": 8,
+    "0.70": 2,
+    "0.71": 5,
+    "0.76": 3,
+    "0.77": 3,
+    "0.78": 2,
+    "0.79": 2,
+    "0.80": 7,
+    "0.81": 3,
+    "0.82": 3,
+    "0.83": 4,
+    "0.84": 3,
+    "0.86": 6,
+    "0.87": 5,
+    "0.88": 6,
+    "0.89": 4,
+    "0.90": 2,
+    "0.92": 2,
+    "0.93": 3,
+    "0.94": 2,
+    "0.96": 2,
+    "0.98": 6,
+    "1.10": 2,
+    "1.15": 2,
+    "1.28": 2,
+    "1.37": 2,
+    "1.39": 2,
+    "1.50": 12,
+    "1.53": 12,
+    "1.56": 2,
+    "1.59": 10
+   },
+   "name": "light_pole_1",
+   "purpose": "site base at light pole 1: 1.5 mm pole shaft 21 mm tall + 0.8 mm luminaire head",
+   "print_top_face_down": false
+  },
+  "06": {
+   "triangles": 1186,
+   "vertices": 547,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 429.226,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 0,
+   "size_mm": [
+    37.047,
+    28.933,
+    1.219
+   ],
+   "min_mm": [
+    190.0,
+    13.067,
+    37.795
+   ],
+   "max_mm": [
+    227.047,
+    42.0,
+    39.014
+   ],
+   "watertight": true,
+   "thin_thickness_histogram_mm": {
+    "0.80": 332,
+    "0.84": 192,
+    "0.98": 252,
+    "1.22": 331
+   },
+   "name": "sunshade_SE_corner",
+   "purpose": "sun-shade SE corner: 0.84 mm louver bars (0.27 mm gaps), 0.8 mm frame, hip; printed top face down",
+   "print_top_face_down": true
+  },
+  "07": {
+   "triangles": 74,
+   "vertices": 39,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 2232.141,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 0,
+   "size_mm": [
+    15.904,
+    11.968,
+    11.754
+   ],
+   "min_mm": [
+    232.0,
+    2.032,
+    -9.754
+   ],
+   "max_mm": [
+    247.904,
+    14.0,
+    2.0
+   ],
+   "watertight": true,
+   "thin_thickness_histogram_mm": {
+    "0.50": 4
+   },
+   "name": "pocket_body_corner_SE",
+   "purpose": "building-body SE corner below grade (foundation + podium); fits into coupon 08 with 0.3 mm clearance",
+   "print_top_face_down": false
+  },
+  "08": {
+   "triangles": 4034,
+   "vertices": 2019,
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "duplicate_directed_edges": 0,
+   "volume_mm3": 7747.453,
+   "outward_normals": true,
+   "components": 1,
+   "degenerate_triangles": 15,
+   "size_mm": [
+    30.0,
+    30.0,
+    12.599
+   ],
+   "min_mm": [
+    230.0,
+    -14.0,
+    -12.192
+   ],
+   "max_mm": [
+    260.0,
+    16.0,
+    0.407
+   ],
+   "watertight": true,
+   "thin_thickness_histogram_mm": {
+    "0.00": 13,
+    "0.01": 22,
+    "0.02": 24,
+    "0.03": 10,
+    "0.04": 12,
+    "0.05": 4,
+    "0.06": 8,
+    "0.08": 4,
+    "0.09": 2,
+    "0.10": 5,
+    "0.11": 4,
+    "0.12": 4,
+    "0.13": 5,
+    "0.16": 6,
+    "0.18": 3,
+    "0.19": 2,
+    "0.20": 2,
+    "0.21": 7,
+    "0.22": 5,
+    "0.23": 4,
+    "0.25": 4,
+    "0.33": 3,
+    "0.35": 3,
+    "0.41": 2,
+    "0.48": 2,
+    "0.51": 5,
+    "0.52": 6,
+    "0.54": 2,
+    "0.55": 2,
+    "0.57": 2,
+    "0.58": 3,
+    "0.61": 2,
+    "0.63": 2,
+    "0.75": 2,
+    "0.87": 2,
+    "0.99": 3,
+    "1.31": 2,
+    "1.49": 2,
+    "1.54": 5
+   },
+   "name": "pocket_site_corner_SE",
+   "purpose": "site base at the SE pocket corner: 0.3 mm-clearance pocket walls + floor (receives coupon 07)",
+   "print_top_face_down": false
+  }
+ },
+ "files": {
+  "exports\\Building_II\\3d_print\\stl\\building_II_v001_1-250_building_body.stl": {
+   "sha256": "7d7d3fe1e464300f711b535091324757e3d74a22cabc48ba7afec7eb57ed76f7",
+   "bytes": 546784
+  },
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_building_body.3mf": {
+   "sha256": "006e7bd00fff97a7e289a69a2343bee8ca6f1502138385d7a1c51d755b2a0639",
+   "bytes": 97144
+  },
+  "exports\\Building_II\\3d_print\\stl\\building_II_v001_1-250_site_base.stl": {
+   "sha256": "9b5ee0824be7edf88cbd26b2a0599b9e830bf40ff8e4280ab5e2847af2b988d0",
+   "bytes": 4330884
+  },
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_site_base.3mf": {
+   "sha256": "70165f4fcc187a9416852d78f46fcb2cd53170d7971d4edc8c54fb573fe41b5a",
+   "bytes": 1067965
+  },
+  "exports\\Building_II\\3d_print\\stl\\building_II_v001_1-250_dropoff_canopy.stl": {
+   "sha256": "a989f9a623e2778d8934c7dbf70fba031be0348492a7aa9ba0fcecb37c39a81e",
+   "bytes": 29084
+  },
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_dropoff_canopy.3mf": {
+   "sha256": "c1fbf86f5190defcadfc2579e928522829e1abed4f146e55ca6008a9e8f91156",
+   "bytes": 6246
+  },
+  "exports\\Building_II\\3d_print\\stl\\building_II_v001_1-250_sunshade.stl": {
+   "sha256": "60be2efbb032e3941416e3c369e9d47844fabb0bf91d4ec11c18f4ec0431dc59",
+   "bytes": 370584
+  },
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_sunshade.3mf": {
+   "sha256": "ee961c9fd268bcd42fd89d556a045b18b35b80cb4120af395608a98b4e424dd2",
+   "bytes": 68542
+  },
+  "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_01_facade_storefront_railing.stl": {
+   "sha256": "57b6ef5770c2a458d4d7e47fbfc7c4d49c4cb90ff790d840b2a251684efeff3a",
+   "bytes": 15984
+  },
+  "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_02_facade_curtainwall_west.stl": {
+   "sha256": "46b737fe9d119093f2ef5661887b28c5f3e7a90cbd2798883c56a42bf38eb12e",
+   "bytes": 22684
+  },
+  "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_03_canopy_bay_column_X1.stl": {
+   "sha256": "d775d234b9985fa5b051bd7b1d893b2fd08bbcd62e23d7f94a784ae893e39b02",
+   "bytes": 14284
+  },
+  "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_04_socket_bollards.stl": {
+   "sha256": "1e7517237dc885618fd0635efdbbfbaff95f9ff34375fd44c77d7fe5f64093c6",
+   "bytes": 12184
+  },
+  "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_05_light_pole_1.stl": {
+   "sha256": "0aec416c242dfa81f22a88666bbecdea9c03912df7dbb3c8485321005e2fd8bf",
+   "bytes": 44284
+  },
+  "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_06_sunshade_SE_corner.stl": {
+   "sha256": "ab68564487afbb227e790043a83a969bb578d4c63a753dbef1c7f6a936a767cc",
+   "bytes": 59384
+  },
+  "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_07_pocket_body_corner_SE.stl": {
+   "sha256": "d80ee097891dbc1d0b76c5ad617d9e4c192bb67ad836cd29e1077c96b8f72d4b",
+   "bytes": 3784
+  },
+  "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_08_pocket_site_corner_SE.stl": {
+   "sha256": "a9878be50a376c811f795687bbe1ba4085359acee825746af07918d220ec3f8e",
+   "bytes": 201784
+  },
+  "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_test_coupons_v001.3mf": {
+   "sha256": "1b5d7cec56bdc12c25cc8d56f30a95f6128e2c2a8431a8cbf819d27deaca5612",
+   "bytes": 82551
+  }
+ },
+ "coupon_plate_3mf": {
+  "file": "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_test_coupons_v001.3mf",
+  "unit": "millimeter",
+  "objects": 8,
+  "items": [
+   {
+    "name": "building_II_v001_1-250_testcoupon_01_facade_storefront_railing",
+    "min": [
+     8.0,
+     8.0,
+     0.0
+    ],
+    "max": [
+     36.0,
+     16.23,
+     26.17
+    ],
+    "watertight": true
+   },
+   {
+    "name": "building_II_v001_1-250_testcoupon_02_facade_curtainwall_west",
+    "min": [
+     46.0,
+     8.0,
+     0.0
+    ],
+    "max": [
+     56.72,
+     24.0,
+     24.4
+    ],
+    "watertight": true
+   },
+   {
+    "name": "building_II_v001_1-250_testcoupon_03_canopy_bay_column_X1",
+    "min": [
+     66.72,
+     8.0,
+     0.0
+    ],
+    "max": [
+     80.26,
+     36.52,
+     24.33
+    ],
+    "watertight": true
+   },
+   {
+    "name": "building_II_v001_1-250_testcoupon_04_socket_bollards",
+    "min": [
+     90.26,
+     8.0,
+     0.0
+    ],
+    "max": [
+     104.26,
+     15.2,
+     9.82
+    ],
+    "watertight": true
+   },
+   {
+    "name": "building_II_v001_1-250_testcoupon_05_light_pole_1",
+    "min": [
+     114.26,
+     8.0,
+     0.0
+    ],
+    "max": [
+     122.26,
+     16.8,
+     26.63
+    ],
+    "watertight": true
+   },
+   {
+    "name": "building_II_v001_1-250_testcoupon_06_sunshade_SE_corner",
+    "min": [
+     132.26,
+     8.0,
+     0.0
+    ],
+    "max": [
+     169.31,
+     36.93,
+     1.22
+    ],
+    "watertight": true
+   },
+   {
+    "name": "building_II_v001_1-250_testcoupon_07_pocket_body_corner_SE",
+    "min": [
+     179.31,
+     8.0,
+     0.0
+    ],
+    "max": [
+     195.21,
+     19.97,
+     11.75
+    ],
+    "watertight": true
+   },
+   {
+    "name": "building_II_v001_1-250_testcoupon_08_pocket_site_corner_SE",
+    "min": [
+     205.21,
+     8.0,
+     0.0
+    ],
+    "max": [
+     235.21,
+     38.0,
+     12.6
+    ],
+    "watertight": true
+   }
+  ],
+  "all_on_bed": true
+ },
+ "fit_pairs": {
+  "03 canopy column in 04 socket (side walls)": 0.2,
+  "07 body corner in 08 pocket (side walls)": 0.3,
+  "design_clearance_mm": {
+   "socket": 0.2,
+   "pocket": 0.3
+  }
+ },
+ "v023_sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+ "v001_sha256": "c4684e8d8345ff3105599b4ed2dbc67dbb47bc04bef0822bbae2eb8e36242875",
+ "runtime_s": 2.5
+}

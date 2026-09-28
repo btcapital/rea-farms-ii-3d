@@ -1,0 +1,289 @@
+{
+  "version": "v007",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_landscape_v006.blend",
+  "kept_mesh_objects": 703,
+  "geometry_hash_kept": "80ed4bb3f471817a84436ec04f6219b5c14ccad0d2f6fcfc85ac2c2cc480f410",
+  "unrelated_geometry_unchanged": true,
+  "objects_removed_and_rebuilt": [
+    "LS_shrub_ABKA_LP-101_n14",
+    "LS_mulch_ABKA_LP-101_n14_INTERPRETED",
+    "LS_shrub_BUNN_LP-101_n15",
+    "LS_mulch_BUNN_LP-101_n15_INTERPRETED",
+    "LS_groundcover_CORA_LP-101_n5",
+    "LS_mulch_CORA_LP-101_n5_INTERPRETED",
+    "LS_groundcover_CORA_LP-101_n6",
+    "LS_mulch_CORA_LP-101_n6_INTERPRETED",
+    "LS_shrub_DAZA_LP-101_n12",
+    "LS_mulch_DAZA_LP-101_n12_INTERPRETED",
+    "LS_shrub_UNRESOLVED_species_documented_symbol"
+  ],
+  "objects_built": [
+    "LS_shrub_ABKA_LP-101_n14",
+    "LS_shrub_BUNN_LP-101_n15",
+    "LS_groundcover_CORA_LP-101_n5",
+    "LS_groundcover_CORA_LP-101_n6",
+    "LS_shrub_DAZA_LP-101_n12",
+    "LS_shrub_ABFR_LP-100_n0_adj",
+    "LS_shrub_EMRA_LP-100_n11",
+    "LS_shrub_EMRA_LP-100_n26",
+    "LS_shrub_LOJA_LP-101_n0_adj"
+  ],
+  "plants_kept_at_documented_position": [
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 194.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 192.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 190.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 188.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 186.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 184.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 182.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 180.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 178.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 276.18,
+      "y": 176.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 278.18,
+      "y": 176.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "ABKA",
+      "x": 280.18,
+      "y": 176.25,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "BUNN",
+      "x": 272.32,
+      "y": 175.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "BUNN",
+      "x": 272.32,
+      "y": 178.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "BUNN",
+      "x": 272.32,
+      "y": 181.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "CORA",
+      "x": 272.32,
+      "y": 196.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "CORA",
+      "x": 272.32,
+      "y": 193.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "CORA",
+      "x": 272.32,
+      "y": 190.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "CORA",
+      "x": 272.32,
+      "y": 187.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "CORA",
+      "x": 272.32,
+      "y": 184.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "CORA",
+      "x": 278.32,
+      "y": 172.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "CORA",
+      "x": 275.32,
+      "y": 172.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "CORA",
+      "x": 272.32,
+      "y": 172.99,
+      "why": "G-10 NE corner notch to x 268.9 (A1.00a) vs v001 281.0"
+    },
+    {
+      "code": "DAZA",
+      "x": 26.63,
+      "y": 58.87,
+      "why": "G-9 wing north wall at y 52.75 (A1.00a/A1.01) vs v001 61.12"
+    },
+    {
+      "code": "DAZA",
+      "x": 26.63,
+      "y": 55.87,
+      "why": "G-9 wing north wall at y 52.75 (A1.00a/A1.01) vs v001 61.12"
+    },
+    {
+      "code": "DAZA",
+      "x": 23.63,
+      "y": 55.87,
+      "why": "G-9 wing north wall at y 52.75 (A1.00a/A1.01) vs v001 61.12"
+    },
+    {
+      "code": "DAZA",
+      "x": 20.63,
+      "y": 55.87,
+      "why": "G-9 wing north wall at y 52.75 (A1.00a/A1.01) vs v001 61.12"
+    },
+    {
+      "code": "DAZA",
+      "x": 17.63,
+      "y": 55.87,
+      "why": "G-9 wing north wall at y 52.75 (A1.00a/A1.01) vs v001 61.12"
+    },
+    {
+      "code": "DAZA",
+      "x": 14.63,
+      "y": 55.87,
+      "why": "G-9 wing north wall at y 52.75 (A1.00a/A1.01) vs v001 61.12"
+    },
+    {
+      "code": "DAZA",
+      "x": 11.63,
+      "y": 55.87,
+      "why": "G-9 wing north wall at y 52.75 (A1.00a/A1.01) vs v001 61.12"
+    },
+    {
+      "code": "DAZA",
+      "x": 8.63,
+      "y": 55.87,
+      "why": "G-9 wing north wall at y 52.75 (A1.00a/A1.01) vs v001 61.12"
+    }
+  ],
+  "plants_pushed_in_rebuilt_groups": [],
+  "unresolved_symbols": 117,
+  "street_trees_added": {
+    "N_Rea_Park_Ln": 18,
+    "N_Old_Springs_Rd": 24
+  },
+  "v007_changes": {
+    "plants_kept_at_documented_position": 31,
+    "species_added": {
+      "LOJA": 2,
+      "ABFR": 2,
+      "EMRA": 37
+    },
+    "unresolved_symbols_before": 121,
+    "unresolved_symbols_after": 117,
+    "street_trees_added": 42,
+    "parking_lot": "LP-100 curb-line trace attempted (clipped fill 106,955 sq ft) but leaks into the perimeter lawn at the drive entrances; APPROX rectangle retained",
+    "lot_trace_polygon_for_record": [],
+    "counts": {
+      "plants_placed": 608,
+      "by_code": {
+        "ABFR": 79,
+        "ABKA": 46,
+        "BLON": 3,
+        "BUNN": 3,
+        "BUTT": 2,
+        "CARE": 6,
+        "CARZ": 18,
+        "CASL": 4,
+        "CATM": 13,
+        "COFA": 5,
+        "CORA": 27,
+        "DAZA": 12,
+        "DOUB": 5,
+        "EMRA": 37,
+        "FOAR": 8,
+        "GATE": 19,
+        "ILST": 4,
+        "JADE": 18,
+        "JEWL": 40,
+        "JUNE": 17,
+        "LACE": 9,
+        "LAMB": 25,
+        "LOJA": 95,
+        "LOPE": 13,
+        "OSOR": 8,
+        "RHCO": 7,
+        "RUSS": 9,
+        "SNOW": 4,
+        "STAR": 2,
+        "VANG": 12,
+        "VIBL": 36,
+        "WILO": 22
+      },
+      "by_conf": {
+        "V": 383,
+        "V/I": 143,
+        "I": 82
+      }
+    }
+  },
+  "gpu": "OPTIX",
+  "render_seconds": {
+    "front_north_elevation": 6.4,
+    "entrance_oblique": 9.0,
+    "oblique_northwest": 7.0,
+    "site_elevated": 5.9,
+    "landscape_entry": 9.4,
+    "rear_south": 5.2
+  }
+}

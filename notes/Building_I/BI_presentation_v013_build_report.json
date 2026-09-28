@@ -1,0 +1,489 @@
+{
+  "version": "v013",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_entrance_finish_v012.blend",
+  "scene_hash_geometry_and_assignments": "6d2d993f4c8eef4292263fae7dffe3b353b1e12b5837c1266e706e2068c42f2d",
+  "geometry_unchanged": true,
+  "objects_before": 816,
+  "objects_after": 818,
+  "objects_added": [
+    "BI_cam_hero_porte_cochere",
+    "BI_cam_courts_exterior"
+  ],
+  "materials_refined": {
+    "BRK1_Endicott_Manganese_Ironspot_utility": {
+      "kind": "brick",
+      "conf": "W product / P tone / I shading",
+      "module_m": [
+        0.3048,
+        0.1016,
+        0.0095
+      ],
+      "brick1": [
+        0.19,
+        0.16,
+        0.14
+      ],
+      "brick2": [
+        0.11,
+        0.095,
+        0.09
+      ],
+      "brick3": [
+        0.15,
+        0.12,
+        0.105
+      ],
+      "mortar": [
+        0.55,
+        0.53,
+        0.5
+      ],
+      "rough": [
+        0.62,
+        0.92
+      ]
+    },
+    "SITE_brick_veneer_wall": {
+      "kind": "brick",
+      "conf": "I",
+      "module_m": [
+        0.3048,
+        0.1016,
+        0.0095
+      ],
+      "brick1": [
+        0.19,
+        0.16,
+        0.14
+      ],
+      "brick2": [
+        0.11,
+        0.095,
+        0.09
+      ],
+      "brick3": [
+        0.15,
+        0.12,
+        0.105
+      ],
+      "mortar": [
+        0.55,
+        0.53,
+        0.5
+      ],
+      "rough": [
+        0.62,
+        0.92
+      ]
+    },
+    "PNL1_Alucobond_PLUS_PVDF_Bone_White": {
+      "kind": "acm",
+      "conf": "C colour / W pattern type / A pitch / I shading",
+      "base": [
+        0.8,
+        0.77,
+        0.68
+      ],
+      "rough": 0.3,
+      "coat": 0.25,
+      "pattern": "vertical",
+      "seam_pitch_ft": [
+        2.0,
+        0.0
+      ],
+      "seam_width_in": 0.75
+    },
+    "PNL2_Alucobond_PLUS_SMP_Tricorn_Black": {
+      "kind": "acm",
+      "conf": "C colour / W pattern type (3/4 in reveals) / A pitch / I shading",
+      "base": [
+        0.03,
+        0.03,
+        0.032
+      ],
+      "rough": 0.38,
+      "coat": 0.2,
+      "pattern": "grid",
+      "seam_pitch_ft": [
+        4.0,
+        2.0
+      ],
+      "seam_width_in": 0.75
+    },
+    "UNRES_PNL3_flush_reveal_medium_gray": {
+      "kind": "painted",
+      "conf": "U",
+      "base": [
+        0.62,
+        0.62,
+        0.62
+      ],
+      "rough": 0.45,
+      "metallic": 0.0
+    },
+    "SCREEN_Alucopanel_FR_Enoc_White": {
+      "kind": "acm",
+      "conf": "C",
+      "base": [
+        0.86,
+        0.87,
+        0.86
+      ],
+      "rough": 0.38,
+      "coat": 0.15,
+      "pattern": "none"
+    },
+    "UNRES_exposed_steel_canopy_framing": {
+      "kind": "painted",
+      "conf": "U",
+      "base": [
+        0.35,
+        0.35,
+        0.36
+      ],
+      "rough": 0.42,
+      "metallic": 0.35
+    },
+    "UNRES_vestibule_100_enclosure": {
+      "kind": "painted",
+      "conf": "U",
+      "base": [
+        0.75,
+        0.76,
+        0.74
+      ],
+      "rough": 0.5,
+      "metallic": 0.0
+    },
+    "UNRES_unclassified_wall_area": {
+      "kind": "painted",
+      "conf": "U",
+      "base": [
+        0.8,
+        0.78,
+        0.74
+      ],
+      "rough": 0.6,
+      "metallic": 0.0
+    },
+    "CTX_Building_II_plain_mass": {
+      "kind": "painted",
+      "conf": "context",
+      "base": [
+        0.8,
+        0.8,
+        0.78
+      ],
+      "rough": 0.9,
+      "metallic": 0.0
+    },
+    "ROOF_JM_TPO_60mil_white": {
+      "kind": "ground",
+      "conf": "C",
+      "base": [
+        0.8,
+        0.8,
+        0.78
+      ],
+      "rough": 0.7,
+      "noise": [
+        6.0,
+        40.0
+      ]
+    },
+    "TWS1_Kingspan_Unigrid_Verti-Lite_white": {
+      "kind": "translucent",
+      "conf": "W / I",
+      "base": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "transmission": 0.3,
+      "rough": 0.55
+    },
+    "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder": {
+      "kind": "glazing",
+      "conf": "W glass (Viracon VZE1-42 low-E, blue-grey) / U frames / I shading",
+      "base": [
+        0.075,
+        0.1,
+        0.115
+      ],
+      "rough": 0.06,
+      "coat": 0.6,
+      "lite_var": 0.22
+    },
+    "CANOPY_1in_laminated_clear_glass": {
+      "kind": "clear_glass",
+      "conf": "W",
+      "base": [
+        0.9,
+        0.95,
+        0.93
+      ],
+      "ior": 1.52
+    },
+    "SITE_asphalt": {
+      "kind": "ground",
+      "conf": "I / P",
+      "base": [
+        0.075,
+        0.075,
+        0.077
+      ],
+      "rough": 0.78,
+      "noise": [
+        1.5,
+        45.0
+      ]
+    },
+    "SITE_concrete_walk": {
+      "kind": "ground",
+      "conf": "I",
+      "base": [
+        0.52,
+        0.51,
+        0.48
+      ],
+      "rough": 0.75,
+      "noise": [
+        3.0,
+        60.0
+      ]
+    },
+    "SITE_pavers_Techo-Bloc_Westmount_Onyx_placeholder": {
+      "kind": "ground",
+      "conf": "placeholder",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "rough": 0.65,
+      "noise": [
+        3.0,
+        50.0
+      ]
+    },
+    "SITE_lawn_INTERPOLATED_terrain": {
+      "kind": "ground",
+      "conf": "I",
+      "base": [
+        0.19,
+        0.3,
+        0.1
+      ],
+      "rough": 0.95,
+      "noise": [
+        0.7,
+        25.0
+      ]
+    },
+    "SITE_foundation_skirt_A": {
+      "kind": "ground",
+      "conf": "A",
+      "base": [
+        0.3,
+        0.25,
+        0.2
+      ],
+      "rough": 1.0,
+      "noise": [
+        2.0,
+        null
+      ]
+    },
+    "LS_mulch": {
+      "kind": "ground",
+      "conf": "I",
+      "base": [
+        0.13,
+        0.085,
+        0.05
+      ],
+      "rough": 0.95,
+      "noise": [
+        8.0,
+        60.0
+      ]
+    },
+    "LS_foliage_tree": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.15,
+        0.3,
+        0.09
+      ],
+      "hue_var": 0.06,
+      "val_var": 0.5,
+      "sss": 0.18,
+      "leaf_bump": 0.35
+    },
+    "LS_foliage_existing": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.13,
+        0.27,
+        0.09
+      ],
+      "hue_var": 0.06,
+      "val_var": 0.5,
+      "sss": 0.18,
+      "leaf_bump": 0.35
+    },
+    "LS_shrub_green": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.18,
+        0.33,
+        0.12
+      ],
+      "hue_var": 0.08,
+      "val_var": 0.5,
+      "sss": 0.18,
+      "leaf_bump": 0.35
+    },
+    "LS_shrub_purple": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.25,
+        0.13,
+        0.2
+      ],
+      "hue_var": 0.06,
+      "val_var": 0.4,
+      "sss": 0.18,
+      "leaf_bump": 0.35
+    },
+    "LS_shrub_grass": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.52,
+        0.5,
+        0.28
+      ],
+      "hue_var": 0.06,
+      "val_var": 0.4,
+      "sss": 0.2,
+      "leaf_bump": 0.35
+    },
+    "LS_groundcover": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.38,
+        0.46,
+        0.18
+      ],
+      "hue_var": 0.08,
+      "val_var": 0.4,
+      "sss": 0.18,
+      "leaf_bump": 0.35
+    },
+    "LS_annual": {
+      "kind": "foliage",
+      "conf": "I",
+      "base": [
+        0.4,
+        0.36,
+        0.3
+      ],
+      "hue_var": 0.1,
+      "val_var": 0.4,
+      "sss": 0.2,
+      "leaf_bump": 0.35
+    },
+    "LS_unresolved_grey_green": {
+      "kind": "foliage",
+      "conf": "U",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "hue_var": 0.0,
+      "val_var": 0.3,
+      "sss": 0.18,
+      "leaf_bump": 0.35
+    },
+    "LS_trunk": {
+      "kind": "bark",
+      "conf": "I",
+      "base": [
+        0.17,
+        0.12,
+        0.08
+      ],
+      "rough": 0.9
+    }
+  },
+  "materials_untouched": [
+    "BI_grid",
+    "BI_ground",
+    "BI_slab"
+  ],
+  "sky": {
+    "type": "MULTIPLE_SCATTERING",
+    "sun_disc": true,
+    "sun_intensity": 1.0,
+    "sun_elevation_deg": 47.0,
+    "sun_rotation_deg": 75.0,
+    "rotation_convention": "test scene 2026-09-23: 0 deg = sun from north (+Y), 90 deg = from east (+X); 75 deg = from the east-north-east, elevation 42 deg = a clear summer morning in Charlotte, chosen so the north entrance face receives grazing sun and the east face full sun (the v001 validation sun came from the south-west and left the front in shade) | v013: elevation raised 42 -> 47 deg (late-morning, softer shadow length, neutral architectural-photography daylight); rotation unchanged",
+    "altitude_m": 220,
+    "air_density": 1.0,
+    "aerosol_density": 0.9,
+    "ozone_density": 1.0,
+    "strength": 1.0,
+    "v001_sun_lamp": "BI_sun hidden for render (not deleted)",
+    "ground_below_horizon": {
+      "color": [
+        0.3,
+        0.3,
+        0.28
+      ],
+      "strength": 20.0,
+      "note": "world shader only: below the horizon the physical sky is dark; a neutral matte ground tone is shown there so views that look past the modeled terrain do not fall into black. Not geometry, not context. Strength 20 chosen from trials (10/25/60): reads as a neutral mid-light grey close to the sunlit lawn/walk tones."
+    }
+  },
+  "view": {
+    "transform": "AgX",
+    "look": "None",
+    "exposure": -4.35,
+    "exposure_basis": "v009 calibration (18 % grey reads 0.47 at -5.0); -4.35 after v013 trial renders with the brighter sky (elevation 47) and the coated ACM: no clipped highlights, shaded north face mid-tone",
+    "gamma": 1.0
+  },
+  "render": {
+    "engine": "CYCLES",
+    "samples": 384,
+    "denoise": true,
+    "filter_px": 1.5,
+    "caustics": false,
+    "clamp_indirect": 10.0,
+    "persistent_data": true,
+    "depth_of_field": false,
+    "motion_blur": false,
+    "adaptive_threshold": 0.01,
+    "denoiser": "OPTIX",
+    "light_tree": true,
+    "note": "384 samples with adaptive sampling; OptiX denoise; caustics off; indirect clamp 10; no DOF, no motion blur, no look/grading"
+  },
+  "sun_lamp_hidden_for_render": true,
+  "objects_shade_smooth": 260,
+  "gpu": "OPTIX",
+  "render_seconds": {
+    "1_hero_porte_cochere": 43.1,
+    "2_photo_match_drone": 24.3,
+    "3_northwest_oblique": 27.2,
+    "4_southeast_oblique": 25.3,
+    "5_courts_exterior": 27.0,
+    "6_site_elevated": 17.2,
+    "7_facade_material_closeup": 51.6,
+    "8_entrance_eye_level": 43.0
+  }
+}

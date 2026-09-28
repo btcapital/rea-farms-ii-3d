@@ -1,0 +1,3123 @@
+{
+  "version": "v014",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_presentation_v013.blend",
+  "objects_before": 818,
+  "materials_before": 32,
+  "envelope_union": {
+    "bottom_faces": 2,
+    "side_faces": 99,
+    "top_faces": 9
+  },
+  "built": {
+    "BB_L1_slab_on_grade_sqft": 45091.0,
+    "exterior_faces_lined": 99,
+    "exterior_faces_by_material": {
+      "PNL1": 47,
+      "PNL2": 25,
+      "BRK1": 21,
+      "GLZ": 3,
+      "TWS1": 3
+    },
+    "L1_interior_area_inside_exterior_walls_sqft": 43937.0,
+    "BB_L2_composite_slab_sqft_union": 24094.9,
+    "BB_mezzanine_slab_sqft": 1422.5,
+    "columns": 84,
+    "elevator_hoistway_inside_ft": [
+      8.67,
+      7.04
+    ],
+    "partitions": {
+      "L1": {
+        "core_rects": 148,
+        "program_rects": 146,
+        "dropped_on_exterior_or_hoistway": 323,
+        "core_wall_plan_sqft": 385.2,
+        "program_wall_plan_sqft": 370.2
+      },
+      "L2": {
+        "core_rects": 69,
+        "program_rects": 173,
+        "dropped_on_exterior_or_hoistway": 290,
+        "core_wall_plan_sqft": 234.1,
+        "program_wall_plan_sqft": 374.0
+      }
+    },
+    "stairs": {
+      "lobby_stair_A6.11": {
+        "top_z_ft": 15.328,
+        "levels": [
+          "LVL01",
+          "LVL02"
+        ],
+        "risers": 27
+      },
+      "south_stair_131_231_A6.12": {
+        "top_z_ft": 15.328,
+        "levels": [
+          "LVL01",
+          "LVL02"
+        ],
+        "risers": 27
+      },
+      "gallery_stair_126_A6.14": {
+        "top_z_ft": 15.328,
+        "levels": [
+          "LVL01",
+          "LVL02"
+        ],
+        "risers": 27
+      },
+      "mezzanine_stair_east_A6.13": {
+        "top_z_ft": 13.057,
+        "levels": [
+          "LVL01",
+          "MEZZANINE"
+        ],
+        "risers": 23
+      },
+      "mezzanine_stair_west_A6.13": {
+        "top_z_ft": 13.057,
+        "levels": [
+          "LVL01",
+          "MEZZANINE"
+        ],
+        "risers": 23
+      }
+    },
+    "cnsa": {
+      "L1_rects": 519,
+      "L2_rects": 169,
+      "zone_L1_sqft": 16216.0,
+      "zone_L2_sqft": 10846.0
+    }
+  },
+  "areas": {
+    "L1_footprint_gross_sqft_v008_envelope": 45091.0,
+    "L1_interior_inside_exterior_walls_sqft": 43937.0,
+    "L2_slab_modeled_sqft_A1_00b": 24094.9,
+    "mezzanine_slab_sqft": 1422.5,
+    "L1_core_zones_bounding_sqft": 4294.0,
+    "L1_courts_121_open_sqft_approx": 17160.0,
+    "CNSA_L1_tenant_zone_sqft": 16216.0,
+    "CNSA_L2_tenant_zone_sqft": 10846.0,
+    "MOB_shell_L2_remaining_sqft": 5371.0,
+    "published": {
+      "code_total_sf": 70967,
+      "code_B_sf": 47661,
+      "code_A3_sf": 23306,
+      "source": "G0.01 Total Building Area Calculation",
+      "jays_L1": {
+        "lobby_corridor": 3400,
+        "south_stair": 135,
+        "mens_womens_rr": 500,
+        "locker": 375,
+        "courts_turf": 17200,
+        "entry_offices": 485
+      },
+      "jays_L2": {
+        "corridor": 2430,
+        "area_stairs": 1460,
+        "south_stair": 255,
+        "slay_gallery_area_stairs": 1225,
+        "office": 3760,
+        "ada_rr": 64,
+        "mens_womens_rr": 240
+      }
+    },
+    "modeled_total_L1_plus_L2_plus_mezz_sqft": 70608.0,
+    "code_total_sqft": 70967,
+    "difference_modeled_minus_code_sqft": -359.0
+  },
+  "columns": [
+    {
+      "mark": "A-10",
+      "grid_x": "10",
+      "grid_y": "A",
+      "x": 180.0,
+      "y": 0.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "A-11",
+      "grid_x": "11",
+      "grid_y": "A",
+      "x": 210.0,
+      "y": 0.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "A-12",
+      "grid_x": "12",
+      "grid_y": "A",
+      "x": 240.0,
+      "y": 0.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "A-2",
+      "grid_x": "2",
+      "grid_y": "A",
+      "x": 12.33,
+      "y": 0.0,
+      "size": "W10X33",
+      "sizes_bottom_to_top": [
+        "W10X33"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "A-3",
+      "grid_x": "3",
+      "grid_y": "A",
+      "x": 30.0,
+      "y": 0.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "A-5",
+      "grid_x": "5",
+      "grid_y": "A",
+      "x": 60.0,
+      "y": 0.0,
+      "size": "W10X45",
+      "sizes_bottom_to_top": [
+        "W10X45"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "A-7",
+      "grid_x": "7",
+      "grid_y": "A",
+      "x": 90.0,
+      "y": 0.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "A-8",
+      "grid_x": "8",
+      "grid_y": "A",
+      "x": 120.0,
+      "y": 0.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "A-9",
+      "grid_x": "9",
+      "grid_y": "A",
+      "x": 150.0,
+      "y": 0.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.0,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-10",
+      "grid_x": "10",
+      "grid_y": "B",
+      "x": 180.0,
+      "y": 4.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-11",
+      "grid_x": "11",
+      "grid_y": "B",
+      "x": 210.0,
+      "y": 4.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-12",
+      "grid_x": "12",
+      "grid_y": "B",
+      "x": 240.0,
+      "y": 4.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-13",
+      "grid_x": "13",
+      "grid_y": "B",
+      "x": 270.0,
+      "y": 4.0,
+      "size": "W10X33",
+      "sizes_bottom_to_top": [
+        "W10X33"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-3",
+      "grid_x": "3",
+      "grid_y": "B",
+      "x": 30.0,
+      "y": 4.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-5",
+      "grid_x": "5",
+      "grid_y": "B",
+      "x": 60.0,
+      "y": 4.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-7",
+      "grid_x": "7",
+      "grid_y": "B",
+      "x": 90.0,
+      "y": 4.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-8",
+      "grid_x": "8",
+      "grid_y": "B",
+      "x": 120.0,
+      "y": 4.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B-9",
+      "grid_x": "9",
+      "grid_y": "B",
+      "x": 150.0,
+      "y": 4.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.09,
+      "zone": "wing"
+    },
+    {
+      "mark": "B.7-13",
+      "grid_x": "13",
+      "grid_y": "B.7",
+      "x": 270.0,
+      "y": 22.0,
+      "size": "W10X39",
+      "sizes_bottom_to_top": [
+        "W10X39"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.47,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-10",
+      "grid_x": "10",
+      "grid_y": "C",
+      "x": 180.0,
+      "y": 30.0,
+      "size": "W10X77",
+      "sizes_bottom_to_top": [
+        "W10X77",
+        "W10X77"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-11",
+      "grid_x": "11",
+      "grid_y": "C",
+      "x": 210.0,
+      "y": 30.0,
+      "size": "W10X68",
+      "sizes_bottom_to_top": [
+        "W10X68",
+        "W10X68"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-12",
+      "grid_x": "12",
+      "grid_y": "C",
+      "x": 240.0,
+      "y": 30.0,
+      "size": "W10X54",
+      "sizes_bottom_to_top": [
+        "W10X54"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-2",
+      "grid_x": "2",
+      "grid_y": "C",
+      "x": 12.33,
+      "y": 30.0,
+      "size": "W10X45",
+      "sizes_bottom_to_top": [
+        "W10X45"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-3",
+      "grid_x": "3",
+      "grid_y": "C",
+      "x": 30.0,
+      "y": 30.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-5",
+      "grid_x": "5",
+      "grid_y": "C",
+      "x": 60.0,
+      "y": 30.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-7",
+      "grid_x": "7",
+      "grid_y": "C",
+      "x": 90.0,
+      "y": 30.0,
+      "size": "W10X60",
+      "sizes_bottom_to_top": [
+        "W10X60"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-8",
+      "grid_x": "8",
+      "grid_y": "C",
+      "x": 120.0,
+      "y": 30.0,
+      "size": "W10X54",
+      "sizes_bottom_to_top": [
+        "W10X54",
+        "W10X54"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C-9",
+      "grid_x": "9",
+      "grid_y": "C",
+      "x": 150.0,
+      "y": 30.0,
+      "size": "W10X77",
+      "sizes_bottom_to_top": [
+        "W10X77",
+        "W10X77"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.64,
+      "zone": "wing"
+    },
+    {
+      "mark": "C.6-13",
+      "grid_x": "13",
+      "grid_y": "C.6",
+      "x": 270.0,
+      "y": 42.0,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 30.89,
+      "zone": "wing"
+    },
+    {
+      "mark": "C.9-14",
+      "grid_x": "14",
+      "grid_y": "C.9",
+      "x": 280.0,
+      "y": 50.5,
+      "size": "HSS10X10X3/8",
+      "sizes_bottom_to_top": [
+        "HSS10X10X3/8"
+      ],
+      "depth_ft": 0.8333333333333334,
+      "flange_ft": 0.8333333333333334,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 28.0,
+      "zone": "end_block"
+    },
+    {
+      "mark": "D-2",
+      "grid_x": "2",
+      "grid_y": "D",
+      "x": 12.33,
+      "y": 52.33,
+      "size": "W10X33",
+      "sizes_bottom_to_top": [
+        "W10X33"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.11,
+      "zone": "wing"
+    },
+    {
+      "mark": "D-3",
+      "grid_x": "3",
+      "grid_y": "D",
+      "x": 30.0,
+      "y": 52.33,
+      "size": "W10X45",
+      "sizes_bottom_to_top": [
+        "W10X45"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.11,
+      "zone": "wing"
+    },
+    {
+      "mark": "D-5",
+      "grid_x": "5",
+      "grid_y": "D",
+      "x": 60.0,
+      "y": 52.33,
+      "size": "W10X45",
+      "sizes_bottom_to_top": [
+        "W10X45"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.11,
+      "zone": "wing"
+    },
+    {
+      "mark": "E-10",
+      "grid_x": "10",
+      "grid_y": "E",
+      "x": 180.0,
+      "y": 61.5,
+      "size": "W10X68",
+      "sizes_bottom_to_top": [
+        "W10X68"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.31,
+      "zone": "wing"
+    },
+    {
+      "mark": "E-11",
+      "grid_x": "11",
+      "grid_y": "E",
+      "x": 210.0,
+      "y": 61.5,
+      "size": "W10X54",
+      "sizes_bottom_to_top": [
+        "W10X54"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.31,
+      "zone": "wing"
+    },
+    {
+      "mark": "E-12",
+      "grid_x": "12",
+      "grid_y": "E",
+      "x": 240.0,
+      "y": 61.5,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.31,
+      "zone": "wing"
+    },
+    {
+      "mark": "E-13",
+      "grid_x": "13",
+      "grid_y": "E",
+      "x": 270.0,
+      "y": 61.5,
+      "size": "W10X45",
+      "sizes_bottom_to_top": [
+        "W10X45"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.31,
+      "zone": "wing"
+    },
+    {
+      "mark": "E-7",
+      "grid_x": "7",
+      "grid_y": "E",
+      "x": 90.0,
+      "y": 61.5,
+      "size": "W10X60",
+      "sizes_bottom_to_top": [
+        "W10X60"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.31,
+      "zone": "wing"
+    },
+    {
+      "mark": "E-8",
+      "grid_x": "8",
+      "grid_y": "E",
+      "x": 120.0,
+      "y": 61.5,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49",
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.31,
+      "zone": "wing"
+    },
+    {
+      "mark": "E-9",
+      "grid_x": "9",
+      "grid_y": "E",
+      "x": 150.0,
+      "y": 61.5,
+      "size": "W10X68",
+      "sizes_bottom_to_top": [
+        "W10X68"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.31,
+      "zone": "wing"
+    },
+    {
+      "mark": "F-10",
+      "grid_x": "10",
+      "grid_y": "F",
+      "x": 180.0,
+      "y": 70.583,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "north"
+    },
+    {
+      "mark": "F-11",
+      "grid_x": "11",
+      "grid_y": "F",
+      "x": 210.0,
+      "y": 70.583,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "north"
+    },
+    {
+      "mark": "F-12",
+      "grid_x": "12",
+      "grid_y": "F",
+      "x": 240.0,
+      "y": 70.583,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "north"
+    },
+    {
+      "mark": "F-13",
+      "grid_x": "13",
+      "grid_y": "F",
+      "x": 270.0,
+      "y": 70.583,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "north"
+    },
+    {
+      "mark": "F-14",
+      "grid_x": "14",
+      "grid_y": "F",
+      "x": 280.0,
+      "y": 70.583,
+      "size": "W10X39",
+      "sizes_bottom_to_top": [
+        "W10X39"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 28.0,
+      "zone": "end_block"
+    },
+    {
+      "mark": "F-7",
+      "grid_x": "7",
+      "grid_y": "F",
+      "x": 90.0,
+      "y": 70.583,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "north"
+    },
+    {
+      "mark": "F-8",
+      "grid_x": "8",
+      "grid_y": "F",
+      "x": 120.0,
+      "y": 70.583,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49",
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "north"
+    },
+    {
+      "mark": "F-9",
+      "grid_x": "9",
+      "grid_y": "F",
+      "x": 150.0,
+      "y": 70.583,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49",
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "north"
+    },
+    {
+      "mark": "F.2-3",
+      "grid_x": "3",
+      "grid_y": "F.2",
+      "x": 30.0,
+      "y": 74.54,
+      "size": "HSS10X10X3/8",
+      "sizes_bottom_to_top": [
+        "HSS10X10X3/8"
+      ],
+      "depth_ft": 0.8333333333333334,
+      "flange_ft": 0.8333333333333334,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "wing"
+    },
+    {
+      "mark": "F.2-3.7",
+      "grid_x": "3.7",
+      "grid_y": "F.2",
+      "x": 40.0,
+      "y": 74.54,
+      "size": "HSS10X10X3/8",
+      "sizes_bottom_to_top": [
+        "HSS10X10X3/8"
+      ],
+      "depth_ft": 0.8333333333333334,
+      "flange_ft": 0.8333333333333334,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "vestibule"
+    },
+    {
+      "mark": "F.2-5",
+      "grid_x": "5",
+      "grid_y": "F.2",
+      "x": 60.0,
+      "y": 74.54,
+      "size": "HSS10X10X3/8",
+      "sizes_bottom_to_top": [
+        "HSS10X10X3/8"
+      ],
+      "depth_ft": 0.8333333333333334,
+      "flange_ft": 0.8333333333333334,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "vestibule"
+    },
+    {
+      "mark": "F.2-6",
+      "grid_x": "6",
+      "grid_y": "F.2",
+      "x": 72.0,
+      "y": 74.54,
+      "size": "W10X39",
+      "sizes_bottom_to_top": [
+        "W10X39"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.68,
+      "zone": "north"
+    },
+    {
+      "mark": "G.2-3.7",
+      "grid_x": "3.7",
+      "grid_y": "G.2",
+      "x": 40.0,
+      "y": 83.58,
+      "size": "HSS6X6X1/2",
+      "sizes_bottom_to_top": [
+        "HSS6X6X1/2"
+      ],
+      "depth_ft": 0.5,
+      "flange_ft": 0.5,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "vestibule"
+    },
+    {
+      "mark": "G.2-5",
+      "grid_x": "5",
+      "grid_y": "G.2",
+      "x": 60.0,
+      "y": 83.58,
+      "size": "HSS6X6X1/2",
+      "sizes_bottom_to_top": [
+        "HSS6X6X1/2"
+      ],
+      "depth_ft": 0.5,
+      "flange_ft": 0.5,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 31.5,
+      "zone": "vestibule"
+    },
+    {
+      "mark": "H-6",
+      "grid_x": "6",
+      "grid_y": "H",
+      "x": 72.0,
+      "y": 98.695,
+      "size": "W10X45",
+      "sizes_bottom_to_top": [
+        "W10X45"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 32.77,
+      "zone": "north"
+    },
+    {
+      "mark": "H-7",
+      "grid_x": "7",
+      "grid_y": "H",
+      "x": 90.0,
+      "y": 98.695,
+      "size": "W10X60",
+      "sizes_bottom_to_top": [
+        "W10X60"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 32.77,
+      "zone": "north"
+    },
+    {
+      "mark": "H-8",
+      "grid_x": "8",
+      "grid_y": "H",
+      "x": 120.0,
+      "y": 98.695,
+      "size": "W10X60",
+      "sizes_bottom_to_top": [
+        "W10X60"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 32.77,
+      "zone": "north"
+    },
+    {
+      "mark": "H.1-13",
+      "grid_x": "13",
+      "grid_y": "H.1",
+      "x": 270.0,
+      "y": 98.695,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 32.77,
+      "zone": "north"
+    },
+    {
+      "mark": "H.1-14",
+      "grid_x": "14",
+      "grid_y": "H.1",
+      "x": 280.0,
+      "y": 98.695,
+      "size": "W10X60",
+      "sizes_bottom_to_top": [
+        "W10X60"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 32.77,
+      "zone": "north"
+    },
+    {
+      "mark": "K-6",
+      "grid_x": "6",
+      "grid_y": "K",
+      "x": 72.0,
+      "y": 119.28,
+      "size": "W10X33",
+      "sizes_bottom_to_top": [
+        "W10X33"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 33.7,
+      "zone": "north"
+    },
+    {
+      "mark": "K.1-14",
+      "grid_x": "14",
+      "grid_y": "K.1",
+      "x": 280.0,
+      "y": 124.78,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 33.95,
+      "zone": "north"
+    },
+    {
+      "mark": "K.7-6",
+      "grid_x": "6",
+      "grid_y": "K.7",
+      "x": 72.0,
+      "y": 133.78,
+      "size": "W10X39",
+      "sizes_bottom_to_top": [
+        "W10X39"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 34.36,
+      "zone": "north"
+    },
+    {
+      "mark": "L-12.9",
+      "grid_x": "12.9",
+      "grid_y": "L",
+      "x": 268.0,
+      "y": 138.53,
+      "size": "HSS8X8X3/8",
+      "sizes_bottom_to_top": [
+        "HSS8X8X3/8"
+      ],
+      "depth_ft": 0.6666666666666666,
+      "flange_ft": 0.6666666666666666,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 34.58,
+      "zone": "north"
+    },
+    {
+      "mark": "L-14",
+      "grid_x": "14",
+      "grid_y": "L",
+      "x": 280.0,
+      "y": 138.53,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 34.58,
+      "zone": "north"
+    },
+    {
+      "mark": "L-7",
+      "grid_x": "7",
+      "grid_y": "L",
+      "x": 90.0,
+      "y": 138.53,
+      "size": "W10X88",
+      "sizes_bottom_to_top": [
+        "W10X88"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 34.58,
+      "zone": "north"
+    },
+    {
+      "mark": "L-8",
+      "grid_x": "8",
+      "grid_y": "L",
+      "x": 120.0,
+      "y": 138.53,
+      "size": "W10X88",
+      "sizes_bottom_to_top": [
+        "W10X88"
+      ],
+      "depth_ft": 0.85,
+      "flange_ft": 0.842,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 34.58,
+      "zone": "north"
+    },
+    {
+      "mark": "L.6-12.9",
+      "grid_x": "12.9",
+      "grid_y": "L.6",
+      "x": 268.0,
+      "y": 154.53,
+      "size": "HSS8X8X3/8",
+      "sizes_bottom_to_top": [
+        "HSS8X8X3/8"
+      ],
+      "depth_ft": 0.6666666666666666,
+      "flange_ft": 0.6666666666666666,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 35.3,
+      "zone": "north"
+    },
+    {
+      "mark": "L.6-14",
+      "grid_x": "14",
+      "grid_y": "L.6",
+      "x": 280.0,
+      "y": 154.53,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 35.3,
+      "zone": "north"
+    },
+    {
+      "mark": "M-13",
+      "grid_x": "13",
+      "grid_y": "M",
+      "x": 270.0,
+      "y": 168.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 35.93,
+      "zone": "north"
+    },
+    {
+      "mark": "M-14",
+      "grid_x": "14",
+      "grid_y": "M",
+      "x": 280.0,
+      "y": 168.53,
+      "size": "W10X49",
+      "sizes_bottom_to_top": [
+        "W10X49"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 35.93,
+      "zone": "north"
+    },
+    {
+      "mark": "M-6",
+      "grid_x": "6",
+      "grid_y": "M",
+      "x": 72.0,
+      "y": 168.53,
+      "size": "W10X33",
+      "sizes_bottom_to_top": [
+        "W10X33"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 35.93,
+      "zone": "north"
+    },
+    {
+      "mark": "M-7",
+      "grid_x": "7",
+      "grid_y": "M",
+      "x": 90.0,
+      "y": 168.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 35.93,
+      "zone": "north"
+    },
+    {
+      "mark": "M-8",
+      "grid_x": "8",
+      "grid_y": "M",
+      "x": 120.0,
+      "y": 168.53,
+      "size": "W10X54",
+      "sizes_bottom_to_top": [
+        "W10X54"
+      ],
+      "depth_ft": 0.833,
+      "flange_ft": 0.667,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 35.93,
+      "zone": "north"
+    },
+    {
+      "mark": "M.7-10",
+      "grid_x": "10",
+      "grid_y": "M.7",
+      "x": 180.0,
+      "y": 187.11,
+      "size": "HSS6X6X3/8",
+      "sizes_bottom_to_top": [
+        "HSS6X6X3/8"
+      ],
+      "depth_ft": 0.5,
+      "flange_ft": 0.5,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 36.77,
+      "zone": "north"
+    },
+    {
+      "mark": "M.7-11",
+      "grid_x": "11",
+      "grid_y": "M.7",
+      "x": 210.0,
+      "y": 187.11,
+      "size": "HSS6X6X3/8",
+      "sizes_bottom_to_top": [
+        "HSS6X6X3/8"
+      ],
+      "depth_ft": 0.5,
+      "flange_ft": 0.5,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 36.77,
+      "zone": "north"
+    },
+    {
+      "mark": "M.7-12",
+      "grid_x": "12",
+      "grid_y": "M.7",
+      "x": 240.0,
+      "y": 187.11,
+      "size": "HSS6X6X3/8",
+      "sizes_bottom_to_top": [
+        "HSS6X6X3/8"
+      ],
+      "depth_ft": 0.5,
+      "flange_ft": 0.5,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 36.77,
+      "zone": "north"
+    },
+    {
+      "mark": "M.7-9",
+      "grid_x": "9",
+      "grid_y": "M.7",
+      "x": 150.0,
+      "y": 187.11,
+      "size": "HSS6X6X3/8",
+      "sizes_bottom_to_top": [
+        "HSS6X6X3/8"
+      ],
+      "depth_ft": 0.5,
+      "flange_ft": 0.5,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 36.77,
+      "zone": "north"
+    },
+    {
+      "mark": "N-10",
+      "grid_x": "10",
+      "grid_y": "N",
+      "x": 180.0,
+      "y": 198.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 37.29,
+      "zone": "north"
+    },
+    {
+      "mark": "N-11",
+      "grid_x": "11",
+      "grid_y": "N",
+      "x": 210.0,
+      "y": 198.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 37.29,
+      "zone": "north"
+    },
+    {
+      "mark": "N-12",
+      "grid_x": "12",
+      "grid_y": "N",
+      "x": 240.0,
+      "y": 198.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 37.29,
+      "zone": "north"
+    },
+    {
+      "mark": "N-13",
+      "grid_x": "13",
+      "grid_y": "N",
+      "x": 270.0,
+      "y": 198.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 37.29,
+      "zone": "north"
+    },
+    {
+      "mark": "N-7",
+      "grid_x": "7",
+      "grid_y": "N",
+      "x": 90.0,
+      "y": 198.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 37.29,
+      "zone": "north"
+    },
+    {
+      "mark": "N-8",
+      "grid_x": "8",
+      "grid_y": "N",
+      "x": 120.0,
+      "y": 198.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 37.29,
+      "zone": "north"
+    },
+    {
+      "mark": "N-9",
+      "grid_x": "9",
+      "grid_y": "N",
+      "x": 150.0,
+      "y": 198.53,
+      "size": "W14X99",
+      "sizes_bottom_to_top": [
+        "W14X99"
+      ],
+      "depth_ft": 1.183,
+      "flange_ft": 1.217,
+      "code": "W size / grid location",
+      "orientation": "web parallel to y (A)",
+      "z_top_ft": 37.29,
+      "zone": "north"
+    }
+  ],
+  "liner_faces": [
+    {
+      "facade": "NORTH",
+      "plane": 120.44,
+      "u": [
+        71.0,
+        72.88
+      ],
+      "z": [
+        0.0,
+        35.29
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 118.94,
+      "u": [
+        197.5,
+        200.88
+      ],
+      "z": [
+        0.0,
+        39.59
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 284.62,
+      "u": [
+        121.9,
+        156.2
+      ],
+      "z": [
+        9.0,
+        37.2
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 14
+    },
+    {
+      "facade": "NORTH",
+      "plane": 198.38,
+      "u": [
+        109.12,
+        110.62
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 287.39,
+      "u": [
+        165.92,
+        170.41
+      ],
+      "z": [
+        9.0,
+        37.96
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 2
+    },
+    {
+      "facade": "SOUTH",
+      "plane": -4.16,
+      "u": [
+        7.0,
+        48.5
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 8
+    },
+    {
+      "facade": "EAST",
+      "plane": 48.5,
+      "u": [
+        -4.16,
+        -1.46
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 197.5,
+      "u": [
+        121.12,
+        129.12
+      ],
+      "z": [
+        0.0,
+        39.41
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 2
+    },
+    {
+      "facade": "NORTH",
+      "plane": 200.88,
+      "u": [
+        119.0,
+        121.0
+      ],
+      "z": [
+        0.0,
+        39.59
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": -1.46,
+      "u": [
+        118.33,
+        241.67
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 35
+    },
+    {
+      "facade": "NORTH",
+      "plane": 169.62,
+      "u": [
+        71.0,
+        89.12
+      ],
+      "z": [
+        0.0,
+        37.92
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 9
+    },
+    {
+      "facade": "NORTH",
+      "plane": 107.5,
+      "u": [
+        284.4,
+        287.39
+      ],
+      "z": [
+        9.0,
+        34.59
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 38.63,
+      "u": [
+        7.0,
+        10.67
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 7.0,
+      "u": [
+        28.74,
+        38.63
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 28.74,
+      "u": [
+        7.0,
+        12.3
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 12.3,
+      "u": [
+        18.42,
+        28.74
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 3
+    },
+    {
+      "facade": "NORTH",
+      "plane": 18.42,
+      "u": [
+        10.93,
+        12.3
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 9.94,
+      "u": [
+        -2.35,
+        18.42
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 2
+    },
+    {
+      "facade": "NORTH",
+      "plane": -2.35,
+      "u": [
+        7.0,
+        8.59
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 7.0,
+      "u": [
+        -4.16,
+        -2.35
+      ],
+      "z": [
+        0.0,
+        13.5
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": -1.46,
+      "u": [
+        118.33,
+        241.67
+      ],
+      "z": [
+        13.5,
+        33.3
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 18
+    },
+    {
+      "facade": "NORTH",
+      "plane": 70.58,
+      "u": [
+        71.0,
+        271.29
+      ],
+      "z": [
+        32.62,
+        33.3
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 28.5,
+      "u": [
+        54.2,
+        74.38
+      ],
+      "z": [
+        0.0,
+        40.0
+      ],
+      "material": "GLZ",
+      "thickness_ft": 0.5,
+      "openings": 16
+    },
+    {
+      "facade": "SOUTH",
+      "plane": -4.15,
+      "u": [
+        172.01,
+        228.01
+      ],
+      "z": [
+        12.58,
+        27.33
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 13
+    },
+    {
+      "facade": "EAST",
+      "plane": 228.01,
+      "u": [
+        -4.15,
+        -1.46
+      ],
+      "z": [
+        12.58,
+        27.33
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 172.01,
+      "u": [
+        -4.15,
+        -1.46
+      ],
+      "z": [
+        12.58,
+        27.33
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 54.2,
+      "u": [
+        10.67,
+        28.5
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 9
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 54.2,
+      "u": [
+        28.5,
+        71.0
+      ],
+      "z": [
+        33.3,
+        40.0
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 71.0,
+      "u": [
+        54.2,
+        74.38
+      ],
+      "z": [
+        32.62,
+        36.0
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 74.38,
+      "u": [
+        28.5,
+        71.0
+      ],
+      "z": [
+        0.0,
+        40.0
+      ],
+      "material": "GLZ",
+      "thickness_ft": 0.5,
+      "openings": 22
+    },
+    {
+      "facade": "WEST",
+      "plane": 71.0,
+      "u": [
+        132.88,
+        169.62
+      ],
+      "z": [
+        0.0,
+        37.92
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 17
+    },
+    {
+      "facade": "WEST",
+      "plane": 91.0,
+      "u": [
+        189.38,
+        197.5
+      ],
+      "z": [
+        0.0,
+        39.41
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 62.25,
+      "u": [
+        74.54,
+        83.58
+      ],
+      "z": [
+        0.0,
+        9.0
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 38.25,
+      "u": [
+        74.54,
+        83.58
+      ],
+      "z": [
+        0.0,
+        9.0
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 2
+    },
+    {
+      "facade": "NORTH",
+      "plane": 83.58,
+      "u": [
+        38.25,
+        62.25
+      ],
+      "z": [
+        0.0,
+        9.0
+      ],
+      "material": "GLZ",
+      "thickness_ft": 0.5,
+      "openings": 6
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 74.54,
+      "u": [
+        38.25,
+        62.25
+      ],
+      "z": [
+        0.0,
+        9.0
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 271.29,
+      "u": [
+        2.91,
+        70.58
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 23
+    },
+    {
+      "facade": "WEST",
+      "plane": 148.99,
+      "u": [
+        197.5,
+        203.03
+      ],
+      "z": [
+        0.0,
+        39.71
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 91.66,
+      "u": [
+        -1.46,
+        2.88
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 90.12,
+      "u": [
+        177.88,
+        179.38
+      ],
+      "z": [
+        0.0,
+        38.44
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 170.41,
+      "u": [
+        268.28,
+        287.39
+      ],
+      "z": [
+        0.0,
+        37.96
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 268.28,
+      "u": [
+        170.41,
+        197.91
+      ],
+      "z": [
+        0.0,
+        39.43
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 202.72,
+      "u": [
+        198.55,
+        203.03
+      ],
+      "z": [
+        0.0,
+        14.83
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 200.79,
+      "u": [
+        164.96,
+        187.55
+      ],
+      "z": [
+        0.0,
+        14.83
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 198.38,
+      "u": [
+        139.12,
+        140.62
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 139.06,
+      "u": [
+        197.5,
+        198.38
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": -1.46,
+      "u": [
+        10.67,
+        91.66
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 38
+    },
+    {
+      "facade": "EAST",
+      "plane": 130.81,
+      "u": [
+        197.5,
+        198.38
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 198.38,
+      "u": [
+        129.25,
+        130.75
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 129.19,
+      "u": [
+        197.5,
+        198.38
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 71.0,
+      "u": [
+        74.38,
+        120.38
+      ],
+      "z": [
+        0.0,
+        35.28
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 12
+    },
+    {
+      "facade": "EAST",
+      "plane": 121.06,
+      "u": [
+        197.5,
+        200.88
+      ],
+      "z": [
+        0.0,
+        39.59
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 110.68,
+      "u": [
+        197.5,
+        198.38
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 109.06,
+      "u": [
+        197.5,
+        198.38
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 100.81,
+      "u": [
+        197.5,
+        198.38
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 197.5,
+      "u": [
+        91.0,
+        99.12
+      ],
+      "z": [
+        0.0,
+        39.41
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 2
+    },
+    {
+      "facade": "WEST",
+      "plane": 99.19,
+      "u": [
+        197.5,
+        198.38
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 10.67,
+      "u": [
+        -1.46,
+        54.2
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 19
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 2.91,
+      "u": [
+        241.67,
+        271.29
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 17
+    },
+    {
+      "facade": "WEST",
+      "plane": 90.12,
+      "u": [
+        187.75,
+        189.25
+      ],
+      "z": [
+        0.0,
+        38.97
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 179.44,
+      "u": [
+        90.12,
+        91.0
+      ],
+      "z": [
+        0.0,
+        38.45
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 177.81,
+      "u": [
+        90.12,
+        91.0
+      ],
+      "z": [
+        0.0,
+        38.36
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 187.69,
+      "u": [
+        90.12,
+        91.0
+      ],
+      "z": [
+        0.0,
+        38.89
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 171.56,
+      "u": [
+        90.12,
+        91.0
+      ],
+      "z": [
+        0.0,
+        38.02
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 241.67,
+      "u": [
+        -1.46,
+        2.91
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 72.88,
+      "u": [
+        120.5,
+        132.75
+      ],
+      "z": [
+        0.0,
+        35.95
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 9
+    },
+    {
+      "facade": "WEST",
+      "plane": 90.12,
+      "u": [
+        170.0,
+        171.5
+      ],
+      "z": [
+        0.0,
+        38.02
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 118.33,
+      "u": [
+        -1.46,
+        2.88
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 165.92,
+      "u": [
+        281.62,
+        287.39
+      ],
+      "z": [
+        9.0,
+        37.72
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 284.4,
+      "u": [
+        107.5,
+        121.9
+      ],
+      "z": [
+        9.0,
+        35.36
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 156.2,
+      "u": [
+        281.62,
+        284.62
+      ],
+      "z": [
+        9.0,
+        37.2
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 287.39,
+      "u": [
+        97.92,
+        107.5
+      ],
+      "z": [
+        9.0,
+        34.59
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 1
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 97.92,
+      "u": [
+        281.62,
+        287.39
+      ],
+      "z": [
+        9.0,
+        34.08
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 203.03,
+      "u": [
+        148.99,
+        211.0
+      ],
+      "z": [
+        0.0,
+        39.71
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 8
+    },
+    {
+      "facade": "NORTH",
+      "plane": 197.91,
+      "u": [
+        211.0,
+        268.28
+      ],
+      "z": [
+        0.0,
+        39.43
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 4
+    },
+    {
+      "facade": "NORTH",
+      "plane": 169.81,
+      "u": [
+        89.12,
+        90.12
+      ],
+      "z": [
+        0.0,
+        37.94
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 132.81,
+      "u": [
+        71.0,
+        72.88
+      ],
+      "z": [
+        0.0,
+        35.95
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 2.88,
+      "u": [
+        91.66,
+        118.33
+      ],
+      "z": [
+        0.0,
+        33.3
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 14
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 121.9,
+      "u": [
+        284.4,
+        284.62
+      ],
+      "z": [
+        9.0,
+        35.36
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 197.5,
+      "u": [
+        100.88,
+        109.0
+      ],
+      "z": [
+        0.0,
+        39.41
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 2
+    },
+    {
+      "facade": "EAST",
+      "plane": 281.62,
+      "u": [
+        44.21,
+        170.41
+      ],
+      "z": [
+        0.0,
+        37.72
+      ],
+      "material": "BRK1",
+      "thickness_ft": 1.177,
+      "openings": 31
+    },
+    {
+      "facade": "NORTH",
+      "plane": 198.55,
+      "u": [
+        187.55,
+        202.72
+      ],
+      "z": [
+        0.0,
+        14.83
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 1
+    },
+    {
+      "facade": "EAST",
+      "plane": 211.0,
+      "u": [
+        197.91,
+        203.03
+      ],
+      "z": [
+        0.0,
+        14.83
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 140.62,
+      "u": [
+        197.88,
+        198.38
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 240.66,
+      "u": [
+        197.91,
+        200.9
+      ],
+      "z": [
+        14.83,
+        39.59
+      ],
+      "material": "TWS1",
+      "thickness_ft": 0.6,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 200.9,
+      "u": [
+        210.14,
+        240.66
+      ],
+      "z": [
+        14.83,
+        39.59
+      ],
+      "material": "TWS1",
+      "thickness_ft": 0.6,
+      "openings": 4
+    },
+    {
+      "facade": "EAST",
+      "plane": 210.14,
+      "u": [
+        200.9,
+        203.03
+      ],
+      "z": [
+        14.83,
+        39.71
+      ],
+      "material": "TWS1",
+      "thickness_ft": 0.6,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 197.5,
+      "u": [
+        141.25,
+        148.99
+      ],
+      "z": [
+        0.0,
+        39.41
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 3
+    },
+    {
+      "facade": "WEST",
+      "plane": 91.0,
+      "u": [
+        179.5,
+        187.62
+      ],
+      "z": [
+        0.0,
+        38.88
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 197.5,
+      "u": [
+        110.75,
+        118.88
+      ],
+      "z": [
+        0.0,
+        39.41
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 2
+    },
+    {
+      "facade": "NORTH",
+      "plane": 198.38,
+      "u": [
+        99.25,
+        100.75
+      ],
+      "z": [
+        0.0,
+        39.46
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 189.31,
+      "u": [
+        90.12,
+        91.0
+      ],
+      "z": [
+        0.0,
+        38.98
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "WEST",
+      "plane": 91.0,
+      "u": [
+        171.62,
+        177.75
+      ],
+      "z": [
+        0.0,
+        38.35
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 197.5,
+      "u": [
+        130.88,
+        139.0
+      ],
+      "z": [
+        0.0,
+        39.41
+      ],
+      "material": "PNL1",
+      "thickness_ft": 0.885,
+      "openings": 2
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 97.75,
+      "u": [
+        271.38,
+        281.62
+      ],
+      "z": [
+        32.0,
+        34.07
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "NORTH",
+      "plane": 197.69,
+      "u": [
+        140.62,
+        141.25
+      ],
+      "z": [
+        0.0,
+        39.43
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 1
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 70.58,
+      "u": [
+        271.29,
+        271.38
+      ],
+      "z": [
+        32.0,
+        32.62
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "EAST",
+      "plane": 271.38,
+      "u": [
+        70.58,
+        97.75
+      ],
+      "z": [
+        32.0,
+        34.07
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 0
+    },
+    {
+      "facade": "SOUTH",
+      "plane": 44.21,
+      "u": [
+        271.29,
+        281.62
+      ],
+      "z": [
+        0.0,
+        32.0
+      ],
+      "material": "PNL2",
+      "thickness_ft": 0.802,
+      "openings": 6
+    }
+  ],
+  "objects_after": 853,
+  "objects_added": [
+    "BB_L1_slab_on_grade",
+    "BB_L2_composite_slab",
+    "BB_columns_S601",
+    "BB_core_walls_L1",
+    "BB_core_walls_L2",
+    "BB_elevator_hoistway_walls",
+    "BB_elevator_pit_slab",
+    "BB_extwall_inner_faces",
+    "BB_extwall_inner_faces_TWS1_translucent",
+    "BB_extwall_window_reveals",
+    "BB_fmk_program_partitions_L1",
+    "BB_fmk_program_partitions_L2",
+    "BB_mezzanine_slab_233",
+    "BB_roof_deck_underside_TOS",
+    "BB_stair_gallery_stair_126_A6.14",
+    "BB_stair_gallery_stair_126_A6.14_guards",
+    "BB_stair_lobby_stair_A6.11",
+    "BB_stair_lobby_stair_A6.11_guards",
+    "BB_stair_mezzanine_stair_east_A6.13",
+    "BB_stair_mezzanine_stair_east_A6.13_guards",
+    "BB_stair_mezzanine_stair_west_A6.13",
+    "BB_stair_mezzanine_stair_west_A6.13_guards",
+    "BB_stair_south_stair_131_231_A6.12",
+    "BB_stair_south_stair_131_231_A6.12_guards",
+    "BI_cam_int_L1_plan_cut",
+    "BI_cam_int_L2_plan_cut",
+    "BI_cam_int_courts",
+    "BI_cam_int_lobby_core",
+    "BI_cam_int_long_section",
+    "BI_cam_int_structure_oblique",
+    "BI_cam_int_transverse_section",
+    "CNSA_partitions_L1",
+    "CNSA_partitions_L2",
+    "CNSA_tenant_zone_L1",
+    "CNSA_tenant_zone_L2"
+  ],
+  "materials_added": [
+    "BB_concrete_slab",
+    "BB_exterior_wall_inner_face",
+    "BB_exterior_wall_inner_face_TWS1_translucent",
+    "BB_gwb_partition",
+    "BB_roof_deck_underside",
+    "BB_shaft_wall",
+    "BB_stair_guard",
+    "BB_stair_steel_pan",
+    "BB_steel_structure",
+    "TENANT_CNSA_partition",
+    "TENANT_CNSA_zone_plate"
+  ],
+  "existing_objects_identical": true,
+  "existing_materials_identical": true,
+  "gpu": "OPTIX",
+  "render_seconds": {
+    "1_L1_plan_cutaway": 2.0,
+    "2_L2_plan_cutaway": 0.5,
+    "3_longitudinal_section": 0.2,
+    "4_transverse_section": 0.2,
+    "5_lobby_core": 54.7,
+    "6_courts_interior": 57.0,
+    "7_structure_core_oblique": 19.8
+  },
+  "render_exposure": {
+    "workbench_views": "Standard, exposure 0",
+    "cycles_interiors": "AgX, exposure -1.3 (v013 exterior setting -4.35 restored in the saved file)"
+  },
+  "render_note": "interior views rendered with collections 01_Shell, 02_Parapet_screens, 07_Facade_regions_v005 and 03_Canopy hidden (collection flags, restored before saving); cutaways and sections use the Workbench engine (studio light, material colours, camera clipping at the cut plane; the L1 cutaway also hides the Level 2 / mezzanine objects and the roof plates); perspective interiors use Cycles with the opaque lite placeholders (04_Openings) hidden so daylight enters through the window apertures; the structure oblique also hides the inner-face liner and roof plates"
+}

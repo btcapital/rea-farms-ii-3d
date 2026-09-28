@@ -1,0 +1,203 @@
+page	sheet	sheet_name	revisions_listed_in_title_block
+1	G0.00		1,2,3,4,5,6
+2	G0.01	Code Summary	4,5,6
+3	G0.02	Level 1 Appendix B Exhibit	4,5,6
+4	G0.03	Level 2 Appendix B Exhibit	4,6
+5	G1.01	COMcheck	
+6	G1.02	Special Inspections	
+7	A0.01	Architectural Site Plan	5,6
+8	A0.02		5,6
+9	A0.03	Building Axonometric	5,6
+10	A0.04	Dumpster Enclosure Details	6
+11	A0.12	Level 1 Life Safety Plan	4,5,6
+12	A0.13	Level 2 Life Safety Plan	4,5
+13	A0.14	Level 1 Fire Rating Plan	4,6
+14	A0.21	Wall Types - Exterior	
+15	A0.22	Wall Types - Interior	5,6
+16	A0.31	UL Assemblies - U465	
+17	A0.32	UL Assemblies - U469	
+18	A0.33	UL Assemblies - N823, X827, X829	
+19	A0.34	UL Assemblies - HW-D-0034, HW-D-0548	
+20	A0.35	UL Assemblies - BW-S-0020, BW-S-0030	
+21	A0.36	UL Assemblies - HW-D-0099	4,5
+22	A1.00a	Level 1 Edge of Slab Plan	4,6
+23	A1.00b	Level 2 Edge of Slab Plan	6
+24	A1.00c	Roof Edge of Slab Plan	6
+25	A1.01	Level 1 Building Plan	4,5,6
+26	A1.02	Level 2 Building Plan	6
+27	A1.03	Roof Plan	6
+28	A1.13	Entry Canopy Plans & Details	6
+29	A2.01	Enlarged Plans	
+30	A2.02	ans	4,5,6
+31	A2.03	Enlarged Plans	5,6
+32	A2.04	Enlarged Restroom Plans	4,6
+33	A2.05	Enlarged Restroom Plans	4,6
+34	A2.06	Enlarged Restroom Plans	4,6
+35	A2.11	Level 1 Plan Detail Callout Plan	4,6
+36	A2.12	Level 2 Plan Detail Callout Plan	6
+37	A2.13	Enlarged Plan Details	6
+38	A2.14	Enlarged Plan Details	6
+39	A2.15	Enlarged Plan Details	6
+40	A2.16	Enlarged Plan Details	4,5,6
+41	A2.17	Enlarged Plan Details	6
+42	A2.18	Enlarged Plan Details	6
+43	A2.20	Enlarged Plan Details	6
+44	A2.21	Enlarged Plan Details	6
+45	A2.22	Enlarged Plan Details	6
+46	A2.23	Enlarged Plan Details	
+47	A2.31	Level 1 Equipment Plan	5,6
+48	A2.32	Level 2 Equipment Plan	6
+49	A3.01		4,5,6
+50	A3.02	Reflected Ceiling Plan - Second Floor	4,5,6
+51	A3.03	Enlarged Reflected Ceiling Plan & Details	4,5,6
+52	A3.04	Enlarged Reflected Ceiling Details	4,5,6
+53	A3.05	Ceiling Details	4,5
+54	A3.06	Ceiling Details	4,5
+55	A3.11	Interior Elevations - Lobby	4,5,6
+56	A3.12	Interior Elevations - Corridor	4,6
+57	A3.13	Interior Elevations - Courts 1	4,6
+58	A3.14	Interior Elevations - Courts 2	4,6
+59	A3.15	Interior Elevations - Courts 3	4,6
+60	A3.16	Interior Elevations - Millwork	4,5,6
+61	A3.20	Casework Sections	4,6
+62	A3.21	Casework Sections	
+63	A4.01	Building Elevations	3,6
+64	A4.02	Building Elevations raft.	3,5,6
+65	A4.03	Enlarged Exterior Elevations	6
+66	A4.04	Enlarged Exterior Elevations	4,6
+67	A4.05	Enlarged Exterior Elevations	6
+68	A4.06	Enlarged Exterior Elevations	5,6
+69	A5.01	Building Sections	
+70	A5.11	Exterior Wall Sections	
+71	A5.12	Exterior Wall Sections	
+72	A5.13	Exterior Wall Sections	6
+73	A5.14	Exterior Wall Sections	
+74	A5.15	Exterior Wall Sections	
+75	A5.16	Exterior Wall Sections	
+76	A5.17	Exterior Wall Sections	
+77	A5.18	Exterior Wall Sections	6
+78	A5.19	Exterior Wall Sections 6	6
+79	A5.21	Exterior Wall Section Details	6
+80	A5.22	Exterior Wall Section Details	6
+81	A5.23	Exterior Wall Section Details	6
+82	A5.24	Exterior Wall Section Details	6
+83	A5.25	Exterior Wall Section Details	6
+84	A5.26	Exterior Wall Section Details	6
+85	A5.27	Exterior Wall Section Details	6
+86	A5.31	Interior Wall Sections	4,5,6
+87	A5.32	Interior Wall Sections	4,6
+88	A6.01	Elevator Plans, Sections, & Details	4
+89	A6.02	Elevator Lift Plans, Sections, & Details	
+90	A6.11	Enlarged Stair Plans & Sections - Lobby Stair	4,5
+91	A6.12	Enlarged Stair Plans & Sections - South Stair	4,5
+92	A6.13	Enlarged Stair Plans & Sections - Mezzanine Stairs	4,5
+93	A6.14	Enlarged Stair Plans & Sections - Gallery Stair	4,5
+94	A6.21	Stair, Guard and Hand Rail Details	4
+95	A7.01	Door Schedules & Elevations	4,5,6
+96	A7.02	Door Hardware Sets	5,6
+97	A7.11	Door Details - Exterior	6
+98	A7.12	Door Details - Interior	
+99	A7.13	Interior Office Door Glazing Details	
+100	A7.21	Exterior Storefront Elevations	4,6
+101	A7.22	Exterior Storefront Elevations	4
+102	A7.23	Exterior Storefront Elevations	4,6
+103	A7.24	Interior Storefront Elevations	4,6
+104	A7.25	Curtain Wall Elevations	4
+105	A7.26	Curtain Wall Elevations	4,6
+106	A7.27	Translucent Wall Elevations	
+107	A7.28	Translucent Wall Elevations	
+108	A7.31	Storefront Details	6
+109	A7.32	Storefront Details	6
+110	A7.33	Storefront Details Interior	6
+111	A7.34	Curtain Wall Details	6
+112	A7.35	Translucent Wall Details	6
+113		1st FL - Interiors Finish Plan East	
+114		1st FL - Interiors Finish Plan West	
+115		2nd FL - Interiors Finish Plan East	
+116		2nd FL - Interiors Finish Plan West	
+117		Finish Schedule & Legend	
+118	S001	DATE                6                                 11/15/2024 6                                 11/15/2024 09/03/2024 09/03/2024             6                                 11/15/2024 09/03/2024             6                                 11/15/2024 09/03/2024             6                                 11/15/2024 09/03/2024             6                                 11/15/2024	6
+119	S002	GENERAL NOTES - CONCRETE	6
+120	S003	GENERAL NOTES - MASONRY	
+121	S004	GENERAL NOTES - STEEL	
+122	S101	FOUNDATION PLAN	6
+123	S102	2ND FLOOR FRAMING PLAN	6
+124	S103	ROOF FRAMING PLAN	6
+125	S104	HIGH ROOF FRAMING PLAN HSS10X6X3/8 (TOS <varies>)	6
+126	S120	ENLARGED PLANS	
+127	S201	TYPICAL FOUNDATION DETAILS	6
+128	S202	SECONDARY POURS	
+129	S203	TYPICAL STEEL DETAILS	6
+130	S204	TYPICAL JOIST DETAILS	6
+131	S301	SECTIONS AND DETAILS	
+132	S302	SECTIONS AND DETAILS	
+133	S303	SECTIONS AND DETAILS	
+134	S304	SECTIONS AND DETAILS	
+135	S305	SECTIONS AND DETAILS	
+136	S306	SECTIONS AND DETAILS	
+137	S307	SECTIONS AND DETAILS	
+138	S308	SECTIONS AND DETAILS	
+139	S309	SECTIONS AND DETAILS	
+140	S310	SECTIONS AND DETAILS	
+141	S311	SECTIONS AND DETAILS	6
+142	S312	SECTIONS AND DETAILS	
+143	S313	SECTIONS AND DETAILS	
+144	S401	BRACED FRAME ELEVATIONS	
+145	S402	BRACED FRAME ELEVATIONS	6
+146	S403	BRACED FRAME ELEVATIONS	
+147	S501	STRUCTURAL ELEVATIONS	
+148	S502	STRUCTURAL ELEVATIONS	
+149	S503	STRUCTURAL ELEVATIONS	6
+150	S504	STRUCTURAL ELEVATIONS	6
+151	S601	GRAPHICAL COLUMN SCHEDULE	6
+152	P0.01	PLUMBING - GENERAL NOTES, SCHEDULES AND LEGENDS	
+153	P1.01	PLUMBING - LEVEL 01 - WASTE AND VENT PLAN	
+154	P1.02	PLUMBING - LEVEL 02 - WASTE AND VENT PLAN	
+155	P2.01	PLUMBING - LEVEL 01 - WATER AND GAS PLAN	1,6
+156	P2.02	PLUMBING - LEVEL 02 - WATER AND GAS PLAN	6
+157	P3.00	PLUMBING - BELOW GRADE - STORM PLAN	6
+158	P3.01	PLUMBING - LEVEL 01 - STORM PLAN	6
+159	P3.02	PLUMBING - LEVEL 02 - STORM PLAN	6
+160	P3.03	PLUMBING - ROOF - STORM PLAN	6
+161	P4.01	PLUMBING - ENLARGED WASTE AND VENT PLANS	
+162	P4.02	PLUMBING - ENLARGED WATER AND GAS PLANS	1,6
+163	P5.01	PLUMBING - WASTE AND VENT RISER DIAGRAM EAST	
+164	P5.02	PLUMBING - WASTE AND VENT RISER DIAGRAM WEST	
+165	P5.03	PLUMBING - WATER RISER DIAGRAM EAST	6
+166	P5.04	PLUMBING - WATER RISER DIAGRAM WEST	6
+167	P5.05	PLUMBING - GAS RISER DIAGRAM	1,6
+168	P5.06	PLUMBING - STORM RISER DIAGRAM	6
+169	P7.01	PLUMBING - DETAILS	
+170	P7.02	PLUMBING - DETAILS	6
+171	FP0.01	FIRE PROTECTION - GENERAL NOTES AND LEGEND	
+172	FP1.01	FIRE PROTECTION - LEVEL 01	6
+173	FP1.02	FIRE PROTECTION - LEVEL 02	6
+174	M0.01	MECHANICAL - GENERAL NOTES AND LEGENDS	
+175	M2.01	MECHANICAL - LEVEL 1 - HVAC PLAN	6
+176	M2.02	MECHANICAL - LEVEL 2 - HVAC PLAN	1,6
+177	M2.03	MECHANICAL - ROOF - HVAC PLAN	6
+178	M4.01	MECHANICAL - SECTION VIEWS	6
+179	M5.01	MECHANICAL - CONTROLS	6
+180	M5.02	MECHANICAL - CONTROLS	
+181	M6.01	MECHANICAL - SCHEDULES	6
+182	M6.02	MECHANICAL - SCHEDULES	6
+183	M6.03	MECHANICAL - OUTDOOR AIR TABLES	
+184	M7.01	MECHANICAL - DETAILS	
+185	M7.02	MECHANICAL - DETAILS	
+186	E0.01	ELECTRICAL - GENERAL NOTES AND LEGENDS	6
+187	E1.01	ELECTRICAL - LEVEL 01 - LIGHTING PLAN	4,5,6
+188	E1.02	ELECTRICAL - LEVEL 02 - LIGHTING PLAN	6
+189	E2.01	ELECTRICAL - LEVEL 01 - POWER PLAN	5,6
+190	E2.02	ELECTRICAL - LEVEL 02 - POWER PLAN	6
+191	E2.03	ELECTRICAL - ROOF - POWER PLAN	6
+192	E3.01	ELECTRICAL - LEVEL 01 - SYSTEMS PLAN	5,6
+193	E3.02	ELECTRICAL - LEVEL 02 - SYSTEMS PLAN	6
+194	E5.01	ELECTRICAL - ENLARGED PLANS	6
+195	E5.02	ELECTRICAL - RISER DIAGRAMS	6
+196	E6.01	ELECTRICAL - LIGHTING FIXTURE SCHEDULE	6
+197	E6.02	ELECTRICAL - EQUIPMENT SCHEDULE	6
+198	E6.03	ELECTRICAL - PANEL SCHEDULES	6
+199	E6.04	ELECTRICAL - PANEL SCHEDULES	6
+200	E6.05	ELECTRICAL - PANEL SCHEDULES	6
+201	E7.01	ELECTRICAL - DETAILS	
+202	E7.02	ELECTRICAL - DETAILS	

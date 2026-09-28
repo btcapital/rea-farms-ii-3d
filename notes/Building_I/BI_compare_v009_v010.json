@@ -1,0 +1,1469 @@
+{
+  "v009_objects": 800,
+  "v010_objects": 810,
+  "building_facade_openings_canopy_objects": 511,
+  "building_objects_changed": [],
+  "building_objects_missing": [],
+  "building_identical": true,
+  "objects_changed": {
+    "site": [
+      "SITE_asphalt_west_drive_dropoff",
+      "SITE_terrain_IDW_INTERPOLATED"
+    ],
+    "landscape": [
+      "LS_gcpatch_CARE_LP-101_n28_leaderdisc_INTERPRETED",
+      "LS_gcpatch_CARE_LP-101_n33_leaderdisc_INTERPRETED",
+      "LS_gcpatch_CARE_LP-101_n42_leaderdisc_INTERPRETED",
+      "LS_gcpatch_LAMB_LP-101_n4_leaderdisc_INTERPRETED",
+      "LS_gcpatch_OSOR_LP-100_n42_leaderdisc_INTERPRETED",
+      "LS_gcpatch_SEAS_LP-100_n170_leaderdisc_INTERPRETED",
+      "LS_gcpatch_SNOW_LP-101_n5_leaderdisc_INTERPRETED",
+      "LS_gcpatch_VANG_LP-101_n13_leaderdisc_INTERPRETED",
+      "LS_groundcover_CARE_LP-101_n48",
+      "LS_groundcover_JUNE_LP-101_n8",
+      "LS_groundcover_LAMB_LP-101_n18",
+      "LS_groundcover_LAMB_LP-101_n5",
+      "LS_groundcover_LAMB_LP-101_n6",
+      "LS_groundcover_OSOR_LP-101_n8",
+      "LS_groundcover_SNOW_LP-101_n9",
+      "LS_groundcover_VANG_LP-101_n20",
+      "LS_groundcover_VANG_LP-101_n5",
+      "LS_mulch_ABKA_LP-101_n16_INTERPRETED",
+      "LS_mulch_BLON_LP-101_n20_INTERPRETED",
+      "LS_mulch_BLON_LP-101_n8_INTERPRETED",
+      "LS_mulch_CARE_LP-101_n48_INTERPRETED",
+      "LS_mulch_DOUB_LP-101_n5_INTERPRETED",
+      "LS_mulch_EMRA_LP-100_n11_INTERPRETED",
+      "LS_mulch_EMRA_LP-100_n26_INTERPRETED",
+      "LS_mulch_GATE_LP-101_n3_INTERPRETED",
+      "LS_mulch_ILST_LP-101_n2_INTERPRETED",
+      "LS_mulch_JEWL_LP-101_n13_INTERPRETED",
+      "LS_mulch_JUNE_LP-101_n8_INTERPRETED",
+      "LS_mulch_LAMB_LP-101_n18_INTERPRETED",
+      "LS_mulch_LAMB_LP-101_n5_INTERPRETED",
+      "LS_mulch_LAMB_LP-101_n6_INTERPRETED",
+      "LS_mulch_LOJA_LP-100_n20_INTERPRETED",
+      "LS_mulch_OSOR_LP-101_n8_INTERPRETED",
+      "LS_mulch_SNOW_LP-101_n9_INTERPRETED",
+      "LS_mulch_VANG_LP-101_n20_INTERPRETED",
+      "LS_mulch_VANG_LP-101_n5_INTERPRETED",
+      "LS_shrub_ABKA_LP-101_n16",
+      "LS_shrub_BLON_LP-101_n20",
+      "LS_shrub_BLON_LP-101_n8",
+      "LS_shrub_DOUB_LP-101_n5",
+      "LS_shrub_EMRA_LP-100_n11",
+      "LS_shrub_EMRA_LP-100_n26",
+      "LS_shrub_GATE_LP-101_n3",
+      "LS_shrub_ILST_LP-101_n2",
+      "LS_shrub_JEWL_LP-101_n13",
+      "LS_shrub_LOJA_LP-100_n20",
+      "LS_shrub_UNRESOLVED_species_documented_symbol",
+      "LS_tree_BUTT_LP-101_01",
+      "LS_tree_BUTT_LP-101_02",
+      "LS_tree_STAR_LP-101_02",
+      "LS_tree_WILO_LP-100_01"
+    ],
+    "other": []
+  },
+  "objects_added": [
+    "BI_cam_entrance_eye_level",
+    "BI_cam_entrance_plan_top",
+    "BI_cam_entrance_site_elevated",
+    "SITE_curb_entrance_drive_CS101",
+    "SITE_entry_island_nose_paved_CS101",
+    "SITE_entry_island_oval_bed_CS101",
+    "SITE_parking_end_island_12ft_CS101",
+    "SITE_walk_aisle_concrete_CS101",
+    "SITE_walk_canopy_plaza_pavers_CS101",
+    "SITE_walk_diagonal_pavers_CS101"
+  ],
+  "objects_removed": [],
+  "objects_changed_count": 53,
+  "objects_identical_count": 747,
+  "materials_changed_node_trees": [],
+  "materials_added": [],
+  "materials_removed": [],
+  "world_nodes_identical": true,
+  "view_identical": true,
+  "samples": {
+    "v009": 256,
+    "v010": 256
+  },
+  "cameras_added": [
+    "BI_cam_entrance_eye_level",
+    "BI_cam_entrance_plan_top",
+    "BI_cam_entrance_site_elevated"
+  ],
+  "bbox_ft_changed_and_added": {
+    "LS_gcpatch_CARE_LP-101_n28_leaderdisc_INTERPRETED": {
+      "v009": [
+        58.79,
+        114.6,
+        -3.29,
+        67.74,
+        123.56,
+        -2.74,
+        24,
+        14,
+        "LS_shrub_grass"
+      ],
+      "v010": [
+        58.79,
+        114.6,
+        -0.16,
+        67.74,
+        123.56,
+        0.39,
+        24,
+        14,
+        "LS_shrub_grass"
+      ]
+    },
+    "LS_gcpatch_CARE_LP-101_n33_leaderdisc_INTERPRETED": {
+      "v009": [
+        56.98,
+        161.2,
+        -1.94,
+        66.71,
+        170.93,
+        -1.39,
+        24,
+        14,
+        "LS_shrub_grass"
+      ],
+      "v010": [
+        56.98,
+        161.2,
+        -0.53,
+        66.71,
+        170.93,
+        0.02,
+        24,
+        14,
+        "LS_shrub_grass"
+      ]
+    },
+    "LS_gcpatch_CARE_LP-101_n42_leaderdisc_INTERPRETED": {
+      "v009": [
+        -22.62,
+        67.49,
+        -1.23,
+        -11.65,
+        78.46,
+        -0.68,
+        24,
+        14,
+        "LS_shrub_grass"
+      ],
+      "v010": [
+        -22.62,
+        67.49,
+        -1.16,
+        -11.65,
+        78.46,
+        -0.61,
+        24,
+        14,
+        "LS_shrub_grass"
+      ]
+    },
+    "LS_gcpatch_LAMB_LP-101_n4_leaderdisc_INTERPRETED": {
+      "v009": [
+        59.79,
+        109.73,
+        -4.74,
+        64.3,
+        114.24,
+        -4.19,
+        24,
+        14,
+        "LS_groundcover"
+      ],
+      "v010": [
+        59.79,
+        109.73,
+        -0.16,
+        64.3,
+        114.24,
+        0.39,
+        24,
+        14,
+        "LS_groundcover"
+      ]
+    },
+    "LS_gcpatch_OSOR_LP-100_n42_leaderdisc_INTERPRETED": {
+      "v009": [
+        45.3,
+        192.57,
+        -0.7,
+        59.93,
+        207.2,
+        -0.15,
+        24,
+        14,
+        "LS_groundcover"
+      ],
+      "v010": [
+        45.3,
+        192.57,
+        -0.57,
+        59.93,
+        207.2,
+        -0.02,
+        24,
+        14,
+        "LS_groundcover"
+      ]
+    },
+    "LS_gcpatch_SEAS_LP-100_n170_leaderdisc_INTERPRETED": {
+      "v009": [
+        13.26,
+        125.09,
+        -2.7,
+        27.97,
+        139.8,
+        -2.35,
+        24,
+        14,
+        "LS_annual"
+      ],
+      "v010": [
+        13.26,
+        125.09,
+        -0.69,
+        27.97,
+        139.8,
+        -0.34,
+        24,
+        14,
+        "LS_annual"
+      ]
+    },
+    "LS_gcpatch_SNOW_LP-101_n5_leaderdisc_INTERPRETED": {
+      "v009": [
+        61.61,
+        139.66,
+        -3.37,
+        65.39,
+        143.44,
+        -2.82,
+        24,
+        14,
+        "LS_groundcover"
+      ],
+      "v010": [
+        61.61,
+        139.66,
+        -0.21,
+        65.39,
+        143.44,
+        0.34,
+        24,
+        14,
+        "LS_groundcover"
+      ]
+    },
+    "LS_gcpatch_VANG_LP-101_n13_leaderdisc_INTERPRETED": {
+      "v009": [
+        61.95,
+        169.76,
+        -1.35,
+        70.08,
+        177.9,
+        -0.8,
+        24,
+        14,
+        "LS_groundcover"
+      ],
+      "v010": [
+        61.95,
+        169.76,
+        -0.48,
+        70.08,
+        177.9,
+        0.07,
+        24,
+        14,
+        "LS_groundcover"
+      ]
+    },
+    "LS_groundcover_CARE_LP-101_n48": {
+      "v009": [
+        -12.22,
+        68.92,
+        -1.23,
+        1.21,
+        74.14,
+        0.13,
+        204,
+        240,
+        "LS_shrub_grass"
+      ],
+      "v010": [
+        -12.22,
+        68.92,
+        -1.2,
+        1.21,
+        74.14,
+        0.13,
+        204,
+        240,
+        "LS_shrub_grass"
+      ]
+    },
+    "LS_groundcover_JUNE_LP-101_n8": {
+      "v009": [
+        100.01,
+        200.03,
+        -0.78,
+        125.92,
+        209.22,
+        0.1,
+        272,
+        320,
+        "LS_groundcover"
+      ],
+      "v010": [
+        100.01,
+        200.03,
+        -0.77,
+        125.92,
+        209.22,
+        0.16,
+        272,
+        320,
+        "LS_groundcover"
+      ]
+    },
+    "LS_groundcover_LAMB_LP-101_n18": {
+      "v009": [
+        69.58,
+        170.98,
+        -2.27,
+        90.06,
+        178.04,
+        -0.84,
+        612,
+        720,
+        "LS_groundcover"
+      ],
+      "v010": [
+        69.58,
+        170.98,
+        -0.75,
+        90.06,
+        178.04,
+        0.06,
+        612,
+        720,
+        "LS_groundcover"
+      ]
+    },
+    "LS_groundcover_LAMB_LP-101_n5": {
+      "v009": [
+        63.02,
+        140.07,
+        -3.53,
+        64.92,
+        151.44,
+        -2.65,
+        170,
+        200,
+        "LS_groundcover"
+      ],
+      "v010": [
+        63.02,
+        140.07,
+        -0.44,
+        64.92,
+        151.44,
+        0.38,
+        170,
+        200,
+        "LS_groundcover"
+      ]
+    },
+    "LS_groundcover_LAMB_LP-101_n6": {
+      "v009": [
+        60.69,
+        118.5,
+        -3.77,
+        62.6,
+        121.12,
+        -2.76,
+        68,
+        80,
+        "LS_groundcover"
+      ],
+      "v010": [
+        60.69,
+        118.5,
+        -0.24,
+        62.6,
+        121.12,
+        0.42,
+        68,
+        80,
+        "LS_groundcover"
+      ]
+    },
+    "LS_groundcover_OSOR_LP-101_n8": {
+      "v009": [
+        88.16,
+        173.98,
+        -2.1,
+        90.06,
+        196.88,
+        -0.35,
+        272,
+        320,
+        "LS_groundcover"
+      ],
+      "v010": [
+        88.16,
+        173.98,
+        -0.75,
+        90.06,
+        196.88,
+        0.08,
+        272,
+        320,
+        "LS_groundcover"
+      ]
+    },
+    "LS_groundcover_SNOW_LP-101_n9": {
+      "v009": [
+        60.93,
+        132.99,
+        -4.72,
+        69.0,
+        139.37,
+        -0.99,
+        136,
+        160,
+        "LS_groundcover"
+      ],
+      "v010": [
+        60.93,
+        132.99,
+        -0.26,
+        69.0,
+        139.37,
+        0.43,
+        136,
+        160,
+        "LS_groundcover"
+      ]
+    },
+    "LS_groundcover_VANG_LP-101_n20": {
+      "v009": [
+        32.64,
+        184.26,
+        -0.97,
+        52.54,
+        186.16,
+        0.13,
+        238,
+        280,
+        "LS_groundcover"
+      ],
+      "v010": [
+        32.64,
+        184.26,
+        -0.57,
+        52.54,
+        186.16,
+        0.41,
+        238,
+        280,
+        "LS_groundcover"
+      ]
+    },
+    "LS_groundcover_VANG_LP-101_n5": {
+      "v009": [
+        63.02,
+        151.9,
+        -3.16,
+        64.92,
+        163.27,
+        -1.81,
+        170,
+        200,
+        "LS_groundcover"
+      ],
+      "v010": [
+        63.02,
+        151.9,
+        -0.62,
+        64.92,
+        163.27,
+        0.17,
+        170,
+        200,
+        "LS_groundcover"
+      ]
+    },
+    "LS_mulch_ABKA_LP-101_n16_INTERPRETED": {
+      "v009": [
+        -36.22,
+        64.81,
+        -1.98,
+        87.61,
+        194.35,
+        -1.1,
+        384,
+        32,
+        "LS_mulch"
+      ],
+      "v010": [
+        -36.22,
+        64.81,
+        -1.7,
+        87.61,
+        194.35,
+        -0.56,
+        384,
+        32,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_BLON_LP-101_n20_INTERPRETED": {
+      "v009": [
+        64.24,
+        164.17,
+        -2.16,
+        67.44,
+        167.37,
+        -2.16,
+        12,
+        1,
+        "LS_mulch"
+      ],
+      "v010": [
+        64.24,
+        164.17,
+        -0.54,
+        67.44,
+        167.37,
+        -0.54,
+        12,
+        1,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_BLON_LP-101_n8_INTERPRETED": {
+      "v009": [
+        64.76,
+        114.52,
+        -2.35,
+        71.07,
+        117.83,
+        -1.42,
+        24,
+        2,
+        "LS_mulch"
+      ],
+      "v010": [
+        64.76,
+        114.52,
+        -0.14,
+        71.07,
+        117.83,
+        -0.14,
+        24,
+        2,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_CARE_LP-101_n48_INTERPRETED": {
+      "v009": [
+        -13.11,
+        68.03,
+        -1.13,
+        2.1,
+        75.03,
+        -0.65,
+        72,
+        6,
+        "LS_mulch"
+      ],
+      "v010": [
+        -13.11,
+        68.03,
+        -1.1,
+        2.1,
+        75.03,
+        -0.65,
+        72,
+        6,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_DOUB_LP-101_n5_INTERPRETED": {
+      "v009": [
+        62.37,
+        100.11,
+        -4.14,
+        69.89,
+        114.42,
+        -0.47,
+        60,
+        5,
+        "LS_mulch"
+      ],
+      "v010": [
+        62.37,
+        100.11,
+        -0.15,
+        69.89,
+        114.42,
+        -0.14,
+        60,
+        5,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_EMRA_LP-100_n11_INTERPRETED": {
+      "v009": [
+        21.0,
+        118.53,
+        -2.74,
+        24.2,
+        161.73,
+        -1.7,
+        132,
+        11,
+        "LS_mulch"
+      ],
+      "v010": [
+        21.0,
+        118.53,
+        -0.98,
+        24.2,
+        161.73,
+        -0.48,
+        132,
+        11,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_EMRA_LP-100_n26_INTERPRETED": {
+      "v009": [
+        23.6,
+        191.83,
+        -1.67,
+        48.67,
+        223.56,
+        -0.54,
+        312,
+        26,
+        "LS_mulch"
+      ],
+      "v010": [
+        23.6,
+        191.83,
+        -1.67,
+        48.67,
+        223.56,
+        -0.53,
+        312,
+        26,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_GATE_LP-101_n3_INTERPRETED": {
+      "v009": [
+        95.53,
+        198.77,
+        -0.96,
+        264.27,
+        202.58,
+        -0.62,
+        72,
+        6,
+        "LS_mulch"
+      ],
+      "v010": [
+        95.53,
+        198.77,
+        -0.96,
+        264.27,
+        202.58,
+        -0.39,
+        72,
+        6,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_ILST_LP-101_n2_INTERPRETED": {
+      "v009": [
+        62.37,
+        113.72,
+        -3.59,
+        70.07,
+        173.53,
+        -1.65,
+        48,
+        4,
+        "LS_mulch"
+      ],
+      "v010": [
+        62.37,
+        113.72,
+        -0.55,
+        70.07,
+        173.53,
+        -0.14,
+        48,
+        4,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_JEWL_LP-101_n13_INTERPRETED": {
+      "v009": [
+        91.48,
+        200.84,
+        -0.5,
+        95.2,
+        210.25,
+        -0.19,
+        36,
+        3,
+        "LS_mulch"
+      ],
+      "v010": [
+        91.48,
+        200.84,
+        -0.32,
+        95.2,
+        210.25,
+        -0.17,
+        36,
+        3,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_JUNE_LP-101_n8_INTERPRETED": {
+      "v009": [
+        99.36,
+        199.38,
+        -0.69,
+        126.57,
+        209.87,
+        -0.47,
+        96,
+        8,
+        "LS_mulch"
+      ],
+      "v010": [
+        99.36,
+        199.38,
+        -0.68,
+        126.57,
+        209.87,
+        -0.41,
+        96,
+        8,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_LAMB_LP-101_n18_INTERPRETED": {
+      "v009": [
+        68.93,
+        170.33,
+        -2.18,
+        90.71,
+        178.69,
+        -1.41,
+        216,
+        18,
+        "LS_mulch"
+      ],
+      "v010": [
+        68.93,
+        170.33,
+        -0.66,
+        90.71,
+        178.69,
+        -0.51,
+        216,
+        18,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_LAMB_LP-101_n5_INTERPRETED": {
+      "v009": [
+        62.37,
+        139.42,
+        -3.44,
+        65.57,
+        152.09,
+        -3.22,
+        60,
+        5,
+        "LS_mulch"
+      ],
+      "v010": [
+        62.37,
+        139.42,
+        -0.35,
+        65.57,
+        152.09,
+        -0.19,
+        60,
+        5,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_LAMB_LP-101_n6_INTERPRETED": {
+      "v009": [
+        60.04,
+        117.85,
+        -3.68,
+        63.25,
+        121.77,
+        -3.33,
+        24,
+        2,
+        "LS_mulch"
+      ],
+      "v010": [
+        60.04,
+        117.85,
+        -0.15,
+        63.25,
+        121.77,
+        -0.15,
+        24,
+        2,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_LOJA_LP-100_n20_INTERPRETED": {
+      "v009": [
+        -158.72,
+        103.66,
+        -3.39,
+        -51.49,
+        407.26,
+        -1.56,
+        480,
+        40,
+        "LS_mulch"
+      ],
+      "v010": [
+        -158.72,
+        103.66,
+        -3.39,
+        -51.49,
+        407.26,
+        -1.56,
+        480,
+        40,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_OSOR_LP-101_n8_INTERPRETED": {
+      "v009": [
+        87.51,
+        173.33,
+        -2.01,
+        90.71,
+        197.53,
+        -0.92,
+        96,
+        8,
+        "LS_mulch"
+      ],
+      "v010": [
+        87.51,
+        173.33,
+        -0.66,
+        90.71,
+        197.53,
+        -0.49,
+        96,
+        8,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_SNOW_LP-101_n9_INTERPRETED": {
+      "v009": [
+        60.04,
+        132.1,
+        -4.63,
+        69.89,
+        140.26,
+        -1.56,
+        48,
+        4,
+        "LS_mulch"
+      ],
+      "v010": [
+        60.04,
+        132.1,
+        -0.17,
+        69.89,
+        140.26,
+        -0.14,
+        48,
+        4,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_VANG_LP-101_n20_INTERPRETED": {
+      "v009": [
+        31.99,
+        183.61,
+        -0.88,
+        53.19,
+        186.81,
+        -0.44,
+        84,
+        7,
+        "LS_mulch"
+      ],
+      "v010": [
+        31.99,
+        183.61,
+        -0.48,
+        53.19,
+        186.81,
+        -0.16,
+        84,
+        7,
+        "LS_mulch"
+      ]
+    },
+    "LS_mulch_VANG_LP-101_n5_INTERPRETED": {
+      "v009": [
+        62.37,
+        151.25,
+        -3.07,
+        65.57,
+        163.92,
+        -2.38,
+        60,
+        5,
+        "LS_mulch"
+      ],
+      "v010": [
+        62.37,
+        151.25,
+        -0.53,
+        65.57,
+        163.92,
+        -0.4,
+        60,
+        5,
+        "LS_mulch"
+      ]
+    },
+    "LS_shrub_ABKA_LP-101_n16": {
+      "v009": [
+        -35.39,
+        65.64,
+        -2.1,
+        86.78,
+        193.52,
+        0.15,
+        1088,
+        1280,
+        "LS_shrub_green"
+      ],
+      "v010": [
+        -35.39,
+        65.64,
+        -1.82,
+        86.78,
+        193.52,
+        0.7,
+        1088,
+        1280,
+        "LS_shrub_green"
+      ]
+    },
+    "LS_shrub_BLON_LP-101_n20": {
+      "v009": [
+        65.22,
+        165.15,
+        -2.27,
+        66.46,
+        166.39,
+        -1.17,
+        34,
+        40,
+        "LS_shrub_grass"
+      ],
+      "v010": [
+        65.22,
+        165.15,
+        -0.65,
+        66.46,
+        166.39,
+        0.45,
+        34,
+        40,
+        "LS_shrub_grass"
+      ]
+    },
+    "LS_shrub_BLON_LP-101_n8": {
+      "v009": [
+        65.74,
+        115.5,
+        -2.46,
+        70.09,
+        116.85,
+        -0.43,
+        68,
+        80,
+        "LS_shrub_grass"
+      ],
+      "v010": [
+        65.74,
+        115.5,
+        -0.25,
+        70.09,
+        116.85,
+        0.85,
+        68,
+        80,
+        "LS_shrub_grass"
+      ]
+    },
+    "LS_shrub_DOUB_LP-101_n5": {
+      "v009": [
+        62.78,
+        100.52,
+        -4.3,
+        69.48,
+        114.01,
+        1.57,
+        170,
+        200,
+        "LS_shrub_green"
+      ],
+      "v010": [
+        62.78,
+        100.52,
+        -0.31,
+        69.48,
+        114.01,
+        1.9,
+        170,
+        200,
+        "LS_shrub_green"
+      ]
+    },
+    "LS_shrub_EMRA_LP-100_n11": {
+      "v009": [
+        20.7,
+        118.23,
+        -3.0,
+        24.5,
+        162.03,
+        2.44,
+        374,
+        440,
+        "LS_shrub_green"
+      ],
+      "v010": [
+        20.7,
+        118.23,
+        -1.24,
+        24.5,
+        162.03,
+        3.66,
+        374,
+        440,
+        "LS_shrub_green"
+      ]
+    },
+    "LS_shrub_EMRA_LP-100_n26": {
+      "v009": [
+        23.3,
+        191.53,
+        -1.93,
+        48.97,
+        223.86,
+        3.6,
+        884,
+        1040,
+        "LS_shrub_green"
+      ],
+      "v010": [
+        23.3,
+        191.53,
+        -1.93,
+        48.97,
+        223.86,
+        3.61,
+        884,
+        1040,
+        "LS_shrub_green"
+      ]
+    },
+    "LS_shrub_GATE_LP-101_n3": {
+      "v009": [
+        95.28,
+        198.52,
+        -1.17,
+        264.52,
+        202.83,
+        2.47,
+        204,
+        240,
+        "LS_shrub_green"
+      ],
+      "v010": [
+        95.28,
+        198.52,
+        -1.17,
+        264.52,
+        202.83,
+        2.7,
+        204,
+        240,
+        "LS_shrub_green"
+      ]
+    },
+    "LS_shrub_ILST_LP-101_n2": {
+      "v009": [
+        62.12,
+        113.47,
+        -3.8,
+        70.32,
+        173.78,
+        1.44,
+        136,
+        160,
+        "LS_shrub_green"
+      ],
+      "v010": [
+        62.12,
+        113.47,
+        -0.76,
+        70.32,
+        173.78,
+        2.95,
+        136,
+        160,
+        "LS_shrub_green"
+      ]
+    },
+    "LS_shrub_JEWL_LP-101_n13": {
+      "v009": [
+        92.31,
+        201.67,
+        -0.63,
+        94.37,
+        209.42,
+        1.06,
+        102,
+        120,
+        "LS_shrub_green"
+      ],
+      "v010": [
+        92.31,
+        201.67,
+        -0.44,
+        94.37,
+        209.42,
+        1.09,
+        102,
+        120,
+        "LS_shrub_green"
+      ]
+    },
+    "LS_shrub_LOJA_LP-100_n20": {
+      "v009": [
+        -158.36,
+        104.02,
+        -3.55,
+        -51.85,
+        406.9,
+        0.48,
+        1360,
+        1600,
+        "LS_shrub_purple"
+      ],
+      "v010": [
+        -158.36,
+        104.02,
+        -3.55,
+        -51.85,
+        406.9,
+        0.48,
+        1360,
+        1600,
+        "LS_shrub_purple"
+      ]
+    },
+    "LS_shrub_UNRESOLVED_species_documented_symbol": {
+      "v009": [
+        -284.17,
+        -5.14,
+        -6.88,
+        328.68,
+        462.42,
+        1.81,
+        3978,
+        4680,
+        "LS_unresolved_grey_green"
+      ],
+      "v010": [
+        -284.17,
+        -5.14,
+        -6.88,
+        328.68,
+        462.42,
+        1.81,
+        3978,
+        4680,
+        "LS_unresolved_grey_green"
+      ]
+    },
+    "LS_tree_BUTT_LP-101_01": {
+      "v009": [
+        82.68,
+        173.25,
+        -1.96,
+        89.34,
+        180.25,
+        10.04,
+        68,
+        70,
+        "LS_trunk|LS_foliage_tree"
+      ],
+      "v010": [
+        82.68,
+        173.25,
+        -0.71,
+        89.34,
+        180.25,
+        11.29,
+        68,
+        70,
+        "LS_trunk|LS_foliage_tree"
+      ]
+    },
+    "LS_tree_BUTT_LP-101_02": {
+      "v009": [
+        16.57,
+        59.6,
+        -0.44,
+        23.23,
+        66.6,
+        11.56,
+        68,
+        70,
+        "LS_trunk|LS_foliage_tree"
+      ],
+      "v010": [
+        16.57,
+        59.6,
+        -0.44,
+        23.23,
+        66.6,
+        11.56,
+        68,
+        70,
+        "LS_trunk|LS_foliage_tree"
+      ]
+    },
+    "LS_tree_STAR_LP-101_02": {
+      "v009": [
+        -8.83,
+        66.13,
+        -0.81,
+        -2.17,
+        73.13,
+        11.19,
+        68,
+        70,
+        "LS_trunk|LS_foliage_tree"
+      ],
+      "v010": [
+        -8.83,
+        66.13,
+        -0.81,
+        -2.17,
+        73.13,
+        11.19,
+        68,
+        70,
+        "LS_trunk|LS_foliage_tree"
+      ]
+    },
+    "LS_tree_WILO_LP-100_01": {
+      "v009": [
+        -17.84,
+        187.86,
+        -2.38,
+        -11.18,
+        194.86,
+        9.62,
+        68,
+        70,
+        "LS_trunk|LS_foliage_tree"
+      ],
+      "v010": [
+        -17.84,
+        187.86,
+        -1.99,
+        -11.18,
+        194.86,
+        10.01,
+        68,
+        70,
+        "LS_trunk|LS_foliage_tree"
+      ]
+    },
+    "SITE_asphalt_west_drive_dropoff": {
+      "v009": [
+        -143.44,
+        90.36,
+        -6.42,
+        22.11,
+        309.67,
+        -0.19,
+        15222,
+        14631,
+        "SITE_asphalt"
+      ],
+      "v010": [
+        -143.5,
+        88.5,
+        -4.49,
+        53.0,
+        309.75,
+        -0.08,
+        5920,
+        8100,
+        "SITE_asphalt"
+      ]
+    },
+    "SITE_terrain_IDW_INTERPOLATED": {
+      "v009": [
+        -370.0,
+        -120.0,
+        -7.92,
+        398.0,
+        520.0,
+        -0.0,
+        10728,
+        9452,
+        "SITE_lawn_INTERPOLATED_terrain"
+      ],
+      "v010": [
+        -370.0,
+        -120.0,
+        -7.92,
+        398.0,
+        520.0,
+        0.01,
+        11037,
+        9912,
+        "SITE_lawn_INTERPOLATED_terrain"
+      ]
+    },
+    "SITE_curb_entrance_drive_CS101": {
+      "v009": null,
+      "v010": [
+        -130.0,
+        87.0,
+        -3.94,
+        54.5,
+        210.0,
+        0.23,
+        748,
+        726,
+        "SITE_concrete_walk"
+      ]
+    },
+    "SITE_entry_island_nose_paved_CS101": {
+      "v009": null,
+      "v010": [
+        -9.39,
+        112.37,
+        -2.32,
+        22.63,
+        155.95,
+        -0.39,
+        380,
+        359,
+        "SITE_concrete_walk"
+      ]
+    },
+    "SITE_entry_island_oval_bed_CS101": {
+      "v009": null,
+      "v010": [
+        15.63,
+        112.37,
+        -2.18,
+        29.7,
+        167.97,
+        -0.32,
+        386,
+        422,
+        "LS_mulch"
+      ]
+    },
+    "SITE_parking_end_island_12ft_CS101": {
+      "v009": null,
+      "v010": [
+        -41.13,
+        146.94,
+        -3.67,
+        -6.37,
+        162.14,
+        -1.73,
+        266,
+        280,
+        "LS_mulch"
+      ]
+    },
+    "SITE_walk_aisle_concrete_CS101": {
+      "v009": null,
+      "v010": [
+        -95.07,
+        112.75,
+        -2.99,
+        -45.23,
+        124.94,
+        -1.83,
+        282,
+        314,
+        "SITE_concrete_walk"
+      ]
+    },
+    "SITE_walk_canopy_plaza_pavers_CS101": {
+      "v009": null,
+      "v010": [
+        -19.6,
+        74.0,
+        -1.8,
+        71.0,
+        181.04,
+        0.25,
+        1068,
+        1276,
+        "SITE_pavers_Techo-Bloc_Westmount_Onyx_placeholder"
+      ]
+    },
+    "SITE_walk_diagonal_pavers_CS101": {
+      "v009": null,
+      "v010": [
+        -50.18,
+        85.65,
+        -2.64,
+        -17.07,
+        118.77,
+        -0.91,
+        164,
+        168,
+        "SITE_pavers_Techo-Bloc_Westmount_Onyx_placeholder"
+      ]
+    }
+  }
+}

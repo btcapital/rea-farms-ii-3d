@@ -1,0 +1,1592 @@
+{
+ "root": "C:/Users/Brandon/OneDrive - Taylor Capital/Shared - Documents/Dormie Equity Partners, LP/11425 Golf Links Drive, LLC/Rea Farms II 3D",
+ "created_utc": "2026-09-25T19:21:53.786782+00:00",
+ "note": "Building I v001-v015 files at the v015 gate (interactive browser viewer viewer_BI_v015 + GLB export of the approved v014 model; awaiting owner approval). Validate with scripts/Building_I/BI_validate_manifest_v001.py",
+ "files": [
+  {
+   "path": "exports/Building_I/BI_model_v014_viewer_v015.glb",
+   "size": 12999464,
+   "sha256": "89773390bbdd4ecb4fc3439982cc4d95aa471ccda58d5bf5143c66627e5ceb97"
+  },
+  {
+   "path": "models/Building_I/BI_entrance_facade_v011.blend",
+   "size": 4313056,
+   "sha256": "d228510278d17fa50243fb7088f433590e1762326bdebf1ca0eae3c75b18f03a"
+  },
+  {
+   "path": "models/Building_I/BI_entrance_finish_v012.blend",
+   "size": 4313291,
+   "sha256": "2a61dbd0833487daf388482636f0ead2b3aeb7c2dfc8799f6cff3bb6e4d27888"
+  },
+  {
+   "path": "models/Building_I/BI_entrance_site_v010.blend",
+   "size": 4311728,
+   "sha256": "f3068253be7f8085223893345f881bf1394bd4793b137128b7bade50d8475db0"
+  },
+  {
+   "path": "models/Building_I/BI_facade_v002.blend",
+   "size": 633630,
+   "sha256": "f00cc717b6caf845c5989c6fda0bc89a5ea0de94e5e35e4a57e39bec2768962f"
+  },
+  {
+   "path": "models/Building_I/BI_footprint_v008.blend",
+   "size": 4446591,
+   "sha256": "b74a9b5198950c99dd6f1ae24c78c087976b84082bf818a98fad138c0aabaa2d"
+  },
+  {
+   "path": "models/Building_I/BI_interior_base_v014.blend",
+   "size": 4585124,
+   "sha256": "b8ef19495cbf3151bd41540b1dac92360a53e958fd55a16959c60e7485abcf37"
+  },
+  {
+   "path": "models/Building_I/BI_landscape_v004.blend",
+   "size": 5249869,
+   "sha256": "33004d0812df49af39fcdbc56434fc3d44f5f420439188fbca174f85ad37d933"
+  },
+  {
+   "path": "models/Building_I/BI_landscape_v005.blend",
+   "size": 4917817,
+   "sha256": "b098e67f612d31940d51e968ce327d56c27bc014c3060f7ec8b6927d003dfdb2"
+  },
+  {
+   "path": "models/Building_I/BI_landscape_v006.blend",
+   "size": 4920106,
+   "sha256": "42a42f9478edb5d32c17ed94a59b366045bd0428b64196eed2a13e45fc3a1753"
+  },
+  {
+   "path": "models/Building_I/BI_landscape_v007.blend",
+   "size": 4960928,
+   "sha256": "01e54dd8f5cf6c90aa35de81fed3b0e4dd9060f28ebd7cea0a03629a98926195"
+  },
+  {
+   "path": "models/Building_I/BI_presentation_v009.blend",
+   "size": 4493265,
+   "sha256": "94fd56520e99f5716396affc5541060aa9265a16ab58ed48a7d6246433b1140f"
+  },
+  {
+   "path": "models/Building_I/BI_presentation_v013.blend",
+   "size": 4359180,
+   "sha256": "23937423fd36fee75b6b13bae954a73815e39f6ad77722eccbb0face8700f663"
+  },
+  {
+   "path": "models/Building_I/BI_shell_v001.blend",
+   "size": 221150,
+   "sha256": "e078c914d8586a93d9d9a3ce1b762d63848600a0dfe9c98b93572273d19d2189"
+  },
+  {
+   "path": "models/Building_I/BI_site_v003.blend",
+   "size": 4708148,
+   "sha256": "0b46fd838222b008d17a7ad0e60c5505f209d125c872a7a436dfe3c788f6c1ab"
+  },
+  {
+   "path": "notes/Building_I/BI_browser_viewer_control_v015.md",
+   "size": 14781,
+   "sha256": "47f001ed5312e1e353c4da2b65678bc27746c514d8f234f7a25481030ff9af5b"
+  },
+  {
+   "path": "notes/Building_I/BI_browser_viewer_validation_v015.md",
+   "size": 9671,
+   "sha256": "561fbac1c96f783c4ef5b1c613c00d3cfd773cf0314f69fc49eff910ede6e435"
+  },
+  {
+   "path": "notes/Building_I/BI_compare_v009_v010.json",
+   "size": 26709,
+   "sha256": "f557d65bf79e96063a3a1e0e8295ded3d85ed7e9e1344ee610c52d1ebe496f86"
+  },
+  {
+   "path": "notes/Building_I/BI_compare_v010_v011.json",
+   "size": 1926,
+   "sha256": "08145397650507fa78cdfaf6982869c51b0cd507f62e567d61ad2370d7df7e82"
+  },
+  {
+   "path": "notes/Building_I/BI_compare_v011_v012.json",
+   "size": 2354,
+   "sha256": "ac23cf70b9d2e900e27e99e800784b9bf5817debd10a47d407d3a29f680f7b96"
+  },
+  {
+   "path": "notes/Building_I/BI_compare_v012_v013.json",
+   "size": 2302,
+   "sha256": "9b4399408d6899e73441819ff227ece9fb45ad69bb93cc8f87c26ef1b26197ab"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_facade_audit_v011.md",
+   "size": 10267,
+   "sha256": "04d77741ae69443ee30b6192452ba2c4e19f635a0b6f6550061194406e076417"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_facade_v011_build_report.json",
+   "size": 4638,
+   "sha256": "0ce88b5407ae55de57a0db32c3a187f8297d54ea588cda255f219ff97f1d131d"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_facade_validation_v011.md",
+   "size": 9116,
+   "sha256": "54012ce57d1f9fe4165e392e5cf226aab2f1fc8a885695ea020909ead054d1ff"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_finish_audit_v012.md",
+   "size": 8772,
+   "sha256": "3958aa912391f8e2fba6e6397f604219f7eb8eed2ce80c76d21fd2736e32e857"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_finish_v012_build_report.json",
+   "size": 17604,
+   "sha256": "e17e4da36873ecbeb71207c08af5b76d2c5a40b77dd033f30b0f4cb3ecc5adf7"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_finish_validation_v012.md",
+   "size": 8202,
+   "sha256": "145c681d8829081c499d6b6b2ff96e6404da107d888577fbfc5863d8bc322d4c"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_geometry_control_v006.md",
+   "size": 9220,
+   "sha256": "b1b80fa0bf8752bb8e94803ef161dd66750fb863607ecad8a521daf31ae5e8eb"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_site_audit_v010.md",
+   "size": 16891,
+   "sha256": "5a1eea4b426d8013f66364a82ed30182fc36a47edb4821d270df920545e217e3"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_site_data_v010.json",
+   "size": 79676,
+   "sha256": "ac094434f1b165e1f88b491c0207802e7cfb53be5eec0e4ae085fe43fd1fc6d4"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_site_v010_build_report.json",
+   "size": 42792,
+   "sha256": "8c04a45d0faf36cfd943c94e2214099776f5e8ca98536a7a1ec92f063111271e"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_site_validation_v010.md",
+   "size": 14851,
+   "sha256": "03327c6db55dae24d935ecddf8d3a0d9f6ffd3fafc5575ca678b43b1f4ce1fae"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_v006_build_report.json",
+   "size": 5514,
+   "sha256": "06ee2e153b1a208659e90713b0ee71ea7536e9b85e320ddc2da7842101b4d531"
+  },
+  {
+   "path": "notes/Building_I/BI_entrance_validation_v006.md",
+   "size": 7609,
+   "sha256": "ca7130ad819eceed43a7b472a0fa5db49bea82231058b8e68e425f29a81247b4"
+  },
+  {
+   "path": "notes/Building_I/BI_facade_cleanup_control_v005.md",
+   "size": 11087,
+   "sha256": "451c1f34fabd5d6e5ee8db463f4163b437f81a2e6ec0b4266c4a90148b5f2487"
+  },
+  {
+   "path": "notes/Building_I/BI_facade_data_v002.json",
+   "size": 162753,
+   "sha256": "9c52605f238c483407f3f5409129bcfa1dccfd49fd80dbf2d0d2213a45b08bbc"
+  },
+  {
+   "path": "notes/Building_I/BI_facade_regions_v005.json",
+   "size": 11607,
+   "sha256": "bbc596bb1d25d3f99ace20100d68778085d089cae1a942d8721632a3b463b788"
+  },
+  {
+   "path": "notes/Building_I/BI_facade_regions_v008.json",
+   "size": 14983,
+   "sha256": "1fe8249f914bb097ebce8406be068b0db8891e98872624fbca66bf3ae607881e"
+  },
+  {
+   "path": "notes/Building_I/BI_facade_v002_build_report.json",
+   "size": 2030,
+   "sha256": "ea9ffedafe2d3cb1fa1dca097b9fe12ceff8af8d53925813e47bb7bb14611926"
+  },
+  {
+   "path": "notes/Building_I/BI_facade_v005_build_report.json",
+   "size": 2307,
+   "sha256": "d17d56d76d2a97636c4529ae0f436686dba6990b71642b34f7de0ed72d4462ff"
+  },
+  {
+   "path": "notes/Building_I/BI_facade_validation_v002.md",
+   "size": 7447,
+   "sha256": "496e730c8b49dd1b6a1e660b1b072f625e4184f22c33934c7a7491308eaae083"
+  },
+  {
+   "path": "notes/Building_I/BI_facade_validation_v005.md",
+   "size": 6701,
+   "sha256": "60f0fa3a08f0638f98055bf824c6a24524ee552b7c50394e0fe93d02ec8afd41"
+  },
+  {
+   "path": "notes/Building_I/BI_file_inventory_v001.tsv",
+   "size": 117121,
+   "sha256": "9e8343dba7c040b07d0a72c690b0bc64341149418012e3177e1958bf7b527433"
+  },
+  {
+   "path": "notes/Building_I/BI_footprint_audit_v008.md",
+   "size": 19440,
+   "sha256": "42634d9e30363918fafe1a704723e7a04fb179e90ca0692ecbdac6594eb541f0"
+  },
+  {
+   "path": "notes/Building_I/BI_footprint_data_v008.json",
+   "size": 9245,
+   "sha256": "fe3867e144640549143be4f849a758ef6838e2c82cf78d060059e6b712b59e1d"
+  },
+  {
+   "path": "notes/Building_I/BI_footprint_v008_build_report.json",
+   "size": 85361,
+   "sha256": "ad484b37293be77561d8e016fc2b115988512aef12e6d4bb02a94e756c2de229"
+  },
+  {
+   "path": "notes/Building_I/BI_footprint_validation_v008.md",
+   "size": 8972,
+   "sha256": "240272ff49ef4ace97cbaa89cdf544d5add85ccd156e013482c496ca98b57ce1"
+  },
+  {
+   "path": "notes/Building_I/BI_geometry_control_v001.md",
+   "size": 19800,
+   "sha256": "454efc954dddfa7dae18d1dc5616a0fcc1311aa6aff26ba8582b434d9dc4ab27"
+  },
+  {
+   "path": "notes/Building_I/BI_geometry_data_v001.json",
+   "size": 27693,
+   "sha256": "a7ac483b2781e3f9ceed38bcbbafd541a80a90cd974225892a674628e21ea2c9"
+  },
+  {
+   "path": "notes/Building_I/BI_geometry_validation_v001.md",
+   "size": 9221,
+   "sha256": "7ecab3b6f152671df9f8da5f3a6be4da54e3cff3f198593267c16c052c4d48d0"
+  },
+  {
+   "path": "notes/Building_I/BI_interior_base_control_v014.md",
+   "size": 10569,
+   "sha256": "b1578546364ea691d6e0f4c9a786e7fa084ab274dcc744a2ec44db13438ac713"
+  },
+  {
+   "path": "notes/Building_I/BI_interior_base_data_v014.json",
+   "size": 238145,
+   "sha256": "48dae07eff42837945c7f77cff198020a2c3f3f2388a98025bfda1550c052c0a"
+  },
+  {
+   "path": "notes/Building_I/BI_interior_base_v014_build_report.json",
+   "size": 64615,
+   "sha256": "366813e3ddf14d56d77bf392ff699fe565345e907e99c14be8e0f4330b7bb17a"
+  },
+  {
+   "path": "notes/Building_I/BI_interior_base_validation_v014.md",
+   "size": 8076,
+   "sha256": "e355e46b9275a2ff14f33b5d251ddf022e6e70319e7babe9ea7baf09c42633bc"
+  },
+  {
+   "path": "notes/Building_I/BI_interior_base_viewer_v014.json",
+   "size": 32029,
+   "sha256": "986223eefff26b6a48fc1b92a32fee47ff6584429622ebcfe0365e55cdef91a8"
+  },
+  {
+   "path": "notes/Building_I/BI_landscape_control_v004.md",
+   "size": 15004,
+   "sha256": "f3f4cefe5c6a3e9322690eeec600aad5223753f5342297bb4e490b364cea3f6e"
+  },
+  {
+   "path": "notes/Building_I/BI_landscape_data_v004.json",
+   "size": 119010,
+   "sha256": "85f16a477d8a2527bc65432fa8db437f1d6403244bbaf720d27f33e32230d6ca"
+  },
+  {
+   "path": "notes/Building_I/BI_landscape_data_v007.json",
+   "size": 140722,
+   "sha256": "8cc4feddf8b9b0ff1bb596bed1cee8cc579cfcd14726f535a49dc83f1e627579"
+  },
+  {
+   "path": "notes/Building_I/BI_landscape_site_coordination_control_v007.md",
+   "size": 9356,
+   "sha256": "5036ddaf9ad117eabdaf2bfe7c0faacb6bb88fe06f8c691fa1c29bca46db754e"
+  },
+  {
+   "path": "notes/Building_I/BI_landscape_site_validation_v007.md",
+   "size": 6808,
+   "sha256": "879e806c8484c6e3dfc480cfe500088d26b9f4f19a28e9587ac6ef96b246ba8a"
+  },
+  {
+   "path": "notes/Building_I/BI_landscape_v004_build_report.json",
+   "size": 17465,
+   "sha256": "6abcc6879561e16e4da24ca83ede31000fbbba7d5fbfdaacb023c8fa43a741ab"
+  },
+  {
+   "path": "notes/Building_I/BI_landscape_v007_build_report.json",
+   "size": 7595,
+   "sha256": "60692e6f7e141e54314392834d90e6335b10287583c29f304d96f050512ae477"
+  },
+  {
+   "path": "notes/Building_I/BI_landscape_validation_v004.md",
+   "size": 9211,
+   "sha256": "73082f25b0db64d2edc6ca6824b94556f98a040025a2142b53cbabe38c8c8822"
+  },
+  {
+   "path": "notes/Building_I/BI_material_control_v002.md",
+   "size": 16806,
+   "sha256": "0b5624ccd66f9638c61a9e779283ab7d08d26e9fda0a9fb14faf30216cf5d941"
+  },
+  {
+   "path": "notes/Building_I/BI_presentation_control_v009.md",
+   "size": 8920,
+   "sha256": "df6035553cbfb4327c5762aa3b270dae3f21bebfadcec73f6de7f92bc66ffc9e"
+  },
+  {
+   "path": "notes/Building_I/BI_presentation_control_v013.md",
+   "size": 7966,
+   "sha256": "cabbe00bdabeab03e11ae27855a64c1266cc1666e1438cde1fe95e107f32baf2"
+  },
+  {
+   "path": "notes/Building_I/BI_presentation_data_v009.json",
+   "size": 11188,
+   "sha256": "4ca9f923391c9d117f4170749a140f1641dcf7b3ee60897bd7935b930bdf3259"
+  },
+  {
+   "path": "notes/Building_I/BI_presentation_data_v013.json",
+   "size": 15203,
+   "sha256": "35c1f037f0b6b7eeb5b717b3d2b9cd3b1547fb7c64e14ae9a47b8751e9445abc"
+  },
+  {
+   "path": "notes/Building_I/BI_presentation_v009_build_report.json",
+   "size": 9284,
+   "sha256": "c585923f9aa3efa589206d76738562e30130e72c0d3cc0256402d3ed88153d53"
+  },
+  {
+   "path": "notes/Building_I/BI_presentation_v013_build_report.json",
+   "size": 10755,
+   "sha256": "f59824ab5de8ad6e93445d8029daa4b81e0c75cf30322c1a0b8d8d6c1889435b"
+  },
+  {
+   "path": "notes/Building_I/BI_presentation_validation_v009.md",
+   "size": 8675,
+   "sha256": "3d6d7ab22bccd82290a1a4833e04febd9de6bc99c47ac4572cb0927da46f6685"
+  },
+  {
+   "path": "notes/Building_I/BI_presentation_validation_v013.md",
+   "size": 10679,
+   "sha256": "ba328de5b72ce5d6cfe1af46ac515625f8f21577fcc7f01340755f514b467248"
+  },
+  {
+   "path": "notes/Building_I/BI_revision_review_v001.md",
+   "size": 9282,
+   "sha256": "aab971aec51d2c5f6dd904011256f34f5f443177d4dbfb3d671826fd69ab4d80"
+  },
+  {
+   "path": "notes/Building_I/BI_revision_review_v002.md",
+   "size": 12377,
+   "sha256": "d7eeade3d4967e936cf74b1414cf4c824c31caba413b9f032d6d29080099dcef"
+  },
+  {
+   "path": "notes/Building_I/BI_sheet_index_rev14_v001.tsv",
+   "size": 9694,
+   "sha256": "e43bc09c544b12396dc766f3119c7897648a67066d361b542cdc47ad6a7200ac"
+  },
+  {
+   "path": "notes/Building_I/BI_sheet_index_rev6_v001.tsv",
+   "size": 8416,
+   "sha256": "a32198f5375683d5c3f41baf6447b62ca33c8bad06e04badc9747e72adf814ae"
+  },
+  {
+   "path": "notes/Building_I/BI_sheet_revision_comparison_v001.tsv",
+   "size": 12505,
+   "sha256": "35a783d9fd5331d0c9919862957060f94475d23e062b40b7b77c1b00f2249f57"
+  },
+  {
+   "path": "notes/Building_I/BI_shell_v001_build_report.json",
+   "size": 2699,
+   "sha256": "f4faef3d01f56f42fff231cd1807318be18afe116ebdd9d8879f766ec44c22d6"
+  },
+  {
+   "path": "notes/Building_I/BI_site_control_v003.md",
+   "size": 14339,
+   "sha256": "90c6ac5cd0fae736f802078ed47f50b1cfc0bb6e1fb3aee5ebf20b7f58363e66"
+  },
+  {
+   "path": "notes/Building_I/BI_site_data_v003.json",
+   "size": 74892,
+   "sha256": "d31a1e76bed9cd5dbd2084fbef891273b8a68b8fbe64c8b5800bdb8c72a2d545"
+  },
+  {
+   "path": "notes/Building_I/BI_site_v003_build_report.json",
+   "size": 1279,
+   "sha256": "49dce7a404399d33b85770fb2c6cbe42e0d7d23be06032b5fb9b7bf0d86db95c"
+  },
+  {
+   "path": "notes/Building_I/BI_site_validation_v003.md",
+   "size": 8035,
+   "sha256": "fcf1a447bb68313376eadc7b8820e7f9d9765bdea1cd244da66ed713f16069a8"
+  },
+  {
+   "path": "notes/Building_I/BI_source_inventory_v001.md",
+   "size": 14639,
+   "sha256": "6f247ee2737106366a04f0343df3454a7a40222a86942a8dcb52dbca4cd7a515"
+  },
+  {
+   "path": "notes/Building_I/BI_viewer_data_v015.json",
+   "size": 488194,
+   "sha256": "879dcf58447fa054503c4a90cf2b887292752abd88fecd27e84d3beef12f4b81"
+  },
+  {
+   "path": "notes/Building_I/BI_viewer_glb_v015_export_report.json",
+   "size": 484507,
+   "sha256": "5781c52b36624201995df58229753db0fb47791abe94b9648ff0d92376221bb4"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v001_approved.json",
+   "size": 5397,
+   "sha256": "cb72654c12006697419d7c78c316687c471c019b642424b06b9567a7ead2d308"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v002_approved.json",
+   "size": 7876,
+   "sha256": "afe4e51780aa552c38944ebca0ec618a7289b0c94be5bb3f72a5c9f7f80f47b3"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v003_approved.json",
+   "size": 10902,
+   "sha256": "24c1c80e85d94026ea4ec58004424124799ac11db18680894eee71b87dd8178f"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v005_approved.json",
+   "size": 16447,
+   "sha256": "746743e71aefe53eaac656add20b9252eccbae089accbbad749a8332abba4117"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v006_approved.json",
+   "size": 19640,
+   "sha256": "a4b0eaaf686bdf3109d55e4e3c659d1d3f8e0590c4bb5098da5ef166645c0e2f"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v007_pre_v008.json",
+   "size": 20689,
+   "sha256": "b48bcd54a5d00484e5d75ae2f4987725f193d8258e980ce0588f1bd2d0eab3b4"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v008_approved.json",
+   "size": 25849,
+   "sha256": "c3c1413e8a46100e3e8c3707e81d8ac3da9baa4319e1d5f51f53d010f1c597ba"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v009_pre_v010.json",
+   "size": 28282,
+   "sha256": "cebcd10fa13864c3f89bfb06511c02ffba20dc5dc38a4ff7a9b475cd8a18d9ba"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v010_pending_approval.json",
+   "size": 33310,
+   "sha256": "d999b35e56d7dff62acf85f0172d3fdd1298d4a25245f90f0c09a495f89603ce"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v011_pending_approval.json",
+   "size": 37163,
+   "sha256": "eda798b02d3c19b71877178fce480b6adb091e6327e47e40a2bf18493f3b3466"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v012_approved.json",
+   "size": 41438,
+   "sha256": "d3625b491b84c9561895284402bff1a617da675bbb58cc756d4c2dd5187a414b"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v012_pending_approval.json",
+   "size": 41207,
+   "sha256": "58cff2621f0694bb5afb9efd2dae455495fa712a7b9bff5a257644eedb6bfe3e"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v013_approved.json",
+   "size": 45139,
+   "sha256": "80ec801583a1238d674697f07618ad0bedb3967bf605504a822b611bed8676dc"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v013_pending_approval.json",
+   "size": 44900,
+   "sha256": "39dea0df295a1d1acc1b8e40cc378c42b9ad3c157eb5c907d41fc313f05eaa19"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v014_approved.json",
+   "size": 48687,
+   "sha256": "dee75d6c538b6b4568345b7b3a369f1f024d681000867b6c019612e822706926"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_BuildingI_v014_pending_approval.json",
+   "size": 48434,
+   "sha256": "d6b66f16ecf872a974b4bc0fde6c4386a9f4ddc4f96ebc4dcc69ed04bdcc1c86"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_project_and_BuildingII_v001.json",
+   "size": 57582,
+   "sha256": "acf69cc7f2309a6f29f851dadf66f0c9c0c7e45ffca6ec4bf9f9e448ba2d5b19"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_sources_BuildingI_longpath_v001.json",
+   "size": 237775,
+   "sha256": "d27521d8e2d7d35ee50687714622dfcaf487c99d686fd6d2015c2e444daf02f5"
+  },
+  {
+   "path": "notes/Building_I/manifests/BI_freeze_sources_BuildingI_v001.json",
+   "size": 213489,
+   "sha256": "aa450da1766f75c9c2eeb9363b07588338b6567c360a7894f0dd87e664c4711a"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_1_entrance_eye_level.png",
+   "size": 3199381,
+   "sha256": "19dc614a4eb8efdc3a643e4480aed52b023d480a79c49312af211dc866c9ebb1"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_2_tower_closeup.png",
+   "size": 3251387,
+   "sha256": "c1722e34bfd8886621f84088ba35c79cfe313f6a66791d3b6c481530f3482aaf"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_3_tower_side_depth.png",
+   "size": 3404414,
+   "sha256": "47f577a60697a6600cd64137435c67afea37236cecf436fb050c2cd1df47f168"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_4_tower_west_elevation_ortho.png",
+   "size": 2595129,
+   "sha256": "3fb727a45bc48b199af12b00d6d958f1bf79b6ee638016b1df971ee6e51076cb"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_5_v009_entrance_camera.png",
+   "size": 3357977,
+   "sha256": "fd1262726c2ce1da0c5a9dbce8fb3f8460383f73e430942829544d8bf325a4ff"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_before_1_entrance_eye_level.png",
+   "size": 3189139,
+   "sha256": "6efda9931ecbdd91729449bf70a6eb3cb3f46efc6c7cd68d26724885b0c11f24"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_before_2_tower_closeup.png",
+   "size": 3230608,
+   "sha256": "9baadfa9a06e53ac58c9a535c7d56bb9b8194b16937bbaa00e85c7c50423f133"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_before_4_tower_west_elevation_ortho.png",
+   "size": 2542064,
+   "sha256": "9cbf9d4cc190eb3dbf30a979969d27b59018330506dcfb99bd99812bea4fc013"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_before_after_1_entrance_eye_level.png",
+   "size": 2774850,
+   "sha256": "c72f873dfbc986c77fbd0abe4c766bb1d0ba23539eda9d6c60c5aa8ca315ff15"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_before_after_2_tower_closeup.png",
+   "size": 3114027,
+   "sha256": "9c5fac9ef89dc1cf354801cb3d3a735d09c06e33fcd62063a13a063962e0ff77"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_facade_v011_before_after_4_tower_west_elevation_ortho.png",
+   "size": 2369846,
+   "sha256": "96168a3348c38876a41e4be5c0a031b85ea7f339399650c2734efef084a2182f"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_1_photo_match_drone.png",
+   "size": 2642988,
+   "sha256": "a962b006a47f465fd1945c4858e685076a33427f2cd02557d05d0179197157c1"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_2_entrance_oblique.png",
+   "size": 3284970,
+   "sha256": "da5720526fe1e5ccde527b7f0e702ef50d8596e20db5417baee5c638af253604"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_3_tower_closeup.png",
+   "size": 3150389,
+   "sha256": "57bf1b58d99243ce48a71498c7c373045b968aa9cdf795c923f04154751c5bbb"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_4_tower_corner_side.png",
+   "size": 3286998,
+   "sha256": "b9c57e5d7074ffa8a6e3ee31d87bf4ae6b874448ca19e6973f9a6d763694d989"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_before_1_photo_match_drone.png",
+   "size": 2651635,
+   "sha256": "9b64f7be60beb9b66e2daabebd6d94b4f030ed4bbb21ec46be1e92bb4b6797d4"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_before_2_entrance_oblique.png",
+   "size": 3358224,
+   "sha256": "937ecdb66f646b316849bbe722c5a43df6a576e3372125f1572ea4b0d1308dd7"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_before_3_tower_closeup.png",
+   "size": 3252347,
+   "sha256": "4204639f83e8431e72d486b3cc15bc3790e89310dbefa2186e99dfaf0d4d187b"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_before_4_tower_corner_side.png",
+   "size": 3404734,
+   "sha256": "82cdcf4c08da10eeedc4b7c45b5b7746c27e6be4f1655a8525734c728d1b0f3c"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_before_after_2_entrance_oblique.png",
+   "size": 3446093,
+   "sha256": "14f05b21c1185a88fcce61ffc3e4311f172d39929ce1cac5255eee00a0f13106"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_before_after_3_tower_closeup.png",
+   "size": 3004871,
+   "sha256": "ad522c2c8861ada9b6c74fdec98b8003f0cb0531c618d588f2fea67128e70f1e"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_before_after_4_tower_corner_side.png",
+   "size": 3162606,
+   "sha256": "e0cf96d060e65a5668ef95961ab61323b44b5da72abbf9cd6c642a52c356c652"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_finish_v012_photo_vs_render.png",
+   "size": 3126511,
+   "sha256": "f7710e3c1dbbb45ecc272588e89b1cd8af27bf2e8cfe2d572092d69a5fd6fee0"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_site_v010_1_entrance_plan_top.png",
+   "size": 4360007,
+   "sha256": "5ea2adf01ff9c6efb3bfdb57f80f039f9193cb29695600d11e08eece431f7b04"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_site_v010_2_entrance_eye_level.png",
+   "size": 3198778,
+   "sha256": "10942466967c2ca17557d16fda01d7cfc8cc9c26905c779acbdc197b4c0b898c"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_site_v010_3_porte_cochere_oblique.png",
+   "size": 3348451,
+   "sha256": "7fe84cfdab37858380371908c1e437626db88007275263dee110b4b17fd94c56"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_site_v010_4_entrance_site_elevated.png",
+   "size": 3338601,
+   "sha256": "a5dec996276cbae225ca6b6714c0e5e972a6085e893e278af55726c91cbfcb03"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_site_v010_5_before_after_v009_camera.png",
+   "size": 4368358,
+   "sha256": "917e321c3894e7a7298586900aa1434a030723aedc17a5aecae1a94aa9c87e1d"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_site_v010_5_v009_entrance_camera.png",
+   "size": 3348286,
+   "sha256": "3376133308e47ac245a74c37298a0acd1534861821dec7e9301e7eac64c8985a"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_site_v010_overlay_plan_top.png",
+   "size": 2962463,
+   "sha256": "6861d623061dad8b6823e8ae1ef9331d886c924f08ce4960da5fa051e6b2a733"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_before_after_entrance_closeup.png",
+   "size": 3541795,
+   "sha256": "fe2f06770868b244d49bb487b9a404f02fb3ae4e1ea84d05edcc060eb6c3ff01"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_before_after_entrance_elevation_ortho.png",
+   "size": 2569949,
+   "sha256": "6cc9e7a259b943f91c3d65cd577160d68c6f02cbe139a3371de3b44b2c2d91d9"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_before_after_entrance_oblique.png",
+   "size": 3549501,
+   "sha256": "63e6e00a9aa3c06856c7edfc354e810e2ad431a817e3e39e82f864ed59ff0ccd"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_before_after_entrance_side_depth.png",
+   "size": 3609602,
+   "sha256": "5adacb000583fc58e992a0261f34908e92b5e65d686f53f3d741c64fbe9245f1"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_entrance_closeup.png",
+   "size": 2786180,
+   "sha256": "f1b71e43f54e071c6523b0897ea5743bae98a140dae6d12f677abb42991e34f1"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_entrance_elevation_ortho.png",
+   "size": 2602788,
+   "sha256": "9cc7e1813126223f6a6d1f53c3a88db40ca34e351301917ea375f2a7d1f4ba92"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_entrance_oblique.png",
+   "size": 2872370,
+   "sha256": "ec854fac49b2cc7622727e0b3120f21c506b01803c82ad053fa6d08912f5c83d"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_entrance_side_depth.png",
+   "size": 2871986,
+   "sha256": "ecf66215ca69c771f6924fe6a0a4aa47c49ff84ba75a860cd7ffa8f95359dff7"
+  },
+  {
+   "path": "renders/Building_I/BI_entrance_v006_front_north_elevation.png",
+   "size": 2739497,
+   "sha256": "9861af533d12d67e4ad8c4bf932679c7994ed9ce6a3e51b67283302f914579fe"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v002_closeup_entry.png",
+   "size": 2819901,
+   "sha256": "dac3d293d348bf0b09bd6a618ae6b6a86ecacc940de495fb1550c3a330eab3d3"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v002_front_north.png",
+   "size": 2001299,
+   "sha256": "1beb27c09fdebb805bbe4818a72121cabf7882e4349d7f07a91f71ecbf463909"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v002_left_west.png",
+   "size": 1960793,
+   "sha256": "2f6ae00e1d9c46e26a5e7f9cef25d91dfba5e94ac807f5714004cf032214ec1e"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v002_oblique_northwest.png",
+   "size": 2483090,
+   "sha256": "33b2c46cddfeb374391ad4e5c8cee631e03495bc1684dc37a9045323aacedab8"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v002_rear_south.png",
+   "size": 1748562,
+   "sha256": "88b4ee0b5a8e4b309f7146a282f935203361ea5c58b6ef03758f84abf560314c"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v002_right_east.png",
+   "size": 1926528,
+   "sha256": "d71061927705936d2c15506738d0844700abf45d9fc00297fdac689e3f2364af"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v005_before_after_entrance.png",
+   "size": 3756759,
+   "sha256": "1b213f1a806ce144de81032698302d2db8d5039297998aa8db923637c6b2ae70"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v005_before_after_front_north.png",
+   "size": 3701706,
+   "sha256": "ab3338a12a2bf96048348c7e1dc378110a74316d536a1592b6890b698552e930"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v005_entrance_closeup.png",
+   "size": 2798150,
+   "sha256": "774aa60580a7f138efa179061409cdebf42b9a5cfa79f9dddfc8bf702dfb5ab5"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v005_front_north_elevation.png",
+   "size": 2743635,
+   "sha256": "da968586cc951866f23912a20e7b1acc1f481b5ac6a1ba16ab441f8af16a2b15"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v005_oblique_northeast.png",
+   "size": 2658387,
+   "sha256": "5933497693ec8570e21d605eaa2fc43a559539607707e9867a5b778e1fa7e9ba"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v005_oblique_northwest.png",
+   "size": 2599920,
+   "sha256": "3d626d69636b1783d1c8a07dc2871701204f685fdf99a6dff1a2f9514e821b5c"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v005_rear_south.png",
+   "size": 1746118,
+   "sha256": "80baaf92dbe0881b5950b566136ab8deb46f8b7d8c9cfac298731fed29714bd7"
+  },
+  {
+   "path": "renders/Building_I/BI_facade_v005_site_elevated.png",
+   "size": 2458388,
+   "sha256": "d4a80fc2bcf726a4f6e8e999ad536881b38f2e44b5706994efce37895a5e4440"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_oblique_northwest.png",
+   "size": 2788644,
+   "sha256": "b02d357e0e0e84e793800d31823b1c37a72e6c1cd0a1ce0910ed34a99270c074"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_oblique_southeast.png",
+   "size": 2611395,
+   "sha256": "0a016e2d768e5679bf5e7d3019746ceb6ca85981982606a8a346dddb17a51dc9"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_plan_G10_northeast.png",
+   "size": 2038780,
+   "sha256": "9e04222ae8ee744c6c428698ad551745b3ced5afc3dda4cf6615d63007673aa7"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_plan_G8_south.png",
+   "size": 1889830,
+   "sha256": "2c1409aa839c5d927af0d16dda3cdea4ee04fe70d7bda1e27c5078526cb9ca46"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_plan_G9_wing_north.png",
+   "size": 2314780,
+   "sha256": "7e81418032c91cc6c866386b9eab31394310d359e956bf3fda3bf689df1e8740"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_plan_top.png",
+   "size": 5253291,
+   "sha256": "f59a6c23d5e8c62d1f52c6e50036f3e3c6d6abae0aa5af666e9cee2139182f83"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_rear_south.png",
+   "size": 1859261,
+   "sha256": "4be7b6a1ee2d5b1540d97c2b7798073a3694f785a6db546085309abf4c6b7f98"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_right_east.png",
+   "size": 2215674,
+   "sha256": "1dfc08b6cd183e72a10310d655578944dfaa5df4c987da914d063ca719776dd1"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_before_after_site_elevated.png",
+   "size": 2272777,
+   "sha256": "8f3055c25a8584c612525f200d7df76b17e1baffdc62623eba7e0cecee1d5b51"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_oblique_northwest.png",
+   "size": 2637377,
+   "sha256": "e2e9ef3da3a3bb459f186402210eec02d621190b4e03eb94582c7fa9ac256c1a"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_oblique_southeast.png",
+   "size": 2584009,
+   "sha256": "9fb3ef7eaef76a6fdc302039add422c82c595bfd1aaa0c109b298401e5eaf0f1"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_overlay_top.png",
+   "size": 2690314,
+   "sha256": "c26571d1d4e1864300f7ef01c5fbd3b97203f340056d6a4e20ed3f428beaa2a0"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_plan_G10_northeast.png",
+   "size": 1728073,
+   "sha256": "7b4912b764a6179360ceaf71e051b50319053ad863ba1372e1b97ddec2b765d0"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_plan_G8_south.png",
+   "size": 1464902,
+   "sha256": "f186e21582455b2b68ff4d11d1c362d7714e12b03f984d26b966e37afeec46a8"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_plan_G9_wing_north.png",
+   "size": 1860850,
+   "sha256": "bcdd1decb43999ccc5fa9f5792039f18cea18546f0f4de4cf052b5cf563bce77"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_plan_top.png",
+   "size": 4055077,
+   "sha256": "2460209c100b80658f0ef4a616eb33bbf276049abfd59b26c72cf49b12c986ba"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_rear_south.png",
+   "size": 1821898,
+   "sha256": "178bf652004d347cf335472d7cd02cd97fad4b4063b641abbc378284bbc868a7"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_right_east.png",
+   "size": 1949219,
+   "sha256": "f1b4dfcf529bfa79ebc6b3434f53108a411dcb2a61b89715fca45409c799a855"
+  },
+  {
+   "path": "renders/Building_I/BI_footprint_v008_site_elevated.png",
+   "size": 2518920,
+   "sha256": "88d9c66c7e9c37be99a938d366af2460a867d732769fbe4440ee4bf499b17487"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_1_L1_plan_cutaway.png",
+   "size": 4446440,
+   "sha256": "3490408816906c6d9bbad33cd6d270c10e49278f581e49b55cd7ce94dbc4a949"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_2_L2_plan_cutaway.png",
+   "size": 4416920,
+   "sha256": "d9e40631babc61a407dcecba0f2977ad2060acbdbdfceef5583cf052c93007e5"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_3_longitudinal_section.png",
+   "size": 1363342,
+   "sha256": "fb38d603ce4b59c3b53006039d8ac1020581c50ac4e2a91a16a194e4748cb375"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_4_transverse_section.png",
+   "size": 1258583,
+   "sha256": "6d6cfd8e66c51d955c2c92ad905baa0c0633e1e142d8125b89ebd4e5bd1f9629"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_5_lobby_core.png",
+   "size": 2977009,
+   "sha256": "9b9607e9e9e88b5be4c8124c8e08ac2756258b2a96d3dff5182afecb1a7f452e"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_6_courts_interior.png",
+   "size": 2902363,
+   "sha256": "a08264b0affd1f2a934171b1212f45258022350891da800cf051476d6d6542f6"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_7_structure_core_oblique.png",
+   "size": 3164997,
+   "sha256": "4b3dbe34f7f6ac4e9eb6213cffe72fdcf5d5cdcba3aa69ad90717e6d23d78a65"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_overlay_L1_A1.01.png",
+   "size": 2982967,
+   "sha256": "26d00c8045a6dca34dd37610852db1336a012cc42e97a1d1f67f035b8046ba30"
+  },
+  {
+   "path": "renders/Building_I/BI_interior_base_v014_overlay_L2_A1.02.png",
+   "size": 3164311,
+   "sha256": "55f97b40f7c064429a24f24eaa17399e4fb6f711a7449768e064eb164ca3e129"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v004_front_north.png",
+   "size": 2157201,
+   "sha256": "f8ef55ab1e898ee582cb3e37e33aed08dd92cc0f704a58f8027da226fa90f5c3"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v004_landscape_entry.png",
+   "size": 2981690,
+   "sha256": "01fd80ed984a7abb1f4738c56c104060d80e600c1b759f88ae7c23f41c54ce9d"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v004_left_west.png",
+   "size": 2174054,
+   "sha256": "a85d666888d685fdf63e94ba5530938084a88bbb2bac0e1129e7754c15fd158e"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v004_oblique_northwest.png",
+   "size": 2652912,
+   "sha256": "e1361f8601c36429c11e56d59ae3c12a67b890fe8cfa5e4651c93acd90baa62a"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v004_rear_south.png",
+   "size": 1821809,
+   "sha256": "242249267bba8b5b0a3328c03c2de88423cab51a246a574583649e17641c53f5"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v004_right_east.png",
+   "size": 1958777,
+   "sha256": "4cf83a454ca680a74af2ce0299e591612490a34208ac05a3ab972b17c91c1283"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v004_site_elevated.png",
+   "size": 2485801,
+   "sha256": "0f9d19f42780b4af31c1d3bf33b70448f16bd088048807b3fd7ed91014ead0e8"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v007_comparison_rear_south.png",
+   "size": 2355785,
+   "sha256": "67a66ff2c7b49c6187967b4efbaa29e0cc03b1cb4ec0942f34c0622e3b0b1d31"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v007_entrance_oblique.png",
+   "size": 2940656,
+   "sha256": "2f4df73536c5e81a25454c470bfe27786621ba6f5df909a6b0c5c5817cad13cb"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v007_front_north_elevation.png",
+   "size": 2750849,
+   "sha256": "9a600d1765018035a896186e53954f8c2425fe39da8475c0c0f4a2ff770d603b"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v007_landscape_entry.png",
+   "size": 2939424,
+   "sha256": "766c52ce667a2078a4dfebf159fc414ce371df1066222edc9cbbf469a4e3ca46"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v007_oblique_northwest.png",
+   "size": 2625396,
+   "sha256": "7097f8993d5ff48f9337995687f53de41d0b3b4fc89b07719f613039b4fab371"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v007_rear_south.png",
+   "size": 1801008,
+   "sha256": "5d50f080c018d250919fdb03705e608f11fc4ca3422059fcdc28242f3a544857"
+  },
+  {
+   "path": "renders/Building_I/BI_landscape_v007_site_elevated.png",
+   "size": 2510556,
+   "sha256": "1c42d71e359b663fb19e1a8545a9443bc17e245b40446424fb3b4fbdbed988da"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v009_1_front_hero.png",
+   "size": 3523127,
+   "sha256": "a29b1119430b5bfc493ff23af037bb4826a45ad9ad24e450f41b292a3938e677"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v009_2_entrance_oblique.png",
+   "size": 3369080,
+   "sha256": "49c1602e19f6779088183102a5012c34d38e2725d19508e00fc1b26ef4d214d8"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v009_3_southeast_oblique.png",
+   "size": 3233604,
+   "sha256": "141f9db40c6ee2f0c0ddfade193c66490146261caee428e8cd1e06cabd15b0d0"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v009_4_northwest_oblique.png",
+   "size": 3219455,
+   "sha256": "5555370cb249912e9155d4e527a72913fee0efcf1828c20e2b02b7889c00f1fc"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v009_5_site_elevated.png",
+   "size": 3183294,
+   "sha256": "28cebb5f7ddb585ac7e5c9568ed474e333b98e6b529ece658a32d89e6b169d5c"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v009_6_facade_material_closeup.png",
+   "size": 2983579,
+   "sha256": "8e19ecccde87fcab1c7c531a0a51b7eb44ce049277a39f449df80637674b5177"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_1_hero_porte_cochere.png",
+   "size": 3923611,
+   "sha256": "a0cef7d87d169fe36de032ff5e91cd1a53cdb79e774d4817306ff8537f014139"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_2_photo_match_drone.png",
+   "size": 2611983,
+   "sha256": "2c6778336605b3c6211b428868dff6a6a66092f175a31aec9277aad11b8ea295"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_3_northwest_oblique.png",
+   "size": 3169480,
+   "sha256": "fbebeb4e99452c29d0b27b03db8bb827cf89408a33b161c5dfc9bd15ed49b34c"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_4_southeast_oblique.png",
+   "size": 3215349,
+   "sha256": "4bfe98b9e80241ef027c68d00e350799d09ba8bc57789d949dc0a35a31bd65dc"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_5_courts_exterior.png",
+   "size": 3051284,
+   "sha256": "100d118584b760deb4faa3fe0272f819922bb289132b7e8beeca22e063779890"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_6_site_elevated.png",
+   "size": 3199363,
+   "sha256": "03f9dbb4aed2432b20ad36fb04054f6071ea2d3a6759f1482c5076c3b7fb4aed"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_7_facade_material_closeup.png",
+   "size": 3012022,
+   "sha256": "4783b099eed983c64afec340380b588eb3cb06d7e91979cbee3f48d1031e6bfd"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_8_entrance_eye_level.png",
+   "size": 3492788,
+   "sha256": "a60a099fb3beadbccb52bcbe7c584af1ce7e4eddd79266c230b7c5f068f369be"
+  },
+  {
+   "path": "renders/Building_I/BI_presentation_v013_photo_validation.png",
+   "size": 3924562,
+   "sha256": "b0a0a06665a19dc780aa8018d7cf97fbd6cbf3ca80d0f5b32210036fe77093c4"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_front_north.png",
+   "size": 1938252,
+   "sha256": "10ce81df6f7b8ebfbb51957e5178dd33ffa1043fb949a9e79290016c681856c5"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_left_west.png",
+   "size": 2016606,
+   "sha256": "523af5c9b2119b0434f069d37a744425bd05f919e5c784d44c2df184085eca7f"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_oblique_northwest.png",
+   "size": 2488119,
+   "sha256": "27888cab79ae9efa2f6bc7557bc0fe9e55a67ce6fbf1af294e9c1098e51457d7"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_rear_south.png",
+   "size": 1792513,
+   "sha256": "3ba71e9ff5eee4923d70c7742e1cb610f3b50762488d000f3e0bd166486d67cf"
+  },
+  {
+   "path": "renders/Building_I/BI_shell_v001_right_east.png",
+   "size": 1871956,
+   "sha256": "1c113da61683251229e8a5a843495263212cdbd047deef5861b1bbf1bfa4981e"
+  },
+  {
+   "path": "renders/Building_I/BI_site_v003_front_north.png",
+   "size": 2019296,
+   "sha256": "f3a4495c6b62bd50dbc51519fd4dc6aed7d61d37d769c31968d6e1b7bf2a4b3c"
+  },
+  {
+   "path": "renders/Building_I/BI_site_v003_left_west.png",
+   "size": 2049481,
+   "sha256": "eab554acb2b25968ab9b6710d5b1f95d94fbec9ce918e573d3b95339364bf500"
+  },
+  {
+   "path": "renders/Building_I/BI_site_v003_oblique_northwest.png",
+   "size": 2549703,
+   "sha256": "22f8db7185924342aee5d9570548fb1f25c1252af00bad987290537a2a43da72"
+  },
+  {
+   "path": "renders/Building_I/BI_site_v003_rear_south.png",
+   "size": 1781960,
+   "sha256": "0c906f98f248c8c8e85d5c541354ee56ec182979836cd98cfc3f830d994bbe3e"
+  },
+  {
+   "path": "renders/Building_I/BI_site_v003_right_east.png",
+   "size": 1876051,
+   "sha256": "06fda51cc2324d505d0aced17511cb9dea76a315db10919748dc8e6b71f4c506"
+  },
+  {
+   "path": "renders/Building_I/BI_site_v003_site_elevated.png",
+   "size": 2381048,
+   "sha256": "302589de4def350d18b4513e6c98ec64135ab3a84a68b8675e2ec5049675e150"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_01_exterior_entrance_orbit.png",
+   "size": 469768,
+   "sha256": "147200c2a24aaf3a9d8884154c5754431b23bae5a663f7917d612618629c1900"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_02_exterior_aerial_orbit.png",
+   "size": 578399,
+   "sha256": "9906ba62ff352c5f08c89098b605de6facb431d0a5429dc4a2a41e667718ec63"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_03_L1_orbit_cutaway_cnsa_on.png",
+   "size": 656425,
+   "sha256": "ba393dc5264ab97f02fe741aadbad13477565e57a7c8bfa6a7c310b43f259eef"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_04_L1_orbit_cutaway_cnsa_off.png",
+   "size": 602062,
+   "sha256": "ac04ca83efc3475f83067ac301287b146ebf9b02cd2f09d2f54c89ace80213a0"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_05_L2_orbit_cutaway.png",
+   "size": 651542,
+   "sha256": "c3380759fcc2ee7b49cab872c4357411265b3930d870f2fdd8a82364a4908482"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_06_mezzanine_orbit.png",
+   "size": 474691,
+   "sha256": "13e974c7d44b09a6d6adff2151d67eb57767f4ba0e09585fc1ac5fcf645e3786"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_07_plan_L1_underlay_labels.png",
+   "size": 1182006,
+   "sha256": "9055bd9e03ae769b6a810dffd2ee58d58d1fe01458e3cab72116aaf0c01bd36a"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_08_plan_L1_labels.png",
+   "size": 579213,
+   "sha256": "54677d7023de87c93f0040b7541ab22ec580e9692b7b9ca25fd814dfba1990eb"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_09_plan_L2_underlay_labels.png",
+   "size": 1459302,
+   "sha256": "78d43e9181e4045557e24ecca3d1455b180e9de1dbca5b6ada28db16c6c024e1"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_10_plan_L2_cnsa_off.png",
+   "size": 560404,
+   "sha256": "8adc33c3884f35c56fa6c2325147be3d735b3bf9d9da2dc47a6aabc2c2d42279"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_11_plan_L2_core_zoom.png",
+   "size": 102641,
+   "sha256": "9b7b045f7f7bfff999d6fea188a8a8f23a34218417978e7c8e81d95ccdb681dd"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_measure_floor_to_floor.png",
+   "size": 137483,
+   "sha256": "7d60225120e69736844ac0facc4837f63cea3a341aee3f93cd156afa0b06b61e"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_measure_hoistway.png",
+   "size": 109549,
+   "sha256": "cf6eebe94ea65f30e472a9c9aa152d7cfd897a05e73be8f94a13356371eb64fa"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_room_highlight_plan_L1.png",
+   "size": 579526,
+   "sha256": "ed43e4ec99384b47f866bcc6ab34f0c245801efeca622d7e04d1c9ea7dd3b2f5"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_save_view_image_button_output_BuildingI_v015_plan_L1_20260925_151318.png",
+   "size": 579204,
+   "sha256": "52b36254f1e30fe8c68e71960d78593d7359ee7a4480ae3bd21a0246fc860d50"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_L2_office.png",
+   "size": 52867,
+   "sha256": "b5c72a91d3c5c6d1f37c0554107092a9a9a2d66c83a1d17b57f99b30a126302b"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_cnsa_L1.png",
+   "size": 60741,
+   "sha256": "4fa4acc6fe0959794b8cfb29fff093fc2fcd22c952a16a9c19e3871f444d9a99"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_cnsa_L1_cnsa_off.png",
+   "size": 61503,
+   "sha256": "7a06668ea4642d15818a6da8dde4c84365cc60a819bc4d6484ce9ca840773629"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_cnsa_L2.png",
+   "size": 84398,
+   "sha256": "1d9b92f255847530aea7eef4f5f8c9846f72697dd85c67de3e506247eee1e602"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_core_L1.png",
+   "size": 75745,
+   "sha256": "d8151141babefa73c30afba19924c51b74d93eb71e58504bcf82df6b8a66601d"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_courts.png",
+   "size": 94867,
+   "sha256": "8873794b6e5fe48f892533b779baf09f582a13e5e511eccfe72b9a0218129dfe"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_gallery.png",
+   "size": 66060,
+   "sha256": "294dee0bd56ceaddefb82c03417a49e1aa6c1a38366b0fc9e28dfa851b08ac56"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_lobby.png",
+   "size": 97761,
+   "sha256": "d550ed595ec2a0bb6dad75d7934467f82daba9bc71b60bddf4e8456d9cd8044a"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_mezz.png",
+   "size": 85688,
+   "sha256": "4ea6becf756c80c24ac4034b85ee9c7c2f4cebed08a1215541cf8e1535f80ad1"
+  },
+  {
+   "path": "renders/Building_I/viewer_v015_walk_vp_shell_L2.png",
+   "size": 78725,
+   "sha256": "d7082ebfe16680c582b65ac89e8ccd7c058127708a028517c38119c6ace5b1b9"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_entrance_facade_fix_v011.py",
+   "size": 16062,
+   "sha256": "e1c250fd8c57161d285c253fac75babe3714871cebf16f806825b08ce8e47202"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_entrance_finish_fix_v012.py",
+   "size": 17857,
+   "sha256": "c1dcfc4541544ee61e2181d06e88a42a37cfc2b24d6101b8e9cfdb143ddb3f96"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_entrance_fix_v006.py",
+   "size": 19344,
+   "sha256": "fbf52d0415cad9adc6584a57cda25c0fe7364ee71e5a0459c47d79db3cb43a1d"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_entrance_site_v010.py",
+   "size": 47223,
+   "sha256": "312f47f378a8691c4033903b2c51da2b69d23407d8c38c5e617e1eea2d4fe44c"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_facade_cleanup_v005.py",
+   "size": 14989,
+   "sha256": "131fa0ce736e3ead789b4383de26d489e4f97ab7505ee1e8b144619085dfab55"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_facade_v002.py",
+   "size": 12540,
+   "sha256": "ac8a386680eaad3b49067186ac60cd9630e8b4fdf67ffefce2c81762f5542e1c"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_footprint_fix_v008.py",
+   "size": 39590,
+   "sha256": "820aee8a744b00e33219a8167d8bca0bd63c4761c5543c5e15c081ac25dfa804"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_interior_base_v014.py",
+   "size": 45164,
+   "sha256": "a42c70b6d668230ff6e5cb736a382022fd15260d1ca6c0dd9b9a492e19d8e249"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_landscape_cleanup_v007.py",
+   "size": 12220,
+   "sha256": "b270e79eec770370d46cec9f9f141ea4080654fbfe82c630d557d85e55582175"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_landscape_v004.py",
+   "size": 19680,
+   "sha256": "04a756655122d7a483d230ad8109e963fb07e1508490d9737451a52d18973f7e"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_presentation_v009.py",
+   "size": 19637,
+   "sha256": "f1a4ea4c16b8bbf8bddabdc072d1b4b3f6573aa7bd106c6452d8ca4738fc96f4"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_presentation_v013.py",
+   "size": 26199,
+   "sha256": "46cdf0dbdd159266a1de99fc688f41ce987d330e46d91208de0233a62c7996ce"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_shell_v001.py",
+   "size": 19540,
+   "sha256": "f0fa746e1b21785f5fb6e8002e37705fbb945b63d15e7a5862151e3880e48256"
+  },
+  {
+   "path": "scripts/Building_I/BI_build_site_v003.py",
+   "size": 15893,
+   "sha256": "41ad352da054320979392cfcf00e51822a47d70142f120b29922c046786f274a"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v001_v002.py",
+   "size": 1553,
+   "sha256": "ccbbe9771910b3f92a1bad1e8a054f2959e7cb6498f4b476ae1f37039138894b"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v002_v003.py",
+   "size": 2318,
+   "sha256": "2a982894079f6c45c6ee32bb997d75fc32542db3ad9292878670f23b6a671742"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v003_v004.py",
+   "size": 2419,
+   "sha256": "5aa2141439e451974f92acce61dcba97f95a7591f6c6dbb23c489125a436aeea"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v004_v005.py",
+   "size": 5454,
+   "sha256": "bafa7558299e733cdccfec8a4d13d59f3648e268d2f2f11daddd960b6289efad"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v005_v006.py",
+   "size": 4645,
+   "sha256": "418a0f2c21cd74bedca40efa4975a135268ee92231fe9e6c36e0cfb811ca0906"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v006_v007.py",
+   "size": 4044,
+   "sha256": "54e72ee424c856990bccde87a2fc448e8eb9ba92e7b69491b50655c8a9a04f04"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v007_v008.py",
+   "size": 6281,
+   "sha256": "98237eaf2ae0a86826780d52c8305beb16e48b504a55d9ed1a34f07fdf9bcd73"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v008_v009.py",
+   "size": 3833,
+   "sha256": "61a283e628ff209db2e16e8e63137e7e2f7c3d2a939020438c9a000a18c94ca0"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v009_v010.py",
+   "size": 5460,
+   "sha256": "00722817d760138da701d5569cff9a4bbea619cca820ef8ade32ceb5947c4936"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v010_v011.py",
+   "size": 5655,
+   "sha256": "9720914aabfd80ef78cfd544bef15ab98046ded0bb58c228e2f897e7403dca59"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v011_v012.py",
+   "size": 5764,
+   "sha256": "b2620b25f346f5b8c3601bbf9f1e0bafbdab44368a6967e57b84220db342137a"
+  },
+  {
+   "path": "scripts/Building_I/BI_compare_geometry_v012_v013.py",
+   "size": 4498,
+   "sha256": "41518642d9f8bae736bf160c7ade25d57208532723320c1f0ed93f8f4a4ea07a"
+  },
+  {
+   "path": "scripts/Building_I/BI_entrance_facade_composites_v011.py",
+   "size": 1803,
+   "sha256": "c4e2ec38562f60393436bddc58f608bf4cd22d048f28da516dc7c194336b71a2"
+  },
+  {
+   "path": "scripts/Building_I/BI_entrance_finish_composites_v012.py",
+   "size": 2986,
+   "sha256": "1483effd481f7ffb4f7a3d8a555cd81e3ddf0f1e79e6c0505decfcae7954c1a2"
+  },
+  {
+   "path": "scripts/Building_I/BI_entrance_site_composites_v010.py",
+   "size": 4958,
+   "sha256": "5bb28bc0018b9f1e89bcd55ba23172ef834b2ff375b067177796486268c63fad"
+  },
+  {
+   "path": "scripts/Building_I/BI_export_viewer_glb_v015.py",
+   "size": 22632,
+   "sha256": "811d6186cd2abdbdfae82a5875f5b35d402a8152223632b9a7fd164bef167891"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/facade_classify.py",
+   "size": 6198,
+   "sha256": "7afcfd4f5fbe8d87dd653edadbffce7aa1557c29573c278f5d12ac7c8a97330e"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/glass.py",
+   "size": 2174,
+   "sha256": "80da9916eafa9bbca846fb879083fd1e058bfdf2d3b4aa96e0b64a01c44cac95"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/gridlines2.py",
+   "size": 1712,
+   "sha256": "4f71f00f124b43e4aa8923d02eedb44326cc12fe36f3dfaee0270bcfce668bad"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/rskyline.py",
+   "size": 1590,
+   "sha256": "b2f764c2287dbf91a8d0bdf2ba8759f7ee31703452869553e9d20545d5833e1a"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/slabpoly.py",
+   "size": 3450,
+   "sha256": "87e0acd825e0c8fb6c7d8e1adf8d94d3204e89be3ef5b48d4f02315a1a7b6d87"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/slabunion.py",
+   "size": 3656,
+   "sha256": "053c6707a5e46a442d2ab99c198007d1f5eeeee9cd42bb1b0be2a39f954a5d40"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/svgseg.py",
+   "size": 3636,
+   "sha256": "2f90532229f1f880c641b3c8447d9b4d21e46d9a454e50403f59b2d9c45f5272"
+  },
+  {
+   "path": "scripts/Building_I/BI_extract_tools_v001/words.py",
+   "size": 757,
+   "sha256": "502173c0a22796b8bec4c0ed547b3298f03ba6c68e22be2eb7eb106da481357d"
+  },
+  {
+   "path": "scripts/Building_I/BI_freeze_manifest_longpath_v001.py",
+   "size": 2560,
+   "sha256": "d9057b56aabcec3d4a4420501868556da8bcd2bf08438306c9c97590d514439f"
+  },
+  {
+   "path": "scripts/Building_I/BI_freeze_manifest_v001.py",
+   "size": 1334,
+   "sha256": "661bdd717989b49bf935c2f9f66bae33abab59b6b98a1fc8b9e6512908963110"
+  },
+  {
+   "path": "scripts/Building_I/BI_interior_base_overlays_v014.py",
+   "size": 2506,
+   "sha256": "c7225fb4d56e212248d829d08678608ceb539c620736f58725f5fe8654c3b10b"
+  },
+  {
+   "path": "scripts/Building_I/BI_inventory_v001.py",
+   "size": 6126,
+   "sha256": "d366dbf9c6b0afd8ec16dd4b45f72d12896a673573b5343e9495f4b85eb7f4ff"
+  },
+  {
+   "path": "scripts/Building_I/BI_make_viewer_data_v015.py",
+   "size": 21020,
+   "sha256": "bd3d2fc039420632a91e1cee8a969e5f0695fc3646c57ca195d7cafdfd21d1c7"
+  },
+  {
+   "path": "scripts/Building_I/BI_presentation_photo_validation_v013.py",
+   "size": 2467,
+   "sha256": "efaf3aa81e8cf117397f5a1fe32b92a18d9393a7b4ddcbe557ba7c3da123aa15"
+  },
+  {
+   "path": "scripts/Building_I/BI_render_footprint_views_v008.py",
+   "size": 3056,
+   "sha256": "9efb4979c1da812e6c3e6d2beaf9db67b3ebbb2d322be888c29f1aa69cc8c011"
+  },
+  {
+   "path": "scripts/Building_I/BI_validate_manifest_v001.py",
+   "size": 1199,
+   "sha256": "ec8728c558b4550d45bcfc5e5043f736fc331430fb57ed8f13db8ebea7814403"
+  },
+  {
+   "path": "viewer_BI_v015/README_LAUNCH.txt",
+   "size": 3778,
+   "sha256": "cbaf523e456bd8b0360716ddb6015e80b21706c07a90de5e92a729b3261e83a9"
+  },
+  {
+   "path": "viewer_BI_v015/data/BI_viewer_data_v015.json",
+   "size": 488194,
+   "sha256": "879dcf58447fa054503c4a90cf2b887292752abd88fecd27e84d3beef12f4b81"
+  },
+  {
+   "path": "viewer_BI_v015/index.html",
+   "size": 3031,
+   "sha256": "1471bee192f1f05cea8c190c3448591ad6002152fa2988e15e97657c5493f136"
+  },
+  {
+   "path": "viewer_BI_v015/model/BI_model_v014_viewer_v015.glb",
+   "size": 12999464,
+   "sha256": "89773390bbdd4ecb4fc3439982cc4d95aa471ccda58d5bf5143c66627e5ceb97"
+  },
+  {
+   "path": "viewer_BI_v015/plans/BI_underlay_L1_A1.01_rev14_150dpi.jpg",
+   "size": 1412151,
+   "sha256": "c492f1367c27cae967c7e20faa9011e0d847523177711fdd679ea8d1c34b4f7a"
+  },
+  {
+   "path": "viewer_BI_v015/plans/BI_underlay_L2_A1.02_rev14_150dpi.jpg",
+   "size": 1382122,
+   "sha256": "c5c83d563d2b71c77d1c0de20af2ba706b12f1d8cbbb7fa15f3f2800dda0dcd1"
+  },
+  {
+   "path": "viewer_BI_v015/server.js",
+   "size": 1748,
+   "sha256": "4797b7280509155770a4845f74bd4b1a8c0eb61b4b21049d5e13ed07f340109d"
+  },
+  {
+   "path": "viewer_BI_v015/server.py",
+   "size": 3862,
+   "sha256": "f4f2480877868fdb405dc03d89d548871c02d019a7fe1e0320ef96b88bef80d5"
+  },
+  {
+   "path": "viewer_BI_v015/server_fallback.ps1",
+   "size": 2086,
+   "sha256": "4743fe760548146a951239c83181c60afb178430c1e8639bf2c59d8e5580ba66"
+  },
+  {
+   "path": "viewer_BI_v015/src/app.js",
+   "size": 41659,
+   "sha256": "9cf60646efcaefdec806c21a9b0f4747110ec482934ec3bc5cb763afde688523"
+  },
+  {
+   "path": "viewer_BI_v015/src/style.css",
+   "size": 3444,
+   "sha256": "cc4c9ea1752d45bc595f3d88ea255f28c16663eaf811b4e5a4720fe62e4675c4"
+  },
+  {
+   "path": "viewer_BI_v015/start_viewer.bat",
+   "size": 865,
+   "sha256": "55911f62220d4bdf80b8f721629cf7e73e24f5ff3c0de47961eab80ca39a0dae"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/LICENSE",
+   "size": 1081,
+   "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/VERSION.txt",
+   "size": 268,
+   "sha256": "a1511dfb7c2b4411a07b66eb4354b539da6243f9188a708c9bf5314522df677f"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/addons/controls/OrbitControls.js",
+   "size": 40755,
+   "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/addons/loaders/GLTFLoader.js",
+   "size": 117570,
+   "sha256": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/addons/renderers/CSS2DRenderer.js",
+   "size": 7990,
+   "sha256": "256abfc6ae1aa20eb83c10d7a0e26534527df65872e4d52da6354bee78288c34"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/addons/utils/BufferGeometryUtils.js",
+   "size": 37712,
+   "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/addons/utils/SkeletonUtils.js",
+   "size": 11535,
+   "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/three.core.js",
+   "size": 1458113,
+   "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+  },
+  {
+   "path": "viewer_BI_v015/vendor/three/three.module.js",
+   "size": 662772,
+   "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+  }
+ ]
+}

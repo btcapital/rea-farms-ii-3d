@@ -1,0 +1,95 @@
+{
+ "production": {
+  "building_body": {
+   "source_object": "PRINT_building_body",
+   "threemf": "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_building_body.3mf",
+   "triangles": 10556,
+   "vertices": 5280,
+   "resplit_polygons": [],
+   "print_orientation": "upright",
+   "size_mm": [
+    266.091,
+    143.643,
+    65.828
+   ],
+   "size_on_bed_mm": [
+    266.091,
+    143.643,
+    65.828
+   ]
+  },
+  "site_base": {
+   "source_object": "PRINT_site_base",
+   "threemf": "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_site_base.3mf",
+   "triangles": 84862,
+   "vertices": 42433,
+   "resplit_polygons": [
+    308,
+    433,
+    448,
+    456,
+    487,
+    649,
+    692,
+    755,
+    814,
+    1268,
+    35860,
+    40059,
+    40072,
+    40082
+   ],
+   "print_orientation": "upright",
+   "size_mm": [
+    317.708,
+    189.583,
+    37.465
+   ],
+   "size_on_bed_mm": [
+    317.708,
+    189.583,
+    37.465
+   ]
+  },
+  "dropoff_canopy": {
+   "source_object": "PRINT_canopy_dropoff",
+   "threemf": "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_dropoff_canopy.3mf",
+   "triangles": 636,
+   "vertices": 284,
+   "resplit_polygons": [],
+   "print_orientation": "standing on its south edge (rotated +90 deg about X)",
+   "size_mm": [
+    83.326,
+    29.75,
+    25.346
+   ],
+   "size_on_bed_mm": [
+    83.326,
+    25.346,
+    29.75
+   ]
+  },
+  "sunshade": {
+   "source_object": "PRINT_sunshade",
+   "threemf": "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_sunshade.3mf",
+   "triangles": 5534,
+   "vertices": 2401,
+   "resplit_polygons": [],
+   "print_orientation": "top face down (rotated 180 deg about X)",
+   "size_mm": [
+    194.021,
+    102.322,
+    1.27
+   ],
+   "size_on_bed_mm": [
+    194.021,
+    102.322,
+    1.27
+   ]
+  }
+ },
+ "units": "millimetre",
+ "scale": "1:240",
+ "scale_factor_mm_per_m": 4.166666666666667,
+ "source_v002_sha256": "9aa5e3a4574e758f7fc914d9e6df887482791585a673d8b542420e7f4369a27c"
+}

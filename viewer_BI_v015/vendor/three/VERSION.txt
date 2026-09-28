@@ -1,0 +1,1 @@
+three.js 0.186.1 (MIT) downloaded 2026-09-25 from cdn.jsdelivr.net/npm/three@0.186.1 - files: build/three.module.js, build/three.core.js, examples/jsm/{loaders/GLTFLoader,controls/OrbitControls,renderers/CSS2DRenderer,utils/BufferGeometryUtils,utils/SkeletonUtils}.js

@@ -1,0 +1,93 @@
+{
+  "v012_objects": 816,
+  "v013_objects": 818,
+  "plants_identical": true,
+  "site_identical": true,
+  "building_identical": true,
+  "objects_changed_geometry_transform_assignment_or_collection": [],
+  "objects_added": [
+    "BI_cam_courts_exterior",
+    "BI_cam_hero_porte_cochere"
+  ],
+  "objects_removed": [],
+  "geometry_identical_for_all_common_objects": true,
+  "materials_changed_node_trees": [
+    "BRK1_Endicott_Manganese_Ironspot_utility",
+    "CANOPY_1in_laminated_clear_glass",
+    "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder",
+    "LS_annual",
+    "LS_foliage_existing",
+    "LS_foliage_tree",
+    "LS_groundcover",
+    "LS_mulch",
+    "LS_shrub_grass",
+    "LS_shrub_green",
+    "LS_shrub_purple",
+    "LS_trunk",
+    "LS_unresolved_grey_green",
+    "PNL1_Alucobond_PLUS_PVDF_Bone_White",
+    "PNL2_Alucobond_PLUS_SMP_Tricorn_Black",
+    "ROOF_JM_TPO_60mil_white",
+    "SCREEN_Alucopanel_FR_Enoc_White",
+    "SITE_asphalt",
+    "SITE_brick_veneer_wall",
+    "SITE_concrete_walk",
+    "SITE_foundation_skirt_A",
+    "SITE_lawn_INTERPOLATED_terrain",
+    "SITE_pavers_Techo-Bloc_Westmount_Onyx_placeholder",
+    "TWS1_Kingspan_Unigrid_Verti-Lite_white",
+    "UNRES_exposed_steel_canopy_framing"
+  ],
+  "materials_added": [],
+  "materials_removed": [],
+  "world_nodes": {
+    "v012": [
+      "ShaderNodeOutputWorld",
+      "ShaderNodeBackground",
+      "ShaderNodeTexSky",
+      "ShaderNodeTexCoord",
+      "ShaderNodeSeparateXYZ",
+      "ShaderNodeMath",
+      "ShaderNodeBackground",
+      "ShaderNodeMixShader"
+    ],
+    "v013": [
+      "ShaderNodeOutputWorld",
+      "ShaderNodeBackground",
+      "ShaderNodeTexSky",
+      "ShaderNodeTexCoord",
+      "ShaderNodeSeparateXYZ",
+      "ShaderNodeMath",
+      "ShaderNodeBackground",
+      "ShaderNodeMixShader"
+    ]
+  },
+  "view": {
+    "v012": [
+      "AgX",
+      "None",
+      -4.300000190734863
+    ],
+    "v013": [
+      "AgX",
+      "None",
+      -4.349999904632568
+    ]
+  },
+  "samples": {
+    "v012": 256,
+    "v013": 384
+  },
+  "cameras_added": [
+    "BI_cam_courts_exterior",
+    "BI_cam_hero_porte_cochere"
+  ],
+  "sun_lamp_hide_render": {
+    "v012": {
+      "BI_sun": true
+    },
+    "v013": {
+      "BI_sun": true
+    }
+  }
+}

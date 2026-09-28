@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "version": "v008",
+    "date": "2026-09-23",
+    "base_model": "models/Building_I/BI_landscape_v007.blend (v006 approved shell + v007 landscape)",
+    "units": "decimal feet, origin grid 1 x grid A at FFE 661.75, +X east, +Y north",
+    "purpose": "footprint correction after the Building I footprint audit (BI_footprint_audit_v008.md): every value below is the OUTSIDE FACE OF WALL ASSEMBLY (A1.01 general note 2) unless stated",
+    "confidence_codes": "W written dimension, V vector line on a registered sheet (+-0.1 ft), M measured from a section at 1/2 in = 1 ft (+-0.3 ft), R raster (v001), I interpreted, A assumed",
+    "registration": {
+      "A1.01 p26": "x_pt = 199.81 + 6.7500*x_ft ; y_pt = 1795.91 - 6.7502*y_ft ; rotation -0.0008 deg ; 29 grid bubbles used (14 x, 15 y) ; RMS 0.027 ft ; max 0.113 ft ; bent-leader bubbles 12.9, H, C.9, C.6, B, J, M.7 excluded (residuals 2.3-5.9 ft)",
+      "A1.00a p23": "x_pt = 254.06 + 6.7497*x_ft ; y_pt = 1794.75 - 6.7442*y_ft ; RMS 0.073 ; max 0.19",
+      "A1.00b p24": "x_pt = 253.98 + 6.7499*x_ft ; y_pt = 1800.56 - 6.8810*y_ft (few y bubbles; x exact) ; slab polygons cross-checked on A1.02",
+      "A1.02 p27": "x_pt = 197.71 + 6.7499*x_ft ; y_pt = 1796.00 - 6.7505*y_ft ; RMS 0.015 ; max 0.069",
+      "A1.00c p25": "x_pt = 254.07 + 6.7496*x_ft ; y_pt = 1795.99 - 6.7504*y_ft ; RMS 0.038 ; max 0.165",
+      "A1.03 p28": "x_pt = 227.07 + 6.7496*x_ft ; y_pt = 1822.93 - 6.7505*y_ft ; RMS 0.026 ; max 0.113",
+      "S101 p132": "x_pt = 230.43 + 6.7501*x_ft ; y_pt = 1901.21 - 6.7506*y_ft ; rotation 0.011 deg ; 66 bubbles ; RMS 0.025 ; max 0.152"
+    },
+    "root_cause_of_v001_error": "BI_extract_tools_v001/slabunion.py unioned EVERY <clipPath> on A1.00a/A1.00b including the integer-coordinate rectangular hatch-viewport clips (clip-0 x 6.95-271.42 y -4.23..61.20; clip-2 120.59-280.01 x 71.86-196.95; clip-4 148.45-241.05 x 186.74-202.87; clip-11 240.60-281.05 x 155.65-198.43; A1.00b clip-0 263.85-287.11 x 98.08-160.72). Those rectangles are the bounding boxes of the hatch regions, not slab edges; the union filled every recess, notch and step and the whole footprint was then extruded to full height."
+  },
+  "heights": {
+    "L1_projection_top": {"z": 13.5, "conf": "W", "source": "A5.12 A1/A2/A3: LVL-02 15'-4\" minus 1'-10\" fascia = 13'-6\" (storefront head 11'-0\" + 8\" + 1'-10\")"},
+    "L2_bay_z0": {"z": 12.583, "conf": "W", "source": "A5.11 A3 Wall Section @ Level 2 Storefront Projection: LVL-02 15'-4\" minus 2'-9\""},
+    "L2_bay_z1": {"z": 27.333, "conf": "W", "source": "A5.11 A3: T.O.S. @ Column A 30'-0\" minus 5'-2\" (window head 24'-10\") plus 8\" plus 1'-10\" fascia"},
+    "gallery_soffit": {"z": 9.0, "conf": "M", "source": "A5.15 A2 Wall Section @ Gallery Lounge: underside of the projecting Level 2 wall 9.0-9.8 ft above LVL-01 (Gallery datum 11'-0\" above); +-0.3 ft"},
+    "L2_slab_underside": {"z": 14.833, "conf": "A", "source": "v001 Level 2 slab 15.333 minus assumed 0.5 ft (soffit of the Level 2 overhangs on the north face and the west recess)"},
+    "rear_vestibule_top": {"z": 32.0, "conf": "R", "source": "v001 end block 13-14 top (raster A4.01); the rear vestibule shares the end-block east face 281.62 and its parapet"},
+    "wing_top": {"z": 33.3, "conf": "R", "source": "v001 wing roof edge (unchanged)"},
+    "band_top": {"x30": 40.0, "x71": 36.0, "conf": "R", "source": "v001 band_E_F2 (unchanged)"},
+    "north_top_formula": "33.15 + (y - 80.5) * 0.0535  (v001, unchanged)",
+    "level2_slab": {"z_top": 15.3333, "thickness": 0.5}
+  },
+  "zones": {
+    "Z1_L1_south_block": {
+      "z0": 0.0, "z1": 13.5, "collection": "01_Shell", "note": "Level 1 outside face (A1.01 + S101 + A1.00a); includes the one-storey storefront projections (south x 7-48.5, west canted wall and x 7.0 pieces) and the Level 1 entry recess x 10.67-12.30 y 18.42-28.74",
+      "poly": [[7.0, -4.16], [48.5, -4.16], [48.5, -1.46], [91.66, -1.46], [91.66, 2.88], [118.33, 2.88], [118.33, -1.46], [241.67, -1.46], [241.67, 2.91], [271.29, 2.91], [271.29, 70.5833], [28.5, 70.5833], [28.5, 54.2], [10.67, 54.2], [10.67, 38.63], [7.0, 38.63], [7.0, 28.74], [12.3, 28.74], [12.3, 18.42], [10.93, 18.42], [8.59, -2.35], [7.0, -2.35]]
+    },
+    "Z1_L2_south_block": {
+      "z0": 13.5, "z1": 33.3, "collection": "01_Shell", "note": "Level 2 outside face (A1.02 sw10 wall lines: y -1.45 x 10.67-62 ; x 10.67 y 7.89-54.21) = the two-storey wall behind the one-storey projections",
+      "poly": [[10.67, -1.46], [48.5, -1.46], [91.66, -1.46], [91.66, 2.88], [118.33, 2.88], [118.33, -1.46], [241.67, -1.46], [241.67, 2.91], [271.29, 2.91], [271.29, 70.5833], [28.5, 70.5833], [28.5, 54.2], [10.67, 54.2]]
+    },
+    "P3_L2_south_bay": {"x0": 172.01, "x1": 228.01, "y0": -4.15, "y1": -1.46, "z0": 12.583, "z1": 27.333, "collection": "01_Shell", "note": "Level 2 storefront projection (A1.02 y=-4.15 x 172.01-228.01; A1.00b slab -3.46; A5.11 A3; A4.01 south elevation grids 9-11 PNL2/SF2 box)"},
+    "Z2_band_lobby": {"x0": 28.5, "x1": 71.0, "y0": 54.2, "y1": 74.38, "collection": "01_Shell", "note": "lobby volume D-F.2 x 3-6: west face A1.01 x=28.50 (y 54.22-74.13), south = wing north wall 54.2, north = v006 curtain-wall plane 74.38 (unchanged), top = v001 band_top"},
+    "Z5_end_block_13_14": {"x0": 271.29, "x1": 281.62, "y0": 44.21, "y1": 97.75, "z0": 0.0, "z1": 32.0, "collection": "01_Shell", "note": "end block + rear vestibule 133: A1.01 x=281.62 (y 44.89-170.41), y=44.21 (x 271.32-281.62); A1.02 281.38/44.44; S101 281.64 (y 59.31-170.34); v001 had 271.38-281.0 x 60.5-97.75"},
+    "Z4b_north_block_south_part": {"x0": 71.0, "x1": 271.38, "y0": 70.5833, "y1": 97.75, "z0": 0.0, "collection": "01_Shell", "note": "v006 rectangle, rebuilt as a clean prism (same bounding box, same faces); top = north_top formula"},
+    "Z4a_north_block": {
+      "collection": "01_Shell",
+      "west_side": "v001 footprint_union vertices from (71.0,120.38) to (148.25,197.5) inclusive, prefixed by (71.0,97.75) - unchanged v001 geometry (tolerance item G-15: 0.5-0.7 ft brick-ledge offsets)",
+      "L1_north_east": [[148.99, 197.5], [148.99, 203.03], [164.96, 203.03], [187.55, 198.55], [202.72, 198.55], [202.72, 203.03], [211.0, 203.03], [211.0, 197.91], [268.28, 197.91], [268.28, 170.41], [281.62, 170.41], [281.62, 97.75]],
+      "mid_north_east": [[148.99, 197.5], [148.99, 203.03], [164.96, 203.03], [187.55, 198.55], [202.72, 198.55], [202.72, 203.03], [211.0, 203.03], [211.0, 197.91], [268.28, 197.91], [268.28, 170.41], [287.39, 170.41], [287.39, 165.92], [281.62, 165.92], [281.62, 156.2], [284.62, 156.2], [284.62, 121.9], [284.4, 121.9], [284.4, 107.5], [287.39, 107.5], [287.39, 97.92], [281.62, 97.92], [281.62, 97.75]],
+      "L2_north_east": [[148.99, 197.5], [148.99, 203.03], [210.14, 203.03], [210.14, 200.9], [240.66, 200.9], [240.66, 197.91], [268.28, 197.91], [268.28, 170.41], [287.39, 170.41], [287.39, 165.92], [281.62, 165.92], [281.62, 156.2], [284.62, 156.2], [284.62, 121.9], [284.4, 121.9], [284.4, 107.5], [287.39, 107.5], [287.39, 97.92], [281.62, 97.92], [281.62, 97.75]],
+      "levels": [["Z4a_L1", 0.0, 9.0, "L1_north_east"], ["Z4a_mid", 9.0, 14.833, "mid_north_east"], ["Z4a_L2", 14.833, "north_top", "L2_north_east"]],
+      "note": "L1 (A1.01/S101): north face 203.03 (x 149-165), diagonal to 198.55 (187.55-202.72), 203.03 (202.72-211), 197.91 (211-268.28); NE notch x 268.28 y 170.41-197.91; stair block north face 170.41; east face 281.62. Level 2 (A1.02/A1.00b): north face 203.03 (149-210.14) and 200.9 (210.14-240.66) over the Level 1 recess; gallery cantilever east face 287.39 (y 97.92-107.5), 284.4 (107.5-121.9), 284.62 CW (121.9-156.2), stair landing 287.39 (165.92-170.41); soffit 9.0 (A5.15 A2)"
+    },
+    "vestibule_100": "unchanged v001/v006 object BI_Z3_vestibule_100 (38.25-62.25 x 74.54-83.58, top 9.0)"
+  },
+  "openings_placement": {
+    "source": "BI_geometry_data_v001.json openings (R, unchanged extents)",
+    "rule": "opening placed on the outermost boundary of the polygons of its level along the facade ray at the opening centre: level = L2 if z0 >= 13.5 (south block) / 9.0 (east gallery, y 97.9-170.4) / 14.833 (north face) else L1; SOUTH openings inside x 172.01-228.01 with z0 >= 12.583 go on the bay face y=-4.15; a diagonal boundary edge (canted storefront) gets a rotated panel"
+  },
+  "screens": {"south_profile": "v001 wing.south_screen_profile on the Level 2 south faces (y -1.46 / 2.88 / 2.91)", "east": "v001 east_screen y 8.6-44.21 on x=271.29 (rest covered by the end block)", "west": "v001 west_screen y 2.0-54.2 on x=10.67 (band covers 54.2-74.38)"},
+  "facade_regions": "BI_facade_regions_v008.json (= v005 regions; W2/W2b lobby west face extended from u0 61.12 to 54.2 - basis I, A4.02 west elevation D-F.2)",
+  "site": {"foundation_skirt": "rebuilt under every Level 1 zone polygon (depth 4.0, A)", "other": "unchanged"},
+  "landscape": {"rule": "plant groups that hold plants pushed out of the v001 footprint (v004 report 'shifted', 84) or returned in v007 (keep_documented, 31) are rebuilt from the documented LP positions against the corrected Level 1 footprint with the same push_outside(1.2 ft) rule; the 117 unresolved symbols likewise", "quantities": "unchanged"}
+}

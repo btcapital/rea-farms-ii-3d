@@ -1,0 +1,139 @@
+{
+  "version": "v008",
+  "blender": "5.2.2 LTS",
+  "control_box_face_of_stud_ft": [
+    205.0,
+    105.833
+  ],
+  "building_bbox_finish_ft": {
+    "min": [
+      -0.594,
+      -0.76,
+      -1.813
+    ],
+    "max": [
+      205.76,
+      106.166,
+      43.833
+    ]
+  },
+  "expected_finish_ft": {
+    "x_min": -0.594,
+    "x_max": 205.76,
+    "y_min": -0.76,
+    "y_max": 106.166,
+    "top": 43.833
+  },
+  "boolean_cuts_applied": 41,
+  "facade_detail_objects": 322,
+  "site_objects": 51,
+  "landscape_counts": {
+    "DAZA": 28,
+    "ILST": 6,
+    "GATE": 2,
+    "JEWL": 8,
+    "JADE": 17,
+    "FOAR": 8,
+    "SANJ": 1,
+    "RHCO": 10,
+    "OSOR": 11,
+    "CORA": 24,
+    "CATM": 37,
+    "COZA": 27,
+    "CARE": 69,
+    "SEAS": 63,
+    "JUNE": 28
+  },
+  "materials": [
+    "ACM-1_Alucobond_Bone_White_dry_reveal",
+    "ACM-2_Alucobond_Tri-Corn_Black_dry_reveal",
+    "ACM-3_Alucobond_Tri-Corn_Black_wet_seal",
+    "ACM-4_Alucobond_Bone_White_wet_seal",
+    "BC-1_BC-2_brick_cap_match_BRK-1",
+    "BRK-1_Endicott_Manganese_Ironspot_utility",
+    "CLAY_canopy",
+    "CLAY_context",
+    "CLAY_ground",
+    "CLAY_opening",
+    "CLAY_wall",
+    "CLAY_yard_wall",
+    "FRAME_YKK_Beachstone_Gray_painted_fluoropolymer",
+    "GLASS_G1_G2_Viracon_VZE1-42_vision",
+    "GLASS_G3_Viracon_V953_Medium_Gray_spandrel",
+    "GLASS_GR-1_Viva_view_glass_railing",
+    "GLASS_clear_laminated_1in",
+    "LAND_CARE_proxy_colour_representational",
+    "LAND_CATM_proxy_colour_representational",
+    "LAND_CORA_proxy_colour_representational",
+    "LAND_COZA_proxy_colour_representational",
+    "LAND_DAZA_proxy_colour_representational",
+    "LAND_FOAR_proxy_colour_representational",
+    "LAND_GATE_proxy_colour_representational",
+    "LAND_ILST_proxy_colour_representational",
+    "LAND_JADE_proxy_colour_representational",
+    "LAND_JEWL_proxy_colour_representational",
+    "LAND_JUNE_proxy_colour_representational",
+    "LAND_OSOR_proxy_colour_representational",
+    "LAND_RHCO_proxy_colour_representational",
+    "LAND_SANJ_proxy_colour_representational",
+    "LAND_SEAS_proxy_colour_representational",
+    "LAND_lawn",
+    "LAND_mulch_bed_surface",
+    "LAND_trunk",
+    "MTL-1_metal_coping_match_ACM-2",
+    "MTL-2_alum_coping_match_ACM-1",
+    "MTL-3_alum_coping_match_ACM-2",
+    "PAINT_match_ACM-1_sunshade_steel",
+    "SITE_concrete_flatwork",
+    "SITE_existing_asphalt",
+    "SITE_existing_plaza_not_detailed",
+    "SITE_landscape_bed_ground_shape",
+    "SITE_lawn_ground_shape_no_planting",
+    "SITE_pavers_Techo-Bloc_Linea_Shale_Gray",
+    "SITE_plaza_Techo-Bloc_Westmount_Onyx",
+    "TPO_white_roof_membrane",
+    "UNRES-colour_terrace_pavers_24in_concrete_pedestal_set",
+    "UNRES_HM_door_paint",
+    "UNRES_canopy_steel_paint_COLOR_TBD",
+    "UNRES_painted_CMU_COLOR_TBD",
+    "UNRES_terrace_parapet_inner"
+  ],
+  "openings": 34,
+  "objects": {
+    "01_Masses": 5,
+    "02_Parapets": 25,
+    "03_Opening_panels": 34,
+    "04_DropOff_Canopy": 17,
+    "05_Door_Side_Canopies": 3,
+    "06_SunShade": 67,
+    "07_Glass_Railings": 3,
+    "08_Utility_Yard": 15,
+    "09_Site_context": 51,
+    "10_Cameras_Lights": 8,
+    "11_Facade_Detail_v004": 322,
+    "12_Landscape_v008": 347,
+    "zz_Cutters": 35
+  },
+  "mass_faces": {
+    "L1_Podium": 153,
+    "L2_HighBlock": 23,
+    "L2_LobbyBlock": 23,
+    "L2_LowRoof": 70,
+    "L2_Terrace_closet": 6
+  },
+  "gpu": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA RTX A1000"
+    ]
+  },
+  "render_seconds": {
+    "front_north": 7.6,
+    "rear_south": 6.8,
+    "left_east": 7.0,
+    "right_west": 7.0,
+    "oblique_northeast": 13.2,
+    "landscape_oblique_north": 20.2,
+    "site_oblique_northwest": 10.8
+  }
+}

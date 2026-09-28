@@ -1,0 +1,1121 @@
+{
+  "version": "v004",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_site_v003.blend",
+  "v003_mesh_objects": 2044,
+  "geometry_hash_v003": "e7fc1b97e3c01842faf542f211ec6bbc8ae7a4173842a0e4bb2bea0333fcf033",
+  "geometry_unchanged": true,
+  "placed": {
+    "trees": 35,
+    "shrubs": 393,
+    "groundcover_plants": 139,
+    "unassigned_symbols": 121
+  },
+  "plants_shifted_out_of_footprint": 84,
+  "shifted": [
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        194.25
+      ],
+      "to": [
+        276.18,
+        199.7
+      ],
+      "shift_ft": 5.45
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        192.25
+      ],
+      "to": [
+        282.2,
+        192.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        190.25
+      ],
+      "to": [
+        282.2,
+        190.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        188.25
+      ],
+      "to": [
+        282.2,
+        188.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        186.25
+      ],
+      "to": [
+        282.2,
+        186.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        184.25
+      ],
+      "to": [
+        282.2,
+        184.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        182.25
+      ],
+      "to": [
+        282.2,
+        182.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        180.25
+      ],
+      "to": [
+        282.2,
+        180.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        178.25
+      ],
+      "to": [
+        282.2,
+        178.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        276.18,
+        176.25
+      ],
+      "to": [
+        282.2,
+        176.25
+      ],
+      "shift_ft": 6.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        278.18,
+        176.25
+      ],
+      "to": [
+        282.2,
+        176.25
+      ],
+      "shift_ft": 4.02
+    },
+    {
+      "code": "ABKA",
+      "from": [
+        280.18,
+        176.25
+      ],
+      "to": [
+        282.2,
+        176.25
+      ],
+      "shift_ft": 2.02
+    },
+    {
+      "code": "BUNN",
+      "from": [
+        272.32,
+        175.99
+      ],
+      "to": [
+        282.2,
+        175.99
+      ],
+      "shift_ft": 9.88
+    },
+    {
+      "code": "BUNN",
+      "from": [
+        272.32,
+        178.99
+      ],
+      "to": [
+        282.2,
+        178.99
+      ],
+      "shift_ft": 9.88
+    },
+    {
+      "code": "BUNN",
+      "from": [
+        272.32,
+        181.99
+      ],
+      "to": [
+        282.2,
+        181.99
+      ],
+      "shift_ft": 9.88
+    },
+    {
+      "code": "CATM",
+      "from": [
+        8.94,
+        44.54
+      ],
+      "to": [
+        5.68,
+        44.54
+      ],
+      "shift_ft": 3.26
+    },
+    {
+      "code": "CATM",
+      "from": [
+        8.94,
+        48.54
+      ],
+      "to": [
+        5.68,
+        48.54
+      ],
+      "shift_ft": 3.26
+    },
+    {
+      "code": "CATM",
+      "from": [
+        8.94,
+        52.54
+      ],
+      "to": [
+        5.68,
+        52.54
+      ],
+      "shift_ft": 3.26
+    },
+    {
+      "code": "CATM",
+      "from": [
+        8.94,
+        40.54
+      ],
+      "to": [
+        5.68,
+        40.54
+      ],
+      "shift_ft": 3.26
+    },
+    {
+      "code": "COFA",
+      "from": [
+        145.96,
+        -3.81
+      ],
+      "to": [
+        145.96,
+        -5.58
+      ],
+      "shift_ft": 1.77
+    },
+    {
+      "code": "COFA",
+      "from": [
+        150.46,
+        -3.81
+      ],
+      "to": [
+        150.46,
+        -5.58
+      ],
+      "shift_ft": 1.77
+    },
+    {
+      "code": "COFA",
+      "from": [
+        154.96,
+        -3.81
+      ],
+      "to": [
+        154.96,
+        -5.58
+      ],
+      "shift_ft": 1.77
+    },
+    {
+      "code": "COFA",
+      "from": [
+        159.46,
+        -3.81
+      ],
+      "to": [
+        159.46,
+        -5.58
+      ],
+      "shift_ft": 1.77
+    },
+    {
+      "code": "COFA",
+      "from": [
+        163.94,
+        -3.81
+      ],
+      "to": [
+        163.94,
+        -5.58
+      ],
+      "shift_ft": 1.77
+    },
+    {
+      "code": "CORA",
+      "from": [
+        272.32,
+        196.99
+      ],
+      "to": [
+        272.32,
+        199.7
+      ],
+      "shift_ft": 2.71
+    },
+    {
+      "code": "CORA",
+      "from": [
+        272.32,
+        193.99
+      ],
+      "to": [
+        272.32,
+        199.7
+      ],
+      "shift_ft": 5.71
+    },
+    {
+      "code": "CORA",
+      "from": [
+        272.32,
+        190.99
+      ],
+      "to": [
+        272.32,
+        199.7
+      ],
+      "shift_ft": 8.71
+    },
+    {
+      "code": "CORA",
+      "from": [
+        272.32,
+        187.99
+      ],
+      "to": [
+        282.2,
+        187.99
+      ],
+      "shift_ft": 9.88
+    },
+    {
+      "code": "CORA",
+      "from": [
+        272.32,
+        184.99
+      ],
+      "to": [
+        282.2,
+        184.99
+      ],
+      "shift_ft": 9.88
+    },
+    {
+      "code": "CORA",
+      "from": [
+        278.32,
+        172.99
+      ],
+      "to": [
+        282.2,
+        172.99
+      ],
+      "shift_ft": 3.88
+    },
+    {
+      "code": "CORA",
+      "from": [
+        275.32,
+        172.99
+      ],
+      "to": [
+        282.2,
+        172.99
+      ],
+      "shift_ft": 6.88
+    },
+    {
+      "code": "CORA",
+      "from": [
+        272.32,
+        172.99
+      ],
+      "to": [
+        282.2,
+        172.99
+      ],
+      "shift_ft": 9.88
+    },
+    {
+      "code": "CORA",
+      "from": [
+        228.77,
+        200.37
+      ],
+      "to": [
+        228.77,
+        204.08
+      ],
+      "shift_ft": 3.71
+    },
+    {
+      "code": "CORA",
+      "from": [
+        226.04,
+        200.37
+      ],
+      "to": [
+        226.04,
+        204.08
+      ],
+      "shift_ft": 3.71
+    },
+    {
+      "code": "CORA",
+      "from": [
+        223.32,
+        200.37
+      ],
+      "to": [
+        223.32,
+        204.08
+      ],
+      "shift_ft": 3.71
+    },
+    {
+      "code": "CORA",
+      "from": [
+        220.6,
+        200.37
+      ],
+      "to": [
+        220.6,
+        204.08
+      ],
+      "shift_ft": 3.71
+    },
+    {
+      "code": "CORA",
+      "from": [
+        217.87,
+        200.37
+      ],
+      "to": [
+        217.87,
+        204.08
+      ],
+      "shift_ft": 3.71
+    },
+    {
+      "code": "CORA",
+      "from": [
+        213.62,
+        202.61
+      ],
+      "to": [
+        213.62,
+        204.08
+      ],
+      "shift_ft": 1.47
+    },
+    {
+      "code": "DAZA",
+      "from": [
+        26.63,
+        58.87
+      ],
+      "to": [
+        26.63,
+        62.32
+      ],
+      "shift_ft": 3.45
+    },
+    {
+      "code": "DAZA",
+      "from": [
+        26.63,
+        55.87
+      ],
+      "to": [
+        26.63,
+        62.32
+      ],
+      "shift_ft": 6.45
+    },
+    {
+      "code": "DAZA",
+      "from": [
+        23.63,
+        55.87
+      ],
+      "to": [
+        23.63,
+        62.32
+      ],
+      "shift_ft": 6.45
+    },
+    {
+      "code": "DAZA",
+      "from": [
+        20.63,
+        55.87
+      ],
+      "to": [
+        20.63,
+        62.32
+      ],
+      "shift_ft": 6.45
+    },
+    {
+      "code": "DAZA",
+      "from": [
+        17.63,
+        55.87
+      ],
+      "to": [
+        17.63,
+        62.32
+      ],
+      "shift_ft": 6.45
+    },
+    {
+      "code": "DAZA",
+      "from": [
+        14.63,
+        55.87
+      ],
+      "to": [
+        14.63,
+        62.32
+      ],
+      "shift_ft": 6.45
+    },
+    {
+      "code": "DAZA",
+      "from": [
+        11.63,
+        55.87
+      ],
+      "to": [
+        5.68,
+        55.87
+      ],
+      "shift_ft": 5.95
+    },
+    {
+      "code": "DAZA",
+      "from": [
+        8.63,
+        55.87
+      ],
+      "to": [
+        5.68,
+        55.87
+      ],
+      "shift_ft": 2.95
+    },
+    {
+      "code": "FOAR",
+      "from": [
+        95.16,
+        -0.2
+      ],
+      "to": [
+        95.16,
+        -5.58
+      ],
+      "shift_ft": 5.38
+    },
+    {
+      "code": "FOAR",
+      "from": [
+        102.16,
+        -0.2
+      ],
+      "to": [
+        102.16,
+        -5.58
+      ],
+      "shift_ft": 5.38
+    },
+    {
+      "code": "FOAR",
+      "from": [
+        109.16,
+        -0.2
+      ],
+      "to": [
+        109.16,
+        -5.58
+      ],
+      "shift_ft": 5.38
+    },
+    {
+      "code": "FOAR",
+      "from": [
+        116.16,
+        -0.2
+      ],
+      "to": [
+        116.16,
+        -5.58
+      ],
+      "shift_ft": 5.38
+    },
+    {
+      "code": "FOAR",
+      "from": [
+        266.36,
+        -1.37
+      ],
+      "to": [
+        266.36,
+        -5.58
+      ],
+      "shift_ft": 4.21
+    },
+    {
+      "code": "FOAR",
+      "from": [
+        259.36,
+        -1.37
+      ],
+      "to": [
+        259.36,
+        -5.58
+      ],
+      "shift_ft": 4.21
+    },
+    {
+      "code": "FOAR",
+      "from": [
+        252.36,
+        -1.37
+      ],
+      "to": [
+        252.36,
+        -5.58
+      ],
+      "shift_ft": 4.21
+    },
+    {
+      "code": "FOAR",
+      "from": [
+        245.36,
+        -1.37
+      ],
+      "to": [
+        245.36,
+        -5.58
+      ],
+      "shift_ft": 4.21
+    },
+    {
+      "code": "GATE",
+      "from": [
+        286.94,
+        135.24
+      ],
+      "to": [
+        288.2,
+        135.24
+      ],
+      "shift_ft": 1.26
+    },
+    {
+      "code": "GATE",
+      "from": [
+        284.72,
+        140.56
+      ],
+      "to": [
+        288.2,
+        140.56
+      ],
+      "shift_ft": 3.48
+    },
+    {
+      "code": "GATE",
+      "from": [
+        284.72,
+        146.56
+      ],
+      "to": [
+        288.2,
+        146.56
+      ],
+      "shift_ft": 3.48
+    },
+    {
+      "code": "GATE",
+      "from": [
+        285.57,
+        152.42
+      ],
+      "to": [
+        288.2,
+        152.42
+      ],
+      "shift_ft": 2.63
+    },
+    {
+      "code": "JADE",
+      "from": [
+        168.05,
+        -3.86
+      ],
+      "to": [
+        168.05,
+        -5.58
+      ],
+      "shift_ft": 1.72
+    },
+    {
+      "code": "JADE",
+      "from": [
+        172.05,
+        -3.86
+      ],
+      "to": [
+        172.05,
+        -5.58
+      ],
+      "shift_ft": 1.72
+    },
+    {
+      "code": "JADE",
+      "from": [
+        176.05,
+        -3.86
+      ],
+      "to": [
+        176.05,
+        -5.58
+      ],
+      "shift_ft": 1.72
+    },
+    {
+      "code": "JADE",
+      "from": [
+        180.05,
+        -3.86
+      ],
+      "to": [
+        180.05,
+        -5.58
+      ],
+      "shift_ft": 1.72
+    },
+    {
+      "code": "JADE",
+      "from": [
+        184.05,
+        -3.86
+      ],
+      "to": [
+        184.05,
+        -5.58
+      ],
+      "shift_ft": 1.72
+    },
+    {
+      "code": "JADE",
+      "from": [
+        188.05,
+        -3.86
+      ],
+      "to": [
+        188.05,
+        -5.58
+      ],
+      "shift_ft": 1.72
+    },
+    {
+      "code": "JADE",
+      "from": [
+        192.05,
+        -3.86
+      ],
+      "to": [
+        192.05,
+        -5.58
+      ],
+      "shift_ft": 1.72
+    },
+    {
+      "code": "JADE",
+      "from": [
+        85.94,
+        -3.49
+      ],
+      "to": [
+        85.94,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        82.04,
+        -3.49
+      ],
+      "to": [
+        82.04,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        89.84,
+        -3.49
+      ],
+      "to": [
+        89.84,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        78.13,
+        -3.49
+      ],
+      "to": [
+        78.13,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        74.22,
+        -3.49
+      ],
+      "to": [
+        74.22,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        70.32,
+        -3.49
+      ],
+      "to": [
+        70.32,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        66.42,
+        -3.49
+      ],
+      "to": [
+        66.42,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        62.52,
+        -3.49
+      ],
+      "to": [
+        62.52,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        58.61,
+        -3.49
+      ],
+      "to": [
+        58.61,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        54.71,
+        -3.49
+      ],
+      "to": [
+        54.71,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JADE",
+      "from": [
+        50.8,
+        -3.49
+      ],
+      "to": [
+        50.8,
+        -5.58
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "JUNE",
+      "from": [
+        240.06,
+        202.48
+      ],
+      "to": [
+        240.06,
+        204.08
+      ],
+      "shift_ft": 1.6
+    },
+    {
+      "code": "JUNE",
+      "from": [
+        236.94,
+        200.37
+      ],
+      "to": [
+        236.94,
+        204.08
+      ],
+      "shift_ft": 3.71
+    },
+    {
+      "code": "JUNE",
+      "from": [
+        234.22,
+        200.37
+      ],
+      "to": [
+        234.22,
+        204.08
+      ],
+      "shift_ft": 3.71
+    },
+    {
+      "code": "JUNE",
+      "from": [
+        231.49,
+        200.37
+      ],
+      "to": [
+        231.49,
+        204.08
+      ],
+      "shift_ft": 3.71
+    },
+    {
+      "code": "RUSS",
+      "from": [
+        7.77,
+        10.45
+      ],
+      "to": [
+        5.68,
+        10.45
+      ],
+      "shift_ft": 2.09
+    },
+    {
+      "code": "RUSS",
+      "from": [
+        7.21,
+        6.49
+      ],
+      "to": [
+        5.68,
+        6.49
+      ],
+      "shift_ft": 1.53
+    },
+    {
+      "code": "RUSS",
+      "from": [
+        8.32,
+        14.42
+      ],
+      "to": [
+        5.68,
+        14.42
+      ],
+      "shift_ft": 2.64
+    },
+    {
+      "code": "RUSS",
+      "from": [
+        8.87,
+        18.38
+      ],
+      "to": [
+        5.68,
+        18.38
+      ],
+      "shift_ft": 3.19
+    }
+  ],
+  "groundcover_patches": 11,
+  "groundcover_patches_skipped_on_hardscape": [
+    {
+      "code": "CORA",
+      "n": 19,
+      "sheet": "LP-101",
+      "centre": [
+        18.3,
+        70.1
+      ],
+      "on": "SITE_entry_plaza_pavers_Westmount_Onyx"
+    },
+    {
+      "code": "CATM",
+      "n": 48,
+      "sheet": "LP-101",
+      "centre": [
+        294.3,
+        49.3
+      ],
+      "on": "SITE_walk_east_end_block_concrete"
+    },
+    {
+      "code": "OSOR",
+      "n": 22,
+      "sheet": "LP-101",
+      "centre": [
+        23.2,
+        67.5
+      ],
+      "on": "SITE_entry_plaza_pavers_Westmount_Onyx"
+    },
+    {
+      "code": "OSOR",
+      "n": 31,
+      "sheet": "LP-101",
+      "centre": [
+        289.4,
+        63.3
+      ],
+      "on": "SITE_walk_east_end_block_concrete"
+    },
+    {
+      "code": "CARZ",
+      "n": 6,
+      "sheet": "LP-101",
+      "centre": [
+        285.5,
+        74.0
+      ],
+      "on": "SITE_walk_east_end_block_concrete"
+    },
+    {
+      "code": "CARZ",
+      "n": 25,
+      "sheet": "LP-101",
+      "centre": [
+        281.9,
+        178.7
+      ],
+      "on": "SITE_walk_ne_courts_concrete"
+    },
+    {
+      "code": "CORA",
+      "n": 1,
+      "sheet": "LP-101",
+      "centre": [
+        236.8,
+        200.1
+      ],
+      "on": "SITE_walk_ne_courts_concrete"
+    }
+  ],
+  "parking_islands": 17,
+  "existing_street_trees": 22,
+  "objects_per_collection": {
+    "09_Landscape_v004_trees": 35,
+    "09_Landscape_v004_shrubs": 37,
+    "09_Landscape_v004_groundcover": 29,
+    "09_Landscape_v004_beds_islands": 71,
+    "09_Landscape_v004_context": 22
+  },
+  "gpu": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA RTX A1000"
+    ]
+  },
+  "render_seconds": {
+    "front_north": 7.3,
+    "rear_south": 6.2,
+    "left_west": 8.0,
+    "right_east": 7.3,
+    "oblique_northwest": 8.7,
+    "site_elevated": 6.8,
+    "landscape_entry": 10.9
+  }
+}

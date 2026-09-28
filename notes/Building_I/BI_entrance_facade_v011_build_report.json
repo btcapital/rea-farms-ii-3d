@@ -1,0 +1,102 @@
+{
+  "version": "v011",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_entrance_site_v010.blend",
+  "touched_objects": [
+    "FR_WEST_PNL1_W2b",
+    "FR_WEST_GLZ_W2"
+  ],
+  "kept_mesh_objects": 783,
+  "geometry_hash_kept": "367f0bc0e3487724083be9b22a0911da785db0d7d8e6050f5bb986ac3cb4dadc",
+  "building_hash_excluding_touched": "793ae4d7b37c3909aeb231753516ff463fd47c912b69a610921200731e08bab0",
+  "objects": {
+    "FR_WEST_PNL1_W2b": {
+      "before": {
+        "faces": 3,
+        "area_sqft": 484.1,
+        "coplanar_overlap_pairs": 1
+      },
+      "faces_dropped": {
+        "2": "buried inside BI_Z2_band_E_F2 (plane x 70.97, y 70.58-74.38, z 24.60-32.82, 30.8 sq ft)",
+        "0": "duplicate inside face 1 (plane x 28.47, y 54.20-70.58, z 24.60-33.30, 142.5 sq ft)"
+      },
+      "after": {
+        "faces": 1,
+        "area_sqft": 310.8,
+        "coplanar_overlap_pairs": [],
+        "zero_area_faces": [],
+        "faces_not_facing_west": [],
+        "faces_on_plane_x28_47": 1,
+        "union_coverage_on_x28_47_sqft": 310.8
+      }
+    },
+    "FR_WEST_GLZ_W2": {
+      "before": {
+        "faces": 59,
+        "area_sqft": 298.0,
+        "coplanar_overlap_pairs": 20
+      },
+      "faces_dropped": {
+        "58": "buried inside BI_Z2_band_E_F2 (plane x 70.97, y 70.58-74.38, z 0.00-24.60, 93.4 sq ft)",
+        "0": "duplicate inside face 40 (plane x 28.47, y 54.20-70.58, z 0.00-0.63, 10.3 sq ft)",
+        "2": "duplicate inside face 41 (plane x 28.47, y 54.20-70.58, z 7.02-7.36, 5.6 sq ft)",
+        "5": "duplicate inside face 43 (plane x 28.47, y 59.91-70.58, z 6.97-7.02, 0.5 sq ft)",
+        "11": "duplicate inside face 50 (plane x 28.47, y 54.20-54.30, z 7.41-13.50, 0.6 sq ft)",
+        "12": "duplicate inside face 51 (plane x 28.47, y 57.41-57.86, z 7.41-13.50, 2.7 sq ft)",
+        "13": "duplicate inside face 52 (plane x 28.47, y 59.91-60.41, z 7.41-13.50, 3.0 sq ft)",
+        "14": "duplicate inside face 53 (plane x 28.47, y 64.41-64.91, z 7.41-13.50, 3.0 sq ft)",
+        "15": "duplicate inside face 54 (plane x 28.47, y 66.91-70.58, z 12.97-13.13, 0.6 sq ft)",
+        "16": "duplicate inside face 55 (plane x 28.47, y 66.91-67.47, z 13.13-13.50, 0.2 sq ft)",
+        "17": "duplicate inside face 56 (plane x 28.47, y 69.69-70.58, z 13.13-13.50, 0.3 sq ft)",
+        "19": "duplicate inside face 57 (plane x 28.47, y 69.69-70.58, z 7.41-12.97, 5.0 sq ft)",
+        "20": "duplicate inside face 45 (plane x 28.47, y 54.20-70.58, z 16.74-17.13, 6.4 sq ft)",
+        "27": "duplicate inside face 47 (plane x 28.47, y 69.69-70.58, z 15.30-16.69, 1.2 sq ft)",
+        "28": "duplicate inside face 48 (plane x 28.47, y 54.20-70.58, z 24.58-24.60, 0.3 sq ft)",
+        "34": "duplicate inside face 50 (plane x 28.47, y 54.20-54.30, z 13.50-15.30, 0.2 sq ft)",
+        "35": "duplicate inside face 51 (plane x 28.47, y 57.41-57.86, z 13.50-15.30, 0.8 sq ft)",
+        "36": "duplicate inside face 52 (plane x 28.47, y 59.91-60.41, z 13.50-15.30, 0.9 sq ft)",
+        "37": "duplicate inside face 53 (plane x 28.47, y 64.41-64.91, z 13.50-15.30, 0.9 sq ft)",
+        "38": "duplicate inside face 55 (plane x 28.47, y 66.91-67.47, z 13.50-15.30, 1.0 sq ft)",
+        "39": "duplicate inside face 56 (plane x 28.47, y 69.69-70.58, z 13.50-15.30, 1.6 sq ft)"
+      },
+      "after": {
+        "faces": 38,
+        "area_sqft": 159.3,
+        "coplanar_overlap_pairs": [],
+        "zero_area_faces": [],
+        "faces_not_facing_west": [],
+        "faces_on_plane_x28_47": 38,
+        "union_coverage_on_x28_47_sqft": 159.3
+      }
+    }
+  },
+  "gpu": "OPTIX",
+  "coverage_check": {
+    "W2b_union_sqft": 310.8,
+    "W2b_expected_band_face_above_24_6": 310.8,
+    "W2_union_sqft": 159.3,
+    "W2_expected_face_below_24_6_minus_openings": 159.5,
+    "openings_on_plane": 16
+  },
+  "band_prism": {
+    "faces": 8,
+    "manifold": true,
+    "boundary_edges": 0
+  },
+  "unrelated_geometry_unchanged": true,
+  "materials_unchanged": true,
+  "cameras_added": [
+    "BI_cam_tower_closeup",
+    "BI_cam_tower_side_depth",
+    "BI_cam_tower_west_elevation_ortho"
+  ],
+  "render_seconds": {
+    "before_1_entrance_eye_level": 29.1,
+    "before_2_tower_closeup": 31.5,
+    "before_4_tower_west_elevation_ortho": 27.8,
+    "1_entrance_eye_level": 30.6,
+    "2_tower_closeup": 32.4,
+    "3_tower_side_depth": 36.0,
+    "4_tower_west_elevation_ortho": 25.4,
+    "5_v009_entrance_camera": 32.4
+  }
+}

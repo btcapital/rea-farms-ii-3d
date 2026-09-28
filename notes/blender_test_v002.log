@@ -1,0 +1,123 @@
+UTC: 2026-09-18T19:41:28.575708+00:00
+COMMAND: "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" --background --factory-startup --disable-autoexec --debug-cycles --python-exit-code 17 --python "C:\Users\Brandon\OneDrive - Taylor Capital\Shared - Documents\Dormie Equity Partners, LP\11425 Golf Links Drive, LLC\Rea Farms II 3D\scripts\blender_test_v002.py" -- --worker --version 2
+00:01.250  cycles           | CUEW initialization succeeded
+00:01.250  cycles           | Found precompiled kernels
+00:01.282  cycles           | Device has compute preemption or is not used for display.
+00:01.282  cycles           | Added device "NVIDIA RTX A1000" with id "CUDA_NVIDIA RTX A1000_0000:01:00".
+00:01.282  cycles           | Device with id "CUDA_NVIDIA RTX A1000_0000:01:00" supports OpenImageDenoise.
+00:01.282  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:01.328  cycles           | Added device "Intel(R) Graphics" with id "ONEAPI_Intel(R) oneAPI Unified Runtime over Level-Zero V2_Intel(R) Graphics_0000:00:02.0".
+00:01.328  cycles           | Device with id "ONEAPI_Intel(R) oneAPI Unified Runtime over Level-Zero V2_Intel(R) Graphics_0000:00:02.0" supports OpenImageDenoise.
+DETECTED_DEVICES=[{"name": "NVIDIA RTX A1000", "type": "CUDA", "id": "CUDA_NVIDIA RTX A1000_0000:01:00", "enabled": false}, {"name": "Intel Core Ultra 9 285K", "type": "CPU", "id": "CPU", "enabled": false}, {"name": "NVIDIA RTX A1000", "type": "OPTIX", "id": "CUDA_NVIDIA RTX A1000_0000:01:00_OptiX", "enabled": false}, {"name": "Intel(R) Graphics", "type": "ONEAPI", "id": "ONEAPI_Intel(R) oneAPI Unified Runtime over Level-Zero V2_Intel(R) Graphics_0000:00:02.0", "enabled": false}]
+ENABLED_DEVICES=[{"name": "NVIDIA RTX A1000", "type": "CUDA", "id": "CUDA_NVIDIA RTX A1000_0000:01:00", "enabled": false}, {"name": "Intel Core Ultra 9 285K", "type": "CPU", "id": "CPU", "enabled": false}, {"name": "NVIDIA RTX A1000", "type": "OPTIX", "id": "CUDA_NVIDIA RTX A1000_0000:01:00_OptiX", "enabled": true}, {"name": "Intel(R) Graphics", "type": "ONEAPI", "id": "ONEAPI_Intel(R) oneAPI Unified Runtime over Level-Zero V2_Intel(R) Graphics_0000:00:02.0", "enabled": false}]
+C:\Users\Brandon\OneDrive - Taylor Capital\Shared - Documents\Dormie Equity Partners, LP\11425 Golf Links Drive, LLC\Rea Farms II 3D\scripts\blender_test_v002.py:102: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+RENDER_CONFIG={"engine": "CYCLES", "backend": "OPTIX", "device": "GPU", "resolution": [800, 600], "samples": 32, "denoising": true, "denoiser": "OPTIX"}
+00:01.328  cycles           | Mapped host memory limit set to 63,840,186,368 bytes. (59.46G)
+00:01.453  cycles           | WARNING Could not create directory: "C:\Users\Brandon\AppData\Local/NVIDIA/OptixCache" Storing optix7cache.db in the current working directory.
+00:01.485  cycles           | Using AVX2 CPU kernels.
+00:01.485  cycles           | Total time spent synchronizing data: 0.0010425
+00:01.485  cycles           | Effective scene passes:
+00:01.485  cycles           | - type: combined, name: "Combined", mode: DENOISED, is_written: True
+00:01.485  cycles           | - type: combined, name: "Noisy Image", mode: NOISY, is_written: True
+00:01.485  cycles           | - type: denoising_albedo, name: "", mode: NOISY, is_written: True
+00:01.485  cycles           | - type: denoising_normal, name: "", mode: NOISY, is_written: True
+00:01.485  cycles           | Requested features:
+00:01.485  cycles           | Use BSDF True
+00:01.485  cycles           | Use Emission True
+00:01.485  cycles           | Use Volume False
+00:01.485  cycles           | Use Bump False
+00:01.485  cycles           | Use Voronoi False
+00:01.485  cycles           | Use Shader Raytrace False
+00:01.485  cycles           | Use MNEE False
+00:01.485  cycles           | Use Transparent False
+00:01.485  cycles           | Use Denoising True
+00:01.485  cycles           | Use Path Tracing True
+00:01.485  cycles           | Use Hair False
+00:01.485  cycles           | Use Pointclouds False
+00:01.485  cycles           | Use Object Motion False
+00:01.485  cycles           | Use Baking False
+00:01.485  cycles           | Use Subsurface False
+00:01.485  cycles           | Use Volume False
+00:01.485  cycles           | Use Shadow Catcher False
+00:01.485  cycles           | Use Portal Node False
+00:01.485  cycles           | Testing for pre-compiled kernel C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\cycles\lib/kernel_sm_86.cubin.zst.
+00:01.485  cycles           | Using precompiled kernel.
+00:01.547  cycles           | Local memory reserved 159,383,552 bytes. (152.00M)
+00:02.125  cycles           | Total 9 shaders.
+00:02.125  cycles           | Shader manager updated 9 shaders in 0.0022888 seconds.
+00:02.125  cycles           | Total 5 objects.
+00:02.125  cycles           | Total 0 particle systems.
+00:02.125  cycles           | Total 5 meshes.
+00:02.125  cycles           | Using fast to trace OptiX BVH
+00:02.125  cycles           | Using fast to trace OptiX BVH
+00:02.125  cycles           | Using OPTIX layout.
+00:02.125  cycles           | Using fast to trace OptiX BVH
+00:02.125  cycles           | Total 10 lookup tables.
+00:02.125  cycles           | Total 3 lights.
+00:02.125  cycles           | Background MIS has been disabled.
+00:02.125  cycles           | Number of lights sent to the device: 2
+00:02.125  cycles           | Use light tree with 2 emitters and 5 nodes.
+00:02.125  cycles           | Total 11 lookup tables.
+00:02.125  cycles           | System memory statistics after full device sync:
+                            |   Usage: 125,682 (122.74K)
+                            |   Peak: 23,101,486 (22.03M)
+00:02.157  cycles           | Rendered 1 samples in 0.0170915 seconds (0.0170915 seconds per sample), occupancy: 0.0555236
+00:02.532  cycles           | Rendered 31 samples in 0.364414 seconds (0.0117553 seconds per sample), occupancy: 0.409386
+00:02.594  cycles           | Rendering in main loop is done in 0.44364 seconds.
+00:02.594  cycles           | Full path tracing report:
+                            | 
+                            | Path tracing on: NVIDIA RTX A1000 (OptiX) [CUDA_NVIDIA RTX A1000_0000:01:00_OptiX]
+                            |                      Hardware Ray-Tracing: Off
+                            | 
+                            | Denoising on: NVIDIA RTX A1000 (OptiX) [CUDA_NVIDIA RTX A1000_0000:01:00_OptiX]
+                            |                   Hardware Ray-Tracing: Off
+                            | 
+                            | Render Scheduler Summary
+                            | 
+                            | Mode: Headless
+                            | Resolution: 800x600
+                            | 
+                            | Adaptive sampling:
+                            |   Use: False
+                            | 
+                            | Denoiser:
+                            |   Use: True
+                            |   Type: OptiX
+                            |   Start Sample: 0
+                            |   Passes: Color, Albedo, Normal
+                            | 
+                            | Time (in seconds):
+                            |                                        Wall              Average
+                            |           Path Tracing             0.381823             0.011932
+                            |               Denoiser             0.036752             0.036752
+                            |         Display Update             0.000002             0.000002
+                            | 
+                            |   Total: 0.418577
+                            | 
+                            | Rendered 32 samples in 0.443140 seconds
+                            | Average time per sample: 0.013848 seconds
+                            | 
+00:02.594  cycles           | Total render time: 1.26176
+00:02.594  cycles           | Render time (without synchronization): 0.443752
+00:02.766  render           | Saved: 'C:\Users\Brandon\OneDrive - Taylor Capital\Shared - Documents\Dormie Equity Partners, LP\11425 Golf Links Drive, LLC\Rea Farms II 3D\renders\blender_test_v002.png'
+00:02.782  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_3296_93a5dec0a0257f82d6634ce3d0f5e263.png.png"
+Info: Saved as "blender_test_v002.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+15:41:31 | INFO: Starting glTF 2.0 export
+15:41:31 | INFO: Extracting primitive: Cube.001
+15:41:31 | INFO: Primitives created: 1
+15:41:31 | INFO: Extracting primitive: Plane
+15:41:31 | INFO: Primitives created: 1
+15:41:31 | INFO: Finished glTF 2.0 export in 0.04089045524597168 s
+00:03.141  blend            | Read blend: "C:\Users\Brandon\OneDrive - Taylor Capital\Shared - Documents\Dormie Equity Partners, LP\11425 Golf Links Drive, LLC\Rea Farms II 3D\models\blender_test_v002.blend"
+
+REOPENED_CUBE_DIMENSIONS_M=[2.0, 2.0, 2.0]
+REA_TEST_RESULT={"blender_version": "5.2.2 LTS", "backend": "OPTIX", "devices": [{"name": "NVIDIA RTX A1000", "type": "CUDA", "id": "CUDA_NVIDIA RTX A1000_0000:01:00", "enabled": false}, {"name": "Intel Core Ultra 9 285K", "type": "CPU", "id": "CPU", "enabled": false}, {"name": "NVIDIA RTX A1000", "type": "OPTIX", "id": "CUDA_NVIDIA RTX A1000_0000:01:00_OptiX", "enabled": true}, {"name": "Intel(R) Graphics", "type": "ONEAPI", "id": "ONEAPI_Intel(R) oneAPI Unified Runtime over Level-Zero V2_Intel(R) Graphics_0000:00:02.0", "enabled": false}], "render_seconds": 1.4394, "modeling": "passed: 2 x 2 x 2 meter cube, ground, camera, two area lights", "rendering": "passed: Cycles GPU/OPTIX, RTX A1000 only, CPU rendering disabled", "export": "passed: GLB 2.0, two meshes (cube and ground), header validated", "reopen": "passed", "errors": [], "paths": {"script": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\scripts\\blender_test_v002.py", "blend": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\blender_test_v002.blend", "png": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\renders\\blender_test_v002.png", "glb": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\exports\\blender_test_v002.glb", "report": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\notes\\blender_test_v002.md", "log": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\notes\\blender_test_v002.log"}, "render_settings": {"resolution": [800, 600], "max_samples": 32, "denoising": true, "denoiser": "OPTIX"}, "reopened_cube_dimensions_m": [2.0, 2.0, 2.0], "output_bytes": {"blend": 99253, "png": 415049, "glb": 3000}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit
+
+BLENDER_PROCESS_EXIT_CODE=0
+PROCESS_SECONDS=3.3725

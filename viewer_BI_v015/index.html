@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Building I - Rea Farms Sports Medicine Center - viewer v015 (model v014)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./src/style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+</head>
+<body>
+<div id="viewport"><canvas id="c"></canvas><div id="labels"></div></div>
+
+<div id="topbar" class="panel">
+  <div class="brand">Building I <span class="dim">11415 Golf Links Dr &middot; model v014 &middot; viewer v015</span></div>
+  <div class="grp"><span class="lab">Mode</span>
+    <button data-mode="orbit" class="mode on">Orbit</button><button data-mode="walk" class="mode">Walk</button><button data-mode="plan" class="mode">Plan</button>
+  </div>
+  <div class="grp"><span class="lab">Floor</span>
+    <button data-floor="L1" class="floor">Level 1</button><button data-floor="L2" class="floor">Level 2</button><button data-floor="MEZZ" class="floor">Mezzanine</button><button data-floor="BOTH" class="floor on">Both / Exterior</button>
+  </div>
+  <div class="grp"><span class="lab">Existing CNSA</span><button id="cnsaToggle" class="toggle on">ON</button></div>
+  <div class="grp"><span class="lab">Concept</span><select id="concept"></select></div>
+  <div class="grp right"><button id="presToggle">Presentation Mode</button><button id="presExit" class="hidden">Exit Presentation Mode</button></div>
+</div>
+
+<div id="left" class="panel">
+  <h3>Viewpoints</h3>
+  <div id="viewpoints" class="list"></div>
+  <div class="tech">
+    <h3>Tools <span class="dim">(spatial review only)</span></h3>
+    <div class="row"><button id="measureBtn">Measure</button><button id="clearMeasure">Clear measure</button></div>
+    <div class="row"><button id="labelsBtn" class="toggle">Room labels</button><button id="underlayBtn" class="toggle">Plan underlay</button></div>
+    <div class="row"><button id="clearHl">Clear Highlight</button><button id="resetView">Reset view</button></div>
+    <div class="row"><button id="saveImg">Save View Image (PNG)</button></div>
+    <h3>Layers</h3>
+    <div id="layers" class="list"></div>
+    <h3>Walk keys</h3>
+    <div class="dim small">W A S D / arrows move &middot; Shift = 18 ft/s (normal 9 ft/s) &middot; click the view to look with the mouse (Esc releases) &middot; eye height 5'-6"</div>
+  </div>
+</div>
+
+<div id="right" class="panel">
+  <h3>Selection</h3>
+  <div id="info" class="dim">Click a room / space in Orbit or Plan mode.</div>
+  <div id="measure" class="hidden"><h3>Measurement <span class="warn">SPATIAL REVIEW ONLY</span></h3><div id="measureOut"></div></div>
+  <div class="tech"><h3>Notes</h3><div id="notes" class="dim small"></div></div>
+</div>
+
+<div id="status" class="panel tech"><span id="st"></span></div>
+<div id="overlay"><div id="overlayText">Loading Building I viewer v015 ...</div></div>
+<script type="module" src="./src/app.js"></script>
+</body>
+</html>

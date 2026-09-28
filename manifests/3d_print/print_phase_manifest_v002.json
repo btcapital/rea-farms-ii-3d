@@ -1,0 +1,309 @@
+{
+ "manifest": "Building II 3D-print phase manifest - v002 (1:240, coupon lessons + revised crop)",
+ "date": "2026-09-25",
+ "phase_status": "v002 PREPARED, VALIDATED AND EXPORTED (3MF) - STOPPED AT APPROVAL GATE BEFORE THE FULL PRINT",
+ "baseline_v023_sha256_before": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+ "baseline_v023_sha256_after": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+ "v001_sha256_unchanged": true,
+ "scale": "1:240 (1 in = 20 ft), uniform for all four parts; 1 m real = 4.1667 mm",
+ "crop_real_m": {
+  "x": [
+   -9.0,
+   67.25
+  ],
+  "y": [
+   -5.0,
+   40.5
+  ]
+ },
+ "parts_printed_mm": {
+  "PRINT_building_body": [
+   266.1,
+   143.6,
+   65.8
+  ],
+  "PRINT_site_base": [
+   317.7,
+   189.6,
+   37.5
+  ],
+  "PRINT_canopy_dropoff": [
+   83.3,
+   29.7,
+   25.3
+  ],
+  "PRINT_sunshade": [
+   194.0,
+   102.3,
+   1.3
+  ]
+ },
+ "clearances_mm": {
+  "pocket": 0.5,
+  "sockets": 0.4
+ },
+ "sunshade": {
+  "min_gap_mm": 0.5,
+  "max_gap_mm": 0.5,
+  "min_bar_mm": 1.075
+ },
+ "porte_cochere_joint": {
+  "v001": {
+   "section_m2_at_valley_above_column_tops": 0.0,
+   "section_m2_at_valley_incl_columns": 4.5991
+  },
+  "v002": {
+   "section_m2_at_valley_above_column_tops": 5.694,
+   "section_m2_at_valley_incl_columns": 11.583
+  }
+ },
+ "exports": {
+  "building_body": {
+   "watertight": true,
+   "components": 1,
+   "unit": "millimeter",
+   "size_mm": [
+    266.091,
+    143.643,
+    65.828
+   ]
+  },
+  "site_base": {
+   "watertight": true,
+   "components": 1,
+   "unit": "millimeter",
+   "size_mm": [
+    317.708,
+    189.583,
+    37.465
+   ]
+  },
+  "dropoff_canopy": {
+   "watertight": true,
+   "components": 1,
+   "unit": "millimeter",
+   "size_mm": [
+    83.326,
+    29.75,
+    25.346
+   ]
+  },
+  "sunshade": {
+   "watertight": true,
+   "components": 1,
+   "unit": "millimeter",
+   "size_mm": [
+    194.021,
+    102.322,
+    1.27
+   ]
+  }
+ },
+ "v001_exports": "unchanged (see print_phase_v001_export.sha256)",
+ "files": [
+  {
+   "path": "models\\Building_II\\building_shell_v023.blend",
+   "role": "approved frozen source (READ-ONLY) - hashed before and after",
+   "bytes": 6509440,
+   "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91"
+  },
+  {
+   "path": "models\\Building_II\\print_derivatives\\building_II_print_v001.blend",
+   "role": "previous print derivative v001 (unchanged, read only)",
+   "bytes": 1779819,
+   "sha256": "c4684e8d8345ff3105599b4ed2dbc67dbb47bc04bef0822bbae2eb8e36242875"
+  },
+  {
+   "path": "models\\Building_II\\print_derivatives\\archive\\building_II_print_v001_audit_copy.blend",
+   "role": "pristine audit copy (= v023) - input for v002",
+   "bytes": 6509440,
+   "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91"
+  },
+  {
+   "path": "models\\Building_II\\print_derivatives\\building_II_print_v002.blend",
+   "role": "print derivative v002 (1:240) - awaiting approval",
+   "bytes": 1726558,
+   "sha256": "9aa5e3a4574e758f7fc914d9e6df887482791585a673d8b542420e7f4369a27c"
+  },
+  {
+   "path": "scripts\\3d_print\\build_print_v002.py",
+   "role": "v002 script",
+   "bytes": 54226,
+   "sha256": "b57e53d5b42d43f61c3b037bba84a33865412d258bfd3b9dd5bff036ce2a734b"
+  },
+  {
+   "path": "scripts\\3d_print\\validate_print_v002.py",
+   "role": "v002 script",
+   "bytes": 17351,
+   "sha256": "e19a84bee91da15e24d134cf89f6466913fb2e14c4d129e002d9000b58cee8f2"
+  },
+  {
+   "path": "scripts\\3d_print\\preview_print_v002.py",
+   "role": "v002 script",
+   "bytes": 8443,
+   "sha256": "971e0faaf330ab000f326f680b8349d088026381d5ad04ae19f9fe33d280a841"
+  },
+  {
+   "path": "scripts\\3d_print\\export_print_v002.py",
+   "role": "v002 script",
+   "bytes": 10217,
+   "sha256": "0b5c96b3950306e7125f9eda835bed81cbff798ad5ef5e0bcf3f4698cfb6ea31"
+  },
+  {
+   "path": "scripts\\3d_print\\validate_export_v002.py",
+   "role": "v002 script",
+   "bytes": 10077,
+   "sha256": "52b8b5f8e79f88999e0ff14f097f2489784316598396111bf2463ac66bba307e"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_building_body.3mf",
+   "role": "v002 production 3MF (unit=millimeter, 1:240)",
+   "bytes": 94002,
+   "sha256": "5b3d85eae4ea6d98d452241eafe75bf136aa6f7bb5cd303bb4293d8b340a82dd"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_dropoff_canopy.3mf",
+   "role": "v002 production 3MF (unit=millimeter, 1:240)",
+   "bytes": 6786,
+   "sha256": "43466f1cf3616954abd80f6234b36b0ca12a30ac079e2448c6cefc5add4e29ba"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_site_base.3mf",
+   "role": "v002 production 3MF (unit=millimeter, 1:240)",
+   "bytes": 1048719,
+   "sha256": "9d99a9b5d7dbd6b7f92a8fb0cad541cc458a457f46aa5c74c8e3901b37131f64"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v002_1-240_sunshade.3mf",
+   "role": "v002 production 3MF (unit=millimeter, 1:240)",
+   "bytes": 52338,
+   "sha256": "c4b36b22fd82cd4eaa15cd3bc2129ebf7d1ecb9f3842451233587c0f26bd739e"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_prep_v002_build_log.json",
+   "role": "v002 validation record",
+   "bytes": 30007,
+   "sha256": "a4ae8029f583d79cbc9b6f4d12c407c0710c0617e82bbf4029e098660768d701"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_validation_v002.json",
+   "role": "v002 validation record",
+   "bytes": 12918,
+   "sha256": "651b9b41b32b3da93b5ba207b1b4c04f44efc8b760d7270507d119248bfe5d94"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_validation_v002_thin_regions.csv",
+   "role": "v002 validation record",
+   "bytes": 128308,
+   "sha256": "95be70be131fe9441d814081df8cdc76fba832f85e210979ee2d879efd87b347"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_export_v002_written.json",
+   "role": "v002 validation record",
+   "bytes": 2049,
+   "sha256": "89b967970c98582f3cd590d5d70a4881ef7f846b8f8fb8dcb8ca3a17289dd765"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_export_v002_validation.json",
+   "role": "v002 validation record",
+   "bytes": 7425,
+   "sha256": "f89c7a8b9c88b1bb4bf0886f77aa7dfb9601c81bd95f05847d3d2eac5f5fdf4b"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_01_assembly_northwest.png",
+   "role": "v002 preview",
+   "bytes": 876289,
+   "sha256": "e81df95200b8ea41e78915ddc36c7aa7fab0ba826bd5f426f14c89b0cba847df"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_02_assembly_southeast.png",
+   "role": "v002 preview",
+   "bytes": 831100,
+   "sha256": "c69e68e4db033e5909c0dbbc2f336016e9b9f4f446f4d060c49d0042a7655947"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_03_top_revised_crop_vs_v001.png",
+   "role": "v002 preview",
+   "bytes": 863804,
+   "sha256": "aeec9d020df39dbb24cd41b2b5429d229624e233d4ff3775693c448145a1dce5"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_04_porte_cochere_closeup.png",
+   "role": "v002 preview",
+   "bytes": 1961299,
+   "sha256": "f1f1452490940316bc49b21cffcb214cad2ad4f4a24dcbefd9e3a6fd11ca77cc"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_05_sunshade_closeup.png",
+   "role": "v002 preview",
+   "bytes": 1828570,
+   "sha256": "92676633bf4c0310f179753f1a6b1ccc52ccac66647dfe3002172e62e6f01aa7"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_06_exploded_assembly.png",
+   "role": "v002 preview",
+   "bytes": 860669,
+   "sha256": "3462c30fb63da58c0e9243b094d530116d74b60f2ac204ed71b3e9b2adcb4396"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_07_site_base_only.png",
+   "role": "v002 preview",
+   "bytes": 831374,
+   "sha256": "e5f8a500296bbb776b8a8db88f312009c68dca609cb072aff572bddbdc1106a7"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_08_building_only.png",
+   "role": "v002 preview",
+   "bytes": 892461,
+   "sha256": "f669a4dce1575a1ab95b690f412b80e419ad092f37f9046b11c6517545845f6e"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_09_porte_cochere_part_underside.png",
+   "role": "v002 preview",
+   "bytes": 1005173,
+   "sha256": "c43704174178280fe3c24bec5b9e86efc918aa1a4062a417b021a465659a9971"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_10_sunshade_part.png",
+   "role": "v002 preview",
+   "bytes": 410459,
+   "sha256": "06eaf56f3b90e33f0cbeca89d88e406daad4db52b4265efa00adc09cca617962"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_11_porte_cochere_print_orientation.png",
+   "role": "v002 preview",
+   "bytes": 994643,
+   "sha256": "f2836e034386775dd76a08271a636e3c8d281b685e6af387aa98a5041230d378"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_12_compare_v001_v002_on_bed.png",
+   "role": "v002 preview",
+   "bytes": 955102,
+   "sha256": "34263b712e2492ddd7b5ceb033ada3bfd428f2a2509ca89709dd894327b22f56"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\previews_v002\\print_v002_13_compare_v001_v002_perspective.png",
+   "role": "v002 preview",
+   "bytes": 809646,
+   "sha256": "7128d63f9423f21d842b802879b3913af7b53a85c2a7e0b204af246739f274a2"
+  },
+  {
+   "path": "notes\\3d_print\\PRINT_CONTROL.md",
+   "role": "print note (v001 + v002)",
+   "bytes": 46404,
+   "sha256": "30f569bf88244afe26327b70da5a7998c3fc24c57ba47194e2bb064001661a04"
+  },
+  {
+   "path": "notes\\3d_print\\PRINT_VALIDATION.md",
+   "role": "print note (v001 + v002)",
+   "bytes": 18556,
+   "sha256": "e90993b79df546c87498aa3b2df6efe6ba5b2285e497e4aab0db7c84afb7363e"
+  },
+  {
+   "path": "notes\\3d_print\\PRINT_EXPORT.md",
+   "role": "print note (v001 + v002)",
+   "bytes": 26061,
+   "sha256": "7ec4161344086564a1808b65317a0cff8792c6e521caae9b73983114f1f5fd7c"
+  }
+ ]
+}

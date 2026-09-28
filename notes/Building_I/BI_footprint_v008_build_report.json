@@ -1,0 +1,4683 @@
+{
+  "version": "v008",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_landscape_v007.blend",
+  "kept_mesh_objects": 285,
+  "geometry_hash_kept": "f0a4c049e2e4243aa5f8fd0944ab73d7f77d6317cb9ff33d65db61b1921fd9ee",
+  "unrelated_geometry_unchanged": true,
+  "shell_objects_replaced": {
+    "BI_Z1_south_wing": [
+      6.88,
+      -4.38,
+      0.0,
+      271.38,
+      70.58,
+      33.3
+    ],
+    "BI_Z2_band_E_F2": [
+      28.62,
+      61.12,
+      0.0,
+      71.0,
+      74.38,
+      40.0
+    ],
+    "BI_Z4a_north_block": [
+      71.0,
+      97.75,
+      0.0,
+      287.0,
+      202.88,
+      39.7
+    ],
+    "BI_Z4b_north_block_south_part": [
+      28.71,
+      70.58,
+      0.0,
+      271.38,
+      97.75,
+      34.07
+    ],
+    "BI_Z5_end_block_13_14": [
+      271.38,
+      60.5,
+      0.0,
+      281.0,
+      97.75,
+      32.0
+    ]
+  },
+  "shell_objects_built": {
+    "Z1_L1": [
+      7.0,
+      -4.16,
+      0.0,
+      271.29,
+      70.58,
+      13.5
+    ],
+    "Z1_L2": [
+      10.67,
+      -1.46,
+      13.5,
+      271.29,
+      70.58,
+      33.3
+    ],
+    "bay": [
+      172.01,
+      -4.15,
+      12.58,
+      228.01,
+      -1.46,
+      27.33
+    ],
+    "band": [
+      28.5,
+      54.2,
+      0.0,
+      71.0,
+      74.38,
+      40.0
+    ],
+    "se": [
+      271.29,
+      44.21,
+      0.0,
+      281.62,
+      97.75,
+      32.0
+    ],
+    "Z4b": [
+      71.0,
+      70.58,
+      0.0,
+      271.38,
+      97.75,
+      34.07
+    ],
+    "Z4a_L1": [
+      71.0,
+      97.75,
+      0.0,
+      281.62,
+      203.03,
+      9.0
+    ],
+    "Z4a_mid": [
+      71.0,
+      97.75,
+      9.0,
+      287.39,
+      203.03,
+      14.83
+    ],
+    "Z4a_L2": [
+      71.0,
+      97.75,
+      14.83,
+      287.39,
+      203.03,
+      39.71
+    ]
+  },
+  "shell_extent_ft": [
+    7.0,
+    -4.16,
+    0.0,
+    287.39,
+    203.03,
+    40.1
+  ],
+  "cap_tessellation_check": {
+    "Z1_L1": {
+      "cap_area_top_sqft": 18385.8,
+      "cap_area_bottom_sqft": 18385.8,
+      "polygon_area_sqft": 18385.8
+    },
+    "Z1_L2": {
+      "cap_area_top_sqft": 18238.6,
+      "cap_area_bottom_sqft": 18238.6,
+      "polygon_area_sqft": 18238.6
+    },
+    "bay": {
+      "cap_area_top_sqft": 150.6,
+      "cap_area_bottom_sqft": 150.6,
+      "polygon_area_sqft": 150.6
+    },
+    "band": {
+      "cap_area_top_sqft": 861.4,
+      "cap_area_bottom_sqft": 857.6,
+      "polygon_area_sqft": 857.6
+    },
+    "se": {
+      "cap_area_top_sqft": 553.1,
+      "cap_area_bottom_sqft": 553.1,
+      "polygon_area_sqft": 553.1
+    },
+    "Z4b": {
+      "cap_area_top_sqft": 5451.4,
+      "cap_area_bottom_sqft": 5443.7,
+      "polygon_area_sqft": 5443.7
+    },
+    "Z4a_L1": {
+      "cap_area_top_sqft": 20332.7,
+      "cap_area_bottom_sqft": 20332.7,
+      "polygon_area_sqft": 20332.7
+    },
+    "Z4a_mid": {
+      "cap_area_top_sqft": 20556.8,
+      "cap_area_bottom_sqft": 20556.8,
+      "polygon_area_sqft": 20556.8
+    },
+    "Z4a_L2": {
+      "cap_area_top_sqft": 20791.9,
+      "cap_area_bottom_sqft": 20762.2,
+      "polygon_area_sqft": 20762.2
+    }
+  },
+  "screens": {
+    "removed": 9,
+    "built": 15
+  },
+  "openings": {
+    "placed": 376,
+    "skipped": 0,
+    "rotated_on_canted_wall": 8,
+    "moved_gt_0_05ft": 290
+  },
+  "openings_moved": [
+    {
+      "object": "BI_open_EAST_001",
+      "facade": "EAST",
+      "u": [
+        11.92,
+        14.04
+      ],
+      "z": [
+        21.08,
+        24.52
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_002",
+      "facade": "EAST",
+      "u": [
+        11.92,
+        14.15
+      ],
+      "z": [
+        3.24,
+        10.8
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_003",
+      "facade": "EAST",
+      "u": [
+        11.92,
+        14.15
+      ],
+      "z": [
+        17.08,
+        20.63
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_004",
+      "facade": "EAST",
+      "u": [
+        14.42,
+        16.7
+      ],
+      "z": [
+        3.24,
+        6.91
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_005",
+      "facade": "EAST",
+      "u": [
+        14.42,
+        16.7
+      ],
+      "z": [
+        7.19,
+        10.8
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_006",
+      "facade": "EAST",
+      "u": [
+        14.42,
+        16.7
+      ],
+      "z": [
+        17.08,
+        24.52
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_007",
+      "facade": "EAST",
+      "u": [
+        16.98,
+        19.15
+      ],
+      "z": [
+        21.08,
+        24.58
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_008",
+      "facade": "EAST",
+      "u": [
+        16.98,
+        19.26
+      ],
+      "z": [
+        3.24,
+        10.8
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_009",
+      "facade": "EAST",
+      "u": [
+        16.98,
+        19.26
+      ],
+      "z": [
+        17.08,
+        20.63
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_010",
+      "facade": "EAST",
+      "u": [
+        19.54,
+        21.76
+      ],
+      "z": [
+        3.24,
+        6.91
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_011",
+      "facade": "EAST",
+      "u": [
+        19.54,
+        21.76
+      ],
+      "z": [
+        7.19,
+        10.8
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_012",
+      "facade": "EAST",
+      "u": [
+        19.54,
+        21.76
+      ],
+      "z": [
+        17.08,
+        24.58
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_013",
+      "facade": "EAST",
+      "u": [
+        22.09,
+        24.31
+      ],
+      "z": [
+        3.24,
+        10.8
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_014",
+      "facade": "EAST",
+      "u": [
+        28.76,
+        31.04
+      ],
+      "z": [
+        3.24,
+        10.8
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_015",
+      "facade": "EAST",
+      "u": [
+        28.76,
+        31.04
+      ],
+      "z": [
+        17.08,
+        20.69
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_016",
+      "facade": "EAST",
+      "u": [
+        28.81,
+        31.04
+      ],
+      "z": [
+        21.02,
+        24.52
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_017",
+      "facade": "EAST",
+      "u": [
+        31.37,
+        33.65
+      ],
+      "z": [
+        3.24,
+        6.91
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_018",
+      "facade": "EAST",
+      "u": [
+        31.37,
+        33.65
+      ],
+      "z": [
+        7.19,
+        10.8
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_019",
+      "facade": "EAST",
+      "u": [
+        38.2,
+        40.31
+      ],
+      "z": [
+        3.36,
+        6.91
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_020",
+      "facade": "EAST",
+      "u": [
+        38.2,
+        40.31
+      ],
+      "z": [
+        7.19,
+        10.69
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_021",
+      "facade": "EAST",
+      "u": [
+        40.76,
+        42.87
+      ],
+      "z": [
+        17.19,
+        20.63
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_022",
+      "facade": "EAST",
+      "u": [
+        40.76,
+        42.92
+      ],
+      "z": [
+        3.41,
+        10.63
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_023",
+      "facade": "EAST",
+      "u": [
+        40.76,
+        43.09
+      ],
+      "z": [
+        21.08,
+        24.47
+      ],
+      "plane_before": 271.35,
+      "plane_after": 271.29,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_024",
+      "facade": "EAST",
+      "u": [
+        43.2,
+        45.48
+      ],
+      "z": [
+        7.24,
+        10.69
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_025",
+      "facade": "EAST",
+      "u": [
+        43.2,
+        45.48
+      ],
+      "z": [
+        17.19,
+        24.52
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_026",
+      "facade": "EAST",
+      "u": [
+        43.31,
+        45.37
+      ],
+      "z": [
+        3.41,
+        6.91
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_027",
+      "facade": "EAST",
+      "u": [
+        49.54,
+        53.65
+      ],
+      "z": [
+        17.24,
+        24.36
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_028",
+      "facade": "EAST",
+      "u": [
+        49.54,
+        53.76
+      ],
+      "z": [
+        12.91,
+        16.69
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_029",
+      "facade": "EAST",
+      "u": [
+        54.2,
+        58.37
+      ],
+      "z": [
+        7.3,
+        16.74
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_030",
+      "facade": "EAST",
+      "u": [
+        56.42,
+        60.42
+      ],
+      "z": [
+        0.36,
+        2.52
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_031",
+      "facade": "EAST",
+      "u": [
+        56.48,
+        60.37
+      ],
+      "z": [
+        4.52,
+        6.91
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_032",
+      "facade": "EAST",
+      "u": [
+        56.48,
+        60.37
+      ],
+      "z": [
+        17.19,
+        24.63
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_033",
+      "facade": "EAST",
+      "u": [
+        58.81,
+        61.7
+      ],
+      "z": [
+        7.36,
+        10.97
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_034",
+      "facade": "EAST",
+      "u": [
+        58.87,
+        61.7
+      ],
+      "z": [
+        11.08,
+        15.3
+      ],
+      "plane_before": 271.35,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_035",
+      "facade": "EAST",
+      "u": [
+        63.31,
+        65.42
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_036",
+      "facade": "EAST",
+      "u": [
+        65.76,
+        70.26
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_037",
+      "facade": "EAST",
+      "u": [
+        68.15,
+        70.42
+      ],
+      "z": [
+        3.24,
+        10.8
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_038",
+      "facade": "EAST",
+      "u": [
+        70.59,
+        72.87
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_039",
+      "facade": "EAST",
+      "u": [
+        70.7,
+        73.04
+      ],
+      "z": [
+        3.24,
+        6.91
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_040",
+      "facade": "EAST",
+      "u": [
+        70.7,
+        73.04
+      ],
+      "z": [
+        7.19,
+        10.8
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_041",
+      "facade": "EAST",
+      "u": [
+        73.2,
+        75.42
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_042",
+      "facade": "EAST",
+      "u": [
+        75.76,
+        80.31
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_043",
+      "facade": "EAST",
+      "u": [
+        78.15,
+        80.42
+      ],
+      "z": [
+        3.24,
+        10.8
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_044",
+      "facade": "EAST",
+      "u": [
+        80.65,
+        82.87
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_045",
+      "facade": "EAST",
+      "u": [
+        80.7,
+        83.04
+      ],
+      "z": [
+        3.24,
+        6.91
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_046",
+      "facade": "EAST",
+      "u": [
+        80.7,
+        83.04
+      ],
+      "z": [
+        7.19,
+        10.8
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_047",
+      "facade": "EAST",
+      "u": [
+        83.2,
+        85.42
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_048",
+      "facade": "EAST",
+      "u": [
+        85.76,
+        90.26
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_049",
+      "facade": "EAST",
+      "u": [
+        90.76,
+        92.81
+      ],
+      "z": [
+        17.24,
+        24.36
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_050",
+      "facade": "EAST",
+      "u": [
+        93.31,
+        95.37
+      ],
+      "z": [
+        17.19,
+        24.36
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_051",
+      "facade": "EAST",
+      "u": [
+        95.87,
+        101.81
+      ],
+      "z": [
+        17.19,
+        24.63
+      ],
+      "plane_before": 286.98,
+      "plane_after": 287.39,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_052",
+      "facade": "EAST",
+      "u": [
+        126.54,
+        130.09
+      ],
+      "z": [
+        15.69,
+        24.58
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_053",
+      "facade": "EAST",
+      "u": [
+        126.59,
+        130.04
+      ],
+      "z": [
+        10.36,
+        15.24
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_054",
+      "facade": "EAST",
+      "u": [
+        130.42,
+        134.09
+      ],
+      "z": [
+        15.8,
+        24.58
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_055",
+      "facade": "EAST",
+      "u": [
+        130.48,
+        134.04
+      ],
+      "z": [
+        10.36,
+        15.24
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_056",
+      "facade": "EAST",
+      "u": [
+        134.42,
+        138.09
+      ],
+      "z": [
+        15.74,
+        24.58
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_057",
+      "facade": "EAST",
+      "u": [
+        134.48,
+        138.09
+      ],
+      "z": [
+        10.36,
+        15.24
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_058",
+      "facade": "EAST",
+      "u": [
+        138.42,
+        142.04
+      ],
+      "z": [
+        15.74,
+        24.58
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_059",
+      "facade": "EAST",
+      "u": [
+        138.48,
+        142.04
+      ],
+      "z": [
+        10.36,
+        15.3
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_060",
+      "facade": "EAST",
+      "u": [
+        142.54,
+        146.04
+      ],
+      "z": [
+        15.8,
+        24.47
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_061",
+      "facade": "EAST",
+      "u": [
+        142.54,
+        146.09
+      ],
+      "z": [
+        10.36,
+        15.19
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_062",
+      "facade": "EAST",
+      "u": [
+        146.48,
+        149.98
+      ],
+      "z": [
+        10.36,
+        15.24
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_063",
+      "facade": "EAST",
+      "u": [
+        146.54,
+        150.04
+      ],
+      "z": [
+        19.19,
+        24.52
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_064",
+      "facade": "EAST",
+      "u": [
+        150.42,
+        153.98
+      ],
+      "z": [
+        11.08,
+        15.24
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_065",
+      "facade": "EAST",
+      "u": [
+        150.42,
+        153.98
+      ],
+      "z": [
+        15.8,
+        24.47
+      ],
+      "plane_before": 286.98,
+      "plane_after": 284.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_066",
+      "facade": "EAST",
+      "u": [
+        154.48,
+        158.04
+      ],
+      "z": [
+        10.36,
+        15.24
+      ],
+      "plane_before": 286.98,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_067",
+      "facade": "EAST",
+      "u": [
+        154.48,
+        158.04
+      ],
+      "z": [
+        15.8,
+        24.47
+      ],
+      "plane_before": 286.98,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_068",
+      "facade": "EAST",
+      "u": [
+        160.65,
+        165.09
+      ],
+      "z": [
+        10.36,
+        15.19
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_069",
+      "facade": "EAST",
+      "u": [
+        160.7,
+        165.09
+      ],
+      "z": [
+        16.36,
+        24.47
+      ],
+      "plane_before": 280.97,
+      "plane_after": 281.62,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_070",
+      "facade": "EAST",
+      "u": [
+        165.48,
+        169.98
+      ],
+      "z": [
+        10.3,
+        15.36
+      ],
+      "plane_before": 280.97,
+      "plane_after": 287.39,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_EAST_071",
+      "facade": "EAST",
+      "u": [
+        165.48,
+        169.98
+      ],
+      "z": [
+        15.69,
+        24.58
+      ],
+      "plane_before": 280.97,
+      "plane_after": 287.39,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_001",
+      "facade": "SOUTH",
+      "u": [
+        14.91,
+        17.13
+      ],
+      "z": [
+        21.04,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_002",
+      "facade": "SOUTH",
+      "u": [
+        14.97,
+        17.13
+      ],
+      "z": [
+        17.16,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_003",
+      "facade": "SOUTH",
+      "u": [
+        14.97,
+        18.63
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.16,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_004",
+      "facade": "SOUTH",
+      "u": [
+        17.52,
+        19.69
+      ],
+      "z": [
+        17.16,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_005",
+      "facade": "SOUTH",
+      "u": [
+        18.74,
+        22.63
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.16,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_006",
+      "facade": "SOUTH",
+      "u": [
+        20.02,
+        22.24
+      ],
+      "z": [
+        17.16,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_007",
+      "facade": "SOUTH",
+      "u": [
+        20.08,
+        22.24
+      ],
+      "z": [
+        21.04,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_008",
+      "facade": "SOUTH",
+      "u": [
+        22.63,
+        24.8
+      ],
+      "z": [
+        17.16,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_009",
+      "facade": "SOUTH",
+      "u": [
+        22.74,
+        26.63
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.16,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_010",
+      "facade": "SOUTH",
+      "u": [
+        25.19,
+        27.36
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_011",
+      "facade": "SOUTH",
+      "u": [
+        25.19,
+        27.36
+      ],
+      "z": [
+        21.04,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_012",
+      "facade": "SOUTH",
+      "u": [
+        26.74,
+        30.63
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.16,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_013",
+      "facade": "SOUTH",
+      "u": [
+        30.74,
+        34.63
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.16,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_014",
+      "facade": "SOUTH",
+      "u": [
+        32.63,
+        34.86
+      ],
+      "z": [
+        21.04,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_015",
+      "facade": "SOUTH",
+      "u": [
+        32.69,
+        34.86
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_016",
+      "facade": "SOUTH",
+      "u": [
+        34.74,
+        38.63
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.16,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_017",
+      "facade": "SOUTH",
+      "u": [
+        35.24,
+        37.47
+      ],
+      "z": [
+        17.16,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_018",
+      "facade": "SOUTH",
+      "u": [
+        38.74,
+        42.63
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.16,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_019",
+      "facade": "SOUTH",
+      "u": [
+        42.58,
+        44.86
+      ],
+      "z": [
+        21.04,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_020",
+      "facade": "SOUTH",
+      "u": [
+        42.74,
+        44.86
+      ],
+      "z": [
+        17.16,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_021",
+      "facade": "SOUTH",
+      "u": [
+        42.74,
+        46.36
+      ],
+      "z": [
+        3.32,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.16,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_022",
+      "facade": "SOUTH",
+      "u": [
+        45.3,
+        47.36
+      ],
+      "z": [
+        17.1,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_023",
+      "facade": "SOUTH",
+      "u": [
+        52.63,
+        54.8
+      ],
+      "z": [
+        21.04,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_024",
+      "facade": "SOUTH",
+      "u": [
+        52.69,
+        54.8
+      ],
+      "z": [
+        3.32,
+        10.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_025",
+      "facade": "SOUTH",
+      "u": [
+        52.69,
+        54.8
+      ],
+      "z": [
+        17.16,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_026",
+      "facade": "SOUTH",
+      "u": [
+        55.24,
+        57.41
+      ],
+      "z": [
+        17.16,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_027",
+      "facade": "SOUTH",
+      "u": [
+        55.3,
+        57.36
+      ],
+      "z": [
+        7.16,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_028",
+      "facade": "SOUTH",
+      "u": [
+        55.3,
+        57.41
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_029",
+      "facade": "SOUTH",
+      "u": [
+        62.58,
+        64.8
+      ],
+      "z": [
+        21.04,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_030",
+      "facade": "SOUTH",
+      "u": [
+        62.63,
+        64.8
+      ],
+      "z": [
+        3.32,
+        10.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_031",
+      "facade": "SOUTH",
+      "u": [
+        62.63,
+        64.86
+      ],
+      "z": [
+        17.16,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_032",
+      "facade": "SOUTH",
+      "u": [
+        65.19,
+        67.36
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_033",
+      "facade": "SOUTH",
+      "u": [
+        65.19,
+        67.36
+      ],
+      "z": [
+        7.16,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_034",
+      "facade": "SOUTH",
+      "u": [
+        65.19,
+        67.36
+      ],
+      "z": [
+        17.16,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_035",
+      "facade": "SOUTH",
+      "u": [
+        72.58,
+        74.86
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_036",
+      "facade": "SOUTH",
+      "u": [
+        72.58,
+        74.86
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_037",
+      "facade": "SOUTH",
+      "u": [
+        72.58,
+        74.86
+      ],
+      "z": [
+        20.99,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_038",
+      "facade": "SOUTH",
+      "u": [
+        75.13,
+        77.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_039",
+      "facade": "SOUTH",
+      "u": [
+        75.13,
+        77.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_040",
+      "facade": "SOUTH",
+      "u": [
+        75.13,
+        77.47
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_041",
+      "facade": "SOUTH",
+      "u": [
+        82.58,
+        84.86
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_042",
+      "facade": "SOUTH",
+      "u": [
+        82.58,
+        84.86
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_043",
+      "facade": "SOUTH",
+      "u": [
+        82.58,
+        84.86
+      ],
+      "z": [
+        20.99,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_044",
+      "facade": "SOUTH",
+      "u": [
+        85.13,
+        87.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_045",
+      "facade": "SOUTH",
+      "u": [
+        85.13,
+        87.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_046",
+      "facade": "SOUTH",
+      "u": [
+        85.13,
+        87.47
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_047",
+      "facade": "SOUTH",
+      "u": [
+        95.08,
+        97.36
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_048",
+      "facade": "SOUTH",
+      "u": [
+        95.08,
+        97.36
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_049",
+      "facade": "SOUTH",
+      "u": [
+        95.08,
+        97.36
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_050",
+      "facade": "SOUTH",
+      "u": [
+        97.63,
+        99.8
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_051",
+      "facade": "SOUTH",
+      "u": [
+        97.63,
+        99.8
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_052",
+      "facade": "SOUTH",
+      "u": [
+        97.63,
+        99.8
+      ],
+      "z": [
+        20.99,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_053",
+      "facade": "SOUTH",
+      "u": [
+        100.19,
+        102.3
+      ],
+      "z": [
+        17.16,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_054",
+      "facade": "SOUTH",
+      "u": [
+        100.19,
+        102.36
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_055",
+      "facade": "SOUTH",
+      "u": [
+        100.24,
+        102.3
+      ],
+      "z": [
+        7.16,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_056",
+      "facade": "SOUTH",
+      "u": [
+        102.69,
+        104.86
+      ],
+      "z": [
+        3.32,
+        10.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_057",
+      "facade": "SOUTH",
+      "u": [
+        109.97,
+        112.19
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_058",
+      "facade": "SOUTH",
+      "u": [
+        112.58,
+        114.74
+      ],
+      "z": [
+        3.32,
+        6.82
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_059",
+      "facade": "SOUTH",
+      "u": [
+        112.58,
+        114.74
+      ],
+      "z": [
+        7.16,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_060",
+      "facade": "SOUTH",
+      "u": [
+        112.58,
+        114.74
+      ],
+      "z": [
+        17.16,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.88,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_061",
+      "facade": "SOUTH",
+      "u": [
+        122.58,
+        124.86
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_062",
+      "facade": "SOUTH",
+      "u": [
+        122.58,
+        124.86
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_063",
+      "facade": "SOUTH",
+      "u": [
+        122.58,
+        124.86
+      ],
+      "z": [
+        20.99,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_064",
+      "facade": "SOUTH",
+      "u": [
+        125.13,
+        127.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_065",
+      "facade": "SOUTH",
+      "u": [
+        125.13,
+        127.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_066",
+      "facade": "SOUTH",
+      "u": [
+        125.13,
+        127.47
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_067",
+      "facade": "SOUTH",
+      "u": [
+        132.58,
+        134.86
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_068",
+      "facade": "SOUTH",
+      "u": [
+        132.58,
+        134.86
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_069",
+      "facade": "SOUTH",
+      "u": [
+        132.58,
+        134.86
+      ],
+      "z": [
+        20.99,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_070",
+      "facade": "SOUTH",
+      "u": [
+        135.13,
+        137.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_071",
+      "facade": "SOUTH",
+      "u": [
+        135.13,
+        137.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_072",
+      "facade": "SOUTH",
+      "u": [
+        135.13,
+        137.47
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_073",
+      "facade": "SOUTH",
+      "u": [
+        142.58,
+        144.86
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_074",
+      "facade": "SOUTH",
+      "u": [
+        142.58,
+        144.86
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_075",
+      "facade": "SOUTH",
+      "u": [
+        142.58,
+        144.86
+      ],
+      "z": [
+        20.99,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_076",
+      "facade": "SOUTH",
+      "u": [
+        145.13,
+        147.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_077",
+      "facade": "SOUTH",
+      "u": [
+        145.13,
+        147.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_078",
+      "facade": "SOUTH",
+      "u": [
+        145.13,
+        147.47
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_079",
+      "facade": "SOUTH",
+      "u": [
+        152.63,
+        154.8
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_080",
+      "facade": "SOUTH",
+      "u": [
+        152.63,
+        154.8
+      ],
+      "z": [
+        21.1,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_081",
+      "facade": "SOUTH",
+      "u": [
+        152.69,
+        154.74
+      ],
+      "z": [
+        17.16,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_082",
+      "facade": "SOUTH",
+      "u": [
+        155.24,
+        157.36
+      ],
+      "z": [
+        7.16,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_083",
+      "facade": "SOUTH",
+      "u": [
+        155.24,
+        157.36
+      ],
+      "z": [
+        17.16,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_084",
+      "facade": "SOUTH",
+      "u": [
+        155.24,
+        157.41
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_085",
+      "facade": "SOUTH",
+      "u": [
+        162.69,
+        164.74
+      ],
+      "z": [
+        21.1,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_086",
+      "facade": "SOUTH",
+      "u": [
+        162.69,
+        164.8
+      ],
+      "z": [
+        3.32,
+        10.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_087",
+      "facade": "SOUTH",
+      "u": [
+        162.69,
+        164.8
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_088",
+      "facade": "SOUTH",
+      "u": [
+        165.24,
+        167.36
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_089",
+      "facade": "SOUTH",
+      "u": [
+        165.3,
+        167.36
+      ],
+      "z": [
+        7.16,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_090",
+      "facade": "SOUTH",
+      "u": [
+        165.3,
+        167.36
+      ],
+      "z": [
+        17.16,
+        24.54
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_091",
+      "facade": "SOUTH",
+      "u": [
+        172.24,
+        175.24
+      ],
+      "z": [
+        17.16,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_092",
+      "facade": "SOUTH",
+      "u": [
+        172.58,
+        174.86
+      ],
+      "z": [
+        3.32,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_093",
+      "facade": "SOUTH",
+      "u": [
+        175.36,
+        177.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_094",
+      "facade": "SOUTH",
+      "u": [
+        175.36,
+        177.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_095",
+      "facade": "SOUTH",
+      "u": [
+        176.08,
+        179.97
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_096",
+      "facade": "SOUTH",
+      "u": [
+        180.08,
+        183.97
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_097",
+      "facade": "SOUTH",
+      "u": [
+        182.58,
+        184.86
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_098",
+      "facade": "SOUTH",
+      "u": [
+        184.08,
+        187.97
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_099",
+      "facade": "SOUTH",
+      "u": [
+        185.19,
+        187.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_100",
+      "facade": "SOUTH",
+      "u": [
+        185.19,
+        187.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_101",
+      "facade": "SOUTH",
+      "u": [
+        188.08,
+        191.97
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_102",
+      "facade": "SOUTH",
+      "u": [
+        192.08,
+        195.97
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_103",
+      "facade": "SOUTH",
+      "u": [
+        192.58,
+        194.86
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_104",
+      "facade": "SOUTH",
+      "u": [
+        195.19,
+        197.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_105",
+      "facade": "SOUTH",
+      "u": [
+        195.19,
+        197.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_106",
+      "facade": "SOUTH",
+      "u": [
+        196.08,
+        199.97
+      ],
+      "z": [
+        17.1,
+        19.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_107",
+      "facade": "SOUTH",
+      "u": [
+        196.08,
+        199.97
+      ],
+      "z": [
+        21.93,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_108",
+      "facade": "SOUTH",
+      "u": [
+        200.08,
+        203.97
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_109",
+      "facade": "SOUTH",
+      "u": [
+        202.63,
+        204.74
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_110",
+      "facade": "SOUTH",
+      "u": [
+        204.08,
+        207.97
+      ],
+      "z": [
+        17.16,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_111",
+      "facade": "SOUTH",
+      "u": [
+        205.24,
+        207.36
+      ],
+      "z": [
+        7.16,
+        10.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_112",
+      "facade": "SOUTH",
+      "u": [
+        205.24,
+        207.41
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_113",
+      "facade": "SOUTH",
+      "u": [
+        208.08,
+        211.97
+      ],
+      "z": [
+        17.16,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_114",
+      "facade": "SOUTH",
+      "u": [
+        212.08,
+        223.97
+      ],
+      "z": [
+        17.16,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_115",
+      "facade": "SOUTH",
+      "u": [
+        212.69,
+        214.8
+      ],
+      "z": [
+        3.32,
+        10.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_116",
+      "facade": "SOUTH",
+      "u": [
+        215.24,
+        217.36
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_117",
+      "facade": "SOUTH",
+      "u": [
+        215.24,
+        217.36
+      ],
+      "z": [
+        7.16,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_118",
+      "facade": "SOUTH",
+      "u": [
+        222.52,
+        227.47
+      ],
+      "z": [
+        3.32,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_119",
+      "facade": "SOUTH",
+      "u": [
+        224.08,
+        227.8
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -4.15,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_120",
+      "facade": "SOUTH",
+      "u": [
+        225.13,
+        227.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_121",
+      "facade": "SOUTH",
+      "u": [
+        232.58,
+        234.86
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_122",
+      "facade": "SOUTH",
+      "u": [
+        232.58,
+        234.86
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_123",
+      "facade": "SOUTH",
+      "u": [
+        232.58,
+        234.86
+      ],
+      "z": [
+        20.99,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_124",
+      "facade": "SOUTH",
+      "u": [
+        235.13,
+        237.47
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_125",
+      "facade": "SOUTH",
+      "u": [
+        235.13,
+        237.47
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_126",
+      "facade": "SOUTH",
+      "u": [
+        235.13,
+        237.47
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": -1.46,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_127",
+      "facade": "SOUTH",
+      "u": [
+        245.58,
+        247.86
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_128",
+      "facade": "SOUTH",
+      "u": [
+        245.58,
+        247.86
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_129",
+      "facade": "SOUTH",
+      "u": [
+        245.58,
+        247.86
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_130",
+      "facade": "SOUTH",
+      "u": [
+        248.13,
+        250.36
+      ],
+      "z": [
+        3.27,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_131",
+      "facade": "SOUTH",
+      "u": [
+        248.13,
+        250.36
+      ],
+      "z": [
+        17.1,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_132",
+      "facade": "SOUTH",
+      "u": [
+        248.13,
+        250.36
+      ],
+      "z": [
+        20.99,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_133",
+      "facade": "SOUTH",
+      "u": [
+        250.69,
+        252.8
+      ],
+      "z": [
+        3.27,
+        6.88
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_134",
+      "facade": "SOUTH",
+      "u": [
+        250.69,
+        252.8
+      ],
+      "z": [
+        7.16,
+        10.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_135",
+      "facade": "SOUTH",
+      "u": [
+        250.69,
+        252.8
+      ],
+      "z": [
+        17.1,
+        24.6
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_136",
+      "facade": "SOUTH",
+      "u": [
+        253.24,
+        255.41
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_137",
+      "facade": "SOUTH",
+      "u": [
+        260.47,
+        262.69
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_138",
+      "facade": "SOUTH",
+      "u": [
+        263.02,
+        265.24
+      ],
+      "z": [
+        3.32,
+        10.66
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_139",
+      "facade": "SOUTH",
+      "u": [
+        263.08,
+        265.13
+      ],
+      "z": [
+        17.16,
+        20.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_140",
+      "facade": "SOUTH",
+      "u": [
+        263.08,
+        265.19
+      ],
+      "z": [
+        21.04,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_141",
+      "facade": "SOUTH",
+      "u": [
+        265.52,
+        267.69
+      ],
+      "z": [
+        17.1,
+        24.49
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_142",
+      "facade": "SOUTH",
+      "u": [
+        265.58,
+        267.69
+      ],
+      "z": [
+        3.32,
+        6.77
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_143",
+      "facade": "SOUTH",
+      "u": [
+        265.58,
+        267.69
+      ],
+      "z": [
+        7.16,
+        10.71
+      ],
+      "plane_before": -4.35,
+      "plane_after": 2.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_144",
+      "facade": "SOUTH",
+      "u": [
+        271.63,
+        273.86
+      ],
+      "z": [
+        17.16,
+        24.16
+      ],
+      "plane_before": 60.52,
+      "plane_after": 44.21,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_145",
+      "facade": "SOUTH",
+      "u": [
+        271.63,
+        273.91
+      ],
+      "z": [
+        0.38,
+        6.88
+      ],
+      "plane_before": 60.52,
+      "plane_after": 44.21,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_146",
+      "facade": "SOUTH",
+      "u": [
+        271.63,
+        273.91
+      ],
+      "z": [
+        12.93,
+        16.66
+      ],
+      "plane_before": 60.52,
+      "plane_after": 44.21,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_147",
+      "facade": "SOUTH",
+      "u": [
+        271.63,
+        277.08
+      ],
+      "z": [
+        7.38,
+        10.66
+      ],
+      "plane_before": 60.52,
+      "plane_after": 44.21,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_148",
+      "facade": "SOUTH",
+      "u": [
+        274.41,
+        278.41
+      ],
+      "z": [
+        12.93,
+        15.27
+      ],
+      "plane_before": 60.52,
+      "plane_after": 44.21,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_SOUTH_149",
+      "facade": "SOUTH",
+      "u": [
+        277.58,
+        280.36
+      ],
+      "z": [
+        7.43,
+        10.66
+      ],
+      "plane_before": 60.52,
+      "plane_after": 44.21,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_001",
+      "facade": "NORTH",
+      "u": [
+        14.89,
+        17.17
+      ],
+      "z": [
+        3.24,
+        10.8
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_002",
+      "facade": "NORTH",
+      "u": [
+        14.89,
+        17.17
+      ],
+      "z": [
+        17.08,
+        20.69
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_003",
+      "facade": "NORTH",
+      "u": [
+        14.89,
+        17.17
+      ],
+      "z": [
+        21.02,
+        24.63
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_004",
+      "facade": "NORTH",
+      "u": [
+        20.06,
+        22.17
+      ],
+      "z": [
+        3.36,
+        10.69
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_005",
+      "facade": "NORTH",
+      "u": [
+        20.06,
+        22.17
+      ],
+      "z": [
+        17.08,
+        20.63
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_006",
+      "facade": "NORTH",
+      "u": [
+        20.06,
+        22.17
+      ],
+      "z": [
+        21.13,
+        24.58
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_007",
+      "facade": "NORTH",
+      "u": [
+        22.5,
+        24.73
+      ],
+      "z": [
+        7.3,
+        10.74
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_008",
+      "facade": "NORTH",
+      "u": [
+        22.56,
+        24.73
+      ],
+      "z": [
+        3.3,
+        6.8
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_009",
+      "facade": "NORTH",
+      "u": [
+        22.62,
+        24.73
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 61.09,
+      "plane_after": 54.2,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_056",
+      "facade": "NORTH",
+      "u": [
+        151.23,
+        157.45
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 203.03,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_057",
+      "facade": "NORTH",
+      "u": [
+        158.34,
+        164.56
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 203.03,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_058",
+      "facade": "NORTH",
+      "u": [
+        165.45,
+        171.62
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 203.03,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_059",
+      "facade": "NORTH",
+      "u": [
+        172.5,
+        178.78
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 203.03,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_060",
+      "facade": "NORTH",
+      "u": [
+        181.23,
+        187.45
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 203.03,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_061",
+      "facade": "NORTH",
+      "u": [
+        188.34,
+        194.56
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 203.03,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_062",
+      "facade": "NORTH",
+      "u": [
+        195.45,
+        201.62
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 203.03,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_063",
+      "facade": "NORTH",
+      "u": [
+        200.39,
+        202.5
+      ],
+      "z": [
+        0.24,
+        8.02
+      ],
+      "plane_before": 202.86,
+      "plane_after": 198.55,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_064",
+      "facade": "NORTH",
+      "u": [
+        202.5,
+        208.78
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 203.03,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_065",
+      "facade": "NORTH",
+      "u": [
+        211.23,
+        217.5
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 200.9,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_066",
+      "facade": "NORTH",
+      "u": [
+        218.34,
+        224.39
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 200.9,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_067",
+      "facade": "NORTH",
+      "u": [
+        225.45,
+        231.67
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 200.9,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_068",
+      "facade": "NORTH",
+      "u": [
+        232.5,
+        238.78
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 202.86,
+      "plane_after": 200.9,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_069",
+      "facade": "NORTH",
+      "u": [
+        241.23,
+        247.45
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 198.48,
+      "plane_after": 197.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_070",
+      "facade": "NORTH",
+      "u": [
+        250.34,
+        254.56
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 198.48,
+      "plane_after": 197.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_071",
+      "facade": "NORTH",
+      "u": [
+        255.45,
+        261.62
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 198.48,
+      "plane_after": 197.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_NORTH_072",
+      "facade": "NORTH",
+      "u": [
+        262.5,
+        268.78
+      ],
+      "z": [
+        30.24,
+        34.97
+      ],
+      "plane_before": 198.48,
+      "plane_after": 197.91,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_001",
+      "facade": "WEST",
+      "u": [
+        -0.25,
+        3.47
+      ],
+      "z": [
+        0.3,
+        2.97
+      ],
+      "plane_before": 6.91,
+      "plane_after": 9.04,
+      "diagonal": true
+    },
+    {
+      "object": "BI_open_WEST_002",
+      "facade": "WEST",
+      "u": [
+        -0.2,
+        3.47
+      ],
+      "z": [
+        3.3,
+        10.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 9.04,
+      "diagonal": true
+    },
+    {
+      "object": "BI_open_WEST_003",
+      "facade": "WEST",
+      "u": [
+        2.69,
+        4.75
+      ],
+      "z": [
+        17.13,
+        24.52
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_004",
+      "facade": "WEST",
+      "u": [
+        3.8,
+        7.3
+      ],
+      "z": [
+        0.3,
+        2.91
+      ],
+      "plane_before": 6.91,
+      "plane_after": 9.48,
+      "diagonal": true
+    },
+    {
+      "object": "BI_open_WEST_005",
+      "facade": "WEST",
+      "u": [
+        3.86,
+        7.41
+      ],
+      "z": [
+        3.3,
+        10.69
+      ],
+      "plane_before": 6.91,
+      "plane_after": 9.49,
+      "diagonal": true
+    },
+    {
+      "object": "BI_open_WEST_006",
+      "facade": "WEST",
+      "u": [
+        5.19,
+        7.3
+      ],
+      "z": [
+        17.08,
+        20.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_007",
+      "facade": "WEST",
+      "u": [
+        5.19,
+        7.3
+      ],
+      "z": [
+        21.02,
+        24.58
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_008",
+      "facade": "WEST",
+      "u": [
+        7.86,
+        11.47
+      ],
+      "z": [
+        0.3,
+        2.91
+      ],
+      "plane_before": 6.91,
+      "plane_after": 9.94,
+      "diagonal": true
+    },
+    {
+      "object": "BI_open_WEST_009",
+      "facade": "WEST",
+      "u": [
+        7.86,
+        11.47
+      ],
+      "z": [
+        3.36,
+        10.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 9.94,
+      "diagonal": true
+    },
+    {
+      "object": "BI_open_WEST_010",
+      "facade": "WEST",
+      "u": [
+        11.86,
+        15.47
+      ],
+      "z": [
+        0.3,
+        2.91
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.39,
+      "diagonal": true
+    },
+    {
+      "object": "BI_open_WEST_011",
+      "facade": "WEST",
+      "u": [
+        11.86,
+        15.47
+      ],
+      "z": [
+        3.36,
+        10.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.39,
+      "diagonal": true
+    },
+    {
+      "object": "BI_open_WEST_012",
+      "facade": "WEST",
+      "u": [
+        12.64,
+        14.75
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_013",
+      "facade": "WEST",
+      "u": [
+        15.19,
+        17.36
+      ],
+      "z": [
+        17.13,
+        20.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_014",
+      "facade": "WEST",
+      "u": [
+        15.19,
+        17.36
+      ],
+      "z": [
+        21.02,
+        24.52
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_015",
+      "facade": "WEST",
+      "u": [
+        20.41,
+        26.3
+      ],
+      "z": [
+        8.24,
+        10.8
+      ],
+      "plane_before": 6.91,
+      "plane_after": 12.3,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_016",
+      "facade": "WEST",
+      "u": [
+        20.86,
+        22.86
+      ],
+      "z": [
+        0.91,
+        7.52
+      ],
+      "plane_before": 6.91,
+      "plane_after": 12.3,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_017",
+      "facade": "WEST",
+      "u": [
+        22.52,
+        24.86
+      ],
+      "z": [
+        17.08,
+        24.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_018",
+      "facade": "WEST",
+      "u": [
+        23.86,
+        25.86
+      ],
+      "z": [
+        0.91,
+        7.52
+      ],
+      "plane_before": 6.91,
+      "plane_after": 12.3,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_019",
+      "facade": "WEST",
+      "u": [
+        25.14,
+        27.41
+      ],
+      "z": [
+        17.08,
+        20.69
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_020",
+      "facade": "WEST",
+      "u": [
+        25.14,
+        27.41
+      ],
+      "z": [
+        21.02,
+        24.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_021",
+      "facade": "WEST",
+      "u": [
+        32.52,
+        34.86
+      ],
+      "z": [
+        17.08,
+        24.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_022",
+      "facade": "WEST",
+      "u": [
+        35.14,
+        37.41
+      ],
+      "z": [
+        17.08,
+        20.69
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_023",
+      "facade": "WEST",
+      "u": [
+        35.14,
+        37.41
+      ],
+      "z": [
+        21.02,
+        24.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_024",
+      "facade": "WEST",
+      "u": [
+        42.52,
+        44.86
+      ],
+      "z": [
+        17.08,
+        24.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_025",
+      "facade": "WEST",
+      "u": [
+        45.14,
+        47.19
+      ],
+      "z": [
+        3.36,
+        10.63
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_026",
+      "facade": "WEST",
+      "u": [
+        47.52,
+        49.64
+      ],
+      "z": [
+        7.13,
+        10.69
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_027",
+      "facade": "WEST",
+      "u": [
+        47.52,
+        49.64
+      ],
+      "z": [
+        17.08,
+        24.58
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_028",
+      "facade": "WEST",
+      "u": [
+        47.58,
+        49.64
+      ],
+      "z": [
+        3.3,
+        6.74
+      ],
+      "plane_before": 6.91,
+      "plane_after": 10.67,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_029",
+      "facade": "WEST",
+      "u": [
+        54.3,
+        57.41
+      ],
+      "z": [
+        7.41,
+        15.3
+      ],
+      "plane_before": 6.91,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_030",
+      "facade": "WEST",
+      "u": [
+        55.91,
+        59.86
+      ],
+      "z": [
+        17.19,
+        24.58
+      ],
+      "plane_before": 6.91,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_031",
+      "facade": "WEST",
+      "u": [
+        55.97,
+        59.91
+      ],
+      "z": [
+        0.69,
+        7.02
+      ],
+      "plane_before": 6.91,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_032",
+      "facade": "WEST",
+      "u": [
+        57.86,
+        59.91
+      ],
+      "z": [
+        7.36,
+        16.69
+      ],
+      "plane_before": 6.91,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_033",
+      "facade": "WEST",
+      "u": [
+        60.41,
+        62.41
+      ],
+      "z": [
+        0.69,
+        6.97
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_034",
+      "facade": "WEST",
+      "u": [
+        60.41,
+        62.41
+      ],
+      "z": [
+        17.19,
+        24.58
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_035",
+      "facade": "WEST",
+      "u": [
+        60.41,
+        64.41
+      ],
+      "z": [
+        7.36,
+        16.69
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_036",
+      "facade": "WEST",
+      "u": [
+        62.91,
+        66.86
+      ],
+      "z": [
+        17.19,
+        24.58
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_037",
+      "facade": "WEST",
+      "u": [
+        62.97,
+        66.86
+      ],
+      "z": [
+        0.74,
+        6.97
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_038",
+      "facade": "WEST",
+      "u": [
+        64.91,
+        66.91
+      ],
+      "z": [
+        7.36,
+        16.69
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_039",
+      "facade": "WEST",
+      "u": [
+        67.3,
+        69.41
+      ],
+      "z": [
+        0.74,
+        6.97
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_040",
+      "facade": "WEST",
+      "u": [
+        67.41,
+        69.41
+      ],
+      "z": [
+        17.19,
+        24.58
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_041",
+      "facade": "WEST",
+      "u": [
+        67.41,
+        69.69
+      ],
+      "z": [
+        7.36,
+        12.97
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_042",
+      "facade": "WEST",
+      "u": [
+        67.47,
+        69.69
+      ],
+      "z": [
+        13.13,
+        16.74
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_043",
+      "facade": "WEST",
+      "u": [
+        69.8,
+        73.69
+      ],
+      "z": [
+        0.63,
+        6.97
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    },
+    {
+      "object": "BI_open_WEST_044",
+      "facade": "WEST",
+      "u": [
+        69.8,
+        73.69
+      ],
+      "z": [
+        17.13,
+        24.58
+      ],
+      "plane_before": 28.64,
+      "plane_after": 28.5,
+      "diagonal": false
+    }
+  ],
+  "skirts": [
+    "SITE_foundation_skirt_Z1_A",
+    "SITE_foundation_skirt_band_A",
+    "SITE_foundation_skirt_vestibule_A",
+    "SITE_foundation_skirt_end_block_A",
+    "SITE_foundation_skirt_Z4b_A",
+    "SITE_foundation_skirt_Z4a_A"
+  ],
+  "facade_regions": {
+    "regenerated": 57,
+    "changed": 55,
+    "removed": [
+      "FR_SOUTH_UNRES_S0"
+    ],
+    "added": [
+      "FR_EAST_UNRES_E0",
+      "FR_WEST_UNRES_W0"
+    ],
+    "area_by_mat_sqft": {
+      "BRK1": 8819.7,
+      "PNL2": 5290.2,
+      "PNL1": 13769.1,
+      "PNL3": 338.4,
+      "UNRES": 10.4,
+      "GLZ": 786.9,
+      "TWS1": 4963.2
+    }
+  },
+  "landscape": {
+    "groups_rebuilt": [
+      [
+        "ABKA",
+        "LP-101",
+        14
+      ],
+      [
+        "BUNN",
+        "LP-101",
+        15
+      ],
+      [
+        "CATM",
+        "LP-101",
+        13
+      ],
+      [
+        "COFA",
+        "LP-101",
+        10
+      ],
+      [
+        "CORA",
+        "LP-101",
+        5
+      ],
+      [
+        "CORA",
+        "LP-101",
+        6
+      ],
+      [
+        "CORA",
+        "LP-101",
+        11
+      ],
+      [
+        "DAZA",
+        "LP-101",
+        12
+      ],
+      [
+        "FOAR",
+        "LP-101",
+        4
+      ],
+      [
+        "GATE",
+        "LP-101",
+        13
+      ],
+      [
+        "JADE",
+        "LP-101",
+        7
+      ],
+      [
+        "JADE",
+        "LP-101",
+        11
+      ],
+      [
+        "JUNE",
+        "LP-101",
+        9
+      ],
+      [
+        "RUSS",
+        "LP-101",
+        9
+      ]
+    ],
+    "objects_built": [
+      "LS_shrub_ABKA_LP-101_n14",
+      "LS_shrub_BUNN_LP-101_n15",
+      "LS_groundcover_CATM_LP-101_n13",
+      "LS_shrub_COFA_LP-101_n10",
+      "LS_groundcover_CORA_LP-101_n5",
+      "LS_groundcover_CORA_LP-101_n6",
+      "LS_groundcover_CORA_LP-101_n11",
+      "LS_shrub_DAZA_LP-101_n12",
+      "LS_shrub_FOAR_LP-101_n4",
+      "LS_shrub_GATE_LP-101_n13",
+      "LS_shrub_JADE_LP-101_n7",
+      "LS_shrub_JADE_LP-101_n11",
+      "LS_groundcover_JUNE_LP-101_n9",
+      "LS_groundcover_RUSS_LP-101_n9"
+    ],
+    "plants_total_in_data": 608,
+    "plants_restored_to_documented_position": 84,
+    "plants_still_pushed": 0,
+    "still_pushed_detail": [],
+    "unresolved_symbols": 117,
+    "unresolved_symbols_pushed": 0
+  },
+  "cameras_added": [
+    "BI_cam_plan_top",
+    "BI_cam_plan_G8_south",
+    "BI_cam_plan_G9_wing_north",
+    "BI_cam_plan_G10_northeast",
+    "BI_cam_oblique_southeast"
+  ],
+  "gpu": "OPTIX",
+  "render_seconds": {
+    "plan_top": 21.0,
+    "plan_G8_south": 7.7,
+    "plan_G9_wing_north": 11.5,
+    "plan_G10_northeast": 11.1,
+    "oblique_northwest": 7.4,
+    "oblique_southeast": 7.3,
+    "site_elevated": 6.1,
+    "rear_south": 5.8,
+    "right_east": 6.4
+  }
+}

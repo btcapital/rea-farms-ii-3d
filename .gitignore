@@ -1,0 +1,13 @@
+# Rea Farms II 3D - files that must never be committed
+optix7cache.db
+*/viewer_url.txt
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+*.tmp
+*.blend1
+*.blend2
+.claude/

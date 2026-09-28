@@ -1,0 +1,308 @@
+{
+ "manifest": "Building II 3D-print phase manifest - v001 export (pass 3)",
+ "date": "2026-09-23",
+ "phase_status": "STL/3MF + TEST COUPONS EXPORTED AND VALIDATED - STOPPED AT APPROVAL GATE (no geometry change, no v002)",
+ "baseline_v023_sha256_before": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+ "baseline_v023_sha256_after": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+ "print_derivative_v001_sha256": "c4684e8d8345ff3105599b4ed2dbc67dbb47bc04bef0822bbae2eb8e36242875",
+ "units": "millimetres; model metres x 4.0 (1:250); STL unitless (mm values), 3MF unit=millimeter",
+ "production": {
+  "building_body": {
+   "size_mm": [
+    255.448,
+    137.897,
+    63.195
+   ],
+   "triangles": 10934,
+   "components": 1,
+   "threemf_watertight": true,
+   "stl_watertight_after_weld": false,
+   "resplit_polygons": 0
+  },
+  "site_base": {
+   "size_mm": [
+    330.0,
+    230.0,
+    35.966
+   ],
+   "triangles": 86616,
+   "components": 1,
+   "threemf_watertight": true,
+   "stl_watertight_after_weld": true,
+   "resplit_polygons": 14
+  },
+  "dropoff_canopy": {
+   "size_mm": [
+    79.993,
+    28.52,
+    24.332
+   ],
+   "triangles": 580,
+   "components": 1,
+   "threemf_watertight": true,
+   "stl_watertight_after_weld": true,
+   "resplit_polygons": 0
+  },
+  "sunshade": {
+   "size_mm": [
+    186.204,
+    98.116,
+    1.219
+   ],
+   "triangles": 7410,
+   "components": 1,
+   "threemf_watertight": true,
+   "stl_watertight_after_weld": true,
+   "resplit_polygons": 0
+  }
+ },
+ "coupons": {
+  "01": {
+   "name": "facade_storefront_railing",
+   "size_mm": [
+    28.0,
+    8.232,
+    26.174
+   ],
+   "watertight": true,
+   "components": 1
+  },
+  "02": {
+   "name": "facade_curtainwall_west",
+   "size_mm": [
+    10.724,
+    16.0,
+    24.4
+   ],
+   "watertight": true,
+   "components": 1
+  },
+  "03": {
+   "name": "canopy_bay_column_X1",
+   "size_mm": [
+    13.54,
+    28.52,
+    24.332
+   ],
+   "watertight": true,
+   "components": 1
+  },
+  "04": {
+   "name": "socket_bollards",
+   "size_mm": [
+    14.0,
+    7.2,
+    9.823
+   ],
+   "watertight": true,
+   "components": 1
+  },
+  "05": {
+   "name": "light_pole_1",
+   "size_mm": [
+    8.0,
+    8.8,
+    26.629
+   ],
+   "watertight": true,
+   "components": 1
+  },
+  "06": {
+   "name": "sunshade_SE_corner",
+   "size_mm": [
+    37.047,
+    28.933,
+    1.219
+   ],
+   "watertight": true,
+   "components": 1
+  },
+  "07": {
+   "name": "pocket_body_corner_SE",
+   "size_mm": [
+    15.904,
+    11.968,
+    11.754
+   ],
+   "watertight": true,
+   "components": 1
+  },
+  "08": {
+   "name": "pocket_site_corner_SE",
+   "size_mm": [
+    30.0,
+    30.0,
+    12.599
+   ],
+   "watertight": true,
+   "components": 1
+  }
+ },
+ "fit_check_mm": {
+  "03 canopy column in 04 socket (side walls)": 0.2,
+  "07 body corner in 08 pocket (side walls)": 0.3,
+  "design_clearance_mm": {
+   "socket": 0.2,
+   "pocket": 0.3
+  }
+ },
+ "open_item_for_owner": "building_body STL: 19 edge/point touch locations (25 edges) read as non-manifold after STL coordinate welding; the 3MF is watertight - use the 3MF; no geometry changed",
+ "files": [
+  {
+   "path": "models\\Building_II\\building_shell_v023.blend",
+   "role": "approved frozen source (READ-ONLY) - hashed before and after",
+   "bytes": 6509440,
+   "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91"
+  },
+  {
+   "path": "models\\Building_II\\print_derivatives\\building_II_print_v001.blend",
+   "role": "approved prepared print derivative v001 (read only in this phase)",
+   "bytes": 1779819,
+   "sha256": "c4684e8d8345ff3105599b4ed2dbc67dbb47bc04bef0822bbae2eb8e36242875"
+  },
+  {
+   "path": "models\\Building_II\\print_derivatives\\archive\\building_II_print_v001_audit_copy.blend",
+   "role": "pristine audit copy (= v023)",
+   "bytes": 6509440,
+   "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91"
+  },
+  {
+   "path": "scripts\\3d_print\\export_print_v001.py",
+   "role": "export script (STL/3MF + test coupons)",
+   "bytes": 13571,
+   "sha256": "8c6144dde10c168e20c2044b289bd5c27927cd8138c7507f6c096d22c7b2a126"
+  },
+  {
+   "path": "scripts\\3d_print\\validate_export_v001.py",
+   "role": "export validation script",
+   "bytes": 12898,
+   "sha256": "241ff830a037f871fa0fb2a8d9801e62db6279ecdf75d8f39e898c19f67c646e"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\building_II_v001_1-250_building_body.stl",
+   "role": "production STL (mm, 1:250)",
+   "bytes": 546784,
+   "sha256": "7d7d3fe1e464300f711b535091324757e3d74a22cabc48ba7afec7eb57ed76f7"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\building_II_v001_1-250_dropoff_canopy.stl",
+   "role": "production STL (mm, 1:250)",
+   "bytes": 29084,
+   "sha256": "a989f9a623e2778d8934c7dbf70fba031be0348492a7aa9ba0fcecb37c39a81e"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\building_II_v001_1-250_site_base.stl",
+   "role": "production STL (mm, 1:250)",
+   "bytes": 4330884,
+   "sha256": "9b5ee0824be7edf88cbd26b2a0599b9e830bf40ff8e4280ab5e2847af2b988d0"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\building_II_v001_1-250_sunshade.stl",
+   "role": "production STL (mm, 1:250)",
+   "bytes": 370584,
+   "sha256": "60be2efbb032e3941416e3c369e9d47844fabb0bf91d4ec11c18f4ec0431dc59"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_building_body.3mf",
+   "role": "production / test-plate 3MF (unit=millimeter, 1:250)",
+   "bytes": 97144,
+   "sha256": "006e7bd00fff97a7e289a69a2343bee8ca6f1502138385d7a1c51d755b2a0639"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_dropoff_canopy.3mf",
+   "role": "production / test-plate 3MF (unit=millimeter, 1:250)",
+   "bytes": 6246,
+   "sha256": "c1fbf86f5190defcadfc2579e928522829e1abed4f146e55ca6008a9e8f91156"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_site_base.3mf",
+   "role": "production / test-plate 3MF (unit=millimeter, 1:250)",
+   "bytes": 1067965,
+   "sha256": "70165f4fcc187a9416852d78f46fcb2cd53170d7971d4edc8c54fb573fe41b5a"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_sunshade.3mf",
+   "role": "production / test-plate 3MF (unit=millimeter, 1:250)",
+   "bytes": 68542,
+   "sha256": "ee961c9fd268bcd42fd89d556a045b18b35b80cb4120af395608a98b4e424dd2"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v001_1-250_test_coupons_v001.3mf",
+   "role": "production / test-plate 3MF (unit=millimeter, 1:250)",
+   "bytes": 82551,
+   "sha256": "1b5d7cec56bdc12c25cc8d56f30a95f6128e2c2a8431a8cbf819d27deaca5612"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_01_facade_storefront_railing.stl",
+   "role": "test coupon STL (mm, 1:250)",
+   "bytes": 15984,
+   "sha256": "57b6ef5770c2a458d4d7e47fbfc7c4d49c4cb90ff790d840b2a251684efeff3a"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_02_facade_curtainwall_west.stl",
+   "role": "test coupon STL (mm, 1:250)",
+   "bytes": 22684,
+   "sha256": "46b737fe9d119093f2ef5661887b28c5f3e7a90cbd2798883c56a42bf38eb12e"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_03_canopy_bay_column_X1.stl",
+   "role": "test coupon STL (mm, 1:250)",
+   "bytes": 14284,
+   "sha256": "d775d234b9985fa5b051bd7b1d893b2fd08bbcd62e23d7f94a784ae893e39b02"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_04_socket_bollards.stl",
+   "role": "test coupon STL (mm, 1:250)",
+   "bytes": 12184,
+   "sha256": "1e7517237dc885618fd0635efdbbfbaff95f9ff34375fd44c77d7fe5f64093c6"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_05_light_pole_1.stl",
+   "role": "test coupon STL (mm, 1:250)",
+   "bytes": 44284,
+   "sha256": "0aec416c242dfa81f22a88666bbecdea9c03912df7dbb3c8485321005e2fd8bf"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_06_sunshade_SE_corner.stl",
+   "role": "test coupon STL (mm, 1:250)",
+   "bytes": 59384,
+   "sha256": "ab68564487afbb227e790043a83a969bb578d4c63a753dbef1c7f6a936a767cc"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_07_pocket_body_corner_SE.stl",
+   "role": "test coupon STL (mm, 1:250)",
+   "bytes": 3784,
+   "sha256": "d80ee097891dbc1d0b76c5ad617d9e4c192bb67ad836cd29e1077c96b8f72d4b"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\stl\\test_coupons_v001\\building_II_v001_1-250_testcoupon_08_pocket_site_corner_SE.stl",
+   "role": "test coupon STL (mm, 1:250)",
+   "bytes": 201784,
+   "sha256": "a9878be50a376c811f795687bbe1ba4085359acee825746af07918d220ec3f8e"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_export_v001_written.json",
+   "role": "export record",
+   "bytes": 6239,
+   "sha256": "af49bf6c91d24451c9048a03b630e6e21919111aa8c23862bab977f18ba728ec"
+  },
+  {
+   "path": "exports\\Building_II\\3d_print\\validation\\print_export_v001_validation.json",
+   "role": "export validation results",
+   "bytes": 21195,
+   "sha256": "66d66930763ef73c0f39118084a3b9a39109a454d4980d7f71e5d3186a56a81e"
+  },
+  {
+   "path": "notes\\3d_print\\PRINT_EXPORT.md",
+   "role": "export note + slicer guidance",
+   "bytes": 17153,
+   "sha256": "04243e786a3adc5c237a1da2b1df183ddc269467414a45a54f0ce16a8035d1bc"
+  },
+  {
+   "path": "notes\\3d_print\\PRINT_CONTROL.md",
+   "role": "print control note",
+   "bytes": 34388,
+   "sha256": "d5e2d6f322441bbabe3fc8d57c0a4dcb740ed041a7b0743a810fb9c3106a6b21"
+  }
+ ]
+}

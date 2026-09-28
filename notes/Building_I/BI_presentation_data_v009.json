@@ -1,0 +1,522 @@
+{
+ "meta": {
+  "version": "v009",
+  "date": "2026-09-23",
+  "base_model": "models/Building_I/BI_footprint_v008.blend (owner-approved 2026-09-23)",
+  "scope": "presentation realism only: material node trees, world/sky, exposure, cameras, render settings. Geometry, openings, plants, site and context untouched (hash-verified).",
+  "colour_space": "linear RGB (Blender base colour); tones derived from the documented products (v002 material control) and checked against the genuine photographs 2025-09-09 and 2026-07-28; placeholders keep their v002 tones",
+  "units": "metres in node space (Blender units); brick module 12 in x 4 in course = 0.3048 x 0.1016 m incl. 3/8 in joints = 0.0095 m"
+ },
+ "sky": {
+  "type": "MULTIPLE_SCATTERING",
+  "sun_disc": true,
+  "sun_intensity": 1.0,
+  "sun_elevation_deg": 42.0,
+  "sun_rotation_deg": 75.0,
+  "rotation_convention": "test scene 2026-09-23: 0 deg = sun from north (+Y), 90 deg = from east (+X); 75 deg = from the east-north-east, elevation 42 deg = a clear summer morning in Charlotte, chosen so the north entrance face receives grazing sun and the east face full sun (the v001 validation sun came from the south-west and left the front in shade)",
+  "altitude_m": 220,
+  "air_density": 1.0,
+  "aerosol_density": 1.0,
+  "ozone_density": 1.0,
+  "strength": 1.0,
+  "v001_sun_lamp": "BI_sun hidden for render (not deleted)",
+  "ground_below_horizon": {
+   "color": [
+    0.3,
+    0.3,
+    0.28
+   ],
+   "strength": 20.0,
+   "note": "world shader only: below the horizon the physical sky is dark; a neutral matte ground tone is shown there so views that look past the modeled terrain do not fall into black. Not geometry, not context. Strength 20 chosen from trials (10/25/60): reads as a neutral mid-light grey close to the sunlit lawn/walk tones."
+  }
+ },
+ "view": {
+  "transform": "AgX",
+  "look": "None",
+  "exposure": -4.3,
+  "exposure_basis": "test scene: 18 % grey ground under this sky reads 0.47 at exposure -5.0; -4.3 chosen after trial renders so the shaded north face reads mid-tone (no clipping in the trial views)",
+  "gamma": 1.0
+ },
+ "render": {
+  "engine": "CYCLES",
+  "samples": 256,
+  "denoise": true,
+  "filter_px": 1.5,
+  "caustics": false,
+  "clamp_indirect": 10.0,
+  "persistent_data": true,
+  "depth_of_field": false,
+  "motion_blur": false
+ },
+ "cameras_new": {
+  "BI_cam_hero_front": {
+   "loc": [
+    60.0,
+    340.0,
+    22.0
+   ],
+   "target": [
+    140.0,
+    105.0,
+    12.0
+   ],
+   "lens": 32.0
+  },
+  "BI_cam_material_closeup": {
+   "loc": [
+    300.0,
+    228.0,
+    6.0
+   ],
+   "target": [
+    255.0,
+    200.0,
+    15.0
+   ],
+   "lens": 32.0,
+   "note": "north-east corner: north face PNL1 base / TWS1 clerestory band / storefront lites, the notch east wall (brick, windows) and the stair block"
+  }
+ },
+ "views": {
+  "1_front_hero": [
+   "BI_cam_hero_front",
+   [
+    2400,
+    1350
+   ]
+  ],
+  "2_entrance_oblique": [
+   "BI_cam_entrance_oblique",
+   [
+    2000,
+    1400
+   ]
+  ],
+  "3_southeast_oblique": [
+   "BI_cam_oblique_southeast",
+   [
+    2000,
+    1400
+   ]
+  ],
+  "4_northwest_oblique": [
+   "BI_cam_oblique_northwest",
+   [
+    2000,
+    1400
+   ]
+  ],
+  "5_site_elevated": [
+   "BI_cam_site_elevated",
+   [
+    2000,
+    1400
+   ]
+  ],
+  "6_facade_material_closeup": [
+   "BI_cam_material_closeup",
+   [
+    2000,
+    1400
+   ]
+  ]
+ },
+ "materials": {
+  "BRK1_Endicott_Manganese_Ironspot_utility": {
+   "kind": "brick",
+   "brick1": [
+    0.17,
+    0.145,
+    0.13
+   ],
+   "brick2": [
+    0.1,
+    0.09,
+    0.09
+   ],
+   "mortar": [
+    0.52,
+    0.5,
+    0.47
+   ],
+   "rough_brick": 0.72,
+   "rough_mortar": 0.9,
+   "bump": 0.35,
+   "mottle": 0.35,
+   "conf": "W product / I shading",
+   "source": "A4.01 legend Endicott Manganese Ironspot Smooth utility, light gray mortar; PCO 14"
+  },
+  "SITE_brick_veneer_wall": {
+   "kind": "brick",
+   "brick1": [
+    0.17,
+    0.145,
+    0.13
+   ],
+   "brick2": [
+    0.1,
+    0.09,
+    0.09
+   ],
+   "mortar": [
+    0.52,
+    0.5,
+    0.47
+   ],
+   "rough_brick": 0.72,
+   "rough_mortar": 0.9,
+   "bump": 0.35,
+   "mottle": 0.35,
+   "conf": "I",
+   "source": "PCO 17 / RFI 78 brick to match building brick; dumpster enclosure brick unresolved (SC-1) - same shader, placeholder status unchanged"
+  },
+  "PNL1_Alucobond_PLUS_PVDF_Bone_White": {
+   "kind": "painted",
+   "base": [
+    0.8,
+    0.76,
+    0.66
+   ],
+   "rough": 0.32,
+   "spec": 0.5,
+   "metallic": 0.0,
+   "conf": "C colour / I shading",
+   "source": "closeout Alucobond PLUS PVDF-2 Bone White"
+  },
+  "PNL2_Alucobond_PLUS_SMP_Tricorn_Black": {
+   "kind": "painted",
+   "base": [
+    0.028,
+    0.028,
+    0.03
+   ],
+   "rough": 0.4,
+   "spec": 0.5,
+   "metallic": 0.0,
+   "conf": "C / I",
+   "source": "closeout Alucobond PLUS SMP Tricorn Black"
+  },
+  "UNRES_PNL3_flush_reveal_medium_gray": {
+   "kind": "painted",
+   "base": null,
+   "rough": 0.45,
+   "spec": 0.5,
+   "metallic": 0.0,
+   "conf": "U",
+   "source": "placeholder colour kept"
+  },
+  "SCREEN_Alucopanel_FR_Enoc_White": {
+   "kind": "painted",
+   "base": [
+    0.86,
+    0.87,
+    0.86
+   ],
+   "rough": 0.4,
+   "spec": 0.5,
+   "metallic": 0.0,
+   "conf": "C",
+   "source": "CONT 8 Alucopanel FR Enoc White"
+  },
+  "UNRES_exposed_steel_canopy_framing": {
+   "kind": "painted",
+   "base": null,
+   "rough": 0.45,
+   "spec": 0.5,
+   "metallic": 0.3,
+   "conf": "U",
+   "source": "placeholder colour kept; painted-steel sheen"
+  },
+  "UNRES_vestibule_100_enclosure": {
+   "kind": "painted",
+   "base": null,
+   "rough": 0.5,
+   "spec": 0.5,
+   "metallic": 0.0,
+   "conf": "U",
+   "source": "placeholder kept"
+  },
+  "UNRES_unclassified_wall_area": {
+   "kind": "painted",
+   "base": null,
+   "rough": 0.6,
+   "spec": 0.5,
+   "metallic": 0.0,
+   "conf": "U",
+   "source": "placeholder kept"
+  },
+  "CTX_Building_II_plain_mass": {
+   "kind": "painted",
+   "base": null,
+   "rough": 0.9,
+   "spec": 0.3,
+   "metallic": 0.0,
+   "conf": "context",
+   "source": "unchanged tone"
+  },
+  "ROOF_JM_TPO_60mil_white": {
+   "kind": "ground",
+   "base": [
+    0.8,
+    0.8,
+    0.78
+   ],
+   "noise_scale": 6.0,
+   "noise_amount": 0.08,
+   "rough": 0.75,
+   "bump": 0.02,
+   "conf": "C",
+   "source": "closeout JM TPO 60 mil white"
+  },
+  "TWS1_Kingspan_Unigrid_Verti-Lite_white": {
+   "kind": "translucent",
+   "base": [
+    0.9,
+    0.9,
+    0.9
+   ],
+   "transmission": 0.35,
+   "rough": 0.5,
+   "conf": "W / I",
+   "source": "A7.27 Kingspan Unigrid Verti-Lite white; rib pattern not documented"
+  },
+  "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder": {
+   "kind": "glass_reflective",
+   "base": [
+    0.05,
+    0.07,
+    0.085
+   ],
+   "rough": 0.04,
+   "spec": 0.6,
+   "conf": "W glass / U frames",
+   "source": "Viracon VZE1-42 insulating; opaque reflective placeholder (no interiors), frames not modeled"
+  },
+  "CANOPY_1in_laminated_clear_glass": {
+   "kind": "clear_glass",
+   "base": [
+    0.88,
+    0.95,
+    0.92
+   ],
+   "rough": 0.02,
+   "ior": 1.52,
+   "conf": "W",
+   "source": "A1.13 1 in laminated clear glass"
+  },
+  "SITE_asphalt": {
+   "kind": "ground",
+   "base": [
+    0.07,
+    0.07,
+    0.072
+   ],
+   "noise_scale": 2.0,
+   "noise_amount": 0.3,
+   "rough": 0.85,
+   "bump": 0.01,
+   "conf": "I",
+   "source": "v003 asphalt"
+  },
+  "SITE_concrete_walk": {
+   "kind": "ground",
+   "base": [
+    0.5,
+    0.49,
+    0.46
+   ],
+   "noise_scale": 4.0,
+   "noise_amount": 0.15,
+   "rough": 0.8,
+   "bump": 0.01,
+   "conf": "I",
+   "source": "v003 concrete"
+  },
+  "SITE_pavers_Techo-Bloc_Westmount_Onyx_placeholder": {
+   "kind": "ground",
+   "base": null,
+   "noise_scale": 3.0,
+   "noise_amount": 0.2,
+   "rough": 0.7,
+   "bump": 0.01,
+   "conf": "placeholder",
+   "source": "paver module not documented - no joint pattern"
+  },
+  "SITE_lawn_INTERPOLATED_terrain": {
+   "kind": "ground",
+   "base": [
+    0.2,
+    0.29,
+    0.11
+   ],
+   "noise_scale": 0.8,
+   "noise_amount": 0.35,
+   "rough": 0.95,
+   "bump": 0.0,
+   "conf": "I",
+   "source": "v003 interpolated lawn"
+  },
+  "SITE_foundation_skirt_A": {
+   "kind": "ground",
+   "base": [
+    0.3,
+    0.25,
+    0.2
+   ],
+   "noise_scale": 2.0,
+   "noise_amount": 0.2,
+   "rough": 1.0,
+   "bump": 0.0,
+   "conf": "A",
+   "source": "earth tone below grade"
+  },
+  "LS_mulch": {
+   "kind": "ground",
+   "base": [
+    0.14,
+    0.09,
+    0.05
+   ],
+   "noise_scale": 8.0,
+   "noise_amount": 0.4,
+   "rough": 0.95,
+   "bump": 0.02,
+   "conf": "I",
+   "source": "v004 mulch"
+  },
+  "LS_foliage_tree": {
+   "kind": "foliage",
+   "base": [
+    0.15,
+    0.3,
+    0.09
+   ],
+   "hue_var": 0.06,
+   "val_var": 0.5,
+   "sss": 0.15,
+   "rough": 0.85,
+   "conf": "I",
+   "source": "v004"
+  },
+  "LS_foliage_existing": {
+   "kind": "foliage",
+   "base": [
+    0.13,
+    0.27,
+    0.09
+   ],
+   "hue_var": 0.06,
+   "val_var": 0.5,
+   "sss": 0.15,
+   "rough": 0.85,
+   "conf": "I",
+   "source": "v004"
+  },
+  "LS_shrub_green": {
+   "kind": "foliage",
+   "base": [
+    0.18,
+    0.33,
+    0.12
+   ],
+   "hue_var": 0.08,
+   "val_var": 0.5,
+   "sss": 0.15,
+   "rough": 0.85,
+   "conf": "I",
+   "source": "v004"
+  },
+  "LS_shrub_purple": {
+   "kind": "foliage",
+   "base": [
+    0.25,
+    0.13,
+    0.2
+   ],
+   "hue_var": 0.06,
+   "val_var": 0.4,
+   "sss": 0.1,
+   "rough": 0.85,
+   "conf": "I",
+   "source": "v004"
+  },
+  "LS_shrub_grass": {
+   "kind": "foliage",
+   "base": [
+    0.52,
+    0.5,
+    0.28
+   ],
+   "hue_var": 0.06,
+   "val_var": 0.4,
+   "sss": 0.2,
+   "rough": 0.9,
+   "conf": "I",
+   "source": "v004"
+  },
+  "LS_groundcover": {
+   "kind": "foliage",
+   "base": [
+    0.38,
+    0.46,
+    0.18
+   ],
+   "hue_var": 0.08,
+   "val_var": 0.4,
+   "sss": 0.15,
+   "rough": 0.9,
+   "conf": "I",
+   "source": "v004"
+  },
+  "LS_annual": {
+   "kind": "foliage",
+   "base": [
+    0.4,
+    0.36,
+    0.3
+   ],
+   "hue_var": 0.1,
+   "val_var": 0.4,
+   "sss": 0.2,
+   "rough": 0.9,
+   "conf": "I",
+   "source": "v004 annual/seasonal bed placeholder; flower colour undocumented -> neutral bed tone"
+  },
+  "LS_unresolved_grey_green": {
+   "kind": "foliage",
+   "base": null,
+   "hue_var": 0.0,
+   "val_var": 0.3,
+   "sss": 0.1,
+   "rough": 0.9,
+   "conf": "U",
+   "source": "placeholder colour kept"
+  },
+  "LS_trunk": {
+   "kind": "bark",
+   "base": [
+    0.17,
+    0.12,
+    0.08
+   ],
+   "rough": 0.9,
+   "bump": 0.03,
+   "conf": "I",
+   "source": "v004"
+  }
+ },
+ "shade_smooth": {
+  "all_faces_prefixes": [
+   "LS_",
+   "CTX_existing_street_tree"
+  ],
+  "top_faces_prefixes": [
+   "SITE_terrain",
+   "SITE_asphalt",
+   "SITE_entry",
+   "SITE_plaza",
+   "SITE_walk"
+  ],
+  "note": "smooth shading flag on the plant spheres (all faces) and on the top faces of the interpolated terrain and hardscape slabs (presentation setting, no geometry change)"
+ }
+}

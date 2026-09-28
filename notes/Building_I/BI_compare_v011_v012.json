@@ -1,0 +1,118 @@
+{
+  "v011_objects": 813,
+  "v012_objects": 816,
+  "building_facade_openings_canopy_objects_excluding_the_two_rebuilt_regions": 509,
+  "finish_regions_changed": [
+    "FR_NORTH_BRK1_N1",
+    "FR_NORTH_PNL1_N3"
+  ],
+  "building_objects_changed": [],
+  "building_objects_missing": [],
+  "building_identical": true,
+  "objects_changed": {
+    "site": [],
+    "landscape": [],
+    "other": [
+      "FR_NORTH_BRK1_N1",
+      "FR_NORTH_PNL1_N3"
+    ]
+  },
+  "objects_added": [
+    "BI_cam_photo_match_drone_2026-07-28a",
+    "FR_NORTH_GLZ_N2b",
+    "FR_NORTH_PNL1_N3b"
+  ],
+  "objects_removed": [],
+  "objects_changed_count": 2,
+  "objects_identical_count": 811,
+  "materials_changed_node_trees": [],
+  "materials_added": [],
+  "materials_removed": [],
+  "world_nodes_identical": true,
+  "view_identical": true,
+  "samples": {
+    "v011": 256,
+    "v012": 256
+  },
+  "cameras_added": [
+    "BI_cam_photo_match_drone_2026-07-28a"
+  ],
+  "bbox_ft_changed_and_added": {
+    "FR_NORTH_BRK1_N1": {
+      "v011": [
+        7.0,
+        -2.32,
+        0.0,
+        40.0,
+        74.41,
+        40.0,
+        141,
+        50,
+        "BRK1_Endicott_Manganese_Ironspot_utility"
+      ],
+      "v012": [
+        7.0,
+        -2.32,
+        0.0,
+        40.0,
+        54.23,
+        40.0,
+        105,
+        38,
+        "BRK1_Endicott_Manganese_Ironspot_utility"
+      ]
+    },
+    "FR_NORTH_PNL1_N3": {
+      "v011": [
+        40.0,
+        -0.43,
+        0.0,
+        72.0,
+        169.65,
+        40.0,
+        38,
+        13,
+        "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+      ],
+      "v012": [
+        40.0,
+        -0.43,
+        0.0,
+        72.0,
+        169.65,
+        40.0,
+        29,
+        10,
+        "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+      ]
+    },
+    "FR_NORTH_GLZ_N2b": {
+      "v011": null,
+      "v012": [
+        28.5,
+        74.41,
+        0.0,
+        40.7,
+        74.41,
+        24.6,
+        42,
+        14,
+        "GLZ_Viracon_VZE1-42_in_EFCO_framing_placeholder"
+      ]
+    },
+    "FR_NORTH_PNL1_N3b": {
+      "v011": null,
+      "v012": [
+        28.5,
+        74.41,
+        24.08,
+        40.0,
+        74.41,
+        40.0,
+        4,
+        1,
+        "PNL1_Alucobond_PLUS_PVDF_Bone_White"
+      ]
+    }
+  }
+}

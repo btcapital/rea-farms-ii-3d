@@ -1,0 +1,296 @@
+{
+  "version": "v006",
+  "base": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_landscape_v005.blend",
+  "kept_mesh_objects": 645,
+  "geometry_hash_kept": "f513c3c3e7e5e1a38521d6677bed892d1b7c01222ddcabf8d12ff40e71914a39",
+  "unrelated_geometry_unchanged": true,
+  "A_placeholders_moved": [
+    {
+      "object": "BI_open_NORTH_015",
+      "x_ft": [
+        40.67,
+        42.67
+      ],
+      "z_ft": [
+        17.13,
+        24.52
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_017",
+      "x_ft": [
+        43.0,
+        45.17
+      ],
+      "z_ft": [
+        17.13,
+        24.58
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_018",
+      "x_ft": [
+        43.17,
+        47.17
+      ],
+      "z_ft": [
+        11.69,
+        14.02
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_020",
+      "x_ft": [
+        45.5,
+        49.67
+      ],
+      "z_ft": [
+        17.13,
+        24.58
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_022",
+      "x_ft": [
+        47.5,
+        49.5
+      ],
+      "z_ft": [
+        11.69,
+        14.02
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_023",
+      "x_ft": [
+        50.0,
+        52.17
+      ],
+      "z_ft": [
+        17.13,
+        24.58
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_025",
+      "x_ft": [
+        50.5,
+        54.17
+      ],
+      "z_ft": [
+        11.69,
+        14.02
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_026",
+      "x_ft": [
+        52.5,
+        56.67
+      ],
+      "z_ft": [
+        17.13,
+        24.58
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_028",
+      "x_ft": [
+        54.5,
+        56.67
+      ],
+      "z_ft": [
+        11.69,
+        14.02
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_030",
+      "x_ft": [
+        57.0,
+        59.28
+      ],
+      "z_ft": [
+        11.69,
+        14.02
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_031",
+      "x_ft": [
+        57.0,
+        59.28
+      ],
+      "z_ft": [
+        17.13,
+        24.58
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    },
+    {
+      "object": "BI_open_NORTH_032",
+      "x_ft": [
+        60.62,
+        63.67
+      ],
+      "z_ft": [
+        17.13,
+        24.58
+      ],
+      "plane_before_ft": 83.55,
+      "plane_after_ft": 83.55,
+      "shift_ft": -9.2
+    }
+  ],
+  "A_count": 12,
+  "A_shift_ft": -9.2,
+  "B_z4b": {
+    "cap_faces_before": 24,
+    "sliver_faces_removed": 10,
+    "unused_vertices_removed": 16,
+    "removed_vertices_ft": [
+      [
+        28.75,
+        74.38,
+        0.0
+      ],
+      [
+        28.75,
+        74.38,
+        32.82
+      ],
+      [
+        29.25,
+        73.75,
+        0.0
+      ],
+      [
+        29.25,
+        73.75,
+        32.79
+      ],
+      [
+        29.28,
+        70.58,
+        0.0
+      ],
+      [
+        29.28,
+        70.58,
+        32.62
+      ],
+      [
+        39.62,
+        73.88,
+        0.0
+      ],
+      [
+        39.62,
+        73.88,
+        32.8
+      ],
+      [
+        39.62,
+        74.38,
+        0.0
+      ],
+      [
+        39.62,
+        74.38,
+        32.82
+      ],
+      [
+        60.25,
+        73.88,
+        0.0
+      ],
+      [
+        60.25,
+        73.88,
+        32.8
+      ],
+      [
+        60.25,
+        74.38,
+        0.0
+      ],
+      [
+        60.25,
+        74.38,
+        32.82
+      ],
+      [
+        71.0,
+        73.75,
+        0.0
+      ],
+      [
+        71.0,
+        73.75,
+        32.79
+      ]
+    ],
+    "notch_triangles_before": 8,
+    "notch_triangles_after": 0,
+    "vertices_moved_or_added": 0,
+    "vertex_count_before": 28,
+    "vertex_count_after": 12
+  },
+  "C_facade_regions": {
+    "regenerated": 56,
+    "changed": [
+      "FR_NORTH_BRK1_N1",
+      "FR_NORTH_GLZ_N2",
+      "FR_NORTH_PNL1_N3",
+      "FR_WEST_GLZ_W2",
+      "FR_WEST_PNL1_W2b"
+    ],
+    "removed": []
+  },
+  "canopy_changed": false,
+  "cameras_added": [
+    "BI_cam_entrance_elevation_ortho",
+    "BI_cam_entrance_oblique",
+    "BI_cam_entrance_side_depth"
+  ],
+  "gpu": "OPTIX",
+  "render_seconds": {
+    "entrance_closeup": 17.6,
+    "entrance_elevation_ortho": 16.8,
+    "entrance_oblique": 17.7,
+    "entrance_side_depth": 17.7,
+    "front_north_elevation": 11.9
+  }
+}

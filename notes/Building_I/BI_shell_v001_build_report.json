@@ -1,0 +1,155 @@
+{
+  "version": "v001",
+  "data_file": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\notes\\Building_I\\BI_geometry_data_v001.json",
+  "blend": "C:\\Users\\Brandon\\OneDrive - Taylor Capital\\Shared - Documents\\Dormie Equity Partners, LP\\11425 Golf Links Drive, LLC\\Rea Farms II 3D\\models\\Building_I\\BI_shell_v001.blend",
+  "shell_extent_ft": {
+    "min": [
+      6.88,
+      -4.38,
+      0.0
+    ],
+    "max": [
+      287.0,
+      202.88,
+      40.1
+    ],
+    "size": [
+      280.12,
+      207.26,
+      40.1
+    ]
+  },
+  "expected_ft": {
+    "x_union": 280.12,
+    "y_union": 207.25,
+    "max_top": 40.1
+  },
+  "objects_per_collection": {
+    "01_Shell": 7,
+    "02_Parapet_screens": 9,
+    "03_Canopy": 10,
+    "04_Openings": 376,
+    "05_Grid_control": 39,
+    "06_Reference": 2,
+    "90_Cameras": 6
+  },
+  "zone_bboxes_ft": {
+    "Z1_south_wing": [
+      [
+        6.88,
+        -4.38,
+        0.0
+      ],
+      [
+        271.38,
+        70.583,
+        33.3
+      ]
+    ],
+    "Z2_band_E_F2": [
+      [
+        28.62,
+        61.12,
+        0.0
+      ],
+      [
+        71.0,
+        74.38,
+        40.0
+      ]
+    ],
+    "Z3_vestibule_100": [
+      [
+        38.25,
+        74.54,
+        0.0
+      ],
+      [
+        62.25,
+        83.58,
+        9.0
+      ]
+    ],
+    "Z4a_north_block": [
+      [
+        71.0,
+        97.75,
+        0.0
+      ],
+      [
+        287.0,
+        202.88,
+        39.697
+      ]
+    ],
+    "Z4b_north_block_south_part": [
+      [
+        28.713,
+        70.583,
+        0.0
+      ],
+      [
+        271.38,
+        97.75,
+        34.073
+      ]
+    ],
+    "Z5_end_block_13_14": [
+      [
+        271.38,
+        60.5,
+        0.0
+      ],
+      [
+        281.0,
+        97.75,
+        32.0
+      ]
+    ],
+    "Z6_mech_screen": [
+      [
+        120.0,
+        30.2,
+        31.0
+      ],
+      [
+        210.0,
+        70.7,
+        40.1
+      ]
+    ],
+    "L2_floor_slab": [
+      [
+        6.88,
+        -4.38,
+        14.833
+      ],
+      [
+        271.38,
+        70.583,
+        15.333
+      ]
+    ]
+  },
+  "openings_placed": 376,
+  "openings_skipped": 0,
+  "screen_strips": 9,
+  "wing_polygon_vertices": 12,
+  "north_polygon_vertices": [
+    49,
+    14
+  ],
+  "gpu": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA RTX A1000"
+    ]
+  },
+  "render_seconds": {
+    "front_north": 5.3,
+    "rear_south": 4.6,
+    "left_west": 5.4,
+    "right_east": 4.8,
+    "oblique_northwest": 5.3
+  }
+}
