@@ -1,6 +1,8 @@
 # Building II — print exports and first-print guidance
 
-* **Part C — v003 MULTICOLOR at 1:240 (2026-09-29): CURRENT.** Four Bambu multi-part 3MF files, validated and slice-tested on the H2S profile. **Awaiting owner review before they go to Austin.**
+* **Part C — v003 MULTICOLOR at 1:240 (2026-09-29): CURRENT — APPROVED FOR HANDOFF AND FROZEN.** Four Bambu multi-part 3MF files, validated and slice-tested on the H2S profile.
+  - Handoff package: `exports\Building_II\3d_print\handoff\Building_II_v003_multicolor_Austin_2026-09-29\` (+ `.zip`). It contains the four 3MF files (byte-identical to `3mf\`) and `README.txt`.
+  - Freeze record: `manifests\3d_print\print_phase_v003_FROZEN_2026-09-29.sha256`.
 * Part A — v002 at 1:240 (2026-09-25): the printed and approved single-colour package. **Frozen**; its files are unchanged.
 * Part B — v001 at 1:250 (2026-09-23): superseded and kept below unchanged. Its files are still on disk and were not overwritten.
 

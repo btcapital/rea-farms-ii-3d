@@ -1,0 +1,28 @@
+{
+ "freeze": "Building II print v003 MULTICOLOR - APPROVED FOR HANDOFF AND FROZEN",
+ "date": "2026-09-29",
+ "owner_statement": "v003 multicolor is approved for handoff. Do not make any further geometry or color changes.",
+ "rule": "no further geometry or colour changes to v003; any change = a new version (v004). Verify with: sha256sum -c manifests/3d_print/print_phase_v003_FROZEN_2026-09-29.sha256 (from the project root)",
+ "frozen_v003_files": 48,
+ "handoff_package": {
+  "folder": "exports/Building_II/3d_print/handoff/Building_II_v003_multicolor_Austin_2026-09-29",
+  "zip": "exports/Building_II/3d_print/handoff/Building_II_v003_multicolor_Austin_2026-09-29.zip",
+  "contents": [
+   "README.txt",
+   "building_II_v003_1-240_dropoff_canopy.3mf",
+   "building_II_v003_1-240_multicolor_building.3mf",
+   "building_II_v003_1-240_site_base.3mf",
+   "building_II_v003_1-240_sunshade.3mf"
+  ]
+ },
+ "living_documents_not_frozen": [
+  "notes/3d_print/PRINT_CONTROL.md",
+  "notes/3d_print/PRINT_VALIDATION.md",
+  "notes/3d_print/PRINT_EXPORT.md"
+ ],
+ "also_frozen_unchanged_sha256": {
+  "v023": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+  "print_v001": "c4684e8d8345ff3105599b4ed2dbc67dbb47bc04bef0822bbae2eb8e36242875",
+  "print_v002": "9aa5e3a4574e758f7fc914d9e6df887482791585a673d8b542420e7f4369a27c"
+ }
+}

@@ -1,6 +1,6 @@
 # Building II — print derivatives: geometry validation
 
-* **Part C — v003 MULTICOLOR at 1:240 (2026-09-29): CURRENT — the v002 geometry plus colour overlay parts (White / Black / Gray / Clear). Validated, exported and slice-tested; awaiting owner review before it goes to Austin.**
+* **Part C — v003 MULTICOLOR at 1:240 (2026-09-29): CURRENT — APPROVED FOR HANDOFF AND FROZEN.** The v002 geometry plus colour overlay parts (White / Black / Gray / Clear); validated, exported and slice-tested. The validation state is frozen with it: `manifests\3d_print\print_phase_v003_FROZEN_2026-09-29.sha256`.
 * Part A — v002 at 1:240 (2026-09-25): the printed and approved single-colour package (Rob approved the physical print). **Frozen.**
 * Part B — v001 at 1:250 (2026-09-23): superseded by v002 and kept unchanged below as the record.
 

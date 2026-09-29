@@ -1,6 +1,10 @@
 # Building II — 3D-print derivative control (v001 → v002 → v003 multicolor)
 
-**Current status (2026-09-29): PRINT DERIVATIVE v003 = MULTICOLOR VERSION OF THE APPROVED v002 GEOMETRY AT 1:240 — BUILT, VALIDATED, EXPORTED (Bambu multi-part 3MF) AND SLICE-TESTED ON THE H2S PROFILE. AWAITING OWNER REVIEW BEFORE IT GOES TO AUSTIN.**
+**Current status (2026-09-29): PRINT DERIVATIVE v003 MULTICOLOR (1:240) — APPROVED BY THE OWNER FOR HANDOFF AND FROZEN.**
+
+* **Frozen:** make no further geometry or colour changes to v003. Any change becomes a new version (v004).
+* **Freeze record:** `manifests\3d_print\print_phase_v003_FROZEN_2026-09-29.sha256` + `.json`. It covers 48 v003 files plus the handoff package. Verify with `sha256sum -c` from the project root.
+* **Handoff package for Austin:** `exports\Building_II\3d_print\handoff\Building_II_v003_multicolor_Austin_2026-09-29\` (and a `.zip` of the same folder). It contains only the four final 3MF files and `README.txt`.
 
 **Pass 5, v003 multicolor (§28–36):**
 * **Controlling direction (owner, 2026-09-29), recorded verbatim:** "Rob approved the physical 1:250 Building II v001 print. The next print derivative is to reproduce the building's primary exterior material colors using white filament for white metal paneling, black filament for black metal paneling, gray filament for gray brick, and clear/translucent filament for exterior glazing/windows. v001 remains the frozen successful geometry/printability baseline."
