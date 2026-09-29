@@ -47,7 +47,11 @@
 | site base | Success | 215.8 (reported as slot 1, see below) | 0 | 9.8 h |
 | *v002 single-colour building, for comparison* | Success | 460.8 | 0 | 27.6 h |
 
-* **The multicolour overhead on the building is about +7.4 h (+27 %) and about +26 g of purge.**
+* **Correction (2026-09-29, Bambu Studio app): the CLI times and weights above are too low for every multicolour file.** The CLI leaves out the filament-swap time and the purge; each change really costs about 5 min and 0.4 g.
+  - **Real building slice in the app** (0.2 mm nozzle, 0.10 mm process, default flush settings): **6 d 11 h, 932 g total** (397 g model + 481 g purge + 54 g prime tower), **1,208 filament changes**.
+  - **Estimate for the intended setup** (0.4 mm nozzle, 0.12 mm process, flush into objects' infill, purging volumes multiplier 0.8): roughly **3 to 3.5 days** and about **240 g of purge**. **Unconfirmed**; replace with the app's figure after the re-slice.
+  - The drop-off canopy's 141 changes add their own swap time and purge on top of the 1.5 h above. Read its real time from the app's slice.
+  - The earlier "+7.4 h (+27 %) and about +26 g of purge" overhead was wrong. **Do not use it.**
 * **Single-part files:** the CLI reports a single-filament job as filament 1. In Bambu Studio, **check that the site base shows Gray (slot 3)** and the sun-shade White (slot 1) before slicing.
 * The CLI's sliced check projects are written to the system temp folder (`%TEMP%\rea_farms_II_bambu_cli_v003\`), not into the project. They were made with unresolved machine change-filament G-code templates, so **they are for checking only and must never be sent to the printer.** Always slice in the Bambu Studio GUI.
 
@@ -61,9 +65,9 @@
    - Sun-shade: top down, 4 mm brim.
    - Site base: 0.16 mm layers, no supports.
    - Multicolour additions: keep the prime tower on (default). Use a textured PEI plate; the prime tower's footprint fits beside the building.
-   - Leave "flush into objects' infill" off at first, so no coloured purge shows through the thin skins. It can be switched on later to cut waste.
+   - Purge settings (owner direction 2026-09-29, to cut the purge found in the app slice): Process → Others → Flush options → **Flush into objects' infill** on, and **Purging volumes** multiplier **0.8**. (This replaces the earlier advice to leave it off at first.)
 4. **Colour check:** judge colours in the **Preview** tab after slicing. The Prepare tab shows flickering stripes where parts overlap, and that is cosmetic.
-5. **Suggested order:** sun-shade (white, 0.4 h) → canopy (gray + clear, 1.5 h; also a check of the translucent filament) → building (about 35 h) → site base (about 10 h).
+5. **Suggested order:** sun-shade (white, 0.4 h) → canopy (gray + clear; also a check of the translucent filament; allow for its swap time, see C3) → building (a multi-day print, see C3) → site base (about 10 h).
 6. **Expectations:** the translucent PLA reads as frosted glass at the back of each window recess. Colour edges can blur by up to one extrusion line (0.4 mm).
 
 ---

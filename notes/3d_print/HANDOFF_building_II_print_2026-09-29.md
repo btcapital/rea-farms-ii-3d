@@ -71,7 +71,8 @@
 2. **Add that saved Bambu project** to the handoff package.
    - Update `README.txt` with the filament setup steps and the realistic time.
    - Rebuild the zip, and add the new files to a new freeze addendum. Don't edit the frozen v003 files.
-3. **Correct the time and purge figures** in `PRINT_CONTROL.md` §33–34 and `PRINT_EXPORT.md` Part C (text only; the notes are living documents).
+   - **Note:** the package's `README.txt` and `.zip` are themselves listed in the v003 freeze record. So build a **new** package folder (same four 3MFs, byte-identical, plus the saved project and a new README) and a new zip beside the frozen ones, instead of editing them.
+3. ~~**Correct the time and purge figures**~~ **Done 2026-09-29:** `PRINT_CONTROL.md` §33, §34, §36 and `PRINT_EXPORT.md` Part C (C3, C4) now give the real app slice and the unconfirmed 0.4 mm estimate. C4 now says flush into objects' infill on, multiplier 0.8. Replace the estimate with the real figure after task 1.
 4. **Email to Austin:** the draft is below. Brandon will send it himself (no address on file). If the saved project from task 1 is sent instead, steps 2–4 of the email can be dropped.
 
 ## Rules

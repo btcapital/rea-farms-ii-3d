@@ -562,12 +562,16 @@ The three context-only parking-island trees stay excluded. The building was **no
   - Filaments: slot 1 PLA Matte White, 2 PLA Matte Black, 3 PLA Matte Gray, 4 PLA Translucent. The filament profiles were flattened with only the colour overridden.
   - **All four files sliced successfully.**
   - Building: all four filaments used, 598 filament changes, about 35.0 h and 487 g. The single-colour v002 building is about 27.6 h and 461 g.
+  - **Correction (2026-09-29, Bambu Studio app): these CLI time and weight figures are too low.** The CLI leaves out the filament-swap time and the purge. See §34 for the real figures.
 * **Bambu may rotate the building 90° on the plate on load.** The CLI did this. It is harmless.
 * **Single-part files (sun-shade, site base) must be checked in Bambu before slicing.** The CLI reports single-filament jobs as filament 1, so confirm the site base object shows **Gray (slot 3)**.
 
 ## 34. Print implications and risks
 
-* **Time and waste:** the building needs about 600 filament changes on the single-nozzle H2S (AMS). That is about +7.4 h (+27 %) and about +26 g of purge compared with single colour. Black and clear appear on few layers, but white and gray alternate on almost every layer.
+* **Time and waste (corrected 2026-09-29):** white and gray alternate on almost every layer (black and clear on few), so the building needs hundreds to over a thousand filament changes on the single-nozzle H2S (AMS). Each change costs about 5 min and 0.4 g of purge.
+  - **Real slice in the Bambu Studio app** (0.2 mm nozzle, 0.10 mm process, default flush settings): **6 d 11 h, 932 g total** (397 g model + 481 g purge + 54 g prime tower), **1,208 filament changes**. Bambu also warns that translucent PLA is not recommended on a 0.2 nozzle.
+  - **Estimate for the intended setup** (0.4 mm nozzle, `0.12mm High Quality @BBL H2S`, flush into objects' infill, purging volumes multiplier 0.8): roughly **3 to 3.5 days** and about **240 g of purge**. **Unconfirmed**; replace with the app's figure after the re-slice.
+  - The earlier CLI figures (about 35 h, 487 g, "+7.4 h / +26 g purge", 598 changes) left out the swap time and the purge. **Do not use them.**
 * **Clear filament:** translucent PLA reads as frosted light-blue, not transparent glass. The glazing is a 1.2 mm slab at the back of a recess, so it shows as tinted recessed windows. A clear inner-wall pattern is expected.
 * **Thin colour features:**
   - Skins are 1.0 mm (clear 1.2 mm) deep, but mitres taper to 0 at convex corners.
@@ -611,4 +615,4 @@ The three context-only parking-island trees stay excluded. The building was **no
    - Slice, then check the Preview tab.
 3. Print order suggestion:
    - Print the sun-shade and canopy first (short jobs). They check the clear filament and the white.
-   - Then print the building (about 35 h), then the site base (gray).
+   - Then print the building (a multi-day print; see §34), then the site base (gray).
