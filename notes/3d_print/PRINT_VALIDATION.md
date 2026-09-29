@@ -1,7 +1,102 @@
 # Building II — print derivatives: geometry validation
 
-* **Part A — v002 at 1:240 (2026-09-25): CURRENT — prepared, validated and exported, awaiting owner approval before printing.**
+* **Part C — v003 MULTICOLOR at 1:240 (2026-09-29): CURRENT — the v002 geometry plus colour overlay parts (White / Black / Gray / Clear). Validated, exported and slice-tested; awaiting owner review before it goes to Austin.**
+* Part A — v002 at 1:240 (2026-09-25): the printed and approved single-colour package (Rob approved the physical print). **Frozen.**
 * Part B — v001 at 1:250 (2026-09-23): superseded by v002 and kept unchanged below as the record.
+
+---
+
+# Part C — print derivative v003 (multicolor, 1:240)
+
+| | |
+| --- | --- |
+| Validated file | `models\Building_II\print_derivatives\building_II_print_v003.blend`, SHA-256 `27737a83aee78fa464a9e3c75b518540909339b42845283857293232bb6352a7` |
+| Built by | `scripts\3d_print\build_print_v003.py`. The input is a pristine copy of the archive audit copy (= v023). The build refuses to save unless every save gate passes. |
+| Checked by | `scripts\3d_print\validate_print_v003.py` (read-only; v002 and v023 are *linked* read-only). Outputs: `validation\print_validation_v003.json`, `print_validation_v003_colour_mismatches.csv`, `print_validation_v003_samples.npz`. |
+| G-code check | `scripts\3d_print\check_gcode_colours_v003.py` → `validation\print_gcode_colour_check_v003.json` |
+| Previews | `scripts\3d_print\preview_print_v003.py` → `previews_v003\print_v003_01…10_*.png`. The expected-colour references are `reference_v023_*.png` (made by `reference_colours_v023.py`). Bambu's own renders are `bambu_v003_*.png`. |
+| Method | Priority overlay: the exact v002 part plus colour parts inside it; a later part wins in Bambu Studio. See `PRINT_CONTROL.md` §30–31. |
+
+## C1. Frozen files
+
+* v023 `7fe33f1e…5c91`, v001 `c4684e8d…2875` and v002 `9aa5e3a4…a27c` are unchanged.
+* In `manifests\3d_print\print_phase_v002.sha256`, all 32 model, export, script, validation and preview entries are OK.
+* The 3 notes files in that list were updated for v003 on purpose; they are living documents.
+* The archive audit copy is still identical to v023.
+
+## C2. Parts (same four-part assembly; the colour parts are parts of the same objects, not pieces)
+
+| Object | Part (priority order) | Filament | Triangles | Shells | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Building | 1 body | 3 Gray | 10,556 | 1 | **Identical to v002** (vertices, faces, and the printed 3MF triangles) |
+| | 2 white paneling + roofs | 1 White | 3,226 | 378 | 373 skin prisms + 2 door canopies + 3 doorbay panels |
+| | 3 black paneling + copings | 2 Black | 710 | 75 | 74 skin prisms + the East door canopy |
+| | 4 glazing + glass rails | 4 Clear | 916 | 42 | 39 recess-back slabs + rails |
+| | 5 storefront / CW frames | 3 Gray | 3,708 | 309 | 308 frame pieces + the NW corner post |
+| Drop-off canopy | 1 canopy (steel) | 3 Gray | 636 | 1 | Identical to v002 |
+| | 2 canopy glass | 4 Clear | 24 | 2 | The two glass plates |
+| Sun-shade | sun-shade | 1 White | 5,534 | 1 | Identical to v002 |
+| Site base | site base | 3 Gray | 84,862 | 1 | Identical to v002 (pocket 0.50 mm and sockets 0.40 mm unchanged) |
+
+* **Scale 1:240.**
+* **Printed sizes are unchanged from v002:** building 266.1 × 143.6 × 65.8 mm, site base 317.7 × 189.6 × 37.5 mm.
+* All parts fit the H2S (340 × 320 × 340 mm).
+
+## C3. Mesh health
+
+* Every part is closed: 0 open, 0 non-manifold and 0 flipped edges, with outward normals.
+* Colour parts have **0 non-planar faces** (tolerance 1 mm real = 0.004 mm printed).
+* The site base keeps its 461 non-planar n-gons from v002. It is exported with the exact printed v002 triangles.
+* Colour parts are sets of closed shells, and shells may overlap. The winding number reaches up to 4 inside overlaps. Bambu fills a part's shells as their union (tested).
+
+## C4. Colour parts lie inside their base part
+
+* The check covers every vertex and every BEAUTY-triangle centroid, using the generalized winding number with a tolerance of 3 mm real (0.0125 mm printed).
+* **0 points outside** for white, black, clear and canopy glass.
+* Frames use a documented tolerance of 20 mm real (0.08 mm printed). The approved v002 body deviates from its own frame operands by up to about 1 cm on the north façade. Result: 0 outside.
+* 14 skin pieces at parapet corners and recesses were intersected with a body copy, which removed only the part outside. No piece was dropped.
+
+## C5. Colour correctness
+
+**Model check:**
+
+* 24,000 area-weighted samples cover 5,368.5 m² of visible body surface.
+* At each sample, the **effective** colour (priority frames > clear > black > white > body, winding-number test 0.05 mm printed inside the surface) is compared with the **v023 finish** at that point:
+  - clear where a glass pane is directly in front;
+  - gray on a frame;
+  - otherwise the nearest non-glass v023 face.
+
+| | expected White | Black | Gray | Clear |
+| --- | --- | --- | --- | --- |
+| effective **White** | 3,055.3 m² | 1.3 | 29.8 | 0.5 |
+| effective **Black** | 1.3 | 149.4 | 6.9 | 0 |
+| effective **Gray** | 2.2 | 3.4 | 1,412.1 | 1.6 |
+| effective **Clear** | 0 | 5.4 | 0.5 | 698.8 |
+
+* **Agreement: 99.0 %.**
+* Visible surface split: white 57.5 %, gray 26.4 %, clear 13.1 %, black 2.9 %.
+* The largest mismatch cluster is 0.9 m² real (about 4 × 4 mm printed).
+* Mismatches sit within about 0.1 m real (0.4 mm printed) of a finish boundary, which is mostly the oracle's 12 cm frame radius reaching onto the adjacent wall, or on the glass-rail feet in the terrace copings.
+* **No whole panel or face is assigned to the wrong filament.**
+
+**Sliced G-code check (what the printer will actually do):**
+
+* Bambu CLI, H2S 0.4, 0.12 mm High Quality: 247,457 outer-wall segments on 290 layers.
+* 14,196 of 14,485 façade wall samples fall within 0.35 mm of a printed outer wall. Bambu turned the object 90° on the plate.
+* The filament printed there matches the model's intended colour for **98.4 %** of samples and the v023 finish for **97.4 %**.
+
+## C6. Thickness of the colour parts (printed mm, inward ray per shell)
+
+* White and black skins are 1.0 mm deep (median). The low percentiles are the mitre wedges at convex corners and parapet-corner trims, by design.
+* Clear slabs are 1.2 mm; canopy glass is 1.0 mm.
+* Frames are 0.50–0.70 mm (the v002 minimums).
+* Anything thinner than one extrusion line (about 0.4 mm) is absorbed by the neighbouring colour at slicing, giving a boundary blur of 0.4 mm or less.
+
+## C7. Visual check against the v023 finishes
+
+* The renders `print_v003_03…06` (elevations), `08` (roof) and `10` (south-west) match `reference_v023_*` from the same cameras.
+* This includes the black SE storefront panel, the black vertical strip, the white LobbyBlock and LowRoof bands, gray brick, clear glazing and gray frames.
+* The earlier diagonal wedges (from a Blender boolean defect) are gone; see `PRINT_CONTROL.md` §31.
 
 ---
 

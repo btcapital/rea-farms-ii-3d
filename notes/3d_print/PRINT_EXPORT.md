@@ -1,7 +1,68 @@
 # Building II — print exports and first-print guidance
 
-* **Part A — v002 at 1:240 (2026-09-25): CURRENT.** Four 3MF files, validated, **awaiting owner approval before the full print**.
+* **Part C — v003 MULTICOLOR at 1:240 (2026-09-29): CURRENT.** Four Bambu multi-part 3MF files, validated and slice-tested on the H2S profile. **Awaiting owner review before they go to Austin.**
+* Part A — v002 at 1:240 (2026-09-25): the printed and approved single-colour package. **Frozen**; its files are unchanged.
 * Part B — v001 at 1:250 (2026-09-23): superseded and kept below unchanged. Its files are still on disk and were not overwritten.
+
+---
+
+# Part C — v003 multicolor export (1:240, millimetres)
+
+| | |
+| --- | --- |
+| Source | `models\Building_II\print_derivatives\building_II_print_v003.blend`, SHA-256 `27737a83…52a7` (read-only during export). The four base parts are taken **verbatim from the printed v002 3MF files**, with the same triangles. |
+| Exporter / validator | `scripts\3d_print\export_print_v003.py` / `scripts\3d_print\validate_export_v003.py` (reads the files back from disk and runs the Bambu Studio CLI) → `validation\print_export_v003_written.json`, `print_export_v003_validation.json` |
+| Format | Generic 3MF (core + production components) with Bambu's `Metadata/model_settings.config`: **one object per file, one filament per part.** The Bambu application tag is deliberately omitted, because the Bambu CLI crashes on a Bambu-tagged 3MF that has no full project settings. |
+| Placement | Same as v002: building and site base upright; canopy on its south edge (+90° about X); sun-shade top face down. Centred on the 340 × 320 bed with the lowest point at Z = 0. **Bambu may re-orient the building 90° when loading it; the CLI did.** |
+
+## C1. Files (`exports\Building_II\3d_print\3mf\`)
+
+| File | Parts → filament (AMS slot) | SHA-256 |
+| --- | --- | --- |
+| `building_II_v003_1-240_multicolor_building.3mf` | 1 body → **3 Gray**; 2 white paneling + roofs → **1 White**; 3 black paneling + copings → **2 Black**; 4 glazing + glass rails → **4 Clear**; 5 storefront/CW frames → **3 Gray** | `b73b8d2f…44b8` |
+| `building_II_v003_1-240_dropoff_canopy.3mf` | 1 canopy steel → **3 Gray**; 2 canopy glass → **4 Clear** | `2235f5dd…75db` |
+| `building_II_v003_1-240_sunshade.3mf` | sun-shade → **1 White** | `666d2373…4d7d` |
+| `building_II_v003_1-240_site_base.3mf` | site base → **3 Gray** | `9c533994…682e` |
+
+**Part order matters.** A later part wins where parts overlap, so do not re-order the parts in Bambu's object list.
+
+## C2. Validation (files read back from disk)
+
+* Every part is closed: 0 open, 0 non-manifold and 0 orientation-conflict edges, and no inverted shells.
+* All files are on the bed at Z = 0.
+* Filaments per part are as listed above.
+* The four base parts are **identical to the printed v002 files**: same triangles, vertex difference 0 (site base 0.000001 mm from text rounding).
+
+## C3. Bambu Studio slice test (CLI 02.08.02.61)
+
+**Setup:** system `Bambu Lab H2S 0.4 nozzle` and `0.12mm High Quality @BBL H2S`. Filaments: slot 1 PLA Matte White, 2 PLA Matte Black, 3 PLA Matte Gray, 4 PLA Translucent. The profiles were flattened with only the colour overridden.
+
+| File | Result | Filament used (g) | Filament changes | Est. time |
+| --- | --- | --- | --- | --- |
+| multicolor building | Success | White 160.4 / Black 3.1 / Gray 302.5 / Clear 20.8 (total 486.8) | 598 | 35.0 h |
+| drop-off canopy | Success | Gray 1.0 / Clear 2.7 (+0.9 slot 1 prime) | 141 | 1.5 h |
+| sun-shade | Success | White 4.3 | 0 | 0.4 h |
+| site base | Success | 215.8 (reported as slot 1, see below) | 0 | 9.8 h |
+| *v002 single-colour building, for comparison* | Success | 460.8 | 0 | 27.6 h |
+
+* **The multicolour overhead on the building is about +7.4 h (+27 %) and about +26 g of purge.**
+* **Single-part files:** the CLI reports a single-filament job as filament 1. In Bambu Studio, **check that the site base shows Gray (slot 3)** and the sun-shade White (slot 1) before slicing.
+* The CLI's sliced check projects are written to the system temp folder (`%TEMP%\rea_farms_II_bambu_cli_v003\`), not into the project. They were made with unresolved machine change-filament G-code templates, so **they are for checking only and must never be sent to the printer.** Always slice in the Bambu Studio GUI.
+
+## C4. How to set up and print (Austin)
+
+1. **AMS slots:** 1 White, 2 Black, 3 Gray, 4 Clear/Translucent. All four are PLA, with one process profile.
+2. Open each 3MF in Bambu Studio and **keep the part order**. Confirm the filaments shown per part (C1).
+3. **Process, orientation, supports, brims, plates and infill: exactly as Part A2–A3 for v002.** In short:
+   - Building: painted tree supports only under the three door-side canopies.
+   - Porte-cochère: on its south edge, tree supports under the three columns, 5 mm brim.
+   - Sun-shade: top down, 4 mm brim.
+   - Site base: 0.16 mm layers, no supports.
+   - Multicolour additions: keep the prime tower on (default). Use a textured PEI plate; the prime tower's footprint fits beside the building.
+   - Leave "flush into objects' infill" off at first, so no coloured purge shows through the thin skins. It can be switched on later to cut waste.
+4. **Colour check:** judge colours in the **Preview** tab after slicing. The Prepare tab shows flickering stripes where parts overlap, and that is cosmetic.
+5. **Suggested order:** sun-shade (white, 0.4 h) → canopy (gray + clear, 1.5 h; also a check of the translucent filament) → building (about 35 h) → site base (about 10 h).
+6. **Expectations:** the translucent PLA reads as frosted glass at the back of each window recess. Colour edges can blur by up to one extrusion line (0.4 mm).
 
 ---
 

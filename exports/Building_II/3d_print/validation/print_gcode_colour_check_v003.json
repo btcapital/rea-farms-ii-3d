@@ -1,0 +1,32 @@
+{
+ "outer_wall_segments": 247472,
+ "layers": 290,
+ "wall_samples": 14485,
+ "bambu_reoriented_object_deg": 90,
+ "matched_to_an_outer_wall_within_0p35mm": 14196,
+ "gcode_vs_model_intended_pct": 98.42,
+ "gcode_vs_v023_finish_pct": 97.44,
+ "confusion_v023_finish_to_gcode_filament": {
+  "GRAY": {
+   "GRAY": 5464,
+   "BLACK": 57,
+   "WHITE": 125,
+   "CLEAR": 83
+  },
+  "WHITE": {
+   "WHITE": 4973,
+   "BLACK": 14,
+   "GRAY": 21
+  },
+  "CLEAR": {
+   "CLEAR": 3068,
+   "GRAY": 35
+  },
+  "BLACK": {
+   "BLACK": 328,
+   "CLEAR": 24,
+   "GRAY": 4
+  }
+ },
+ "filament_code": "M1020 S0..S3 = slot 1 White, 2 Black, 3 Gray, 4 Clear"
+}

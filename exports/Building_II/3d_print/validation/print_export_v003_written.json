@@ -1,0 +1,184 @@
+{
+ "source_blend": "models\\Building_II\\print_derivatives\\building_II_print_v003.blend",
+ "source_sha256": "27737a83aee78fa464a9e3c75b518540909339b42845283857293232bb6352a7",
+ "scale": "1:240",
+ "mm_per_m": 4.166666666666667,
+ "files": {
+  "multicolor_building": {
+   "threemf": "exports\\Building_II\\3d_print\\3mf\\building_II_v003_1-240_multicolor_building.3mf",
+   "sha256": "b73b8d2f21815e7a4c0ce0fa267072a7bac215e5e158f2fed6bb75d8ad2144b8",
+   "print_orientation": "upright",
+   "transform": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    37.708329,
+    89.14437,
+    10.16
+   ],
+   "size_on_bed_mm": [
+    266.091,
+    143.643,
+    65.828
+   ],
+   "parts": [
+    {
+     "object": "PRINT_building_body",
+     "name": "1 body - gray brick (exact v002)",
+     "filament": 3,
+     "triangles": 10556,
+     "vertices": 5280,
+     "resplit_polygons": 0
+    },
+    {
+     "object": "PRINT_building_body_WHITE",
+     "name": "2 white metal paneling + white roofs",
+     "filament": 1,
+     "triangles": 3226,
+     "vertices": 2369,
+     "resplit_polygons": 0
+    },
+    {
+     "object": "PRINT_building_body_BLACK",
+     "name": "3 black metal paneling + black copings",
+     "filament": 2,
+     "triangles": 710,
+     "vertices": 505,
+     "resplit_polygons": 0
+    },
+    {
+     "object": "PRINT_building_body_CLEAR",
+     "name": "4 glazing + glass rails - clear",
+     "filament": 4,
+     "triangles": 916,
+     "vertices": 542,
+     "resplit_polygons": 0
+    },
+    {
+     "object": "PRINT_building_body_FRAMES",
+     "name": "5 storefront + curtain-wall frames - gray",
+     "filament": 3,
+     "triangles": 3708,
+     "vertices": 2472,
+     "resplit_polygons": 0
+    }
+   ]
+  },
+  "dropoff_canopy": {
+   "threemf": "exports\\Building_II\\3d_print\\3mf\\building_II_v003_1-240_dropoff_canopy.3mf",
+   "sha256": "2235f5dd722a73259eb8cb78675e8fdbd960fd13f9d1c20213ecf4d7fcbd75db",
+   "print_orientation": "standing on its south edge (rotated +90 deg about X)",
+   "transform": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    -1.0,
+    0.0,
+    29.940588,
+    170.589496,
+    -135.380205
+   ],
+   "size_on_bed_mm": [
+    83.326,
+    25.346,
+    29.75
+   ],
+   "parts": [
+    {
+     "object": "PRINT_canopy_dropoff",
+     "name": "1 canopy steel - gray (exact v002)",
+     "filament": 3,
+     "triangles": 636,
+     "vertices": 284,
+     "resplit_polygons": 0
+    },
+    {
+     "object": "PRINT_canopy_dropoff_CLEAR",
+     "name": "2 canopy glass - clear",
+     "filament": 4,
+     "triangles": 24,
+     "vertices": 16,
+     "resplit_polygons": 0
+    }
+   ]
+  },
+  "sunshade": {
+   "threemf": "exports\\Building_II\\3d_print\\3mf\\building_II_v003_1-240_sunshade.3mf",
+   "sha256": "666d237365ede0740c2f4664d9648807741cdcabc1192f697d858ce104684d7d",
+   "print_orientation": "top face down (rotated 180 deg about X)",
+   "transform": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    30.444323,
+    224.713488,
+    40.640001
+   ],
+   "size_on_bed_mm": [
+    194.021,
+    102.322,
+    1.27
+   ],
+   "parts": [
+    {
+     "object": "PRINT_sunshade",
+     "name": "sun-shade - white (exact v002)",
+     "filament": 1,
+     "triangles": 5534,
+     "vertices": 2401,
+     "resplit_polygons": 0
+    }
+   ]
+  },
+  "site_base": {
+   "threemf": "exports\\Building_II\\3d_print\\3mf\\building_II_v003_1-240_site_base.3mf",
+   "sha256": "9c533994379897554a8cd7e93eeb9e2fc1a0fcbb3ce7bd9ff9c565970ca4682e",
+   "print_orientation": "upright",
+   "transform": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    48.645834,
+    86.041667,
+    12.7
+   ],
+   "size_on_bed_mm": [
+    317.708,
+    189.583,
+    37.465
+   ],
+   "parts": [
+    {
+     "object": "PRINT_site_base",
+     "name": "site base - gray (exact v002)",
+     "filament": 3,
+     "triangles": 84862,
+     "vertices": 42433,
+     "resplit_polygons": 0
+    }
+   ]
+  }
+ }
+}

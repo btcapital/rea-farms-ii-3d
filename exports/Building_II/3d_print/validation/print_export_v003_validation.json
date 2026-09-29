@@ -1,0 +1,338 @@
+{
+ "files": {
+  "multicolor_building": {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v003_1-240_multicolor_building.3mf",
+   "sha256": "b73b8d2f21815e7a4c0ce0fa267072a7bac215e5e158f2fed6bb75d8ad2144b8",
+   "generic_3mf": true,
+   "has_model_settings": true,
+   "objects": 1,
+   "part_order_ok": true,
+   "filaments_ok": true,
+   "parts": [
+    {
+     "name": "1 body - gray brick (exact v002)",
+     "filament": 3,
+     "triangles": 10556,
+     "shells": 1,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 12,
+     "negative_volume_shells": 0,
+     "volume_mm3": 1438347.115
+    },
+    {
+     "name": "2 white metal paneling + white roofs",
+     "filament": 1,
+     "triangles": 3226,
+     "shells": 378,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 9,
+     "negative_volume_shells": 0,
+     "volume_mm3": 82526.749
+    },
+    {
+     "name": "3 black metal paneling + black copings",
+     "filament": 2,
+     "triangles": 710,
+     "shells": 75,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 0,
+     "negative_volume_shells": 0,
+     "volume_mm3": 3380.218
+    },
+    {
+     "name": "4 glazing + glass rails - clear",
+     "filament": 4,
+     "triangles": 916,
+     "shells": 42,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 0,
+     "negative_volume_shells": 0,
+     "volume_mm3": 19352.663
+    },
+    {
+     "name": "5 storefront + curtain-wall frames - gray",
+     "filament": 3,
+     "triangles": 3708,
+     "shells": 309,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 0,
+     "negative_volume_shells": 0,
+     "volume_mm3": 2893.145
+    }
+   ],
+   "on_bed": {
+    "min_mm": [
+     36.954,
+     88.179,
+     0.0
+    ],
+    "max_mm": [
+     303.046,
+     231.821,
+     65.828
+    ],
+    "size_mm": [
+     266.091,
+     143.643,
+     65.828
+    ],
+    "inside_bed": true,
+    "z_min_mm": 0.0
+   },
+   "base_part_vs_printed_v002": {
+    "v002_file": "building_II_v002_1-240_building_body.3mf",
+    "same_triangles": true,
+    "max_vertex_diff_mm": 0.0,
+    "identical": true
+   }
+  },
+  "dropoff_canopy": {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v003_1-240_dropoff_canopy.3mf",
+   "sha256": "2235f5dd722a73259eb8cb78675e8fdbd960fd13f9d1c20213ecf4d7fcbd75db",
+   "generic_3mf": true,
+   "has_model_settings": true,
+   "objects": 1,
+   "part_order_ok": true,
+   "filaments_ok": true,
+   "parts": [
+    {
+     "name": "1 canopy steel - gray (exact v002)",
+     "filament": 3,
+     "triangles": 636,
+     "shells": 1,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 2,
+     "negative_volume_shells": 0,
+     "volume_mm3": 3235.594
+    },
+    {
+     "name": "2 canopy glass - clear",
+     "filament": 4,
+     "triangles": 24,
+     "shells": 2,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 0,
+     "negative_volume_shells": 0,
+     "volume_mm3": 2401.927
+    }
+   ],
+   "on_bed": {
+    "min_mm": [
+     128.337,
+     147.327,
+     0.0
+    ],
+    "max_mm": [
+     211.663,
+     172.673,
+     29.75
+    ],
+    "size_mm": [
+     83.326,
+     25.346,
+     29.75
+    ],
+    "inside_bed": true,
+    "z_min_mm": 0.0
+   },
+   "base_part_vs_printed_v002": {
+    "v002_file": "building_II_v002_1-240_dropoff_canopy.3mf",
+    "same_triangles": true,
+    "max_vertex_diff_mm": 0.0,
+    "identical": true
+   }
+  },
+  "sunshade": {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v003_1-240_sunshade.3mf",
+   "sha256": "666d237365ede0740c2f4664d9648807741cdcabc1192f697d858ce104684d7d",
+   "generic_3mf": true,
+   "has_model_settings": true,
+   "objects": 1,
+   "part_order_ok": true,
+   "filaments_ok": true,
+   "parts": [
+    {
+     "name": "sun-shade - white (exact v002)",
+     "filament": 1,
+     "triangles": 5534,
+     "shells": 1,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 0,
+     "negative_volume_shells": 0,
+     "volume_mm3": 3415.943
+    }
+   ],
+   "on_bed": {
+    "min_mm": [
+     72.989,
+     108.839,
+     0.0
+    ],
+    "max_mm": [
+     267.011,
+     211.161,
+     1.27
+    ],
+    "size_mm": [
+     194.021,
+     102.322,
+     1.27
+    ],
+    "inside_bed": true,
+    "z_min_mm": 0.0
+   },
+   "base_part_vs_printed_v002": {
+    "v002_file": "building_II_v002_1-240_sunshade.3mf",
+    "same_triangles": true,
+    "max_vertex_diff_mm": 0.0,
+    "identical": true
+   }
+  },
+  "site_base": {
+   "path": "exports\\Building_II\\3d_print\\3mf\\building_II_v003_1-240_site_base.3mf",
+   "sha256": "9c533994379897554a8cd7e93eeb9e2fc1a0fcbb3ce7bd9ff9c565970ca4682e",
+   "generic_3mf": true,
+   "has_model_settings": true,
+   "objects": 1,
+   "part_order_ok": true,
+   "filaments_ok": true,
+   "parts": [
+    {
+     "name": "site base - gray (exact v002)",
+     "filament": 3,
+     "triangles": 84862,
+     "shells": 1,
+     "open_edges": 0,
+     "nonmanifold_edges": 0,
+     "orientation_conflicts": 0,
+     "degenerate_triangles": 16,
+     "negative_volume_shells": 0,
+     "volume_mm3": 388462.463
+    }
+   ],
+   "on_bed": {
+    "min_mm": [
+     11.146,
+     65.208,
+     0.0
+    ],
+    "max_mm": [
+     328.854,
+     254.792,
+     37.465
+    ],
+    "size_mm": [
+     317.708,
+     189.583,
+     37.465
+    ],
+    "inside_bed": true,
+    "z_min_mm": 0.0
+   },
+   "base_part_vs_printed_v002": {
+    "v002_file": "building_II_v002_1-240_site_base.3mf",
+    "same_triangles": true,
+    "max_vertex_diff_mm": 9.999999974752427e-07,
+    "identical": true
+   }
+  }
+ },
+ "bambu_cli": {
+  "machine": "Bambu Lab H2S 0.4 nozzle (system)",
+  "process": "0.12mm High Quality @BBL H2S (system)",
+  "filaments": {
+   "slot 1": "Bambu PLA Matte @BBL H2S - colour #FFFFFF (White)",
+   "slot 2": "Bambu PLA Matte @BBL H2S - colour #000000 (Black)",
+   "slot 3": "Bambu PLA Matte @BBL H2S - colour #8E9089 (Gray)",
+   "slot 4": "Bambu PLA Translucent @BBL H2S - colour #DDEBF2 (Clear)"
+  },
+  "results": {
+   "multicolor_building": {
+    "return_code": 0,
+    "result": "Success.",
+    "cli_return_code": 0,
+    "filament_used_g": {
+     "slot 1": 160.42,
+     "slot 2": 3.08,
+     "slot 3": 302.54,
+     "slot 4": 20.79
+    },
+    "predicted_time_h": 34.96,
+    "weight_g": 486.84,
+    "filament_changes": 598,
+    "layers": 329,
+    "filament_change_times": 598
+   },
+   "dropoff_canopy": {
+    "return_code": 0,
+    "result": "Success.",
+    "cli_return_code": 0,
+    "filament_used_g": {
+     "slot 1": 0.85,
+     "slot 3": 0.99,
+     "slot 4": 2.72
+    },
+    "predicted_time_h": 1.52,
+    "weight_g": 3.71,
+    "filament_changes": 141,
+    "layers": 149,
+    "filament_change_times": 141
+   },
+   "sunshade": {
+    "return_code": 0,
+    "result": "Success.",
+    "cli_return_code": 0,
+    "filament_used_g": {
+     "slot 1": 4.27
+    },
+    "predicted_time_h": 0.4,
+    "weight_g": 4.27,
+    "filament_changes": 0,
+    "layers": 6,
+    "filament_change_times": 0
+   },
+   "site_base": {
+    "return_code": 0,
+    "result": "Success.",
+    "cli_return_code": 0,
+    "filament_used_g": {
+     "slot 1": 215.76
+    },
+    "predicted_time_h": 9.78,
+    "weight_g": null,
+    "filament_changes": 0,
+    "layers": 187,
+    "filament_change_times": 0
+   }
+  },
+  "v002_single_colour_building_reference": {
+   "result": "Success.",
+   "filament_used_g": 460.83,
+   "predicted_time_h": 27.59
+  }
+ },
+ "summary": {
+  "all_files_generic_multipart": true,
+  "filament_assignment_ok": true,
+  "all_parts_closed": true,
+  "all_on_bed": true,
+  "base_parts_identical_to_printed_v002": true,
+  "bambu_slices_ok": true
+ }
+}

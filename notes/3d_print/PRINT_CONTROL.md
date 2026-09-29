@@ -1,6 +1,17 @@
-# Building II — 3D-print derivative control (v001 → v002)
+# Building II — 3D-print derivative control (v001 → v002 → v003 multicolor)
 
-**Current status (2026-09-25): PRINT DERIVATIVE v002 AT 1:240 — PREPARED, VALIDATED AND EXPORTED (3MF). AWAITING OWNER APPROVAL BEFORE THE FULL PRINT.**
+**Current status (2026-09-29): PRINT DERIVATIVE v003 = MULTICOLOR VERSION OF THE APPROVED v002 GEOMETRY AT 1:240 — BUILT, VALIDATED, EXPORTED (Bambu multi-part 3MF) AND SLICE-TESTED ON THE H2S PROFILE. AWAITING OWNER REVIEW BEFORE IT GOES TO AUSTIN.**
+
+**Pass 5, v003 multicolor (§28–36):**
+* **Controlling direction (owner, 2026-09-29), recorded verbatim:** "Rob approved the physical 1:250 Building II v001 print. The next print derivative is to reproduce the building's primary exterior material colors using white filament for white metal paneling, black filament for black metal paneling, gray filament for gray brick, and clear/translucent filament for exterior glazing/windows. v001 remains the frozen successful geometry/printability baseline."
+* **Owner clarification (2026-09-29):** the printed and approved package was actually **v002 at 1:240**, so v003 is built on v002. v001 and v002 both remain frozen.
+* **Permanent rule:** future print versions keep the four-filament colour mapping in §29. **They must not revert to a single-colour building unless the owner explicitly asks for it.**
+* **Files:**
+  - `models\Building_II\print_derivatives\building_II_print_v003.blend` (SHA-256 `27737a83…52a7`)
+  - `exports\Building_II\3d_print\3mf\building_II_v003_1-240_*.3mf` (4 files)
+* v023, v001 and v002 were not modified; hashes were verified before and after.
+
+**Pass 4, v002 (§20–27):**
 
 **Pass 4, v002 (§20–27):**
 * Built from the physical v001 coupon print results and the owner's red-box crop.
@@ -469,3 +480,131 @@ The three context-only parking-island trees stay excluded. The building was **no
   - all v001 exports and coupons;
   - all other project files.
 * **No new coupon set:** the v002 changes directly address every coupon finding, and no new unresolved printability risk was found.
+
+---
+
+# Pass 5 — print derivative v003: MULTICOLOR (2026-09-29)
+
+## 28. Direction and baseline
+
+* **Owner direction (verbatim):** "Rob approved the physical 1:250 Building II v001 print. The next print derivative is to reproduce the building's primary exterior material colors using white filament for white metal paneling, black filament for black metal paneling, gray filament for gray brick, and clear/translucent filament for exterior glazing/windows. v001 remains the frozen successful geometry/printability baseline."
+* **Owner clarification (same day):** the package actually printed and approved was **v002 at 1:240** (the direction's "v001 1:250" wording refers to it). v003 therefore uses the **v002 geometry and scale unchanged**. Every v002 improvement is kept: the crop, 1:240, the fits, the porte-cochère reinforcement, the sun-shade, and the minimums.
+* **Frozen:**
+  - v023 `7fe33f1e…5c91`
+  - v001 `c4684e8d…2875`
+  - v002 `9aa5e3a4…a27c`
+  - All 35 entries in `print_phase_v002.sha256` were OK at the start of the phase.
+  - At the end, all 32 model, export, script, validation and preview entries are still OK. The 3 notes files (`PRINT_CONTROL/VALIDATION/EXPORT.md`) were updated for v003 on purpose; they are living documents.
+* **Permanent rule:** every later print version keeps the §29 mapping. **It must not revert to a single-colour building unless the owner explicitly requests it.**
+
+## 29. Controlling filament mapping (owner-approved; do not change without the owner)
+
+| AMS slot | Filament | Finishes (v023 materials) |
+| --- | --- | --- |
+| **1** | **White** | White metal paneling: ACM-1 / ACM-4 Alucobond Bone White, MTL-2 coping. **Roofs** (white TPO) and **terrace tops** (UNRES pavers) — owner 2026-09-29. Sun-shade (paint to match ACM-1). |
+| **2** | **Black** | Black metal paneling: ACM-2 / ACM-3 Alucobond Tri-Corn Black, MTL-1 / MTL-3 copings. |
+| **3** | **Gray** | Gray brick BRK-1 and brick caps. **Storefront / curtain-wall frames** (YKK Beachstone Gray) — owner 2026-09-29. **Drop-off canopy steel** (colour TBD in the drawings → gray) — owner 2026-09-29. Interior core. Site base. |
+| **4** | **Clear / translucent** | Exterior glazing: vision and spandrel glass, glass railings, drop-off canopy glass. |
+
+* No façade finish was guessed. Every face takes its colour from its v023 material, using the rule in `colour_of_material()` in `build_print_v003.py`.
+* The three open cases (frames, roofs/terrace, canopy steel) were decided by the owner before the build.
+
+## 30. How the colours are built (priority overlay)
+
+* **The building body stays the exact v002 part.** It is gray (slot 3) and is vertex- and triangle-identical to v002.
+* Colour parts lie **inside** it:
+  - **WHITE / BLACK:** 1.0 mm skins (0.240 m real) behind every exterior white/black face of the masses and parapets. There are 373 white and 74 black prisms.
+    - Each skin is mitred on the bisector at convex edges to a different finish, so the neighbouring face keeps its own colour up to the edge.
+    - Undersides are skipped. So are shared internal walls, which are checked on a 7-point sample and confirmed on a 28-point grid.
+    - Depth is limited to the body thickness behind the face.
+    - The white and black door canopies and the CW3 doorbay panels are included whole.
+  - **CLEAR:** a 1.2 mm slab (0.288 m) behind each of the 39 glazing panes, at the back of its recess. Each slab is intersected with a copy of the body so it cannot cross a neighbouring pocket. The glass rails are included whole.
+  - **FRAMES (gray):** all 309 storefront and curtain-wall frame pieces and the NW corner post.
+* **Part order is colour priority:** body < white < black < clear < frames. In Bambu Studio a later part of an object clips the earlier parts where they overlap. This was verified with the H2S CLI (§33): coplanar 1 mm skins print at full volume in their own filament and are removed from the body.
+* **Each colour part is a join of closed convex shells, not a 3D union.** Bambu fills overlapping or touching shells of one part as their union. Verified: two half-overlapping 10 mm cubes print exactly the filament of one 15 × 10 × 10 mm box.
+* **Drop-off canopy:** the exact v002 canopy is gray (steel), with a clear part made of its two glass plates.
+* **Sun-shade:** white. **Site base:** gray. Both are unchanged v002 parts.
+* **Result:** the four-part assembly is unchanged, and no new detachable pieces were added.
+
+## 31. Why not a boolean partition (lessons, keep)
+
+* The first v003 build cut the body into four disjoint parts with Blender's Manifold boolean. The renders showed **diagonal wedges** in the colour regions, for example half of the black SE storefront panel.
+* **Root cause:** Blender 5.2's Manifold boolean sometimes returns **non-planar n-gons** that merge triangles from different planes (seen up to 4.4 m out of plane). The triangulation of such a face cuts a wedge.
+* It happens even with triangulated or planar inputs, with unique materials, and through Geometry Nodes. The Exact solver failed differently: open or non-manifold results on many touching prisms.
+* **Rule:**
+  - Never partition an approved print part with a 3D boolean for colour.
+  - Use overlay parts plus slicer priority.
+  - Check every colour part for non-planar faces (0 allowed).
+  - Use winding-number containment, not ray parity. Ray parity miscounts on internal interface planes.
+
+## 32. Validation summary (details: `PRINT_VALIDATION.md` Part C)
+
+* The four v002 parts are identical to v002 (vertex- and face-identical, loaded read-only).
+* The 3MF base parts are triangle-identical to the printed v002 3MF files.
+* Every part is closed, with 0 open, 0 non-manifold and 0 flipped edges. Colour parts have 0 non-planar faces.
+* All colour parts lie inside their base part, checked by vertices plus face centroids with the winding number.
+* **Colour correctness (24,000 area-weighted surface samples):** the effective colour agrees with the v023 finish on **99.0 %** of the visible surface.
+  - Visible surface split: white 57.5 %, gray 26.4 %, clear 13.1 %, black 2.9 %.
+  - The remaining 1 % is at finish boundaries (within about 0.4 mm printed) and on the glass-rail feet.
+  - No panel or face is assigned to the wrong filament.
+* **Sliced G-code check:** Bambu's actual outer-wall filament at 14,196 façade points matches the intended colour on **98.4 %** of points, and the v023 finish on 97.4 %.
+
+## 33. Bambu Studio compatibility (H2S)
+
+* The 3MF files are generic 3MF with `Metadata/model_settings.config`, giving **one object with one filament per part**.
+* The CLI crashes on a Bambu-tagged 3MF without full project settings, so the Bambu application tag is omitted.
+* **Slice test (Bambu Studio 02.08.02.61 CLI):**
+  - System machine `Bambu Lab H2S 0.4 nozzle` and process `0.12mm High Quality @BBL H2S`.
+  - Filaments: slot 1 PLA Matte White, 2 PLA Matte Black, 3 PLA Matte Gray, 4 PLA Translucent. The filament profiles were flattened with only the colour overridden.
+  - **All four files sliced successfully.**
+  - Building: all four filaments used, 598 filament changes, about 35.0 h and 487 g. The single-colour v002 building is about 27.6 h and 461 g.
+* **Bambu may rotate the building 90° on the plate on load.** The CLI did this. It is harmless.
+* **Single-part files (sun-shade, site base) must be checked in Bambu before slicing.** The CLI reports single-filament jobs as filament 1, so confirm the site base object shows **Gray (slot 3)**.
+
+## 34. Print implications and risks
+
+* **Time and waste:** the building needs about 600 filament changes on the single-nozzle H2S (AMS). That is about +7.4 h (+27 %) and about +26 g of purge compared with single colour. Black and clear appear on few layers, but white and gray alternate on almost every layer.
+* **Clear filament:** translucent PLA reads as frosted light-blue, not transparent glass. The glazing is a 1.2 mm slab at the back of a recess, so it shows as tinted recessed windows. A clear inner-wall pattern is expected.
+* **Thin colour features:**
+  - Skins are 1.0 mm (clear 1.2 mm) deep, but mitres taper to 0 at convex corners.
+  - Features under about 0.4 mm are absorbed by the neighbouring colour. This gives a fuzzy boundary of up to one line width (0.4 mm) at colour edges.
+  - The frames are 0.50–0.70 mm (v002 minimums), printed gray over clear and white.
+* **Prepare-view flicker:** in Bambu's Prepare tab, the coplanar surfaces of overlapping parts show z-fighting stripes. That is cosmetic. **Judge colours in the Preview tab after slicing.**
+* **Supports and orientation are unchanged from v002:** building upright, canopy on its south edge, sun-shade top down. Support removal on the porte-cochère is as documented in §25.
+* **Keep one print profile for all colours.** All four filaments are PLA, so there are no adhesion or temperature conflicts.
+
+## 35. What changed / what stayed frozen (Pass 5)
+
+* **Created:**
+  - `models\Building_II\print_derivatives\building_II_print_v003.blend`
+  - Scripts in `scripts\3d_print\`:
+    - `build_print_v003.py`, `validate_print_v003.py`, `preview_print_v003.py`, `reference_colours_v023.py`
+    - `export_print_v003.py`, `validate_export_v003.py`, `check_gcode_colours_v003.py`
+    - `bambu_3mf_v003.py`
+  - Files in `exports\Building_II\3d_print\validation\`:
+    - `print_prep_v003_build_log.json`, `print_validation_v003.json` and its samples/mismatch files
+    - `print_export_v003_written.json`, `print_export_v003_validation.json`, `print_gcode_colour_check_v003.json`
+    - `previews_v003\`
+    - The CLI's sliced check projects are **not** kept in the project. They go to the system temp folder, are about 450 MB, and are not printable.
+  - `exports\Building_II\3d_print\3mf\building_II_v003_1-240_{multicolor_building,dropoff_canopy,sunshade,site_base}.3mf`
+  - `manifests\3d_print\print_phase_manifest_v003.json` + `.sha256`
+* **Unchanged:**
+  - v023, v001, v002 and the archive audit copy (hashed);
+  - all v001/v002 exports and coupons;
+  - the visualization master;
+  - all other project files.
+* **Geometry change vs v002:** none. The v002 parts are identical; v003 only adds colour overlay parts inside them.
+
+## 36. Before it goes to Austin (owner checklist)
+
+1. Review the renders in `exports\Building_II\3d_print\validation\previews_v003\`:
+   - `print_v003_*`: our colour renders.
+   - `reference_v023_*`: the same views coloured from the v023 finishes.
+   - `bambu_v003_*`: Bambu's own part/filament renders.
+2. In Bambu Studio:
+   - Load White / Black / Gray / Clear into AMS slots 1–4.
+   - Open `building_II_v003_1-240_multicolor_building.3mf` and confirm the 5 parts show filaments 3/1/2/4/3.
+   - Slice, then check the Preview tab.
+3. Print order suggestion:
+   - Print the sun-shade and canopy first (short jobs). They check the clear filament and the white.
+   - Then print the building (about 35 h), then the site base (gray).

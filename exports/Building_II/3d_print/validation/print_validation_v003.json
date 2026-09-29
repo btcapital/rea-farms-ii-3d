@@ -1,0 +1,722 @@
+{
+ "frozen_files": {
+  "v023": {
+   "path": "models\\Building_II\\building_shell_v023.blend",
+   "sha256": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+   "expected": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+   "ok": true
+  },
+  "print_v001": {
+   "path": "models\\Building_II\\print_derivatives\\building_II_print_v001.blend",
+   "sha256": "c4684e8d8345ff3105599b4ed2dbc67dbb47bc04bef0822bbae2eb8e36242875",
+   "expected": "c4684e8d8345ff3105599b4ed2dbc67dbb47bc04bef0822bbae2eb8e36242875",
+   "ok": true
+  },
+  "print_v002": {
+   "path": "models\\Building_II\\print_derivatives\\building_II_print_v002.blend",
+   "sha256": "9aa5e3a4574e758f7fc914d9e6df887482791585a673d8b542420e7f4369a27c",
+   "expected": "9aa5e3a4574e758f7fc914d9e6df887482791585a673d8b542420e7f4369a27c",
+   "ok": true
+  }
+ },
+ "v002_manifest_entries": {
+  "count": 35,
+  "frozen_entries": 32,
+  "all_ok": true,
+  "failures": [],
+  "living_notes_changed": [
+   "notes/3d_print/PRINT_CONTROL.md",
+   "notes/3d_print/PRINT_VALIDATION.md",
+   "notes/3d_print/PRINT_EXPORT.md"
+  ]
+ },
+ "v002_parts_identical": {
+  "PRINT_sunshade": {
+   "verts": [
+    2401,
+    2401
+   ],
+   "faces": [
+    1026,
+    1026
+   ],
+   "max_vertex_diff_m": 0.0,
+   "same_topology": true,
+   "identical": true
+  },
+  "PRINT_site_base": {
+   "verts": [
+    42433,
+    42433
+   ],
+   "faces": [
+    40134,
+    40134
+   ],
+   "max_vertex_diff_m": 0.0,
+   "same_topology": true,
+   "identical": true
+  },
+  "PRINT_canopy_dropoff": {
+   "verts": [
+    284,
+    284
+   ],
+   "faces": [
+    134,
+    134
+   ],
+   "max_vertex_diff_m": 0.0,
+   "same_topology": true,
+   "identical": true
+  },
+  "PRINT_building_body": {
+   "verts": [
+    5280,
+    5280
+   ],
+   "faces": [
+    3289,
+    3289
+   ],
+   "max_vertex_diff_m": 0.0,
+   "same_topology": true,
+   "identical": true
+  }
+ },
+ "scale": {
+  "scale": "1:240",
+  "mm_per_m": 4.16667,
+  "parts": {
+   "PRINT_building_body": {
+    "printed_mm": [
+     266.09,
+     143.64,
+     65.83
+    ],
+    "filament_slot": 3,
+    "part_order": 1,
+    "print_scale": "1:240"
+   },
+   "PRINT_building_body_WHITE": {
+    "printed_mm": [
+     262.07,
+     143.64,
+     57.97
+    ],
+    "filament_slot": 1,
+    "part_order": 2,
+    "print_scale": "1:240"
+   },
+   "PRINT_building_body_BLACK": {
+    "printed_mm": [
+     266.09,
+     134.96,
+     55.64
+    ],
+    "filament_slot": 2,
+    "part_order": 3,
+    "print_scale": "1:240"
+   },
+   "PRINT_building_body_CLEAR": {
+    "printed_mm": [
+     260.89,
+     133.79,
+     36.75
+    ],
+    "filament_slot": 4,
+    "part_order": 4,
+    "print_scale": "1:240"
+   },
+   "PRINT_building_body_FRAMES": {
+    "printed_mm": [
+     261.8,
+     134.7,
+     37.24
+    ],
+    "filament_slot": 3,
+    "part_order": 5,
+    "print_scale": "1:240"
+   },
+   "PRINT_canopy_dropoff": {
+    "printed_mm": [
+     83.33,
+     29.75,
+     25.35
+    ],
+    "filament_slot": 3,
+    "part_order": 1,
+    "print_scale": "1:240"
+   },
+   "PRINT_canopy_dropoff_CLEAR": {
+    "printed_mm": [
+     83.33,
+     29.75,
+     3.58
+    ],
+    "filament_slot": 4,
+    "part_order": 2,
+    "print_scale": "1:240"
+   },
+   "PRINT_sunshade": {
+    "printed_mm": [
+     194.02,
+     102.32,
+     1.27
+    ],
+    "filament_slot": 1,
+    "part_order": 1,
+    "print_scale": "1:240"
+   },
+   "PRINT_site_base": {
+    "printed_mm": [
+     317.71,
+     189.58,
+     37.46
+    ],
+    "filament_slot": 3,
+    "part_order": 1,
+    "print_scale": "1:240"
+   }
+  },
+  "fits_H2S": {
+   "PRINT_building_body": true,
+   "PRINT_building_body_WHITE": true,
+   "PRINT_building_body_BLACK": true,
+   "PRINT_building_body_CLEAR": true,
+   "PRINT_building_body_FRAMES": true,
+   "PRINT_canopy_dropoff": true,
+   "PRINT_canopy_dropoff_CLEAR": true,
+   "PRINT_sunshade": true,
+   "PRINT_site_base": true
+  }
+ },
+ "watertight": {
+  "PRINT_building_body": {
+   "verts": 5280,
+   "tris": 10556,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 19883.71046429235,
+   "islands": 1,
+   "nonplanar_faces": null,
+   "watertight": true
+  },
+  "PRINT_building_body_WHITE": {
+   "verts": 2369,
+   "tris": 3226,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 1140.8495271271283,
+   "islands": 378,
+   "nonplanar_faces": 0,
+   "watertight": true
+  },
+  "PRINT_building_body_BLACK": {
+   "verts": 505,
+   "tris": 710,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 46.728131930487955,
+   "islands": 75,
+   "nonplanar_faces": 0,
+   "watertight": true
+  },
+  "PRINT_building_body_CLEAR": {
+   "verts": 542,
+   "tris": 916,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 267.5311614048974,
+   "islands": 42,
+   "nonplanar_faces": 0,
+   "watertight": true
+  },
+  "PRINT_building_body_FRAMES": {
+   "verts": 2472,
+   "tris": 3708,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 39.994838997621386,
+   "islands": 309,
+   "nonplanar_faces": 0,
+   "watertight": true
+  },
+  "PRINT_canopy_dropoff": {
+   "verts": 284,
+   "tris": 636,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 44.72885350633277,
+   "islands": 1,
+   "nonplanar_faces": null,
+   "watertight": true
+  },
+  "PRINT_canopy_dropoff_CLEAR": {
+   "verts": 16,
+   "tris": 24,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 33.204235860931306,
+   "islands": 2,
+   "nonplanar_faces": 0,
+   "watertight": true
+  },
+  "PRINT_sunshade": {
+   "verts": 2401,
+   "tris": 5534,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 47.22197270439355,
+   "islands": 1,
+   "nonplanar_faces": null,
+   "watertight": true
+  },
+  "PRINT_site_base": {
+   "verts": 42433,
+   "tris": 84862,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "flipped_edges": 0,
+   "volume_m3": 5370.084549318148,
+   "islands": 1,
+   "nonplanar_faces": null,
+   "watertight": true
+  }
+ },
+ "containment": {
+  "PRINT_building_body_WHITE": {
+   "points": 5595,
+   "outside": 0,
+   "worst_m": 0.0,
+   "tolerance_m": 0.003
+  },
+  "PRINT_building_body_BLACK": {
+   "points": 1215,
+   "outside": 0,
+   "worst_m": 0.0,
+   "tolerance_m": 0.003
+  },
+  "PRINT_building_body_CLEAR": {
+   "points": 1458,
+   "outside": 0,
+   "worst_m": 0.0,
+   "tolerance_m": 0.003
+  },
+  "PRINT_building_body_FRAMES": {
+   "points": 6180,
+   "outside": 0,
+   "worst_m": 0.0,
+   "tolerance_m": 0.02
+  },
+  "PRINT_canopy_dropoff_CLEAR": {
+   "points": 40,
+   "outside": 0,
+   "worst_m": 0.0,
+   "tolerance_m": 0.003
+  }
+ },
+ "winding_number_overlap_check": {
+  "PRINT_building_body_FRAMES": {
+   "points": 11891,
+   "max": 2.0,
+   "points_above_1p5": 50
+  },
+  "PRINT_building_body_CLEAR": {
+   "points": 9771,
+   "max": 2.0,
+   "points_above_1p5": 143
+  },
+  "PRINT_building_body_BLACK": {
+   "points": 18127,
+   "max": 2.0,
+   "points_above_1p5": 68
+  },
+  "PRINT_building_body_WHITE": {
+   "points": 18255,
+   "max": 4.0,
+   "points_above_1p5": 936
+  }
+ },
+ "colour_correctness": {
+  "samples": 24000,
+  "visible_body_area_m2": 5368.5,
+  "confusion_area_m2_effective_vs_expected": {
+   "WHITE": {
+    "WHITE": 3055.32,
+    "BLACK": 1.34,
+    "GRAY": 29.75,
+    "CLEAR": 0.45,
+    "UNMATCHED": 0.0
+   },
+   "BLACK": {
+    "WHITE": 1.34,
+    "BLACK": 149.42,
+    "GRAY": 6.93,
+    "CLEAR": 0.0,
+    "UNMATCHED": 0.0
+   },
+   "GRAY": {
+    "WHITE": 2.24,
+    "BLACK": 3.36,
+    "GRAY": 1412.13,
+    "CLEAR": 1.57,
+    "UNMATCHED": 0.0
+   },
+   "CLEAR": {
+    "WHITE": 0.0,
+    "BLACK": 5.37,
+    "GRAY": 0.45,
+    "CLEAR": 698.79,
+    "UNMATCHED": 0.0
+   }
+  },
+  "agreement_pct_of_matched": 99.02,
+  "unmatched_pct": 0.0,
+  "effective_colour_area_pct": {
+   "WHITE": 57.5,
+   "BLACK": 2.94,
+   "GRAY": 26.44,
+   "CLEAR": 13.13
+  },
+  "note": "expected = CLEAR where a v023 glass pane lies directly in front (outward ray <= 0.8 m), else the finish of the nearest non-glass v023 face within 0.35 m (frames forced gray); mismatches concentrate within a few cm of finish boundaries and on relief the print widened (frames, parapets)"
+ },
+ "colour_mismatch_clusters_top": [
+  {
+   "cell_m": [
+    46,
+    24,
+    6
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.895
+  },
+  {
+   "cell_m": [
+    51,
+    1,
+    5
+   ],
+   "expected": "BLACK",
+   "effective": "CLEAR",
+   "area_m2": 0.671
+  },
+  {
+   "cell_m": [
+    33,
+    32,
+    8
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.671
+  },
+  {
+   "cell_m": [
+    60,
+    1,
+    5
+   ],
+   "expected": "BLACK",
+   "effective": "CLEAR",
+   "area_m2": 0.671
+  },
+  {
+   "cell_m": [
+    53,
+    15,
+    7
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.671
+  },
+  {
+   "cell_m": [
+    29,
+    32,
+    5
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.671
+  },
+  {
+   "cell_m": [
+    53,
+    24,
+    9
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.671
+  },
+  {
+   "cell_m": [
+    21,
+    7,
+    8
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    1,
+    32,
+    13
+   ],
+   "expected": "WHITE",
+   "effective": "BLACK",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    26,
+    32,
+    4
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    32,
+    32,
+    5
+   ],
+   "expected": "WHITE",
+   "effective": "GRAY",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    9,
+    8,
+    8
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    47,
+    1,
+    5
+   ],
+   "expected": "BLACK",
+   "effective": "CLEAR",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    62,
+    6,
+    5
+   ],
+   "expected": "BLACK",
+   "effective": "CLEAR",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    53,
+    11,
+    6
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    21,
+    7,
+    6
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    45,
+    24,
+    5
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    27,
+    1,
+    5
+   ],
+   "expected": "BLACK",
+   "effective": "CLEAR",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    62,
+    7,
+    5
+   ],
+   "expected": "BLACK",
+   "effective": "CLEAR",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    45,
+    1,
+    6
+   ],
+   "expected": "CLEAR",
+   "effective": "GRAY",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    24,
+    32,
+    1
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    29,
+    32,
+    12
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    32,
+    32,
+    6
+   ],
+   "expected": "WHITE",
+   "effective": "GRAY",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    26,
+    7,
+    6
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  },
+  {
+   "cell_m": [
+    29,
+    32,
+    4
+   ],
+   "expected": "GRAY",
+   "effective": "WHITE",
+   "area_m2": 0.447
+  }
+ ],
+ "colour_part_thickness_and_islands": {
+  "PRINT_building_body_WHITE": {
+   "samples": 3000,
+   "min_mm": 0.009,
+   "p5_mm": 0.27,
+   "median_mm": 1.0,
+   "share_below_0p4mm_pct": 9.77,
+   "islands": 378,
+   "islands_below_0p5mm3": 11,
+   "smallest_island_mm3": 0.0007,
+   "volume_mm3": 82526.7
+  },
+  "PRINT_building_body_BLACK": {
+   "samples": 710,
+   "min_mm": 0.063,
+   "p5_mm": 0.212,
+   "median_mm": 1.0,
+   "share_below_0p4mm_pct": 8.17,
+   "islands": 75,
+   "islands_below_0p5mm3": 2,
+   "smallest_island_mm3": 0.1069,
+   "volume_mm3": 3380.2
+  },
+  "PRINT_building_body_CLEAR": {
+   "samples": 916,
+   "min_mm": 0.42,
+   "p5_mm": 1.2,
+   "median_mm": 1.2,
+   "share_below_0p4mm_pct": 0.0,
+   "islands": 42,
+   "islands_below_0p5mm3": 0,
+   "smallest_island_mm3": 33.5246,
+   "volume_mm3": 19352.7
+  },
+  "PRINT_building_body_FRAMES": {
+   "samples": 3000,
+   "min_mm": 0.006,
+   "p5_mm": 0.503,
+   "median_mm": 0.7,
+   "share_below_0p4mm_pct": 2.23,
+   "islands": 309,
+   "islands_below_0p5mm3": 0,
+   "smallest_island_mm3": 1.4543,
+   "volume_mm3": 2893.1
+  },
+  "PRINT_canopy_dropoff_CLEAR": {
+   "samples": 24,
+   "min_mm": 1.0,
+   "p5_mm": 1.0,
+   "median_mm": 1.0,
+   "share_below_0p4mm_pct": 0.0,
+   "islands": 2,
+   "islands_below_0p5mm3": 0,
+   "smallest_island_mm3": 667.7241,
+   "volume_mm3": 2401.9
+  },
+  "PRINT_sunshade": {
+   "samples": 3000,
+   "min_mm": 0.123,
+   "p5_mm": 1.0,
+   "median_mm": 1.076,
+   "share_below_0p4mm_pct": 0.03,
+   "islands": 1,
+   "islands_below_0p5mm3": 0,
+   "smallest_island_mm3": 3415.9413,
+   "volume_mm3": 3415.9
+  }
+ },
+ "summary": {
+  "frozen_files_ok": true,
+  "v002_parts_identical": true,
+  "all_watertight": true,
+  "colour_parts_planar": true,
+  "colour_parts_inside_base": true,
+  "colour_agreement_pct": 99.02,
+  "fits_H2S": true,
+  "runtime_s": 32.6
+ }
+}
