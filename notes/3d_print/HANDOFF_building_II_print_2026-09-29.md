@@ -73,7 +73,7 @@
    - Rebuild the zip, and add the new files to a new freeze addendum. Don't edit the frozen v003 files.
    - **Note:** the package's `README.txt` and `.zip` are themselves listed in the v003 freeze record. So build a **new** package folder (same four 3MFs, byte-identical, plus the saved project and a new README) and a new zip beside the frozen ones, instead of editing them.
 3. ~~**Correct the time and purge figures**~~ **Done 2026-09-29:** `PRINT_CONTROL.md` §33, §34, §36 and `PRINT_EXPORT.md` Part C (C3, C4) now give the real app slice and the unconfirmed 0.4 mm estimate. C4 now says flush into objects' infill on, multiplier 0.8. Replace the estimate with the real figure after task 1.
-4. **Email to Austin:** the draft is below. Brandon will send it himself (no address on file). If the saved project from task 1 is sent instead, steps 2–4 of the email can be dropped.
+4. **Done 2026-09-30:** Brandon emailed Austin the 9/29 zip with the full setup steps (4 filaments listed before opening, parts 3/1/2/4/3, flush into infill, multiplier 0.8, roughly 3 to 3.5 days). The zip's README still says "about 35 h"; the email gives the corrected time. Original task: **Email to Austin:** the draft is below. Brandon will send it himself (no address on file). If the saved project from task 1 is sent instead, steps 2–4 of the email can be dropped.
 
 ## Rules
 - `source_documents` is read-only. Never overwrite a frozen file; always create a new version.
