@@ -62,7 +62,7 @@
 
 ## Open tasks
 1. **Brandon, in Bambu:**
-   - Confirm a 0.4 mm nozzle is installed.
+   - ~~Confirm a 0.4 mm nozzle is installed.~~ **Confirmed 2026-09-30:** Rob says Austin's printer has a 0.4 mm nozzle. Brandon still sets his Bambu app to 0.4 so the saved project and the time match Austin's printer.
    - Printer → Nozzle Diameter **0.4**; Process **0.12mm High Quality @BBL H2S**.
    - Process → Others → Flush options → **Flush into objects' infill** (switch on Advanced if hidden).
    - **Purging volumes** multiplier **0.8**.
