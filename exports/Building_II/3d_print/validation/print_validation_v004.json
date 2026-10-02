@@ -1,0 +1,302 @@
+{
+ "file": "exports/Building_II/3d_print/3mf/building_II_v004_1-240_multicolor_site_base.3mf",
+ "checks": {
+  "frozen_v003_package_unchanged": {
+   "passed": true,
+   "checked": 54,
+   "changed": [],
+   "not_checked_out": []
+  },
+  "structure_one_object_three_parts": {
+   "passed": true,
+   "parts": [
+    [
+     "1 site base - gray (exact v003)",
+     3
+    ],
+    [
+     "2 lawn + planting beds + shrubs + tree - green",
+     4
+    ],
+    [
+     "3 asphalt drive + entry plaza + yard copings - black",
+     2
+    ]
+   ]
+  },
+  "base_identical_to_v003": {
+   "passed": true,
+   "vertices": 42433,
+   "triangles": 84862,
+   "transform": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    48.645834,
+    86.041667,
+    12.7
+   ]
+  },
+  "scale_1_to_240_and_size": {
+   "passed": true,
+   "size_mm": [
+    317.708,
+    189.583,
+    37.465
+   ],
+   "crop_real_m": [
+    76.25,
+    45.5
+   ]
+  },
+  "on_bed": {
+   "passed": true,
+   "bbox_on_bed_mm": [
+    [
+     11.146,
+     65.208,
+     0.0
+    ],
+    [
+     328.854,
+     254.792,
+     37.465
+    ]
+   ]
+  },
+  "GREEN_shells_closed_and_oriented": {
+   "passed": true,
+   "open_or_nonmanifold_edges": 0,
+   "misoriented_edges": 0,
+   "triangles": 322832
+  },
+  "BLACK_shells_closed_and_oriented": {
+   "passed": true,
+   "open_or_nonmanifold_edges": 0,
+   "misoriented_edges": 0,
+   "triangles": 5420
+  },
+  "GREEN_inside_base (tolerance 0.08 mm printed)": {
+   "passed": true,
+   "points": 555444,
+   "outside": 0,
+   "examples_mm": []
+  },
+  "BLACK_inside_base (tolerance 0.08 mm printed)": {
+   "passed": true,
+   "points": 9416,
+   "outside": 0,
+   "examples_mm": []
+  },
+  "colour: asphalt drive / drop-off lane (terrain SITE_existing_asphalt) is dark": {
+   "passed": true,
+   "want": "BLACK",
+   "samples": 138,
+   "result": {
+    "BLACK": 138
+   },
+   "agree_pct": 100.0
+  },
+  "colour: entry plaza (Westmount Onyx pavers) is dark": {
+   "passed": true,
+   "want": "BLACK",
+   "samples": 400,
+   "result": {
+    "BLACK": 398,
+    "documented surface not visible here (covered by another element, or cut)": 453,
+    "GRAY": 2
+   },
+   "agree_pct": 99.5
+  },
+  "colour: lawn terrain is green": {
+   "passed": true,
+   "want": "GREEN",
+   "samples": 60,
+   "result": {
+    "documented surface not visible here (covered by another element, or cut)": 977,
+    "GREEN": 58,
+    "GRAY": 2
+   },
+   "agree_pct": 96.67
+  },
+  "colour: landscape-bed terrain is green": {
+   "passed": true,
+   "want": "GREEN",
+   "samples": 400,
+   "result": {
+    "documented surface not visible here (covered by another element, or cut)": 464,
+    "GREEN": 400
+   },
+   "agree_pct": 100.0
+  },
+  "colour: south mulch planting strip is green": {
+   "passed": true,
+   "want": "GREEN",
+   "samples": 400,
+   "result": {
+    "documented surface not visible here (covered by another element, or cut)": 94,
+    "GREEN": 399,
+    "GRAY": 1
+   },
+   "agree_pct": 99.75
+  },
+  "colour: north-east lawn bed is green": {
+   "passed": true,
+   "want": "GREEN",
+   "samples": 400,
+   "result": {
+    "GREEN": 399,
+    "documented surface not visible here (covered by another element, or cut)": 2,
+    "GRAY": 1
+   },
+   "agree_pct": 99.75
+  },
+  "colour: north-west paver walk is gray": {
+   "passed": true,
+   "want": "GRAY",
+   "samples": 400,
+   "result": {
+    "documented surface not visible here (covered by another element, or cut)": 401,
+    "GRAY": 399,
+    "GREEN": 1
+   },
+   "agree_pct": 99.75
+  },
+  "colour: west paver walk is gray": {
+   "passed": true,
+   "want": "GRAY",
+   "samples": 400,
+   "result": {
+    "documented surface not visible here (covered by another element, or cut)": 428,
+    "GRAY": 400
+   },
+   "agree_pct": 100.0
+  },
+  "colour: drop-off band (pavers) is gray": {
+   "passed": true,
+   "want": "GRAY",
+   "samples": 400,
+   "result": {
+    "documented surface not visible here (covered by another element, or cut)": 530,
+    "GRAY": 399,
+    "GREEN": 1
+   },
+   "agree_pct": 99.75
+  },
+  "colour: generator-yard concrete slab is gray": {
+   "passed": true,
+   "want": "GRAY",
+   "samples": 400,
+   "result": {
+    "GRAY": 400,
+    "documented surface not visible here (covered by another element, or cut)": 395
+   },
+   "agree_pct": 100.0
+  },
+  "colour: south-west concrete walk is gray": {
+   "passed": true,
+   "want": "GRAY",
+   "samples": 400,
+   "result": {
+    "documented surface not visible here (covered by another element, or cut)": 421,
+    "GRAY": 400
+   },
+   "agree_pct": 100.0
+  },
+  "colour: transformer pad is gray": {
+   "passed": true,
+   "want": "GRAY",
+   "samples": 400,
+   "result": {
+    "GRAY": 400,
+    "documented surface not visible here (covered by another element, or cut)": 380
+   },
+   "agree_pct": 100.0
+  },
+  "colour: bollards are gray (top of each bollard)": {
+   "passed": true,
+   "want": "GRAY",
+   "samples": 10,
+   "result": {
+    "GRAY": 10
+   },
+   "agree_pct": 100.0
+  },
+  "colour: shrubs and tree are green (top of each plant)": {
+   "passed": true,
+   "want": "GREEN",
+   "samples": 340,
+   "result": {
+    "GREEN": 333,
+    "GRAY": 7
+   },
+   "agree_pct": 97.94
+  }
+ },
+ "sha256_of_3mf": "a74e43e998b12c21bcddcf15dfb7297614f1c8d9138025b8ad0288801b6f6700",
+ "colour_sampling_note": "points are drawn on the documented v023 surface and kept only where that surface is the visible top of the base (within 3 cm real; beds: 0-40 cm above their sheet, as printed as raised pads); their colour is the effective Bambu colour 0.08 mm under the surface (later part wins)",
+ "layer_analysis": {
+  "0.12mm": {
+   "layers": 311,
+   "layers_with_2_colours": 103,
+   "layers_with_3_colours": 32,
+   "estimated_filament_changes": 167,
+   "colour_z_range_mm": {
+    "GREEN": [
+     4.8,
+     20.04
+    ],
+    "BLACK": [
+     8.82,
+     30.48
+    ]
+   }
+  },
+  "0.16mm": {
+   "layers": 233,
+   "layers_with_2_colours": 77,
+   "layers_with_3_colours": 24,
+   "estimated_filament_changes": 125,
+   "colour_z_range_mm": {
+    "GREEN": [
+     4.8,
+     20.04
+    ],
+    "BLACK": [
+     8.82,
+     30.48
+    ]
+   }
+  },
+  "0.20mm": {
+   "layers": 186,
+   "layers_with_2_colours": 62,
+   "layers_with_3_colours": 19,
+   "estimated_filament_changes": 100,
+   "colour_z_range_mm": {
+    "GREEN": [
+     4.8,
+     20.04
+    ],
+    "BLACK": [
+     8.82,
+     30.48
+    ]
+   }
+  }
+ },
+ "layer_analysis_note": "colours present per layer from the parts' shell height ranges; Bambu orders the filaments so each layer starts with the previous layer's last colour, so changes = sum over layers of (colours on the layer - 1). An estimate: the Bambu Studio slice is the authority.",
+ "volumes_mm3": {
+  "BASE": 388462.5,
+  "GREEN": 15128.0,
+  "BLACK": 5554.9
+ },
+ "passed": true,
+ "runtime_s": 984.4
+}

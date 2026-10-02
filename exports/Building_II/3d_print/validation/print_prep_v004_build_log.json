@@ -1,0 +1,357 @@
+{
+ "script": "scripts/3d_print/build_print_v004.py",
+ "scale": "1:240",
+ "frozen_inputs": {
+  "models/Building_II/print_derivatives/archive/building_II_print_v001_audit_copy.blend": "7fe33f1e4dc906c75b54122203fec75ee9ef948be70897e46fcfd1b288235c91",
+  "models/Building_II/print_derivatives/building_II_print_v003.blend": "27737a83aee78fa464a9e3c75b518540909339b42845283857293232bb6352a7",
+  "exports/Building_II/3d_print/3mf/building_II_v003_1-240_site_base.3mf": "9c533994379897554a8cd7e93eeb9e2fc1a0fcbb3ce7bd9ff9c565970ca4682e",
+  "scripts/3d_print/build_print_v003.py": "7938dc313137f7ad2e121bc9566f01d2b66a782fd44434ddb30bc20737899df9"
+ },
+ "parameters": {
+  "D_SKIN_m": 0.24,
+  "EDGE_INSET_m": 0.12,
+  "STEEP_NZ": 0.3,
+  "CLASS_TOL_m": 0.05,
+  "TERRAIN_TOL_m": 0.25
+ },
+ "site_operands": 439,
+ "warnings": [],
+ "base": {
+  "triangles": 84862,
+  "vertices": 42433,
+  "bbox_min_m": [
+   -9.0,
+   -5.0,
+   -3.048
+  ],
+  "bbox_max_m": [
+   67.25,
+   40.5,
+   5.9435
+  ],
+  "size_mm": [
+   317.708,
+   189.583,
+   37.465
+  ]
+ },
+ "classification": {
+  "how": {
+   "matched_source_surface": 82004,
+   "terrain_vertical_lookup": 216,
+   "unmatched (cut faces: crop sides, underside, pocket, sockets, rib clearances) -> gray": 1086,
+   "underside (never coloured) -> gray": 1772
+  },
+  "by_colour_and_material": {
+   "GRAY | (underside)": {
+    "tris": 1772,
+    "area_m2": 3471.66
+   },
+   "GRAY | (cut face)": {
+    "tris": 1086,
+    "area_m2": 3038.58
+   },
+   "GREEN | SITE_lawn_ground_shape_no_planting": {
+    "tris": 2134,
+    "area_m2": 573.61
+   },
+   "BLACK | SITE_existing_asphalt": {
+    "tris": 506,
+    "area_m2": 284.31
+   },
+   "GRAY | BRK-1_Endicott_Manganese_Ironspot_utility": {
+    "tris": 289,
+    "area_m2": 224.11
+   },
+   "GRAY | SITE_pavers_Techo-Bloc_Linea_Shale_Gray": {
+    "tris": 567,
+    "area_m2": 199.47
+   },
+   "GREEN | planting (simplified plant)": {
+    "tris": 42476,
+    "area_m2": 169.67
+   },
+   "GRAY | SITE_concrete_flatwork": {
+    "tris": 460,
+    "area_m2": 144.97
+   },
+   "GRAY | UNRES_painted_CMU_COLOR_TBD": {
+    "tris": 42,
+    "area_m2": 99.14
+   },
+   "GREEN | LAND_Bed_mulch_south_strip": {
+    "tris": 26223,
+    "area_m2": 71.35
+   },
+   "GREEN | SITE_landscape_bed_ground_shape": {
+    "tris": 2108,
+    "area_m2": 65.5
+   },
+   "GRAY | DET_black_paint_steel": {
+    "tris": 348,
+    "area_m2": 47.25
+   },
+   "BLACK | SITE_plaza_Techo-Bloc_Westmount_Onyx": {
+    "tris": 121,
+    "area_m2": 35.14
+   },
+   "GREEN | LAND_Lawn_northeast_bed": {
+    "tris": 551,
+    "area_m2": 21.28
+   },
+   "GRAY | BC-1_BC-2_brick_cap_match_BRK-1": {
+    "tris": 21,
+    "area_m2": 13.24
+   },
+   "GREEN | LAND_Bed_mulch_southeast": {
+    "tris": 4017,
+    "area_m2": 11.84
+   },
+   "GREEN | LAND_Lawn_northwest_bed": {
+    "tris": 1071,
+    "area_m2": 11.46
+   },
+   "GRAY | UNRES_HM_door_paint": {
+    "tris": 16,
+    "area_m2": 11.01
+   },
+   "BLACK | MTL-1_metal_coping_match_ACM-2": {
+    "tris": 16,
+    "area_m2": 10.62
+   },
+   "GRAY | SITE_existing_plaza_not_detailed": {
+    "tris": 30,
+    "area_m2": 10.33
+   },
+   "GREEN | SITE_entrance_bed_mulch": {
+    "tris": 232,
+    "area_m2": 3.94
+   },
+   "GRAY | UNRES_light_bollard_finish": {
+    "tris": 155,
+    "area_m2": 3.77
+   },
+   "GREEN | LAND_Bed_mulch_south_recess": {
+    "tris": 81,
+    "area_m2": 1.92
+   },
+   "GRAY | tree trunk (print addition)": {
+    "tris": 78,
+    "area_m2": 1.32
+   },
+   "GRAY | UNRES_building_base_strip_north": {
+    "tris": 22,
+    "area_m2": 1.18
+   },
+   "GREEN | LAND_Planter_bed_at_CW2_bay": {
+    "tris": 195,
+    "area_m2": 0.86
+   },
+   "GRAY | DET_luminaire_lens": {
+    "tris": 245,
+    "area_m2": 0.77
+   }
+  }
+ },
+ "skins": {
+  "GREEN": {
+   "prisms": 35259,
+   "area_m2": 761.24,
+   "depth_limited": 175,
+   "dropped_no_thickness": 72,
+   "steep": 1047
+  },
+  "BLACK": {
+   "prisms": 643,
+   "area_m2": 330.07,
+   "depth_limited": 0,
+   "dropped_no_thickness": 0,
+   "steep": 13
+  }
+ },
+ "skin_outside_points": {
+  "GREEN": {
+   "beyond_5mm": 0,
+   "beyond_20mm": 0,
+   "max_m": 0.0
+  },
+  "BLACK": {
+   "beyond_5mm": 0,
+   "beyond_20mm": 0,
+   "max_m": 0.0
+  }
+ },
+ "skin_outside_examples": {
+  "GREEN": [],
+  "BLACK": []
+ },
+ "plants": {
+  "shrubs": 338,
+  "tree_canopy": 1,
+  "kept_whole": 333,
+  "guarded": [
+   {
+    "piece": "LAND_SEAS_033",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.021714,
+    "kept": true
+   },
+   {
+    "piece": "LAND_SEAS_034",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.023751,
+    "kept": true
+   },
+   {
+    "piece": "LAND_SEAS_034",
+    "fallback": "surface skins (pinched after clipping)",
+    "metrics": {
+     "verts": 247,
+     "tris": 480,
+     "boundary_edges": 4,
+     "nonmanifold_edges": 0,
+     "wire_edges": 0,
+     "flipped_edges": 0,
+     "islands": 3,
+     "loose_verts": 0,
+     "volume_m3": 0.023750885932981507,
+     "bbox_min": [
+      44.1818733215332,
+      32.34564208984375,
+      -0.14480361342430115
+     ],
+     "bbox_max": [
+      44.541873931884766,
+      32.70564270019531,
+      0.19519631564617157
+     ]
+    }
+   },
+   {
+    "piece": "LAND_SEAS_035",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.007126,
+    "kept": true
+   },
+   {
+    "piece": "LAND_SEAS_043",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.0,
+    "kept": false
+   },
+   {
+    "piece": "LAND_SEAS_044",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.016931,
+    "kept": true
+   },
+   {
+    "piece": "LAND_SEAS_045",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.007523,
+    "kept": true
+   },
+   {
+    "piece": "LAND_SEAS_047",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.0,
+    "kept": false
+   },
+   {
+    "piece": "LAND_SEAS_053",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.0,
+    "kept": false
+   },
+   {
+    "piece": "LAND_SEAS_055",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.0,
+    "kept": false
+   },
+   {
+    "piece": "LAND_SEAS_056",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.017159,
+    "kept": true
+   },
+   {
+    "piece": "LAND_SEAS_059",
+    "volume_before_m3": 0.02468,
+    "volume_after_m3": 0.0,
+    "kept": false
+   }
+  ]
+ },
+ "edge_inset": {
+  "face entirely in the edge band": 4,
+  "face clipped at the edge band": 417
+ },
+ "final_parts": {
+  "PRINT_site_base": {
+   "verts": 42433,
+   "tris": 84862,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "flipped_edges": 0,
+   "islands": 1,
+   "loose_verts": 0,
+   "volume_m3": 5370.105365358351,
+   "bbox_min": [
+    -9.0,
+    -5.0,
+    -3.0480000972747803
+   ],
+   "bbox_max": [
+    67.25,
+    40.5,
+    5.943509578704834
+   ]
+  },
+  "PRINT_site_base_GREEN": {
+   "verts": 232612,
+   "tris": 322832,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "flipped_edges": 0,
+   "islands": 35598,
+   "loose_verts": 0,
+   "volume_m3": 209.12997855136544,
+   "bbox_min": [
+    -8.880000114440918,
+    -4.880000114440918,
+    -1.8950639963150024
+   ],
+   "bbox_max": [
+    67.12999725341797,
+    40.380001068115234,
+    1.762468934059143
+   ]
+  },
+  "PRINT_site_base_BLACK": {
+   "verts": 3996,
+   "tris": 5420,
+   "boundary_edges": 0,
+   "nonmanifold_edges": 0,
+   "wire_edges": 0,
+   "flipped_edges": 0,
+   "islands": 643,
+   "loose_verts": 0,
+   "volume_m3": 76.79090026988591,
+   "bbox_min": [
+    -6.705599784851074,
+    7.559040069580078,
+    -0.9302641153335571
+   ],
+   "bbox_max": [
+    67.12999725341797,
+    40.380001068115234,
+    4.267199993133545
+   ]
+  }
+ },
+ "save_gate_failures": [],
+ "runtime_s": 102.0
+}

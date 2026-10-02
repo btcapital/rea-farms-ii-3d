@@ -1,0 +1,51 @@
+{
+ "source_blend": "models/Building_II/print_derivatives/building_II_print_v004.blend",
+ "source_sha256": "91a12c8cf6f5172cb046ac993dd82d7df31727159524bfea46e92d3a1d0b3b81",
+ "scale": "1:240",
+ "mm_per_m": 4.166666666666667,
+ "threemf": "exports/Building_II/3d_print/3mf/building_II_v004_1-240_multicolor_site_base.3mf",
+ "sha256": "a74e43e998b12c21bcddcf15dfb7297614f1c8d9138025b8ad0288801b6f6700",
+ "transform": [
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  48.645834,
+  86.041667,
+  12.7
+ ],
+ "transform_equals_v003_site_base": true,
+ "parts": [
+  {
+   "object": "PRINT_site_base",
+   "name": "1 site base - gray (exact v003)",
+   "filament": 3,
+   "triangles": 84862,
+   "vertices": 42433
+  },
+  {
+   "object": "PRINT_site_base_GREEN",
+   "name": "2 lawn + planting beds + shrubs + tree - green",
+   "filament": 4,
+   "triangles": 322832,
+   "vertices": 232612
+  },
+  {
+   "object": "PRINT_site_base_BLACK",
+   "name": "3 asphalt drive + entry plaza + yard copings - black",
+   "filament": 2,
+   "triangles": 5420,
+   "vertices": 3996
+  }
+ ],
+ "companions_unchanged": {
+  "building_II_v003_1-240_multicolor_building.3mf": "b73b8d2f21815e7a4c0ce0fa267072a7bac215e5e158f2fed6bb75d8ad2144b8",
+  "building_II_v003_1-240_dropoff_canopy.3mf": "2235f5dd722a73259eb8cb78675e8fdbd960fd13f9d1c20213ecf4d7fcbd75db",
+  "building_II_v003_1-240_sunshade.3mf": "666d237365ede0740c2f4664d9648807741cdcabc1192f697d858ce104684d7d"
+ }
+}

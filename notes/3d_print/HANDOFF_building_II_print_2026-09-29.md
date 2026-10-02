@@ -10,6 +10,13 @@
   - `notes/3d_print/PRINT_VALIDATION.md` (Part C)
   - `notes/3d_print/PRINT_EXPORT.md` (Part C)
 
+## Update 2026-10-02: v004 multicolour SITE BASE (only the site base changed)
+- **New file:** `exports/Building_II/3d_print/3mf/building_II_v004_1-240_multicolor_site_base.3mf` (one object, 3 parts in this order: 1 base gray = slot 3, 2 green = slot 4, 3 black = slot 2). Never reorder the parts.
+- **Companions (unchanged, frozen v003):** the multicolour building, drop-off canopy and sun-shade 3MFs.
+- **AMS for the site base only:** swap the Clear spool in slot 4 for **Green PLA**. Slots 1 White, 2 Black, 3 Gray stay. White is not used by the site base.
+- **Colours:** asphalt drive / drop-off lane, Onyx entry plaza and yard copings black; lawn, beds, shrubs and tree green; walks, concrete, curbs, bollards, poles, brick walls, edges gray. Every documented vs inferred choice: `PRINT_CONTROL.md` §40. Permanent requirement: §38 (also in `AGENTS.md`).
+- **Built and validated in a cloud session** (Blender 5.2 Python module). Bambu Studio could not be installed there, so these are still open for Brandon: slice in Bambu Studio (H2S), record the real time / grams / changes, and take the Prepare and Preview screenshots. Then owner review. Not yet frozen; no Austin package yet.
+
 ## Status
 - **v002 (1:240, single colour):** printed and approved by Rob. Frozen.
 - **v003 (1:240, MULTICOLOR):** approved by the owner for handoff and **FROZEN**.
@@ -62,7 +69,7 @@
 
 ## Open tasks
 1. **Brandon, in Bambu:**
-   - Confirm a 0.4 mm nozzle is installed.
+   - ~~Confirm a 0.4 mm nozzle is installed.~~ **Confirmed 2026-09-30:** Rob says Austin's printer has a 0.4 mm nozzle. Brandon still sets his Bambu app to 0.4 so the saved project and the time match Austin's printer.
    - Printer → Nozzle Diameter **0.4**; Process **0.12mm High Quality @BBL H2S**.
    - Process → Others → Flush options → **Flush into objects' infill** (switch on Advanced if hidden).
    - **Purging volumes** multiplier **0.8**.
@@ -71,8 +78,9 @@
 2. **Add that saved Bambu project** to the handoff package.
    - Update `README.txt` with the filament setup steps and the realistic time.
    - Rebuild the zip, and add the new files to a new freeze addendum. Don't edit the frozen v003 files.
-3. **Correct the time and purge figures** in `PRINT_CONTROL.md` §33–34 and `PRINT_EXPORT.md` Part C (text only; the notes are living documents).
-4. **Email to Austin:** the draft is below. Brandon will send it himself (no address on file). If the saved project from task 1 is sent instead, steps 2–4 of the email can be dropped.
+   - **Note:** the package's `README.txt` and `.zip` are themselves listed in the v003 freeze record. So build a **new** package folder (same four 3MFs, byte-identical, plus the saved project and a new README) and a new zip beside the frozen ones, instead of editing them.
+3. ~~**Correct the time and purge figures**~~ **Done 2026-09-29:** `PRINT_CONTROL.md` §33, §34, §36 and `PRINT_EXPORT.md` Part C (C3, C4) now give the real app slice and the unconfirmed 0.4 mm estimate. C4 now says flush into objects' infill on, multiplier 0.8. Replace the estimate with the real figure after task 1.
+4. **Done 2026-09-30:** Brandon emailed Austin the 9/29 zip with the full setup steps (4 filaments listed before opening, parts 3/1/2/4/3, flush into infill, multiplier 0.8, roughly 3 to 3.5 days). The zip's README still says "about 35 h"; the email gives the corrected time. Original task: **Email to Austin:** the draft is below. Brandon will send it himself (no address on file). If the saved project from task 1 is sent instead, steps 2–4 of the email can be dropped.
 
 ## Rules
 - `source_documents` is read-only. Never overwrite a frozen file; always create a new version.

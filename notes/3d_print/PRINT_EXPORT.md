@@ -1,10 +1,41 @@
 # Building II — print exports and first-print guidance
 
+* **Part D — v004 MULTICOLOR SITE BASE at 1:240 (2026-10-02): NEW, awaiting owner review and a Bambu Studio slice.** Replaces only the site base; the v003 building, drop-off canopy and sun-shade (Part C) are its companions and are unchanged.
 * **Part C — v003 MULTICOLOR at 1:240 (2026-09-29): CURRENT — APPROVED FOR HANDOFF AND FROZEN.** Four Bambu multi-part 3MF files, validated and slice-tested on the H2S profile.
   - Handoff package: `exports\Building_II\3d_print\handoff\Building_II_v003_multicolor_Austin_2026-09-29\` (+ `.zip`). It contains the four 3MF files (byte-identical to `3mf\`) and `README.txt`.
   - Freeze record: `manifests\3d_print\print_phase_v003_FROZEN_2026-09-29.sha256`.
 * Part A — v002 at 1:240 (2026-09-25): the printed and approved single-colour package. **Frozen**; its files are unchanged.
 * Part B — v001 at 1:250 (2026-09-23): superseded and kept below unchanged. Its files are still on disk and were not overwritten.
+
+---
+
+# Part D — v004 multicolor site base export (1:240, millimetres)
+
+| | |
+| --- | --- |
+| Source | `models\Building_II\print_derivatives\building_II_print_v004.blend` (read-only during export). The base part is taken **verbatim from the v003 site-base 3MF** (same triangles, same item transform). |
+| Exporter | `scripts\3d_print\export_print_v004.py` → `validation\print_export_v004_written.json` (writer: the frozen `bambu_3mf_v003.py`) |
+| Format | Generic 3MF with Bambu's `Metadata/model_settings.config`: **one object, one filament per part** (as v003). |
+| Placement | Same as v003: upright, centred on the 340 × 320 bed, lowest point at Z = 0. |
+
+## D1. File (`exports\Building_II\3d_print\3mf\`)
+
+| File | Parts → filament (AMS slot), in this order |
+| --- | --- |
+| `building_II_v004_1-240_multicolor_site_base.3mf` | 1 site base (exact v003) → **3 Gray**; 2 lawn, beds, shrubs, tree → **4 Green**; 3 asphalt drive, entry plaza, yard copings → **2 Black** |
+
+**Part order matters.** A later part wins where parts overlap, so do not reorder the parts in Bambu's object list.
+
+**Companions (unchanged v003 files):** `building_II_v003_1-240_multicolor_building.3mf`, `building_II_v003_1-240_dropoff_canopy.3mf`, `building_II_v003_1-240_sunshade.3mf`.
+
+## D2. How to set up and print the site base
+
+1. **AMS:** slot 1 White (unused here), slot 2 Black, slot 3 Gray, **slot 4 Green PLA** (swap the Clear spool out for this print only).
+2. **Before opening the file,** make sure Project Filaments lists 4 filaments in that order (1 White, 2 Black, 3 Gray, 4 Green). With only one filament listed, everything prints in filament 1.
+3. Open the file. In **Process → Objects**, expand the site base: its 3 parts must read **3, 4, 2**. Do not reorder them.
+4. Process: 0.4 mm nozzle, **0.16 mm layers** (as the v002/v003 site base), no supports, textured PEI plate. Prime tower on (default). Others → Flush options → Flush into objects' infill; purging volumes multiplier 0.8.
+5. Slice. The Slicing Result must list Black, Gray and Green and over 100 filament changes. **If it shows 0 changes, do not print.** Judge colours in the **Preview** tab.
+6. **Expectations (estimate, not yet sliced):** about 125 filament changes and about 18 h at 0.16 mm (`PRINT_CONTROL.md` §43).
 
 ---
 
@@ -47,7 +78,11 @@
 | site base | Success | 215.8 (reported as slot 1, see below) | 0 | 9.8 h |
 | *v002 single-colour building, for comparison* | Success | 460.8 | 0 | 27.6 h |
 
-* **The multicolour overhead on the building is about +7.4 h (+27 %) and about +26 g of purge.**
+* **Correction (2026-09-29, Bambu Studio app): the CLI times and weights above are too low for every multicolour file.** The CLI leaves out the filament-swap time and the purge; each change really costs about 5 min and 0.4 g.
+  - **Real building slice in the app** (0.2 mm nozzle, 0.10 mm process, default flush settings): **6 d 11 h, 932 g total** (397 g model + 481 g purge + 54 g prime tower), **1,208 filament changes**.
+  - **Estimate for the intended setup** (0.4 mm nozzle, 0.12 mm process, flush into objects' infill, purging volumes multiplier 0.8): roughly **3 to 3.5 days** and about **240 g of purge**. **Unconfirmed**; replace with the app's figure after the re-slice.
+  - The drop-off canopy's 141 changes add their own swap time and purge on top of the 1.5 h above. Read its real time from the app's slice.
+  - The earlier "+7.4 h (+27 %) and about +26 g of purge" overhead was wrong. **Do not use it.**
 * **Single-part files:** the CLI reports a single-filament job as filament 1. In Bambu Studio, **check that the site base shows Gray (slot 3)** and the sun-shade White (slot 1) before slicing.
 * The CLI's sliced check projects are written to the system temp folder (`%TEMP%\rea_farms_II_bambu_cli_v003\`), not into the project. They were made with unresolved machine change-filament G-code templates, so **they are for checking only and must never be sent to the printer.** Always slice in the Bambu Studio GUI.
 
@@ -61,9 +96,9 @@
    - Sun-shade: top down, 4 mm brim.
    - Site base: 0.16 mm layers, no supports.
    - Multicolour additions: keep the prime tower on (default). Use a textured PEI plate; the prime tower's footprint fits beside the building.
-   - Leave "flush into objects' infill" off at first, so no coloured purge shows through the thin skins. It can be switched on later to cut waste.
+   - Purge settings (owner direction 2026-09-29, to cut the purge found in the app slice): Process → Others → Flush options → **Flush into objects' infill** on, and **Purging volumes** multiplier **0.8**. (This replaces the earlier advice to leave it off at first.)
 4. **Colour check:** judge colours in the **Preview** tab after slicing. The Prepare tab shows flickering stripes where parts overlap, and that is cosmetic.
-5. **Suggested order:** sun-shade (white, 0.4 h) → canopy (gray + clear, 1.5 h; also a check of the translucent filament) → building (about 35 h) → site base (about 10 h).
+5. **Suggested order:** sun-shade (white, 0.4 h) → canopy (gray + clear; also a check of the translucent filament; allow for its swap time, see C3) → building (a multi-day print, see C3) → site base (about 10 h).
 6. **Expectations:** the translucent PLA reads as frosted glass at the back of each window recess. Colour edges can blur by up to one extrusion line (0.4 mm).
 
 ---

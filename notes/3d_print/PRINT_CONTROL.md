@@ -1,6 +1,13 @@
-# Building II — 3D-print derivative control (v001 → v002 → v003 multicolor)
+# Building II — 3D-print derivative control (v001 → v002 → v003 multicolor → v004 multicolor site base)
 
-**Current status (2026-09-29): PRINT DERIVATIVE v003 MULTICOLOR (1:240) — APPROVED BY THE OWNER FOR HANDOFF AND FROZEN.**
+**Current status (2026-10-02): PRINT DERIVATIVE v004 = MULTICOLOR SITE BASE (1:240), BUILT AND VALIDATED; AWAITING OWNER REVIEW AND A BAMBU STUDIO SLICE.**
+
+* Only the site base changed. The v003 building, drop-off canopy and sun-shade (and their colours) are frozen and are the companion parts of the v004 site base.
+* **Pass 6 (§37–44)** below. File: `exports\Building_II\3d_print\3mf\building_II_v004_1-240_multicolor_site_base.3mf`.
+* **Permanent site-colour requirement (owner, 2026-10-02):** see §38.
+
+
+**Status 2026-09-29 (still true for the building, canopy and sun-shade): PRINT DERIVATIVE v003 MULTICOLOR (1:240) — APPROVED BY THE OWNER FOR HANDOFF AND FROZEN.**
 
 * **Frozen:** make no further geometry or colour changes to v003. Any change becomes a new version (v004).
 * **Freeze record:** `manifests\3d_print\print_phase_v003_FROZEN_2026-09-29.sha256` + `.json`. It covers 48 v003 files plus the handoff package. Verify with `sha256sum -c` from the project root.
@@ -562,12 +569,16 @@ The three context-only parking-island trees stay excluded. The building was **no
   - Filaments: slot 1 PLA Matte White, 2 PLA Matte Black, 3 PLA Matte Gray, 4 PLA Translucent. The filament profiles were flattened with only the colour overridden.
   - **All four files sliced successfully.**
   - Building: all four filaments used, 598 filament changes, about 35.0 h and 487 g. The single-colour v002 building is about 27.6 h and 461 g.
+  - **Correction (2026-09-29, Bambu Studio app): these CLI time and weight figures are too low.** The CLI leaves out the filament-swap time and the purge. See §34 for the real figures.
 * **Bambu may rotate the building 90° on the plate on load.** The CLI did this. It is harmless.
 * **Single-part files (sun-shade, site base) must be checked in Bambu before slicing.** The CLI reports single-filament jobs as filament 1, so confirm the site base object shows **Gray (slot 3)**.
 
 ## 34. Print implications and risks
 
-* **Time and waste:** the building needs about 600 filament changes on the single-nozzle H2S (AMS). That is about +7.4 h (+27 %) and about +26 g of purge compared with single colour. Black and clear appear on few layers, but white and gray alternate on almost every layer.
+* **Time and waste (corrected 2026-09-29):** white and gray alternate on almost every layer (black and clear on few), so the building needs hundreds to over a thousand filament changes on the single-nozzle H2S (AMS). Each change costs about 5 min and 0.4 g of purge.
+  - **Real slice in the Bambu Studio app** (0.2 mm nozzle, 0.10 mm process, default flush settings): **6 d 11 h, 932 g total** (397 g model + 481 g purge + 54 g prime tower), **1,208 filament changes**. Bambu also warns that translucent PLA is not recommended on a 0.2 nozzle.
+  - **Estimate for the intended setup** (0.4 mm nozzle, `0.12mm High Quality @BBL H2S`, flush into objects' infill, purging volumes multiplier 0.8): roughly **3 to 3.5 days** and about **240 g of purge**. **Unconfirmed**; replace with the app's figure after the re-slice.
+  - The earlier CLI figures (about 35 h, 487 g, "+7.4 h / +26 g purge", 598 changes) left out the swap time and the purge. **Do not use them.**
 * **Clear filament:** translucent PLA reads as frosted light-blue, not transparent glass. The glazing is a 1.2 mm slab at the back of a recess, so it shows as tinted recessed windows. A clear inner-wall pattern is expected.
 * **Thin colour features:**
   - Skins are 1.0 mm (clear 1.2 mm) deep, but mitres taper to 0 at convex corners.
@@ -611,4 +622,95 @@ The three context-only parking-island trees stay excluded. The building was **no
    - Slice, then check the Preview tab.
 3. Print order suggestion:
    - Print the sun-shade and canopy first (short jobs). They check the clear filament and the white.
-   - Then print the building (about 35 h), then the site base (gray).
+   - Then print the building (a multi-day print; see §34), then the site base (gray).
+
+# Pass 6 — print derivative v004: MULTICOLOR SITE BASE (2026-10-02)
+
+## 37. Direction and scope
+
+* **Owner direction (2026-10-02), summarised:** rebuild the current 1:240 site base as a multicolour print so the surrounding site reads more realistically. Use the approved v003 site-base geometry as the baseline and keep its dimensions, building pocket, canopy sockets, fits, landscaping, curbs, walks, paving, bollards, grading and all printability geometry. **SITE COLOUR PASS ONLY.**
+* **Not changed (frozen v003):** the multicolour building and its body, façade colours, clear glazing, white roofs and terrace tops, the drop-off canopy and its colours, the sun-shade, the building-to-base fit, the scale, the site-base footprint, the pocket, the sockets and the landscaping geometry.
+* **Versioning:** v004 is a new version. Nothing in v003 was overwritten. The v004 site base is the only new print asset; the v003 building, canopy and sun-shade 3MF files are its companions.
+
+## 38. Permanent site-colour requirement (owner, 2026-10-02; recorded verbatim)
+
+> "Site-base multicolor requirement: vehicular pavement/road surfaces use black or dark charcoal gray; landscaping uses green; sidewalks/concrete walks use gray; bollards use gray; parking striping uses white where modeled and practical. Other site colors should follow documented materials first and reasonable architectural-model inference second. Building, drop-off canopy, and sun-shade colors remain frozen from the approved multicolor version."
+
+## 39. Filament mapping for the site base
+
+| AMS slot | Filament | Site base (v004) |
+| --- | --- | --- |
+| 1 | White | not used (no white site element is practical, see §40) |
+| 2 | Black | asphalt drive aisle and drop-off lane; entry plaza (Onyx pavers); utility-yard metal copings |
+| 3 | Gray | the base itself: walks, drop-off bands, concrete, stairs, landings, pads, curbs, bollards, light poles, brick yard walls, edges, underside, pocket and sockets |
+| 4 | **Green** | lawn, planting beds (lawn and mulch), entrance bed fill, retained lawn fill, all shrubs and the tree canopy |
+
+* **Slot 4 change for this print only:** the site base needs green, not clear. Before printing the site base, swap the Clear spool in slot 4 for a **Green PLA** spool. Slots 1–3 stay as they are for the building. The building and canopy still use Clear in slot 4.
+* Only three filaments are used (black, gray, green), so no fourth colour was needed and nothing had to be combined to stay within four.
+
+## 40. Every colour assignment: documented vs inferred
+
+**Source-documented (from the v023 material on the source object or terrain face):**
+
+| Site element | v023 material | Filament |
+| --- | --- | --- |
+| Drive aisle and drop-off lane (interpolated terrain faces) | `SITE_existing_asphalt` | Black |
+| Entry plaza in front of the main entrance | `SITE_plaza_Techo-Bloc_Westmount_Onyx` (Onyx = dark charcoal paver) | Black |
+| Utility-yard wall copings | `MTL-1_metal_coping_match_ACM-2` (black, same as the building copings) | Black |
+| Lawn and planting-bed ground (terrain faces) | `SITE_lawn_ground_shape_no_planting`, `SITE_landscape_bed_ground_shape` | Green |
+| Lawn beds | `LAND_lawn` | Green |
+| Retained fill, south-west | `SITE_lawn_ground_shape_no_planting` | Green |
+| Walks, drop-off bands, walk to the Building I plaza | `SITE_pavers_Techo-Bloc_Linea_Shale_Gray` | Gray |
+| Concrete walks, landings, stairs, generator slab, transformer pad, curbs, light-pole bases | `SITE_concrete_flatwork` | Gray |
+| Utility-yard walls and brick caps | `BRK-1`, `BC-1/BC-2` | Gray (as the building brick) |
+| Shrubs and tree canopy | `VEG_*` (planting) | Green |
+
+**Owner direction (overrides a documented finish):**
+* **Bollards = gray.** The six steel bollards are documented as `DET_black_paint_steel` and the four light bollards as `UNRES_light_bollard_finish`; the owner directed gray.
+
+**Inferred (architectural-model convention or printability; intentional):**
+* **Mulch beds → green**, not dark brown. They are distinct raised pads (`LAND_mulch_bed_surface`, `SITE_entrance_bed_mulch`), but brown would be a fourth colour for a small area; the owner allowed green for the overall landscape zone.
+* **Light poles and luminaire heads → gray**, although documented `DET_black_paint_steel`. The poles stand about 25 mm above the site; black poles would add a filament change on almost every layer of their height (about 160 extra changes at 0.16 mm) for four thin posts.
+* **Tree trunk → gray** (one 1.4 mm print post; brown would be a fourth colour).
+* **Painted CMU (`UNRES_painted_CMU_COLOR_TBD`), hollow-metal yard doors (`UNRES_HM_door_paint`), the building base strip (`UNRES_building_base_strip_north`), the undetailed existing plaza between the buildings and the light-bollard lenses → gray.** No colour is documented for them.
+* **Exposed base edge, underside, pocket and sockets → gray.** The colour regions stop **0.5 mm inside the outer edge** (one extrusion line plus margin), so the whole edge prints gray and the top shows a thin gray rim.
+* **Parking striping → not included.** `DET_Striping_stalls` and `DET_Striping_hatch` are flat 4 in (0.1 m) paint lines, only about ten short fragments of them fall inside the crop (the north-west corner, at the very edge), and at 1:240 they would be 0.42 mm wide, which is one nozzle line. They would print as broken specks, and white would add a fourth filament for them. No geometry was added for them.
+* **Area drains, joints, door hardware:** still omitted, as in v002 (no geometry to colour).
+
+## 41. How the colours are built (same priority-overlay method as v003)
+
+* **Part 1 (gray) is the approved v003 site base, unchanged.** Its triangles are copied verbatim from `building_II_v003_1-240_site_base.3mf` (84,862 triangles, identical vertices) and it keeps the v003 item transform, so the scale, footprint, pocket, sockets and fits are untouched.
+* **Each face of the base was classified from its documented source surface.** The frozen v003 script's own site-operand code (hash-checked) was re-run on the pristine v023 audit copy to recreate the exact solids that formed the base. Each base face takes the v023 material of the source face it lies on (within 5 cm real, parallel normal); the interpolated terrain is looked up vertically where the union re-split its quads. Where two sources coincide, the more specific one wins: plants, then bollards and poles, curbs, yard walls, beds, hardscape, terrain.
+* **Colour parts lie INSIDE the base:**
+  - **Skins:** under every green or black face, a 1.0 mm (0.24 m real) prism. Upward faces are swept straight down, so neighbouring regions meet on clean vertical planes; steep faces (bed sides, plaza edges) are swept inward along the normal. Depth is limited to the base thickness under the face.
+  - **Plants:** the shrub domes and the tree canopy are the exact operands that were unioned into the base, included whole (332 of the 338 shrubs, plus the tree). Eleven sedum shrubs (`LAND_SEAS_*`) planted tight against the north façade, just east of the entry plaza, are cut by the pocket clearance: five keep a clipped part (included clipped), five lie wholly inside the pocket (they are not in the approved base, so there is nothing to colour), and one is clipped into touching lumps, so its visible faces get skins instead.
+* **Part order = colour priority** (a later part wins where parts overlap in Bambu Studio): **1 base (gray, 3) < 2 green (4) < 3 black (2).**
+* No boolean ever cuts the approved base. Copies of it are used only to clip a colour piece.
+* **Scripts:** `scripts\3d_print\build_print_v004.py`, `export_print_v004.py`, `validate_print_v004.py`, `preview_print_v004.py` (the 3MF is written with the frozen `bambu_3mf_v003.py`).
+
+## 42. Validation summary (details: `PRINT_VALIDATION.md` Part D)
+
+* **All 25 checks pass** (`print_validation_v004.json`).
+* All 54 frozen v003 files are unchanged. The base part is vertex- and triangle-identical to the v003 site base with the same transform, so the scale, size (317.708 × 189.583 × 37.465 mm), pocket and sockets are unchanged.
+* The colour parts are closed and lie inside the base (0.08 mm printed tolerance); nothing enters the pocket or the sockets.
+* Colour against the documented v023 sources: asphalt 100 % dark, Onyx plaza 99.5 % dark, lawn / beds 96.7–100 % green, walks / concrete / pads 99.75–100 % gray, bollards 100 % gray, shrubs and tree 97.9 % green.
+* Estimated filament changes: about 125 at 0.16 mm layers (about 167 at 0.12 mm).
+
+## 43. Print implications and risks
+
+* **Filament changes:** colour is only present between about 4.8 and 20 mm (plus the copings near 30 mm) of the 37.5 mm-tall base, so about 100 of the 233 layers (at 0.16 mm) carry a second or third colour: **about 125 changes at 0.16 mm, about 167 at 0.12 mm** (estimate; `PRINT_VALIDATION.md` D3).
+* **Time and filament (estimate, unconfirmed until the Bambu slice):** the single-colour base sliced at about 9.8 h and 216 g (0.12 mm, CLI). Adding about 5 min and 0.4 g per change (the cost measured in the Bambu app, §34): **about 18 h at 0.16 mm layers** (recommended for the site base, as in v002) or about 24 h at 0.12 mm. By colour (from the part volumes): gray about 190–200 g, green about 12–19 g, black about 5–7 g, plus about 40–65 g of purge and the prime tower.
+* **Use 0.16 mm layers for the site base** (as v002/v003): fewer layers means fewer changes, and the site has no fine façade detail.
+* **Thin colour features:** a colour region under about 0.4 mm wide (one line) is absorbed by its neighbour. Colour edges can blur by up to one line.
+* **Plaza:** the Onyx paver plaza prints black next to the black drive. It is documented that way; if it reads too much like road, it can be switched to gray in one line of `site_colour()` (a v005).
+* **No geometry changed, so the v002/v003 printability rules stand:** upright, 0.16 mm layers, no supports, textured PEI plate.
+
+## 44. What changed / what stayed frozen (Pass 6)
+
+* **Created:**
+  - `models\Building_II\print_derivatives\building_II_print_v004.blend` (site base + green and black colour parts only)
+  - `exports\Building_II\3d_print\3mf\building_II_v004_1-240_multicolor_site_base.3mf`
+  - `scripts\3d_print\build_print_v004.py`, `export_print_v004.py`, `validate_print_v004.py`, `preview_print_v004.py`
+  - `exports\Building_II\3d_print\validation\print_prep_v004_build_log.json`, `print_export_v004_written.json`, `print_validation_v004.json`, `previews_v004\`
+* **Unchanged:** v023, v001, v002, v003 (all models, exports, scripts, previews and the Austin handoff package; verified against `print_phase_v003_FROZEN_2026-09-29.sha256`).
+* **Not done here (needs the Bambu Studio app):** the H2S slice, real time and filament figures, and the Prepare and Preview screenshots.

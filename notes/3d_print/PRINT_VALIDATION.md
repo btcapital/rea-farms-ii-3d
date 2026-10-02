@@ -1,8 +1,68 @@
 # Building II — print derivatives: geometry validation
 
+* **Part D — v004 MULTICOLOR SITE BASE at 1:240 (2026-10-02): CURRENT for the site base. Built and validated; awaiting owner review and a Bambu Studio slice.** The building, canopy and sun-shade are still the frozen v003 parts (Part C).
 * **Part C — v003 MULTICOLOR at 1:240 (2026-09-29): CURRENT — APPROVED FOR HANDOFF AND FROZEN.** The v002 geometry plus colour overlay parts (White / Black / Gray / Clear); validated, exported and slice-tested. The validation state is frozen with it: `manifests\3d_print\print_phase_v003_FROZEN_2026-09-29.sha256`.
 * Part A — v002 at 1:240 (2026-09-25): the printed and approved single-colour package (Rob approved the physical print). **Frozen.**
 * Part B — v001 at 1:250 (2026-09-23): superseded by v002 and kept unchanged below as the record.
+
+---
+
+# Part D — print derivative v004 (multicolor site base, 1:240)
+
+| | |
+| --- | --- |
+| Validator | `scripts\3d_print\validate_print_v004.py` (reads the exported 3MF from disk; colour checks against the pristine v023 audit copy, read-only) → `exports\Building_II\3d_print\validation\print_validation_v004.json` |
+| Build log | `exports\Building_II\3d_print\validation\print_prep_v004_build_log.json` |
+| Result | **All checks pass** (25 of 25) |
+
+## D1. Frozen files and fit geometry
+
+* **v003 package unchanged:** all 54 files in `print_phase_v003_FROZEN_2026-09-29.sha256` match (text files hashed with the Windows CRLF line endings they were frozen with). This covers v023, v001, v002 and v003 models, scripts, exports, previews and the Austin handoff package.
+* **Base part = the approved v003 site base:** identical vertices (42,433) and triangles (84,862), same item transform. Therefore the 1:240 scale, the 317.708 × 189.583 × 37.465 mm size, the footprint, the building pocket (0.50 mm per side + lead-in) and the three canopy sockets (0.40 mm per side + flare) are unchanged.
+* **Colour parts stay inside the base:** every vertex and face centre of the green and black parts is inside the base or within 0.08 mm printed of its surface (generalized winding number). So no colour part reaches into the pocket, the sockets or past the edges, and the fits cannot change.
+* **Closed shells:** every edge of the green (322,832 triangles) and black (5,420 triangles) parts is shared by exactly two consistently oriented triangles.
+* **Edge:** the colour regions stop 0.5 mm inside the outer edge (417 boundary faces clipped, 4 dropped), so the base edge prints gray all round.
+
+## D2. Colour correctness against the documented v023 sources
+
+Points are drawn on the documented v023 surface and kept only where that surface is the visible top of the base. Their colour is the effective Bambu colour 0.08 mm under the surface (later part wins).
+
+| Check | Want | Samples | Agree |
+| --- | --- | --- | --- |
+| Asphalt drive / drop-off lane (`SITE_existing_asphalt`) | Black | 138 | 100.0 % |
+| Entry plaza (Westmount Onyx pavers) | Black | 400 | 99.5 % |
+| Lawn terrain | Green | 60 | 96.7 % |
+| Landscape-bed terrain | Green | 400 | 100.0 % |
+| South mulch planting strip | Green | 400 | 99.75 % |
+| North-east lawn bed | Green | 400 | 99.75 % |
+| North-west paver walk | Gray | 400 | 99.75 % |
+| West paver walk | Gray | 400 | 100.0 % |
+| Drop-off band (pavers) | Gray | 400 | 99.75 % |
+| Generator-yard concrete slab | Gray | 400 | 100.0 % |
+| South-west concrete walk | Gray | 400 | 100.0 % |
+| Transformer pad | Gray | 400 | 100.0 % |
+| Bollards (top of each) | Gray | 10 | 100.0 % |
+| Shrubs and tree (top of each) | Green | 340 | 97.9 % |
+
+* Shrub misses (7 of 340): the sedums at the north façade whose plan centres fall inside the building pocket, where the sample lands on the gray pocket floor (five of them are not in the approved base at all, §41 of `PRINT_CONTROL.md`). The 1–2 misses on the plaza, walks and lawn were not traced one by one.
+* Lawn terrain has only 60 usable samples because most of the lawn-material terrain is covered by beds, walks or plants, or lies outside the crop.
+
+## D3. Layers and filament changes (estimate)
+
+Colours present per layer, from the colour parts' height ranges (gray is on every layer, because of the edges and walls). Bambu orders the filaments so each layer starts with the previous layer's last colour, so changes ≈ the sum over layers of (colours on the layer − 1).
+
+| Layer height | Layers | Layers with 2 colours | Layers with 3 colours | Estimated changes | Of which: yard copings |
+| --- | --- | --- | --- | --- | --- |
+| 0.12 mm | 311 | 103 | 32 | **≈ 167** | 8 |
+| 0.16 mm | 233 | 77 | 24 | **≈ 125** | 6 |
+| 0.20 mm | 186 | 62 | 19 | ≈ 100 | 5 |
+
+* Green spans 4.8–20.0 mm above the bed (grade range, 1 mm skins, shrubs, tree). Black spans 8.8–12.7 mm (drive, plaza) plus the yard-wall copings near 29–30.5 mm.
+* **The Bambu Studio slice is the authority** for the real count, time and grams.
+
+## D4. Not checked here
+
+* **Bambu Studio slice (H2S), Prepare and Preview screenshots:** Bambu Studio could not be installed in the cloud session that built v004. To be done in the app (owner).
 
 ---
 
