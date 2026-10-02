@@ -10,6 +10,13 @@
   - `notes/3d_print/PRINT_VALIDATION.md` (Part C)
   - `notes/3d_print/PRINT_EXPORT.md` (Part C)
 
+## Update 2026-10-02: v004 multicolour SITE BASE (only the site base changed)
+- **New file:** `exports/Building_II/3d_print/3mf/building_II_v004_1-240_multicolor_site_base.3mf` (one object, 3 parts in this order: 1 base gray = slot 3, 2 green = slot 4, 3 black = slot 2). Never reorder the parts.
+- **Companions (unchanged, frozen v003):** the multicolour building, drop-off canopy and sun-shade 3MFs.
+- **AMS for the site base only:** swap the Clear spool in slot 4 for **Green PLA**. Slots 1 White, 2 Black, 3 Gray stay. White is not used by the site base.
+- **Colours:** asphalt drive / drop-off lane, Onyx entry plaza and yard copings black; lawn, beds, shrubs and tree green; walks, concrete, curbs, bollards, poles, brick walls, edges gray. Every documented vs inferred choice: `PRINT_CONTROL.md` §40. Permanent requirement: §38 (also in `AGENTS.md`).
+- **Built and validated in a cloud session** (Blender 5.2 Python module). Bambu Studio could not be installed there, so these are still open for Brandon: slice in Bambu Studio (H2S), record the real time / grams / changes, and take the Prepare and Preview screenshots. Then owner review. Not yet frozen; no Austin package yet.
+
 ## Status
 - **v002 (1:240, single colour):** printed and approved by Rob. Frozen.
 - **v003 (1:240, MULTICOLOR):** approved by the owner for handoff and **FROZEN**.
