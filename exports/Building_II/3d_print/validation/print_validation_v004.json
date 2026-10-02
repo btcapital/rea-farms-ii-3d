@@ -3,34 +3,9 @@
  "checks": {
   "frozen_v003_package_unchanged": {
    "passed": true,
-   "checked": 30,
+   "checked": 54,
    "changed": [],
-   "not_checked_out": [
-    "exports/Building_II/3d_print/validation/previews_v003/bambu_v003_dropoff_canopy_plate.png",
-    "exports/Building_II/3d_print/validation/previews_v003/bambu_v003_dropoff_canopy_top.png",
-    "exports/Building_II/3d_print/validation/previews_v003/bambu_v003_multicolor_building_plate.png",
-    "exports/Building_II/3d_print/validation/previews_v003/bambu_v003_multicolor_building_top.png",
-    "exports/Building_II/3d_print/validation/previews_v003/bambu_v003_site_base_plate.png",
-    "exports/Building_II/3d_print/validation/previews_v003/bambu_v003_site_base_top.png",
-    "exports/Building_II/3d_print/validation/previews_v003/bambu_v003_sunshade_plate.png",
-    "exports/Building_II/3d_print/validation/previews_v003/bambu_v003_sunshade_top.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_01_multicolor_assembly_northwest.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_02_multicolor_assembly_southeast.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_03_north_facade_elevation.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_04_south_facade_elevation.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_05_east_facade_elevation.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_06_west_facade_elevation.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_07_north_entrance_closeup.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_08_roof_top_view.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_09_exploded_colour_parts.png",
-    "exports/Building_II/3d_print/validation/previews_v003/print_v003_10_southwest_brick_and_panels.png",
-    "exports/Building_II/3d_print/validation/previews_v003/reference_v023_03_north_facade_elevation.png",
-    "exports/Building_II/3d_print/validation/previews_v003/reference_v023_04_south_facade_elevation.png",
-    "exports/Building_II/3d_print/validation/previews_v003/reference_v023_05_east_facade_elevation.png",
-    "exports/Building_II/3d_print/validation/previews_v003/reference_v023_06_west_facade_elevation.png",
-    "exports/Building_II/3d_print/validation/previews_v003/reference_v023_08_roof_top_view.png",
-    "exports/Building_II/3d_print/validation/previews_v003/reference_v023_10_southwest.png"
-   ]
+   "not_checked_out": []
   },
   "structure_one_object_three_parts": {
    "passed": true,
@@ -323,5 +298,5 @@
   "BLACK": 5554.9
  },
  "passed": true,
- "runtime_s": 8.9
+ "runtime_s": 984.4
 }
